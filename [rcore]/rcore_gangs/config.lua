@@ -75,7 +75,7 @@ Config.ZoneOptions = {
 
     showZonesEveryone = true, -- Shows gang zones on the map for everyone
 
-    hourlyDecay = 10.0, -- The percentage of how much loyalty a captured zone loses every hour
+    hourlyDecay = 5.0, -- The percentage of how much loyalty a captured zone loses every hour
     presenceTime = 120, -- The time in minutes that a gang member must be present in a zone to gain loyalty
 
     maximumSprays = 20, -- The maximum number of sprays that affect zone loyalty, each spray resets every hour
@@ -84,7 +84,7 @@ Config.ZoneOptions = {
     maximumVendettas = 1, -- The maximum number of vendettas that affect zone loyalty, each vendetta resets every hour
 
     rivalryCost = 4000, -- The minimum amount of money needed to start a rivalry in a zone
-    rivalryDuration = 48, -- The duration of rivalry in hours
+    rivalryDuration = 72, -- The duration of rivalry in hours
 }
 
 Config.GangOptions = {
