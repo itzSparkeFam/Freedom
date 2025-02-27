@@ -84,7 +84,7 @@ Config.ZoneOptions = {
     maximumVendettas = 1, -- The maximum number of vendettas that affect zone loyalty, each vendetta resets every hour
 
     rivalryCost = 4000, -- The minimum amount of money needed to start a rivalry in a zone
-    rivalryDuration = 72, -- The duration of rivalry in hours
+    rivalryDuration = 48, -- The duration of rivalry in hours
 }
 
 Config.GangOptions = {
