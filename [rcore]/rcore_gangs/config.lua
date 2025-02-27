@@ -186,8 +186,8 @@ Config.IncreaseMultipliers = {
 
 -- Multipliers that increase the loyalty of a zone during rivalry
 Config.IncreaseMultipliersRivalry = {
-    VENDETTA   = 15,
-    DRUGS      = 20,
+    VENDETTA   = 150,
+    DRUGS      = 200,
     PRESENCE   = 40,
     SPRAY      = 100
 }
