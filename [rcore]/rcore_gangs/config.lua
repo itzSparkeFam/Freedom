@@ -668,7 +668,7 @@ Config.Drugs = {
         ['crack'] = 800,
         ['weed_package'] = 800,
         ['coke_figure'] = 800,
-        ['oxy'] = 2000,
+        ['oxy'] = 800,
 
     },
     CATEGORY_MED = {
