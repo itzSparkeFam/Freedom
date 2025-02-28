@@ -1,0 +1,25 @@
+Go to ox_inventory/data/items.lua and paste this in, make sure to do this fresh if coming from the old version
+
+    ['vehiclekeys'] = {
+        label = 'Vehicle Keys',
+        weight = 220,
+        stack = false,
+        close = true,
+        description = "Keys To A Car",
+    },
+
+    ['aftermarket_locks'] = {
+        label = 'Aftermarket Locks',
+        weight = 220,
+        stack = false,
+        close = true,
+        description = "Aftermarket Lock System",
+    },
+
+    ['keyring'] = {
+        label = 'Keyring',
+        weight = 220,
+        stack = false,
+        close = true,
+        description = "Keyring Of Car Keys",
+    },
