@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+          extend: {
+          colors: {
+              mainColor:  'rgb(2 132 199)',
+          }
+          }
+      }
+      }
+  </script>
+    <style>
+        .textShadow {
+            text-shadow: 0px 0px 15px rgba(2, 132, 199, 0.8);
+        }
+
+        .pulse {
+          animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% {
+            opacity: 1;
+          }
+          50% {
+            opacity: .5;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <div id="eye" class="flex items-center justify-center">
+      <i id="eyeSvg" class="fa-regular fa-circle text-base text-mainColor pulse"></i>
+    </div>
+    <div id="options-wrapper"></div>
+    <script defer type="module" src="js/main.js"></script>
+  </body>
+</html>
