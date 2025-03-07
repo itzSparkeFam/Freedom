@@ -143,8 +143,8 @@ Config.ItemBasedSettings = {
 }
 
 Config.LockSmithSettings = {
-	SpareKeyPrice = 500,												-- set to to the price of a spare key
-	KeyRingPrice = 50,													-- set to the price of a key ring
+	SpareKeyPrice = 100,												-- set to to the price of a spare key
+	KeyRingPrice = 25,													-- set to the price of a key ring
 	Locations = {
 		["Dirks Locksmithing"] = {
 			coords = vector4(170.3532, -1799.5085, 28.34, 327.1338),
