@@ -21,7 +21,7 @@ Config.DrawSprite = {
 Config.CommandPrincipal = 'group.admin'
 
 ---Allow players with the 'command.doorlock' principal to use any door.
-Config.PlayerAceAuthorised = false
+Config.PlayerAceAuthorised = true
 
 ---The default skill check difficulty when lockpicking a door.
 Config.LockDifficulty = { 'easy', 'easy', 'medium' }
