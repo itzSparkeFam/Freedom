@@ -408,52 +408,6 @@ return {
 	},
 
 	]]--
-	Digitalden = {
-		name = 'Digital Den',
-		blip = {
-			id = 521, colour = 5, scale = 0.8
-		},	inventory = {
-			{ name = 'yflip_mint', price = 700},
-			{ name = 'yflip_gold', price = 700},
-			{ name = 'yflip_graphite', price = 700},
-			{ name = 'yflip_lavender', price = 700},
-			{ name = 'yphone_natural', price = 700},
-			{ name = 'yphone_black', price = 700},
-			{ name = 'yphone_white', price = 700},
-			{ name = 'yphone_blue', price = 700},
-			{ name = 'y24_black', price = 700},
-			{ name = 'y24_silver', price = 700},
-			{ name = 'y24_violet', price = 700},
-			{ name = 'y24_yellow', price = 700},
-			{ name = 'yfold_black', price = 700},
-			{ name = 'yphone_fold_black', price = 700},
-			{ name = 'radio', price = 750},
-			{ name = 'chip_5g', price = 250},
-			{ name = 'radio_red', price = 100},
-			{ name = 'radio_blue', price = 100},
-			{ name = 'radio_purple', price = 100},
-			{ name = 'radio_pink', price = 100},
-			{ name = 'radio_lightblue', price = 100},
-			{ name = 'radio_orange', price = 100},
-			{ name = 'radio_yellow', price = 100},
-			{ name = 'radio_green', price = 100},
-			{ name = 'radio_white', price = 100},
-			{ name = 'radio_grey', price = 100},
-			{ name = 'fitbit', price = 400},
-			{ name = 'contract', price = 1500},
-
-		}, 
-		locations = {
-			vec3(-657.015, -854.605, 24.506)
-		}, 
-			targets = {
-		{
-			ped = `mp_m_shopkeep_01`,
-			loc = vec3(-657.015, -854.605, 24.506),
-			heading = 354.76,
-		}
-		}
-		},
 
 		BennysSupplies = {
 			name = 'Bennys Supplies',
