@@ -189,7 +189,7 @@ Config.IncreaseMultipliersRivalry = {
     VENDETTA   = 15,
     DRUGS      = 20,
     PRESENCE   = 40,
-    SPRAY      = 1000
+    SPRAY      = 100
 }
 
 -- Multipliers that decrease the loyalty of a zone
