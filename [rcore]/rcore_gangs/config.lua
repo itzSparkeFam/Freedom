@@ -83,7 +83,7 @@ Config.ZoneOptions = {
     maximumHotwires = 2, -- The maximum number of hotwires that affect zone loyalty, each hotwire resets every hour
     maximumVendettas = 1, -- The maximum number of vendettas that affect zone loyalty, each vendetta resets every hour
 
-    rivalryCost = 4000, -- The minimum amount of money needed to start a rivalry in a zone
+    rivalryCost = 400, -- The minimum amount of money needed to start a rivalry in a zone
     rivalryDuration = 48, -- The duration of rivalry in hours
 }
 
