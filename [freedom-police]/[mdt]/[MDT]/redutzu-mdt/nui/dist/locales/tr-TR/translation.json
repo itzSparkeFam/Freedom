@@ -1,0 +1,1010 @@
+{
+    "navigation": {
+        "dashboard": "Gösterge Paneli",
+        "incidents": "Olaylar",
+        "evidences": "Deliller",
+        "warrants": "Arama Emirleri",
+        "officers": "Memurlar",
+        "bolos": "Arananlar",
+        "dispatch": "Sevk",
+        "cameras": "Kameralar",
+        "citizens": "Vatandaşlar",
+        "vehicles": "Araçlar",
+        "houses": "Evler",
+        "weapons": "Silahlar",
+        "codes": "Kodlar",
+        "charges": "Suçlamalar",
+        "announcements": "Duyurular",
+        "config": "Yapılandırma",
+        "administration": "Yönetim",
+        "exit": "Çıkış"
+    },
+    "general": {
+        "close": "Kapat",
+        "delete": "Sil",
+        "male": "Erkek",
+        "female": "Kadın",
+        "status": "Durum",
+        "active": "Aktif",
+        "inactive": "Pasif",
+        "information": "Bilgi",
+        "reason": "Sebep",
+        "name": "İsim",
+        "description": "Açıklama",
+        "job": "Görev",
+        "grade": "Derece",
+        "callsign": "Çağrı İşareti",
+        "phone_number": "Telefon Numarası",
+        "dateofbirth": "Doğum Tarihi",
+        "tag": "Etiket",
+        "house": "Ev",
+        "createdAt": "Oluşturulma Tarihi",
+        "expiresIn": "Sona Erme Süresi",
+        "startedAt": "Başlama Tarihi",
+        "startedOn": "Başlama Tarihi",
+        "registeredTo": "Kayıtlı",
+        "locatedAt": "{{street}} adresinde bulunuyor",
+        "save": "Değişiklikleri Kaydet",
+        "duty": "Görev",
+        "on_duty": "Görevde",
+        "off_duty": "Görevde Değil",
+        "search": "Ara",
+        "weapons": "Silahlar",
+        "incidents": "Olaylar",
+        "evidences": "Deliller",
+        "warrants": "Arama Emirleri",
+        "bolos": "Arananlar",
+        "vehicles": "Araçlar",
+        "houses": "Mülkler",
+        "no-results": "Sonuç Yok",
+        "gender": "Cinsiyet",
+        "location": "Konum",
+        "weapon": "Silah",
+        "fine": "Ceza",
+        "jail": "Hapis",
+        "vehicle": "Araç",
+        "citizen": "Vatandaş",
+        "title": "Başlık",
+        "cancel": "İptal",
+        "continue": "Devam Et",
+        "notes": "Notlar",
+        "code": "Kod",
+        "position": "Pozisyon",
+        "firstname": "Ad",
+        "lastname": "Soyad",
+        "fingerprint": "Parmak İzi",
+        "proceed": "İlerle",
+        "plate": "Plaka",
+        "model": "Model",
+        "insurance": "Sigorta",
+        "owner": "Sahip",
+        "owned": "Sahipli",
+        "street": "Sokak",
+        "prop": "Eşya",
+        "none": "Hiçbiri",
+        "no": "Hayır",
+        "yes": "Evet",
+        "serial": "Seri Numarası",
+        "list": "Liste",
+        "create": "Oluştur",
+        "camera": "Kamera",
+        "link": "Bağlantı",
+        "pin": "Sabit",
+        "unpin": "Sabit Kaldır",
+        "page_of": "{{x}} / {{y}} sayfa",
+        "backToSafety": "Güvenliğe Dön",
+        "coords": "Koordinatlar",
+        "expand-image": "Resmi Genişlet",
+        "remove-image": "Resmi Kaldır",
+        "zoomed-image": "Yakınlaştırılmış Resim",
+        "image-link": "Resim Bağlantısı",
+        "image-description": "Resim Açıklaması",
+        "submit": "Gönder",
+        "placeholders": {
+            "citizens": "Vatandaşları Ara",
+            "suspects": "Şüphelileri Ara",
+            "victims": "Mağdurları Ara",
+            "officers": "Memurları Ara",
+            "vehicles": "Araçları Ara",
+            "incidents": "Olayları Ara",
+            "evidences": "Delilleri Ara",
+            "weapons": "Silahları Ara",
+            "weapon": "Bir Silah Ara",
+            "bolos": "Arananları Ara",
+            "archive": "Arşiv Delilleri Ara",
+            "warrants": "Arama Emirlerini Ara",
+            "charges": "Suçlamaları Ara",
+            "codes": "Kodları Ara",
+            "houses": "Evleri Ara",
+            "announcements": "Duyuruları Ara",
+            "recruits": "Adayları Ara",
+            "citizen": "Bir Vatandaşı Ara",
+            "vehicle": "Bir Aracı Ara",
+            "owner": "Bir Sahibi Ara",
+            "identifier": "Bir Kimlik Ara",
+            "house": "Bir Evi Ara",
+            "tag": "Bir Etiketi Ara",
+            "status": "Bir Durum Seç",
+            "license": "Bir Lisans Seç",
+            "date": "Bir Tarih Seç",
+            "starting_date": "Başlangıç Tarihi Seç",
+            "expiring_date": "Bitiş Tarihi Seç"
+        }
+    },
+    "templates": {
+        "incident": "Olay #{id}",
+        "evidence": "Delil #{id}",
+        "warrant": "Arama Emri #{id}",
+        "bolo": "BOLO #{id}",
+        "vehicle": "{plate}"
+    },
+    "instructional": {
+        "press": "Bas",
+        "exit": "çıkmak için"
+    },
+    "jobs": {
+        "police": "Kolluk Kuvvetleri"
+    },
+    "licenses": {
+        "driver": "Sürücü belgesi",
+        "weapon": "Silah ruhsatı",
+        "business": "İşletme ruhsatı",
+        "hunting": "Av ruhsatı",
+        "drive_bike": "Motosiklet ehliyeti",
+        "drive_truck": "Ticari Sürücü belgesi",
+        "weed_processing": "Esrar İşleme lisansı",
+        "dmv": "Sürüş izni",
+        "boat": "Tekne ehliyeti",
+        "drive": "Sürücü belgesi"
+    },
+    "notification": {
+        "error": "Oops! Beklenmedik bir hata oluştu.",
+        "create": "Bu kaydı başarıyla oluşturdunuz!",
+        "update": "Bu kaydı başarıyla güncellediniz!",
+        "camera-connect": "Kameraya başarıyla bağlandınız!",
+        "bodycam-connect": "Vücut kamerasına başarıyla bağlandınız!",
+        "existent-citizen": "Bu kimlikle bir vatandaş bulundu!",
+        "existent-vehicle": "Bu plakayla bir araç bulundu!",
+        "registered-citizen": "Vatandaşı başarıyla kaydettiniz!",
+        "registered-vehicle": "Aracı başarıyla kaydettiniz!",
+        "permission-changed": "Bu derece için izinleri başarıyla değiştirdiniz!",
+        "employee-fired": "Çalışanı başarıyla işten çıkardınız!",
+        "employee-fire-error": "Daha yüksek rütbeyi veya kendinizi işten çıkaramazsınız!",
+        "rank-changed": "Bu çalışanın rütbesini başarıyla değiştirdiniz!",
+        "hire-citizen": "Vatandaşı başarıyla işe aldınız!",
+        "camera-created": "Kamerayı başarıyla oluşturdunuz!",
+        "camera-deleted": "Kamerayı başarıyla sildiniz!",
+        "camera-toggled": "Kamerayı başarıyla değiştirdiniz!",
+        "image-attached": "Kayda yeni bir resim eklediniz",
+        "remove-image": "Kayıttan resmi başarıyla kaldırdınız",
+        "title": {
+            "created": "Kayıt oluşturuldu",
+            "updated": "Kayıt güncellendi",
+            "error": "Beklenmedik hata",
+            "camera-connect": "Kamera bağlandı",
+            "bodycam-connect": "Vücut kamerası bağlandı",
+            "existent-citizen": "Mevcut vatandaş",
+            "existent-vehicle": "Mevcut araç",
+            "registered-citizen": "Vatandaş kaydedildi",
+            "registered-vehicle": "Araç kaydedildi",
+            "permission-changed": "İzinler değiştirildi",
+            "employee-fired": "Çalışan işten çıkarıldı",
+            "rank-changed": "Rütbe değiştirildi",
+            "hire-citizen": "Vatandaş işe alındı",
+            "camera-created": "Kamera oluşturuldu",
+            "camera-deleted": "Kamera silindi",
+            "camera-toggled": "Kamera değiştirildi",
+            "image-attached": "Resim eklendi",
+            "remove-image": "Resim kaldırıldı"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Bundan emin misiniz?",
+            "description": "Bu işlem geri alınamaz. Bu, kaydı veritabanından kalıcı olarak silecektir.",
+            "citizen": "Bu vatandaşı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "suspect": "Bu şüpheliyi bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "victim": "Bu mağduru bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "officer": "Bu memuru bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "vehicle": "Bu aracı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "incident": "Bu olayı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "evidence": "Bu delili bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "warrant": "Bu arama emrini bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "bolo": "Bu BOLO'yu bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "charge": "Bu suçlamayı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "weapon": "Bu silahı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "archive": "Bu arşiv dosyasını bu kayıttan kaldırmak istediğinizden emin misiniz?"
+        },
+        "delete_alert": {
+            "title": "Bu uyarıyı silmek istediğinizden emin misiniz?",
+            "description": "Bu işlem geri alınamaz. Bu, uyarıyı kalıcı olarak silecektir."
+        },
+        "delete-camera": {
+            "title": "Kamerayı sil",
+            "description": "Bu kamerayı silmek istediğinizden emin misiniz?"
+        },
+        "add-value": {
+            "title": "Yeni bir öğe ekle",
+            "description": "Listeye yeni bir öğe ekleyin."
+        },
+        "set_position": {
+            "title": "Kontrol noktasını ayarlamak istiyor musunuz?",
+            "description": "Bu, MDT harita kontrol noktanızı bu uyarının gönderildiği konuma ayarlayacaktır."
+        },
+        "job": {
+            "title": "Bir iş seç",
+            "description": "Bu kullanıcı için bir iş ve derece seçebilirsiniz"
+        },
+        "grant-license": {
+            "title": "Lisans ver",
+            "description": "Vatandaşa vermek istediğiniz lisansı seçin"
+        },
+        "suspend-license": {
+            "title": "Bundan emin misiniz?",
+            "description": "Bu lisansı bu vatandaştan kaldırmak istiyor musunuz?"
+        },
+        "update-permission": {
+            "title": "İzinleri güncelle",
+            "description": "Bu derece için izinleri ekleyin veya kaldırın"
+        },
+        "add-permission": {
+            "title": "Add permission",
+            "description": "Dereceye yeni bir izin ekleyin"
+        },
+        "fire-employee": {
+            "title": "Fire employee",
+            "description": "Bu çalışanı işten çıkarmak istediğinizden emin misiniz?"
+        },
+        "change-rank": {
+            "title": "Change rank",
+            "description": "Bu çalışanın rütbesini değiştirin"
+        },
+        "hire-citizen": {
+            "title": "Hire citizen",
+            "description": "Bu vatandaşı işe almak istediğinizden emin misiniz?"
+        },
+        "add-image": {
+            "title": "Add an image",
+            "description": "Bu kayda yeni bir resim ekleyin"
+        },
+        "remove-image": {
+            "title": "Remove image",
+            "description": "Bu resmi kayıttan kaldırmak istiyor musunuz?"
+        },
+        "change-image": {
+            "title": "Change image",
+            "description": "Galeri'den yeni bir profil resmi seçin"
+        },
+        "reset-form": {
+            "title": "Reset form",
+            "description": "Bu formu sıfırlamak istediğinizden emin misiniz?"
+        },
+        "connect-camera": {
+            "title": "Connect to camera",
+            "description": "Bu kameraya bağlanmak istediğinizden emin misiniz?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Bunu silmek için izniniz yok!",
+        "loading": {
+            "title": "Bekleyin, ilgileniyoruz",
+            "description": "İstediğiniz bilgiyi bulmak için veritabanımızı tarıyoruz. Sıkı durun, kısa sürede sizde olacak! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Whoops! Bir şeyler ters gitti",
+            "description": "Üzgünüz, isteğinizle ilgili bir sorun var gibi görünüyor. Yardım için lütfen geliştiriciyle iletişime geçin."
+        },
+        "unexpected-error": {
+            "title": "Beklenmedik hata",
+            "description": "Bir şeyler ters gitti, bu sorunu çözmek için lütfen sunucu sahibine başvurun."
+        },
+        "search-no-matched": {
+            "title": "Sonuç bulunamadı",
+            "description": "Aşağıdaki sorgu ile sonuç bulunamadı: \"{{query}}\""
+        },
+        "fetching": {
+            "title": "Sonuçları getiriyoruz",
+            "description": "Gerekli verileri toplarken lütfen sabırlı olun. Girdiğiniz bilgiler, size özel sonuçlar sağlamamıza yardımcı olacak."
+        },
+        "fetch-error": {
+            "title": "Whoops! Bir şeyler ters gitti",
+            "description": "Üzgünüz, isteğinizle ilgili bir sorun var gibi görünüyor. Yardım için lütfen geliştiriciyle iletişime geçin."
+        },
+        "fetch-no-results": {
+            "title": "Oops! Burada gösterecek bir şey yok",
+            "description": "Sonuçları görmek için bir şeyler yazın. Girdiğiniz bilgiler, ne göreceğinizi özelleştirir."
+        },
+        "fetch-no-matched": {
+            "title": "Eşleşen sonuç bulunamadı",
+            "description": "Arama kriterlerinize uygun sonuç bulamadık gibi görünüyor."
+        }
+    },
+    "dashboard": {
+        "title": "Tekrar hoş geldiniz, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Canlı konum",
+        "street_name": "Cadde adı:",
+        "personal": {
+            "title": "Kişisel bilgi",
+            "description": "Bu sizin kişisel bilginizdir"
+        },
+        "global_search": {
+            "title": "Genel arama",
+            "description": "Vatandaş tarafından olayları, delilleri, arama emirlerini, boloları veya araçları arayın",
+            "no-results": "Bir vatandaşın olaylarını, delillerini, arama emirlerini, bololarını, araçlarını bulmak için adını yazın."
+        },
+        "officers": {
+            "title": "Çevrimiçi memurlar",
+            "description": "Tüm çevrimiçi memurları ve yararlı bilgileri görüntüleyin"
+        },
+        "chat": {
+            "title": "Sohbet",
+            "description": "Diğer memurlarla sohbet üzerinden iletişim kurun",
+            "placeholder": "Bir mesaj yazın..."
+        },
+        "calls": {
+            "title": "Son çağrılar",
+            "description": "Burada en son uyarıları göreceksiniz",
+            "no-alerts": "Şu anda uyarı yok, çıktıklarında burada bir liste göreceksiniz",
+            "details": "Daha fazla detay görmek için uyarıya tıklayın",
+            "time": "Dispatch tarihi"
+        }
+    },
+    "incidents": {
+        "title": "Olaylar",
+        "description": "En son olayların listesini görün",
+        "individual": {
+            "title": "Olay #{{id}}",
+            "description": "Bu olayla ilgili tüm bilgileri görüntüleyin",
+            "information": "Bu olayın bilgilerini görüntüleyebilir ve düzenleyebilirsiniz"
+        },
+        "charge_list": {
+            "jail": "{{amount}} ay hapis",
+            "fine": "{{amount}} para cezası",
+            "reduction": {
+                "title": "Ceza indirimi",
+                "description": "Hapis veya para cezası miktarını azaltabilirsiniz"
+            },
+            "mutual": "Ortak indirime geç",
+            "separate": "Ayrı indirime geç",
+            "reduce": "Cezayı azalt",
+            "charge_reduction": "{{amount}}% ceza indirimi",
+            "fine_reduction": "{{amount}}% para cezası indirimi",
+            "jail_reduction": "{{amount}}% hapis indirimi"
+        },
+        "citizens": "vatandaşlar",
+        "officers": "memurlar",
+        "vehicles": "araçlar",
+        "evidences": "deliller",
+        "charges": "suçlamalar"
+    },
+    "evidences": {
+        "title": "Deliller",
+        "description": "En son delillerin listesini görün",
+        "individual": {
+            "title": "Delil #{{id}}",
+            "description": "Bu delille ilgili tüm bilgileri görüntüleyin",
+            "information": "Bu delilin bilgilerini görüntüleyebilir ve düzenleyebilirsiniz"
+        }
+    },
+    "warrants": {
+        "title": "Arama Emirleri",
+        "description": "En son arama emirlerinin listesini görün",
+        "individual": {
+            "title": "Arama Emri #{{id}}",
+            "description": "Bu arama emriyle ilgili detayları görüntüleyin ve değiştirin",
+            "information": "Bu arama emrinin bilgilerini görüntüleyebilir ve değiştirebilirsiniz"
+        }
+    },
+    "officers": {
+        "title": "Memurlar",
+        "description": "MDT'ye erişimi olan çevrimiçi kişilerin listesini görün",
+        "header": "{{job}} - Çevrimiçi {{length}} memur",
+        "paragraph": "Bu işten memurları görün"
+    },
+    "bolos": {
+        "title": "BOLO'lar",
+        "description": "En son BOLO'ların listesini görün",
+        "individual": {
+            "title": "BOLO #{{id}}",
+            "description": "Bu BOLO ile ilgili detayları görüntüleyin ve değiştirin",
+            "information": "Bu BOLO'nun bilgilerini görüntüleyebilir ve düzenleyebilirsiniz"
+        }
+    },
+    "dispatch": {
+        "title": "Dispatch",
+        "description": "Dispatch çağrılarını görüntüleyin, silin ve alın",
+        "individual": {
+            "title": "Uyarı #{{id}}",
+            "description": "Bu uyarı ile ilgili tüm bilgileri görüntüleyin",
+            "vehicle-info": "(Plaka: {{plate}} | Sınıf: {{class}} | Renk: {{color}} | Kapılar: {{doors}})"
+        },
+        "delete": "Uyarıyı sil",
+        "position": "Konumu ayarla",
+        "alerts": {
+            "title": "Uyarılar",
+            "description": "En son çağrıları görüntüleyin"
+        },
+        "map": {
+            "title": "Dispatch Haritası",
+            "description": "Aktif uyarıların konumunu görün"
+        }
+    },
+    "cameras": {
+        "title": "Kameralar",
+        "description": "Şehirde bulunan tüm kameralara erişim sağlayın",
+        "information": "Bu çalışanın vücut kamerasını görüntüle",
+        "cctv": "CCTV",
+        "bodycams": "Vücut Kameraları",
+        "open": "Kamerayı Aç",
+        "location": "Son bilinen konum",
+        "view-bodycam": "Vücut kamerasını görüntüle"
+    },
+    "citizens": {
+        "title": "Vatandaşlar",
+        "description": "Bir vatandaşın tüm kayıtlarını ve bilgilerini görüntüleyin",
+        "register": "Bir vatandaş kaydet",
+        "grant-license": "Lisans ver",
+        "suspend-license": "Lisansı askıya al",
+        "individual": {
+            "title": "Vatandaş",
+            "description": "Bu vatandaş hakkındaki tüm bilgileri görüntüle",
+            "information": "Bu vatandaş hakkında tüm faydalı bilgileri görüntüle"
+        },
+        "results": {
+            "title": "Vatandaşları Ara",
+            "description": "İsim, parmak izi ile arama yapabilirsiniz"
+        }
+    },
+    "vehicles": {
+        "title": "Araçlar",
+        "description": "Herhangi bir aracı plaka numarasıyla tanımlayın",
+        "register": "Bir araç kaydet",
+        "insurance-expiring": "Sigorta bitiyor {{time}}",
+        "individual": {
+            "title": "Araç",
+            "description": "Bu araçla ilgili tüm bilgileri görüntüle",
+            "information": "Bu araca ilişkin tüm bilgileri görüntüleyin"
+        },
+        "results": {
+            "title": "Araçları Ara",
+            "description": "Plakaya göre arama yapabilirsiniz"
+        }
+    },
+    "houses": {
+        "title": "Evler",
+        "description": "Her bir mülk için kullanışlı bilgileri görüntüleyin",
+        "individual": {
+            "title": "Ev",
+            "description": "Bu evle ilgili tüm bilgileri görüntüle",
+            "information": "Bu mülkle ilgili konum gibi kullanışlı bilgileri görüntüleyin"
+        },
+        "results": {
+            "title": "Evleri Ara",
+            "description": "Ev adı veya kimliği ile arama yapabilirsiniz"
+        }
+    },
+    "weapons": {
+        "title": "Silahlar",
+        "description": "Tanımlama için silahları görüntüleyin ve kaydedin",
+        "register": "Bir silah kaydet",
+        "individual": {
+            "title": "Silah",
+            "description": "Bu silahla ilgili tüm bilgileri görüntüle",
+            "information": "Bu silahın bilgilerini ve seri numarasını görüntüleyin"
+        },
+        "results": {
+            "title": "Silahları Ara",
+            "description": "İsim, seri numarası ile arama yapabilirsiniz"
+        }
+    },
+    "codes": {
+        "title": "Kodlar",
+        "description": "İletişim için kullanılan kodların listesini görüntüleyin",
+        "individual": {
+            "title": "Kod #{{id}}",
+            "description": "Bu koda ilişkin tüm bilgileri görüntüleyin",
+            "information": "Bu koda ilişkin bilgileri görüntüleyebilir ve düzeltebilirsiniz"
+        }
+    },
+    "charges": {
+        "title": "Masraflar",
+        "description": "Masrafları görüntüle, oluştur, sil ve düzenle",
+        "fine": "Para cezası miktarı",
+        "jail": "Hapishane miktarı",
+        "individual": {
+            "title": "Masraf #{{id}}",
+            "description": "Bu masraf hakkındaki tüm bilgileri görüntüle",
+            "information": "Bu masrafın bilgilerini görüntüleyebilir ve düzeltebilirsiniz"
+        }
+    },
+    "announcements": {
+        "title": "Duyurular",
+        "description": "Diğer memurlar için duyuruları görüntüle, oluştur ve sabitle",
+        "pin": "Duyuruyu Sabitle",
+        "unpin": "Duyuruyu Sabitlemeyi Kaldır",
+        "save": "Duyuruyu Kaydet",
+        "edit": "Duyuruyu Düzenle",
+        "written": "Tarafından Yazıldı",
+        "individual": {
+            "title": "Duyuru #{{id}}",
+            "description": "Bu duyuru hakkındaki tüm bilgileri görüntüle"
+        }
+    },
+    "configuration": {
+        "title": "Özelleştir",
+        "description": "MDT'yi kendi zevkinize göre özelleştirin",
+        "colors": {
+            "title": "Renkler",
+            "description": "MDT'nin görünümünü değiştirin",
+            "text": "Metin renkleri",
+            "other": "Diğer renkler",
+            "reset": "Renkleri Sıfırla",
+            "name": {
+                "background": "Arka plan rengi",
+                "secondary": "İkincil renk",
+                "text": "Metin rengi",
+                "text-muted": "Metin soluk rengi",
+                "primary-text": "Birincil metin rengi",
+                "contrast": "Kontrast renk",
+                "error": "Hata rengi",
+                "ring": "Halka rengi"
+            }
+        },
+        "language": {
+            "title": "Dil",
+            "description": "MDT'nin dilini değiştirin",
+            "select": "Tercih ettiğiniz dili seçin"
+        }
+    },
+    "administration": {
+        "title": "Yönetim",
+        "description": "Dereceler, toplum fonları, çalışanlar, yeni işe alımlar ve kameraları yönetin",
+        "permissions": "İzinler",
+        "management": "Yönetim",
+        "recruitment": "İşe Alım",
+        "cameras": "Kameralar",
+        "camera-information": "Bu kamera hakkında daha fazla bilgi görüntüle",
+        "select-camera": "Kamera özelliği seç",
+        "change-position": "Konumu değiştir",
+        "set-position": "Konumu ayarla",
+        "open-camera": "Kamerayı aç",
+        "delete-camera": "Kamerayı sil",
+        "enable-camera": "Kamerayı etkinleştir",
+        "disable-camera": "Kamerayı devre dışı bırak",
+        "job": {
+            "add-permission": "İzin ekle",
+            "update-permission": "İzinleri güncelle",
+            "select-permission": "Bir izin seç",
+            "grades": {
+                "title": "Derece - {{level}}",
+                "description": "\"{{job}}\" görevinden dereceler",
+                "footer": "Bu ayrıca önceki izinleri içerir"
+            }
+        },
+        "employees": {
+            "title": "Çalışanlar",
+            "description": "Tüm çevrimiçi çalışanların listesi"
+        },
+        "manage": {
+            "title": "\"{{name}}\" yönet",
+            "description": "Bu çalışan hakkında daha fazla bilgi görüntüle veya eylemler uygula",
+            "fire": "Çalışanı işten çıkar",
+            "hire": "Vatandaşı işe al",
+            "change_rank": "Rütbe değiştir",
+            "rank_select": "Bir rütbe seç",
+            "activity": {
+                "title": "Aktivite",
+                "description": "Bu çalışanın aktivite istatistiklerini görüntüle",
+                "chart": "Son 7 gün",
+                "table": {
+                    "head": {
+                        "number": "No.",
+                        "clock-in": "Giriş",
+                        "clock-out": "Çıkış",
+                        "hours": "Saatler"
+                    },
+                    "total": "Toplam saat"
+                }
+            },
+            "funds": {
+                "header": "Toplum fonları",
+                "footer": "para cezalarından gelir"
+            },
+            "employees": {
+                "header": "Çalışanlar",
+                "footer": "toplam çevrimiçi çalışanlar"
+            },
+            "calls": {
+                "header": "Toplam aramalar",
+                "footer": "aktif dağıtım çağrıları"
+            }
+        },
+        "recruits": {
+            "description": "Bu vatandaş hakkında bilgi görüntüle",
+            "see": "Vatandaş sayfasını görüntüle"
+        }
+    },
+    "forms": {
+        "description": "Formu gerekli tüm bilgilerle doldurun",
+        "citizens": "Bir vatandaş kaydet",
+        "vehicles": "Bir araç kaydet",
+        "incidents": "Bir olay oluştur",
+        "evidences": "Bir kanıt oluştur",
+        "warrants": "Bir tutuklama emri oluştur",
+        "bolos": "Bir BOLO oluştur",
+        "codes": "Bir kod oluştur",
+        "charges": "Bir masraf oluştur",
+        "weapons": "Bir silah kaydet",
+        "announcements": "Bir duyuru oluştur",
+        "cameras": "Bir kamera oluştur",
+        "tag": {
+            "title": "Etiket oluştur",
+            "description": "Bu kategorize etmek için yeni bir etiket oluşturun. Yeni bir etiket eklemek için oluştur'a tıklayın.",
+            "field-name": "Etiket adı",
+            "field-description": "Etiket açıklaması",
+            "field-color": "Etiket rengi",
+            "button": "Yeni etiket oluştur",
+            "notification": {
+                "title": "Etiket oluşturuldu",
+                "description": "Başarıyla etiket oluşturdunuz!"
+            }
+        },
+        "errors": {
+            "required": "Bu alan gereklidir",
+            "create": "Yeni bir kayıt oluşturma izniniz yok",
+            "min-length": "Bu alan en az {{length}} karakter olmalıdır",
+            "min-number": "Bu alan için minimum değer {{min}}",
+            "max-number": "Bu alan için maksimum değer {{max}}",
+            "invalid-link": "Geçerli bir resim URL'si geçirmelisiniz!",
+            "bolos": {
+                "citizen-vehicle-required": "Bir vatandaş veya bir araç seçmelisiniz"
+            },
+            "codes": {
+                "format": "Yanlış format, yalnızca rakamları kullanmalısınız"
+            },
+            "warrants": {
+                "citizen-house-required": "Bir vatandaş veya bir ev seçmelisiniz"
+            },
+            "evidences": {
+                "fields-required": "Bir vatandaş, memur, araç veya silah eklemelisiniz"
+            },
+            "charges": {
+                "fine-jail-required": "Bir para cezası veya hapis miktarı belirlemelisiniz"
+            },
+            "cameras": {
+                "prop-required": "Konumu ayarlamadan önce bir özellik seçmelisiniz"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "{{n}} daha fazla {{word}} seçebilirsiniz",
+            "maximum": "Maksimum miktarda {{word}} seçtiniz"
+        },
+        "words": {
+            "citizens": "vatandaşlar",
+            "officers": "memurlar",
+            "vehicles": "araçlar",
+            "incidents": "olaylar",
+            "evidences": "kanıtlar",
+            "charges": "masraflar",
+            "evidence_archive": "arşiv kanıtları"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "İlgili Vatandaşlar",
+            "suspect": "Şüpheliler",
+            "victim": "Mağdurlar",
+            "officer": "Görevliler",
+            "vehicle": "Araçlar",
+            "weapon": "Silahlar",
+            "evidence": "Kanıtlar",
+            "charge": "Uygulanan Suçlar",
+            "archive": "Arşiv Dosyaları",
+            "licenses": "Verilen Lisanslar"
+        },
+        "description": {
+            "template": "Bu kayda ekli {{word}}'leri görüntüleyin ve düzenleyin",
+            "licenses": "Bu vatandaşa lisans verme ve iptal etme",
+            "citizen-weapon": "Bu vatandaşın silahlarını görüntüleyin ve düzenleyin",
+            "citizen-incident": "Bu vatandaşa atanan olayları görüntüleyin ve düzenleyin",
+            "vehicle-incident": "Bu araca atanan olayları görüntüleyin ve düzenleyin",
+            "citizen-evidence": "Vatandaşın dahil olduğu kanıtları görüntüleyin ve düzenleyin",
+            "citizen-warrant": "Bu vatandaşa atanan tutanakları görüntüleyin ve düzenleyin",
+            "house-warrant": "Bu eve atanan tutanakları görüntüleyin ve düzenleyin",
+            "citizen-bolo": "Bu vatandaşa atanan BOLO'ları görüntüleyin ve düzenleyin",
+            "vehicle-bolo": "Bu araca atanan BOLO'ları görüntüleyin ve düzenleyin",
+            "citizen-vehicle": "Bu vatandaşın sahip olduğu araçları görüntüleyin",
+            "citizen-house": "Bu vatandaşın sahip olduğu mülkleri görüntüleyin",
+            "words": {
+                "citizen": "vatandaşlar",
+                "suspect": "şüpheliler",
+                "victim": "mağdurlar",
+                "officer": "görevliler",
+                "vehicle": "araçlar",
+                "weapon": "silahlar",
+                "evidence": "kanıtlar",
+                "charge": "suçlar",
+                "archive": "arşiv dosyaları"
+            }
+        },
+        "add": {
+            "citizen": "Vatandaş ekle",
+            "suspect": "Şüpheli ekle",
+            "victim": "Mağdur ekle",
+            "officer": "Görevli ekle",
+            "vehicle": "Araç ekle",
+            "incident": "Olay ekle",
+            "evidence": "Kanıt ekle",
+            "warrant": "Tutuklama emri ekle",
+            "bolo": "BOLO ekle",
+            "charge": "Suç ekle",
+            "weapon": "Silah ekle",
+            "archive": "Dosya ekle"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Vatandaş galerisi",
+            "vehicle": "Araç galerisi",
+            "evidence": "Resimler"
+        },
+        "description": {
+            "citizen": "Bu vatandaşla ilgili resimleri görüntüleyin",
+            "vehicle": "Bu araçla ilgili resimleri görüntüleyin",
+            "evidence": "Bu kanıta eklenen resimleri görüntüleyin"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Panel Sayfasını Görüntüle",
+            "description": "Kullanıcıya panel sayfasını görüntüleme izni verir"
+        },
+        "incidents.view": {
+            "label": "Olaylar Sayfasını Görüntüle",
+            "description": "Kullanıcıya olaylar sayfasını görüntüleme izni verir"
+        },
+        "evidences.view": {
+            "label": "Kanıtlar Sayfasını Görüntüle",
+            "description": "Kullanıcıya kanıtlar sayfasını görüntüleme izni verir"
+        },
+        "warrants.view": {
+            "label": "Tutuklama Emirleri Sayfasını Görüntüle",
+            "description": "Kullanıcıya tutuklama emirleri sayfasını görüntüleme izni verir"
+        },
+        "officers.view": {
+            "label": "Görevliler Sayfasını Görüntüle",
+            "description": "Kullanıcıya görevliler sayfasını görüntüleme izni verir"
+        },
+        "bolos.view": {
+            "label": "BOLO'ları Sayfasını Görüntüle",
+            "description": "Kullanıcıya BOLO'lar (Dikkat Edilmesi Gerekenler) sayfasını görüntüleme izni verir"
+        },
+        "dispatch.view": {
+            "label": "Sevkiyat Sayfasını Görüntüle",
+            "description": "Kullanıcıya sevkiyat sayfasını görüntüleme izni verir"
+        },
+        "cameras.view": {
+            "label": "Kamera Sayfasını Görüntüle",
+            "description": "Kullanıcıya kamera sayfasını görüntüleme izni verir"
+        },
+        "citizens.view": {
+            "label": "Vatandaşlar Sayfasını Görüntüle",
+            "description": "Kullanıcıya vatandaşlar sayfasını görüntüleme izni verir"
+        },
+        "vehicles.view": {
+            "label": "Araçlar Sayfasını Görüntüle",
+            "description": "Kullanıcıya araçlar sayfasını görüntüleme izni verir"
+        },
+        "houses.view": {
+            "label": "Evler Sayfasını Görüntüle",
+            "description": "Kullanıcıya evler sayfasını görüntüleme izni verir"
+        },
+        "weapons.view": {
+            "label": "Silahlar Sayfasını Görüntüle",
+            "description": "Kullanıcının silahlar sayfasını görüntülemesine izin verir"
+        },
+        "codes.view": {
+            "label": "Kodlar Sayfasını Görüntüle",
+            "description": "Kullanıcının kodlar sayfasını görüntülemesine izin verir"
+        },
+        "charges.view": {
+            "label": "Suçlamalar Sayfasını Görüntüle",
+            "description": "Kullanıcının suçlamalar sayfasını görüntülemesine izin verir"
+        },
+        "announcements.view": {
+            "label": "Duyurular Sayfasını Görüntüle",
+            "description": "Kullanıcının duyurular sayfasını görüntülemesine izin verir"
+        },
+        "config.view": {
+            "label": "Yapılandırma Sayfasını Görüntüle",
+            "description": "Kullanıcının yapılandırma sayfasını görüntülemesine izin verir"
+        },
+        "administration.view": {
+            "label": "Yönetim Sayfasını Görüntüle",
+            "description": "Kullanıcının yönetim sayfasını görüntülemesine izin verir"
+        },
+        "incidents.delete": {
+            "label": "Olayları Sil",
+            "description": "Kullanıcının olayları silmesine izin verir"
+        },
+        "incidents.create": {
+            "label": "Olay Oluştur",
+            "description": "Kullanıcının yeni olaylar oluşturmasına izin verir"
+        },
+        "incidents.edit": {
+            "label": "Olayları Düzenle",
+            "description": "Kullanıcının mevcut olayları düzenlemesine izin verir"
+        },
+        "evidences.delete": {
+            "label": "Delilleri Sil",
+            "description": "Kullanıcının delilleri silmesine izin verir"
+        },
+        "evidences.create": {
+            "label": "Delil Oluştur",
+            "description": "Kullanıcının yeni deliller oluşturmasına izin verir"
+        },
+        "evidences.edit": {
+            "label": "Delilleri Düzenle",
+            "description": "Kullanıcının mevcut delilleri düzenlemesine izin verir"
+        },
+        "warrants.delete": {
+            "label": "Aranma Kararlarını Sil",
+            "description": "Kullanıcının aranma kararlarını silmesine izin verir"
+        },
+        "warrants.create": {
+            "label": "Aranma Kararı Oluştur",
+            "description": "Kullanıcının yeni aranma kararları oluşturmasına izin verir"
+        },
+        "warrants.edit": {
+            "label": "Aranma Kararlarını Düzenle",
+            "description": "Kullanıcının mevcut aranma kararlarını düzenlemesine izin verir"
+        },
+        "bolos.delete": {
+            "label": "BOLO'ları Sil",
+            "description": "Kullanıcının BOLO'ları silmesine izin verir"
+        },
+        "bolos.create": {
+            "label": "BOLO Oluştur",
+            "description": "Kullanıcının yeni BOLO'lar oluşturmasına izin verir"
+        },
+        "bolos.edit": {
+            "label": "BOLO'ları Düzenle",
+            "description": "Kullanıcının mevcut BOLO'ları düzenlemesine izin verir"
+        },
+        "dispatch.alert.delete": {
+            "label": "Dağıtım Uyarılarını Sil",
+            "description": "Kullanıcının dağıtım uyarılarını silmesine izin verir"
+        },
+        "cameras.open": {
+            "label": "Kameraları Aç",
+            "description": "Kullanıcının kamera görüntülerine erişip görüntülemesine izin verir"
+        },
+        "cameras.bodycam.view": {
+            "label": "Vücut Kamerası Görüntülerini Görüntüle",
+            "description": "Kullanıcının kameralardan vücut kamera görüntülerini görüntülemesine izin verir"
+        },
+        "citizens.register": {
+            "label": "Vatandaşları Kaydet",
+            "description": "Kullanıcının yeni vatandaşları kaydetmesine izin verir"
+        },
+        "citizens.edit": {
+            "label": "Vatandaşları Düzenle",
+            "description": "Kullanıcının mevcut vatandaşları düzenlemesine izin verir"
+        },
+        "citizens.license.grant": {
+            "label": "Vatandaş Lisansları Ver",
+            "description": "Kullanıcının vatandaşlara lisans vermesine izin verir"
+        },
+        "citizens.license.revoke": {
+            "label": "Vatandaş Lisanslarını İptal Et",
+            "description": "Kullanıcının vatandaşlardan lisansları iptal etmesine izin verir"
+        },
+        "gallery.edit": {
+            "label": "Galeriyi Düzenle",
+            "description": "Kullanıcının galeri içeriğini düzenlemesine izin verir"
+        },
+        "vehicles.register": {
+            "label": "Araçları Kaydet",
+            "description": "Kullanıcının yeni araçları kaydetmesine izin verir"
+        },
+        "vehicles.edit": {
+            "label": "Araçları Düzenle",
+            "description": "Kullanıcının mevcut araçları düzenlemesine izin verir"
+        },
+        "houses.edit": {
+            "label": "Evleri Düzenle",
+            "description": "Kullanıcının mevcut evleri düzenlemesine izin verir"
+        },
+        "weapons.register": {
+            "label": "Silahları Kaydet",
+            "description": "Kullanıcının yeni silahları kaydetmesine izin verir"
+        },
+        "weapons.edit": {
+            "label": "Silahları Düzenle",
+            "description": "Kullanıcının mevcut silahları düzenlemesine izin verir"
+        },
+        "codes.delete": {
+            "label": "Kodları Sil",
+            "description": "Kullanıcının kodları silmesine izin verir"
+        },
+        "codes.create": {
+            "label": "Kodlar Oluştur",
+            "description": "Kullanıcının yeni kodlar oluşturmasına izin verir"
+        },
+        "codes.edit": {
+            "label": "Kodları Düzenle",
+            "description": "Kullanıcının mevcut kodları düzenlemesine izin verir"
+        },
+        "charges.delete": {
+            "label": "Suçlamaları Sil",
+            "description": "Kullanıcının suçlamaları silmesine izin verir"
+        },
+        "charges.create": {
+            "label": "Suçlamalar Oluştur",
+            "description": "Kullanıcının yeni suçlamalar oluşturmasına izin verir"
+        },
+        "charges.edit": {
+            "label": "Suçlamaları Düzenle",
+            "description": "Kullanıcının mevcut suçlamaları düzenlemesine izin verir"
+        },
+        "announcements.create": {
+            "label": "Duyuru Oluştur",
+            "description": "Kullanıcının yeni duyurular oluşturmasına izin verir"
+        },
+        "announcements.delete": {
+            "label": "Duyuruları Sil",
+            "description": "Kullanıcının duyuruları silmesine izin verir"
+        },
+        "announcements.pin": {
+            "label": "Duyuruları Sabitle",
+            "description": "Kullanıcının duyuruları sabitlemesine izin verir"
+        },
+        "announcements.edit": {
+            "label": "Duyuruları Düzenle",
+            "description": "Kullanıcının mevcut duyuruları düzenlemesine izin verir"
+        },
+        "administration.permissions.update": {
+            "label": "İzinleri Güncelle",
+            "description": "Kullanıcının yönetim panelinde izinleri güncellemesine izin verir"
+        },
+        "administration.management.employee.view": {
+            "label": "Çalışan Yönetimini Görüntüle",
+            "description": "Kullanıcının yönetim panelinde çalışan yönetimini görüntülemesine izin verir"
+        },
+        "administration.management.employee.fire": {
+            "label": "Çalışanı İşten Çıkar",
+            "description": "Kullanıcının bir çalışanı işten çıkarmasına izin verir"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Çalışan Rütbesini Değiştir",
+            "description": "Kullanıcının bir çalışanın rütbesini değiştirmesine izin verir"
+        },
+        "administration.recruit.view": {
+            "label": "Aday Yönetimini Görüntüle",
+            "description": "Kullanıcının yönetim panelinde aday yönetimini görüntülemesine izin verir"
+        },
+        "administration.recruit.hire": {
+            "label": "Adayı İşe Al",
+            "description": "Kullanıcının bir adayı işe almasına izin verir"
+        },
+        "administration.camera.view": {
+            "label": "Kamera Yönetimini Görüntüle",
+            "description": "Kullanıcının yönetim panelinde kamera yönetimini görüntülemesine izin verir"
+        },
+        "administration.camera.create": {
+            "label": "Kamera Oluştur",
+            "description": "Kullanıcının yeni bir kamera oluşturmasına izin verir"
+        },
+        "administration.camera.delete": {
+            "label": "Kamera Sil",
+            "description": "Kullanıcının bir kamerayı silmesine izin verir"
+        },
+        "administration.camera.toggle": {
+            "label": "Kamera Durumunu Değiştir",
+            "description": "Kullanıcının bir kameranın durumunu değiştirmesine izin verir"
+        }
+    }
+}

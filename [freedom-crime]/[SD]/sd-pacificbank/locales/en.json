@@ -1,0 +1,56 @@
+{
+  "error": {
+    "trip_lasers": "You've tripped the Lasers, All Panels have been disabled.",
+    "required_equipment_missing": "You don't have the required equipment.",
+    "timer_input_closed": "You have closed the Timer Input",
+    "failure": "You failed!",
+    "door_already_opened": "This door has already been opened..",
+    "terminal_disabled": "This Terminal has been disabled.",
+    "terminal_already_hacked": "This Terminal has already been hacked.",
+    "password_input_closed": "You have closed the Password Input",
+    "security_locked_down": "The Security System has locked down..",
+    "security_active": "The Security System is currently Active.",
+    "invalid_code": "Invalid Code.. You have limited attempts.",
+    "codes_missing": "You don't have the codes yet.",
+    "not_enough_police": "Not Enough Police on Duty.",
+    "drill_overheated": "Your Drill has overheated and broke.",
+    "drill_overheated2": "Your Drill has overheated or you stopped.",
+    "nothing_left": "There's nothing left to Drill.",
+    "get_closer": "There's nothing left to Drill.",
+    "cant_interact": "You can't interact with this.",
+    "lasers_tripped": "You've tripped the Lasers, All Panels have been disabled."
+  },
+  "success": {
+    "explosive_planted": "Explosive has been planted! Get to safe a distance!",
+    "security_gate_unlocked": "The security gate has been unlocked.",
+    "security_deactivated": "Ground level security system deactivated.",
+    "computer": "Computer",
+    "code": "Code:",
+    "computer_hacked": "hacked."
+  },
+  "menu": {
+    "enter_12_digit_code": "Enter 12 Digit Code:",
+    "submit_text": "Submit",
+    "XXX_XXX": "Code",
+    "enter_timer": "Enter Timer (In Seconds):",
+    "bomb_timer": "Bomb Timer"
+  },
+  "prints": {
+    "cooldown_started": "PACIFIC BANK: Cooldown started",
+    "cooldown_finished": "PACIFIC BANK: Cooldown finished"
+  },
+  "target": {
+    "loot": "Loot",
+    "plant_bomb": "Plant Bomb",
+    "enter_password": "Enter Password",
+    "use_thermite": "Use Thermite",
+    "hack_computer": "Hack Computer",
+    "hack_terminal": "Hack Terminal",
+    "drill_depo": "Drill Open Deposit Boxes",
+    "grab_loot": "Grab Loot"
+  },
+  "progress": {
+    "code_search": "Looking for 3-digit Code..",
+    "start_hack": "Starting Hack.."
+  }
+}

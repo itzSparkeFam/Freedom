@@ -1,0 +1,617 @@
+{
+    "navigation": {
+        "dashboard": "Dashboard",
+        "incidents": "Incidenten",
+        "doctors": "Dokters",
+        "dispatch": "Dispatch",
+        "citizens": "Burgers",
+        "codes": "Codes",
+        "invoices": "Facturen",
+        "announcements": "Aankondigingen",
+        "config": "Configuratie",
+        "administration": "Administratie",
+        "exit": "Afsluiten"
+    },
+    "general": {
+        "close": "Sluiten",
+        "delete": "Verwijderen",
+        "male": "Man",
+        "female": "Vrouw",
+        "status": "Status",
+        "information": "Informatie",
+        "amount": "Bedrag",
+        "name": "Naam",
+        "description": "Omschrijving",
+        "job": "Beroep",
+        "grade": "Rang",
+        "phone_number": "Telefoonnummer",
+        "dateofbirth": "Geboortedatum",
+        "tag": "Tag",
+        "createdAt": "Aangemaakt op",
+        "save": "Wijzigingen opslaan",
+        "duty": "Dienst",
+        "on_duty": "In dienst",
+        "off_duty": "Uit dienst",
+        "search": "Zoeken",
+        "incidents": "Incidenten",
+        "no-results": "Geen resultaten",
+        "gender": "Geslacht",
+        "location": "Locatie",
+        "title": "Titel",
+        "cancel": "Annuleren",
+        "continue": "Doorgaan",
+        "notes": "Notities",
+        "code": "Code",
+        "firstname": "Voornaam",
+        "lastname": "Achternaam",
+        "fingerprint": "Vingerafdruk",
+        "proceed": "Doorgaan",
+        "insurance": "Verzekering",
+        "no": "Nee",
+        "yes": "Ja",
+        "list": "Lijst",
+        "create": "Aanmaken",
+        "camera": "Camera",
+        "link": "Link",
+        "pin": "Vastzetten",
+        "unpin": "Losmaken",
+        "page_of": "Pagina {{x}} van {{y}}",
+        "backToSafety": "Terug naar veiligheid",
+        "expand-image": "Afbeelding vergroten",
+        "remove-image": "Afbeelding verwijderen",
+        "zoomed-image": "Ingezoomde afbeelding",
+        "image-link": "Afbeeldingslink",
+        "image-description": "Afbeeldingsomschrijving",
+        "submit": "Verzenden",
+        "reduction": "Vermindering",
+        "reduce": "Verminderen",
+        "bloodtype": "Bloedgroep",
+        "placeholders": {
+            "citizens": "Zoek burgers",
+            "victims": "Zoek slachtoffers",
+            "doctors": "Zoek dokters",
+            "incidents": "Zoek incidenten",
+            "invoices": "Zoek facturen",
+            "codes": "Zoek codes",
+            "announcements": "Zoek aankondigingen",
+            "recruits": "Zoek rekruten",
+            "identifier": "Zoek een identificatienummer",
+            "tag": "Zoek een tag",
+            "date": "Kies een datum"
+        }
+    },
+    "templates": {
+        "incident": "Incident #{id}"
+    },
+    "jobs": {
+        "ambulance": "Spoedeisende Hulp"
+    },
+    "notification": {
+        "error": "Oeps! Er is iets onverwachts fout gegaan.",
+        "create": "Je hebt deze record succesvol aangemaakt!",
+        "update": "Je hebt deze record succesvol bijgewerkt!",
+        "existent-citizen": "Er is een burger gevonden met deze identificatie!",
+        "registered-citizen": "Je hebt deze burger succesvol geregistreerd!",
+        "permission-changed": "Je hebt succesvol de rechten voor deze rang gewijzigd!",
+        "employee-fired": "Je hebt deze medewerker succesvol ontslagen!",
+        "employee-fire-error": "Je kunt geen medewerker van een hogere rang of jezelf ontslaan!",
+        "rank-changed": "Je hebt succesvol de rang van deze medewerker gewijzigd!",
+        "hire-citizen": "Je hebt deze burger succesvol aangenomen!",
+        "image-attached": "Je hebt succesvol een nieuwe afbeelding aan de record toegevoegd",
+        "remove-image": "Je hebt succesvol de afbeelding van de record verwijderd",
+        "title": {
+            "created": "Record aangemaakt",
+            "updated": "Record bijgewerkt",
+            "error": "Onverwachte fout",
+            "existent-citizen": "Bestaande burger",
+            "registered-citizen": "Burger geregistreerd",
+            "permission-changed": "Rechten gewijzigd",
+            "employee-fired": "Medewerker ontslagen",
+            "rank-changed": "Rang gewijzigd",
+            "hire-citizen": "Burger aangenomen",
+            "image-attached": "Afbeelding toegevoegd",
+            "remove-image": "Afbeelding verwijderd"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Weet je het zeker?",
+            "description": "Deze actie kan niet ongedaan worden gemaakt. Dit zal de record permanent uit de database verwijderen.",
+            "citizen": "Weet je zeker dat je deze burger uit deze record wilt verwijderen?",
+            "victim": "Weet je zeker dat je dit slachtoffer uit deze record wilt verwijderen?",
+            "doctor": "Weet je zeker dat je deze dokter uit deze record wilt verwijderen?",
+            "incident": "Weet je zeker dat je dit incident uit deze record wilt verwijderen?",
+            "invoice": "Weet je zeker dat je deze factuur uit deze record wilt verwijderen?"
+        },
+        "delete_alert": {
+            "title": "Weet je zeker dat je deze melding wilt verwijderen?",
+            "description": "Deze actie kan niet ongedaan worden gemaakt. Dit zal de melding permanent verwijderen."
+        },
+        "add-value": {
+            "title": "Voeg een nieuw item toe",
+            "description": "Voeg een nieuw item toe aan de lijst."
+        },
+        "set_position": {
+            "title": "Wil je de controlepost instellen?",
+            "description": "Dit zal je MDT-kaartcontrolepost instellen op de verzonden locatie van deze melding."
+        },
+        "job": {
+            "title": "Selecteer een baan",
+            "description": "Je kunt een baan en rang kiezen voor deze gebruiker"
+        },
+        "update-permission": {
+            "title": "Rechten bijwerken",
+            "description": "Voeg rechten toe of verwijder rechten voor deze rang"
+        },
+        "add-permission": {
+            "title": "Recht toevoegen",
+            "description": "Voeg een nieuw recht toe aan de rang"
+        },
+        "fire-employee": {
+            "title": "Medewerker ontslaan",
+            "description": "Weet je zeker dat je deze medewerker wilt ontslaan?"
+        },
+        "change-rank": {
+            "title": "Rang wijzigen",
+            "description": "Verander de rang van deze medewerker"
+        },
+        "hire-citizen": {
+            "title": "Burger aannemen",
+            "description": "Weet je zeker dat je deze burger wilt aannemen?"
+        },
+        "add-image": {
+            "title": "Afbeelding toevoegen",
+            "description": "Voeg een nieuwe afbeelding toe aan deze record"
+        },
+        "remove-image": {
+            "title": "Afbeelding verwijderen",
+            "description": "Wil je deze afbeelding uit de record verwijderen?"
+        },
+        "change-image": {
+            "title": "Afbeelding wijzigen",
+            "description": "Selecteer een nieuwe profielfoto uit de galerij"
+        },
+        "reset-form": {
+            "title": "Formulier resetten",
+            "description": "Weet je zeker dat je dit formulier wilt resetten?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Je hebt geen toestemming om dit te verwijderen!",
+        "loading": {
+            "title": "Even geduld, we zijn ermee bezig",
+            "description": "We doorzoeken momenteel onze database om de gevraagde informatie te vinden. Wacht even, we hebben het zo voor je! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Oeps! Er is iets misgegaan",
+            "description": "Sorry, er lijkt een probleem te zijn met je verzoek. Neem contact op met de ontwikkelaar voor hulp."
+        },
+        "unexpected-error": {
+            "title": "Onverwachte fout",
+            "description": "Er is iets misgegaan, neem contact op met de eigenaar van de server om dit probleem op te lossen."
+        },
+        "fetching": {
+            "title": "We halen de resultaten op",
+            "description": "Wacht geduldig terwijl we de benodigde gegevens verzamelen. Jouw input helpt ons om aangepaste resultaten te bieden."
+        },
+        "fetch-error": {
+            "title": "Oeps! Er is iets misgegaan",
+            "description": "Sorry, er lijkt een probleem te zijn met je verzoek. Neem contact op met de ontwikkelaar voor hulp."
+        },
+        "fetch-no-results": {
+            "title": "Oeps! Hier is niets te zien",
+            "description": "Typ iets om resultaten te tonen. Jouw input bepaalt wat je ziet."
+        },
+        "fetch-no-matched": {
+            "title": "Geen overeenkomsten gevonden",
+            "description": "Het lijkt erop dat we geen resultaten hebben gevonden die overeenkomen met je zoekcriteria."
+        }
+    },
+    "dashboard": {
+        "title": "Welkom terug, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Live locatie",
+        "street_name": "Straatnaam:",
+        "last_announcement": {
+            "title": "Laatste aankondiging",
+            "description": "Hier zie je de laatst gemaakte aankondiging",
+            "no-results": "Er is geen aankondiging gemaakt om te tonen."
+        },
+        "personal": {
+            "title": "Persoonlijke informatie",
+            "description": "Dit zijn jouw persoonlijke gegevens"
+        },
+        "doctors": {
+            "title": "Online artsen",
+            "description": "Bekijk alle online artsen en handige informatie"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Communiceer met andere artsen via de chat",
+            "placeholder": "Typ een bericht..."
+        },
+        "calls": {
+            "title": "Recente oproepen",
+            "description": "Hier zie je de laatste meldingen",
+            "no-alerts": "Er zijn momenteel geen meldingen, wanneer ze verschijnen zie je hier een lijst",
+            "details": "Klik op de melding om meer details te zien",
+            "time": "Tijd van melding"
+        }
+        },
+        "incidents": {
+        "title": "Incidenten",
+        "description": "Bekijk een lijst met de laatste incidenten",
+        "individual": {
+            "title": "Incident #{{id}}",
+            "description": "Bekijk alle informatie over dit incident",
+            "information": "Je kunt de informatie van dit incident bekijken en bewerken"
+        },
+        "invoice_reduction": "{{amount}}% factuurvermindering",
+        "reduction_description": "Hier kun je het bedrag van de factuur verminderen"
+        },
+        "doctors": {
+        "title": "Artsen",
+        "description": "Bekijk een lijst met online personen die toegang hebben tot MDT",
+        "header": "{{job}} - {{length}} artsen online",
+        "paragraph": "Bekijk artsen van deze functie"
+        },
+        "dispatch": {
+        "title": "Meldingen",
+        "description": "Bekijk, verwijder en neem meldingen aan",
+        "individual": {
+            "title": "Melding #{{id}}",
+            "description": "Bekijk alle informatie over deze melding"
+        },
+        "delete": "Melding verwijderen",
+        "position": "Positie instellen",
+        "alerts": {
+            "title": "Meldingen",
+            "description": "Bekijk alle laatste oproepen"
+        },
+        "map": {
+            "title": "Meldingenkaart",
+            "description": "Bekijk de locatie van actieve meldingen"
+        }
+        },
+        "citizens": {
+        "title": "Burgers",
+        "description": "Bekijk alle gegevens en informatie van een burger",
+        "register": "Registreer een burger",
+        "individual": {
+            "title": "Burger",
+            "description": "Bekijk alle informatie over deze burger",
+            "information": "Bekijk alle nuttige informatie over deze burger"
+        },
+        "results": {
+            "title": "Zoek burgers",
+            "description": "Je kunt zoeken op naam"
+        }
+        },
+        "codes": {
+        "title": "Codes",
+        "description": "Bekijk een lijst met codes die worden gebruikt voor communicatie",
+        "individual": {
+            "title": "Code #{{id}}",
+            "description": "Bekijk alle informatie over deze code",
+            "information": "Je kunt de informatie van deze code bekijken en bewerken"
+        }
+        },
+        "invoices": {
+        "title": "Facturen",
+        "description": "Bekijk, maak, verwijder en bewerk facturen",
+        "individual": {
+            "title": "Factuur #{{id}}",
+            "description": "Bekijk alle informatie over deze factuur",
+            "information": "Je kunt de informatie van deze factuur bekijken en bewerken"
+        }
+        },
+        "announcements": {
+        "title": "Aankondigingen",
+        "description": "Bekijk, maak en pin aankondigingen voor andere artsen",
+        "pin": "Aankondiging pinnen",
+        "unpin": "Aankondiging losmaken",
+        "save": "Aankondiging opslaan",
+        "edit": "Aankondiging bewerken",
+        "written": "Geschreven door",
+        "individual": {
+            "title": "Aankondiging #{{id}}",
+            "description": "Bekijk alle informatie over deze aankondiging"
+        }
+        },
+        "configuration": {
+        "title": "Configuratie",
+        "description": "Pas de MDT aan naar jouw wensen",
+        "colors": {
+            "title": "Kleuren",
+            "description": "Verander het uiterlijk van jouw MDT",
+            "text": "Tekstkleuren",
+            "other": "Andere kleuren",
+            "reset": "Kleuren resetten",
+            "name": {
+            "background": "Achtergrondkleur",
+            "secondary": "Secundaire kleur",
+            "text": "Tekstkleur",
+            "text-muted": "Gedempte tekstkleur",
+            "primary-text": "Primaire tekstkleur",
+            "contrast": "Contrastkleur",
+            "error": "Foutkleur",
+            "ring": "Ringkleur"
+            }
+        },
+        "language": {
+            "title": "Taal",
+            "description": "Verander de taal van jouw MDT",
+            "select": "Selecteer jouw voorkeurstaal"
+        }
+        },
+        "administration": {
+        "title": "Administratie",
+        "description": "Beheer graden, verenigingsfondsen, werknemers, rekruten",
+        "permissions": "Toestemmingen",
+        "management": "Beheer",
+        "recruitment": "Werving",
+        "job": {
+            "add-permission": "Toestemming toevoegen",
+            "update-permission": "Toestemmingen bijwerken",
+            "select-permission": "Selecteer een toestemming",
+            "grades": {
+            "title": "Graad - {{level}}",
+            "description": "Graden van de functie \"{{job}}\"",
+            "footer": "Dit omvat ook eerdere toestemmingen"
+            }
+        },
+        "employees": {
+            "title": "Werknemers",
+            "description": "Een lijst van alle online werknemers"
+        },
+        "manage": {
+            "title": "Beheer \"{{name}}\"",
+            "description": "Bekijk meer informatie of pas acties toe op deze werknemer",
+            "fire": "Werknemer ontslaan",
+            "hire": "Burger aannemen",
+            "change_rank": "Rang veranderen",
+            "rank_select": "Selecteer een rang",
+            "activity": {
+            "title": "Activiteit",
+            "description": "Bekijk activiteitsstatistieken voor deze werknemer",
+            "chart": "Laatste 7 dagen",
+            "table": {
+                "head": {
+                "number": "Nr.",
+                "clock-in": "Inklokken",
+                "clock-out": "Uitklokken",
+                "hours": "Uren"
+                },
+                "total": "Totaal aantal uren"
+            }
+            },
+            "funds": {
+            "header": "Verenigingsfondsen",
+            "footer": "inkomsten uit facturen"
+            },
+            "employees": {
+            "header": "Werknemers",
+            "footer": "totaal aantal online werknemers"
+            },
+            "calls": {
+            "header": "Totaal aantal oproepen",
+            "footer": "actieve meldingen"
+            }
+        },
+        "recruits": {
+            "description": "Bekijk informatie over deze burger",
+            "see": "Bekijk burgerpagina"
+        }
+        },
+    "forms": {
+        "description": "Vul het formulier in met alle benodigde informatie",
+        "citizens": "Registreer een burger",
+        "incidents": "Maak een incident aan",
+        "codes": "Maak een code aan",
+        "invoices": "Maak een factuur aan",
+        "announcements": "Maak een aankondiging aan",
+        "tag": {
+            "title": "Maak een tag aan",
+            "description": "Maak een nieuwe tag aan om dit te categoriseren. Klik op aanmaken om een nieuwe tag toe te voegen.",
+            "field-name": "Tag naam",
+            "field-description": "Tag beschrijving",
+            "field-color": "Tag kleur",
+            "button": "Maak nieuwe tag aan",
+            "notification": {
+                "title": "Tag aangemaakt",
+                "description": "Je hebt de tag succesvol aangemaakt!"
+            }
+        },
+        "errors": {
+            "required": "Dit veld is verplicht",
+            "create": "Je hebt geen toestemming om een nieuw record aan te maken",
+            "min-length": "Dit veld moet minimaal {{length}} tekens bevatten",
+            "min-number": "De minimale waarde voor dit veld is {{min}}",
+            "max-number": "De maximale waarde voor dit veld is {{max}}",
+            "invalid-link": "Je moet een geldige afbeeldings-URL opgeven!",
+            "codes": {
+                "format": "Verkeerd formaat, je moet alleen cijfers gebruiken"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Je kunt nog {{n}} {{word}} selecteren",
+            "maximum": "Je hebt het maximale aantal {{word}} geselecteerd"
+        },
+        "words": {
+            "citizens": "burgers",
+            "doctors": "artsen",
+            "incidents": "incidenten",
+            "invoices": "facturen"
+        }
+    },
+    "values": {
+        "title": {
+            "victim": "Betrokken slachtoffers",
+            "doctor": "Betrokken artsen",
+            "invoice": "Toegepaste facturen"
+        },
+        "description": {
+            "template": "Bekijk en bewerk {{word}} die aan dit record zijn gekoppeld",
+            "citizen-incident": "Bekijk en bewerk incidenten die aan deze burger zijn toegewezen",
+            "words": {
+                "citizen": "burgers",
+                "victim": "slachtoffers",
+                "doctor": "artsen",
+                "invoice": "facturen"
+            }
+        },
+        "add": {
+            "citizen": "Voeg een burger toe",
+            "victim": "Voeg een slachtoffer toe",
+            "doctor": "Voeg een arts toe",
+            "incident": "Voeg een incident toe",
+            "invoice": "Voeg een factuur toe"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Burger galerij",
+            "incident": "Afbeeldingen"
+        },
+        "description": {
+            "citizen": "Bekijk afbeeldingen van deze burger",
+            "incident": "Bekijk afbeeldingen die aan dit incident zijn gekoppeld"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Bekijk dashboard pagina",
+            "description": "Stelt de gebruiker in staat om de dashboard pagina te bekijken"
+        },
+        "incidents.view": {
+            "label": "Bekijk incidenten pagina",
+            "description": "Stelt de gebruiker in staat om de incidenten pagina te bekijken"
+        },
+        "doctors.view": {
+            "label": "Bekijk artsen pagina",
+            "description": "Stelt de gebruiker in staat om de artsen pagina te bekijken"
+        },
+        "dispatch.view": {
+            "label": "Bekijk dispatch pagina",
+            "description": "Stelt de gebruiker in staat om de dispatch pagina te bekijken"
+        },
+        "citizens.view": {
+            "label": "Bekijk burgers pagina",
+            "description": "Stelt de gebruiker in staat om de burgers pagina te bekijken"
+        },
+        "codes.view": {
+            "label": "Bekijk codes pagina",
+            "description": "Stelt de gebruiker in staat om de codes pagina te bekijken"
+        },
+        "invoices.view": {
+            "label": "Bekijk facturen pagina",
+            "description": "Stelt de gebruiker in staat om de facturen pagina te bekijken"
+        },
+        "announcements.view": {
+            "label": "Bekijk aankondigingen pagina",
+            "description": "Stelt de gebruiker in staat om de aankondigingen pagina te bekijken"
+        },
+        "config.view": {
+            "label": "Bekijk configuratie pagina",
+            "description": "Stelt de gebruiker in staat om de configuratie pagina te bekijken"
+        },
+        "administration.view": {
+            "label": "Bekijk administratie pagina",
+            "description": "Stelt de gebruiker in staat om de administratie pagina te bekijken"
+        },
+        "incidents.delete": {
+            "label": "Verwijder incidenten",
+            "description": "Stelt de gebruiker in staat om incidenten te verwijderen"
+        },
+        "incidents.create": {
+            "label": "Maak incidenten aan",
+            "description": "Stelt de gebruiker in staat om nieuwe incidenten aan te maken"
+        },
+        "incidents.edit": {
+            "label": "Bewerk incidenten",
+            "description": "Stelt de gebruiker in staat om bestaande incidenten te bewerken"
+        },
+        "dispatch.alert.delete": {
+            "label": "Verwijder dispatch meldingen",
+            "description": "Stelt de gebruiker in staat om dispatch meldingen te verwijderen"
+        },
+        "citizens.register": {
+            "label": "Registreer burgers",
+            "description": "Stelt de gebruiker in staat om nieuwe burgers te registreren"
+        },
+        "citizens.edit": {
+            "label": "Bewerk burgers",
+            "description": "Stelt de gebruiker in staat om bestaande burgers te bewerken"
+        },
+        "gallery.edit": {
+            "label": "Bewerk galerij",
+            "description": "Stelt de gebruiker in staat om de galerij inhoud te bewerken"
+        },
+        "codes.delete": {
+            "label": "Verwijder codes",
+            "description": "Stelt de gebruiker in staat om codes te verwijderen"
+        },
+        "codes.create": {
+            "label": "Maak codes aan",
+            "description": "Stelt de gebruiker in staat om nieuwe codes aan te maken"
+        },
+        "codes.edit": {
+            "label": "Bewerk codes",
+            "description": "Stelt de gebruiker in staat om bestaande codes te bewerken"
+        },
+        "invoices.delete": {
+            "label": "Verwijder facturen",
+            "description": "Stelt de gebruiker in staat om facturen te verwijderen"
+        },
+        "invoices.create": {
+            "label": "Maak facturen aan",
+            "description": "Stelt de gebruiker in staat om nieuwe facturen aan te maken"
+        },
+        "invoices.edit": {
+            "label": "Bewerk facturen",
+            "description": "Stelt de gebruiker in staat om bestaande facturen te bewerken"
+        },
+        "announcements.create": {
+            "label": "Maak aankondigingen aan",
+            "description": "Stelt de gebruiker in staat om nieuwe aankondigingen aan te maken"
+        },
+        "announcements.delete": {
+            "label": "Verwijder aankondigingen",
+            "description": "Stelt de gebruiker in staat om aankondigingen te verwijderen"
+        },
+        "announcements.pin": {
+            "label": "Pin aankondigingen",
+            "description": "Stelt de gebruiker in staat om aankondigingen vast te zetten"
+        },
+        "announcements.edit": {
+            "label": "Bewerk aankondigingen",
+            "description": "Stelt de gebruiker in staat om bestaande aankondigingen te bewerken"
+        },
+        "administration.permissions.update": {
+            "label": "Update permissies",
+            "description": "Stelt de gebruiker in staat om permissies bij te werken in het administratiepaneel"
+        },
+        "administration.management.employee.view": {
+            "label": "Bekijk werknemersbeheer",
+            "description": "Stelt de gebruiker in staat om werknemersbeheer te bekijken in het administratiepaneel"
+        },
+        "administration.management.employee.fire": {
+            "label": "Ontsla werknemer",
+            "description": "Stelt de gebruiker in staat om een werknemer te ontslaan"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Verander werknemersrang",
+            "description": "Stelt de gebruiker in staat om de rang van een werknemer te veranderen"
+        },
+        "administration.recruit.view": {
+            "label": "Bekijk wervingsbeheer",
+            "description": "Stelt de gebruiker in staat om wervingsbeheer te bekijken in het administratiepaneel"
+        },
+        "administration.recruit.hire": {
+            "label": "Huur nieuwe werknemer",
+            "description": "Stelt de gebruiker in staat om een nieuwe werknemer aan te nemen"
+        }
+    }
+}

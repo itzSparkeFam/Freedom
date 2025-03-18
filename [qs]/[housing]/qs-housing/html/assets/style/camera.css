@@ -1,0 +1,135 @@
+/* Style for camera element */
+
+/* Container */
+.camera {
+    display: none;
+}
+
+.camera.active {
+    display: block;
+}
+
+/* Edge */
+.camera .edge {
+    position: absolute;
+
+    width: 13.6rem;
+    height: 13.6rem;
+}
+
+.camera .edge:nth-child(1) {
+    top: 2rem;
+    left: 2rem;
+
+    border-top: 0.5rem var(--color-ffffff) solid;
+    border-left: 0.5rem var(--color-ffffff) solid;
+}
+
+.camera .edge:nth-child(2) {
+    top: 2rem;
+    right: 2rem;
+
+    border-top: 0.5rem var(--color-ffffff) solid;
+    border-right: 0.5rem var(--color-ffffff) solid;
+}
+
+.camera .edge:nth-child(3) {
+    bottom: 2rem;
+    left: 2rem;
+
+    border-bottom: 0.5rem var(--color-ffffff) solid;
+    border-left: 0.5rem var(--color-ffffff) solid;
+}
+
+.camera .edge:nth-child(4) {
+    bottom: 2rem;
+    right: 2rem;
+
+    border-bottom: 0.5rem var(--color-ffffff) solid;
+    border-right: 0.5rem var(--color-ffffff) solid;
+}
+
+/* Center */
+.camera .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 0.2rem;
+    height: 2rem;
+
+    background: var(--color-ffffff);
+}
+
+.camera .center:nth-child(5) {
+    width: 2rem;
+    height: 0.2rem; 
+}
+
+/* Live */
+.camera .recording p {
+    position: absolute;
+    top: 1.5rem;
+    left: 4rem;
+
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-ff0000);
+}
+
+.camera .recording div {
+    position: absolute;
+    top: 5.25rem;
+    left: 11.8rem;
+
+    animation: 0.6s ease-in-out 0s infinite alternate pulse;
+
+    border-radius: 100%;
+    width: 2.2rem;
+    height: 2.2rem;
+
+    background: var(--color-ff0000);
+}
+
+@keyframes pulse {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* Informations */
+.camera .camera_name {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--color-ffffff);
+}
+
+.camera .camera_type {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+
+    transform: translateX(-50%);
+    
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--color-ffffff);
+}

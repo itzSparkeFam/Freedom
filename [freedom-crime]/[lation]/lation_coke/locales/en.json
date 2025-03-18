@@ -1,0 +1,315 @@
+{
+    "notify": {
+        "cant-carry": "You can not carry that much",
+        "already-searched": "There doesn't seem to be anything here",
+        "limit-reached": "You feel like you should take a break",
+        "not-experienced": "You are not experienced enough to do this yet",
+        "max-tables": "I think I have enough tables already",
+        "max-plants": "I think I have enough plants already",
+        "no-police": "There are not enough police in the city",
+        "no-pot": "I should put this in a pot or something",
+        "no-water": "You do not have enough water",
+        "no-fertilizer": "You do not have enough fertilizer",
+        "no-shears": "A pair of shears would be helpful",
+        "cant-place": "You can't place that here",
+        "missing-item": "I need %s to do this",
+        "missing-metadata": "You do not have enough",
+        "no-money": "You do not have enough money",
+        "lab-limit": "You already own the maximum amount of labs",
+        "door-locked": "The door is locked",
+        "door-lock-changed": "You have %s the door",
+        "create-stash-passcode": "You have created a new passcode",
+        "change-stash-passcode": "You have changed the passcode",
+        "remove-stash-passcode": "You have removed the passcode",
+        "transfer-self": "You already own this lab",
+        "transfer-invalid": "Target is unavilable or invalid",
+        "transfer-level": "Target must be at least level %s",
+        "transfer-max": "Target cannot own any more labs",
+        "transfer-success-owner": "You have completed the transfer",
+        "transfer-success-target": "You have received ownership of a lab",
+        "auth-user-invalid": "Target is unavilable or invalid",
+        "auth-user-self": "You cannot add yourself",
+        "auth-user-exists": "Target is already an authorized user",
+        "auth-user-added": "You successfully added %s",
+        "auth-user-edited": "You successfully edited %s's permissions",
+        "auth-user-removed": "You successfully removed %s",
+        "no-permission": "You do not have permission to do this",
+        "invalid-stash-passcode": "The passcode you entered is incorrect",
+        "raid-stash-failed": "You failed to break into the stash",
+        "raid-entry-failed": "You failed to break into the lab",
+        "confiscate-success": "Dispatch has been notified and confiscation is in progress"
+    },
+    "target": {
+        "search-coca": "Search",
+        "use-table": "Use",
+        "use-station": "Use",
+        "check-status": "Check status",
+        "take-cement": "Take cement",
+        "open-shop": "Talk",
+        "enter-lab": "Enter",
+        "exit-lab": "Exit",
+        "open-stash": "Open stash",
+        "manage-lab": "Manage lab",
+        "confiscate-equipment": "Confiscate equipment"
+    },
+    "textui": {
+        "plant-controls": "**Controls**  \n **W**: Move Forward  \n **S**: Move Backward  \n **A**: Move Left  \n **D**: Move Right  \n **X**: Cancel  \n **Space**: Confirm",
+        "table-controls": "**Controls**  \n **Q**: Rotate Left  \n **E**: Rotate Right  \n **W**: Move Forward  \n **S**: Move Backward  \n **A**: Move Left  \n **D**: Move Right  \n **X**: Cancel  \n **Space**: Confirm",
+        "camera-controls": "**Controls**  \n **W**: Rotate Up  \n **A**: Rotate Left  \n **S**: Rotate Down  \n **D**: Rotate Right  \n **Q**: Zoom Out  \n **E**: Zoom In  \n **Backspace**: Exit"
+    },
+    "alerts": {
+        "pickup": {
+            "header": "**Confirm Action**",
+            "content": "Are you sure you want to pack up the table?"
+        },
+        "destroy": {
+            "header": "**Confirm Action**",
+            "content": "Are you sure you want to destroy this plant?"
+        },
+        "raid-stash": {
+            "header": "**Break In**",
+            "content": "Are you sure you want to break into this stash?"
+        },
+        "raid-entry": {
+            "header": "**Break In**",
+            "content": "Are you sure you want to break into this lab?"
+        },
+        "remove-authorized-user": {
+            "header": "Remove User",
+            "content": "Are you sure you want to remove %s from the authorized users list?"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "Quantity",
+            "desc": "How many do you want to purchase?"
+        },
+        "gas": {
+            "label": "Gasoline",
+            "desc": "How much gasoline do you want to add?"
+        },
+        "cement": {
+            "label": "Cement",
+            "desc": "How much cement do you want to add?"
+        },
+        "brick": {
+            "label": "Select Type",
+            "desc": "Which brick do you want to select?",
+            "options": {
+                "cocaine": "Cocaine",
+                "crack": "Crack"
+            }
+        },
+        "confiscate": {
+            "title": "Police Actions",
+            "manufacturing": "Manufacturing Equipment",
+            "security": "Security Equipment"
+        },
+        "stash": {
+            "title": "Stash",
+            "label": "Input Passcode",
+            "desc": "A passcode is required to access this stash"
+        },
+        "passcode": {
+            "title": "Create Passcode",
+            "label": "Passcode",
+            "desc": "Enter a new passcode"
+        },
+        "change-passcode": {
+            "title": "Change Passcode",
+            "label": "Passcode",
+            "desc": "Enter a new passcode"
+        },
+        "transfer-ownership": {
+            "title": "Transfer Ownership",
+            "label": "Player ID",
+            "desc": "Enter the player ID you want to transfer ownership to"
+        },
+        "sell-lab": {
+            "title": "Sell Lab",
+            "label": "Confirm Sale",
+            "desc": "This action is irreversible, type '%s' to continue"
+        },
+        "add-authorized-user": {
+            "title": "Add Authorized User",
+            "label": "Player ID",
+            "desc": "Enter the player ID you want to add"
+        },
+        "manage-authorized-user": {
+            "title": "Manage User",
+            "label": "Select Action",
+            "desc": "What do you want to do?",
+            "edit": "Edit Permissions",
+            "remove": "Remove User"
+        },
+        "edit-authorized-user": {
+            "title": "Edit %s",
+            "access-lab": "Access lab (always granted)",
+            "manage-door": "Lock/unlock door",
+            "view-camera": "View security camera",
+            "manage-users": "Add or remove authorized users"
+        }
+    },
+    "player-data": {
+        "level-title": "Cocaine | Level %s/%s",
+        "level-desc": "You currently have %sXP",
+        "stats-title": "Lifetime Statistics",
+        "stats-desc": "View your lifetime cocaine statistics",
+        "meta-next-level": "Next Level",
+        "meta-remainder": "Remainder",
+        "meta-maxed-level": "Maxed Level Reached"
+    },
+    "stats-menu": {
+        "main-title": "Lifetime Statistics",
+        "leaves-title": "Leaves",
+        "leaves-desc": "You've harvested a total of %s coca leaves",
+        "grown-title": "Plants",
+        "grown-desc": "You've grown a total of %s coca plants",
+        "cement-title": "Cement",
+        "cement-desc": "You've collected a total of %s cement bags",
+        "bricks-title": "Bricks",
+        "bricks-desc": "You've produced a total of %s bricks"
+    },
+    "table-menu": {
+        "main-title": "Cocaine",
+        "production-title": "Production",
+        "production-desc": "Start producing a batch of coke",
+        "in-progress-title": "In Progress",
+        "in-progress-desc": "Time remaining until completion - %s minute(s)",
+        "take-product-title": "Take Product",
+        "take-product-desc": "Take the product from the table",
+        "process-leaves-title": "Process Leaves",
+        "process-leaves-desc": "Begin processing coca leaves",
+        "add-gas-title": "Add Gasoline",
+        "add-gas-desc": "Add gasoline to processed leaves",
+        "add-cement-title": "Add Cement",
+        "add-cement-desc": "Add cement to the coca base",
+        "start-heat-title": "Heat & Dry",
+        "start-heat-desc": "Heat and dry the coca base",
+        "cook-coke-title": "Cook Coke",
+        "cook-coke-desc": "Optionally cook the coke further to make crack",
+        "cut-brick-title": "Cut Brick",
+        "cut-brick-desc": "Optionally cut the brick with Baking Soda for more",
+        "package-title": "Package",
+        "package-desc": "Break down a brick into smaller baggies",
+        "packup-title": "Pack Up",
+        "packup-desc": "Pack everything up and move this table"
+    },
+    "plant-menu": {
+        "main-title": "Coca Plant",
+        "water-title": "Water",
+        "water-desc": "Current water level - %.1f%% (Click here to water)",
+        "fertilizer-title": "Fertilizer",
+        "fertilizer-desc": "Current hunger level - %.1f%% (Click here to feed)",
+        "growth-title": "Growth",
+        "growth-desc": "Current growth level - %.1f%%",
+        "yield-title": "Yield",
+        "yield-desc": "Current max yield potential - %.1f%%",
+        "destroy-title": "Destroy",
+        "destroy-desc": "Irreversibly destroy this plant",
+        "harvest-title": "Harvest",
+        "harvest-desc-not-ready": "Harvesting is only available at 100% growth",
+        "harvest-desc-ready": "You can now harvest this plant"
+    },
+    "lab-shop-menu": {
+        "main-title": "Lab Availability",
+        "confirm-title": "Confirm Purchase",
+        "lab-title": "Purchase for $%s",
+        "confirm-purchase-title": "Yes",
+        "confirm-purchase-desc": "Confirm warehouse purchase for $%s",
+        "cancel-purchase-title": "No",
+        "cancel-purchase-desc": "Cancel purchase and go back to selection",
+        "set-waypoint-title": "Set Waypoint",
+        "set-waypoint-desc": "Set a waypoint to see where this warehouse is"
+    },
+    "manage-lab-menu": {
+        "main-title": "Manage Lab",
+        "manage-security-title": "Security",
+        "manage-security-desc": "Manage the security of your lab",
+        "upgrade-equipment-title": "Upgrade Equipment",
+        "upgrade-equipment-desc": "Upgrade your lab equipment",
+        "install-security-title": "Install Security",
+        "install-security-desc": "Add security equipment to your lab",
+        "upgrade-pending-title": "Upgrade Pending",
+        "upgrade-pending-desc": "Est. time remaining until completed - %sm %ss",
+        "ownership-title": "Ownership",
+        "ownership-desc": "Manage ownership of your lab"
+    },
+    "manage-security-menu": {
+        "main-title": "Manage Security",
+        "doorlock-title": "Door Status",
+        "doorlock-desc": "The door is currently %s",
+        "create-passcode-title": "Create Passcode",
+        "create-passcode-desc": "Add a unique passcode to access stash(es)",
+        "change-passcode-title": "Change Passcode",
+        "change-passcode-desc": "Change the passcode to access stash(es)",
+        "remove-passcode-title": "Remove Passcode",
+        "remove-passcode-desc": "Remove the passcode to access stash(es)",
+        "authorized-users-title": "Authorized Users",
+        "authorized-users-desc": "Manage who has access to your lab",
+        "security-camera-title": "View Camera",
+        "security-camera-desc": "View the security camera feed"
+    },
+    "manage-authorized-users-menu": {
+        "main-title": "Authorized Users",
+        "add-user-title": "Add User",
+        "add-user-desc": "Add a player to the authorized users list",
+        "manage-user-desc": "Click to manage this user's access"
+    },
+    "manage-ownership-menu": {
+        "main-title": "Manage Ownership",
+        "transfer-owner-title": "Transfer",
+        "transfer-owner-desc": "Transfer the ownership of this lab",
+        "sell-lab-title": "Sell",
+        "sell-lab-desc": "Sell this building to the state"
+    },
+    "shop-menu": {
+        "title": "Rusty's Shop",
+        "desc": "Purchase %s for $%s"
+    },
+    "dispatch": {
+        "cement": {
+            "title": "Theft Reported",
+            "code": "10-31",
+            "message": "An anonymous caller has reported a theft in progress near %s"
+        },
+        "cooking-table": {
+            "title": "Suspicious Area",
+            "code": "10-87",
+            "message": "An anonymous called has reported suspicious activity near %s"
+        },
+        "cooking-lab": {
+            "title": "Strong Odor",
+            "code": "10-87",
+            "message": "An anonymous called has reported a strong chemical odor near %s"
+        }
+    },
+    "logs": {
+        "leaves-harvested-title": "Coca Leaves",
+        "leaves-harvested-message": "%s (identifier: %s) has harvested x%d %s",
+        "cement-collected-title": "Cement Collected",
+        "cement-collected-message": "%s (identifier: %s) has collected x%d %s",
+        "table-placed-title": "Table Placed",
+        "table-placed-message": "%s (identifier: %s) has placed a table down at %s (tableId: %s)",
+        "table-brick-title": "Brick Collected",
+        "table-brick-message": "%s (identifier: %s) has collected a cocaine brick (tableId: %s)",
+        "table-packaged-title": "Brick Packaged",
+        "table-packaged-message": "%s (identifier: %s) has packaged a cocaine brick into %s baggies (tableId: %s)",
+        "table-removed-title": "Table Removed",
+        "table-removed-message": "%s (identifier: %s) has picked up a table (tableId: %s)",
+        "lab-purchase-title": "Lab Purchased",
+        "lab-purchase-message": "%s (identifier: %s) has purchased a lab (labId: %s) for $%s",
+        "lab-brick-title": "Brick Collected",
+        "lab-brick-message": "%s (identifier: %s) has collected a cocaine brick (labId: %s, stationId: %s)",
+        "lab-packaged-title": "Brick Packaged",
+        "lab-packaged-message": "%s (identifier: %s) has packaged a %s into x%s baggies (labId: %s, stationId: %s)",
+        "lab-upgrade-title": "Lab Upgraded",
+        "lab-upgrade-message": "Lab (labId: %s) has completed an upgrade",
+        "lab-door-title": "Lab Door",
+        "lab-door-message": "%s (identifier: %s) has %s the lab (labId: %s) door",
+        "lab-transfer-title": "Lab Ownership Transfer",
+        "lab-transfer-message": "%s (identifier: %s) has transferred ownership of lab (labId: %s) to %s (identifier: %s)",
+        "lab-sold-title": "Lab Sold",
+        "lab-sold-message": "%s (identifier: %s) has sold their lab (labId: %s) to the state for $%s"
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "error": {
+    "cannot_use_kit_here": "No puedes usar este kit aquí..",
+    "already_hacked": "Este sistema ya ha sido hackeado..",
+    "still_active": "El sistema de seguridad sigue activo..",
+    "fully_lockdown": "El sistema de seguridad se ha bloqueado completamente..",
+    "automatic_pressure_active": "Los reguladores automáticos de presión están activos..",
+    "automatic_pressure_active2": "La regulación automática de la presión sigue activa..",
+    "pressure_too_low": "La presión ha bajado demasiado y ha bloqueado el equipo..",
+    "incorrect_pass": "Contraseña incorrecta",
+    "how_did_you_get": "¡Vaya, cómo has llegado aquí?!",
+    "not_enough_cops": "No hay suficientes policías..",
+    "already_have_barrel": "Ya tienes un barril..",
+    "trying_to_exploit": "¿Intentando explotar, eh?!",
+    "pressure_too_high": "¡La presión es demasiado alta! ¡Corre!!",
+    "cannot_hack_right_now": "No puedes hackear esto ahora mismo..",
+    "pressure_not_right_yet": "La presión aún no es la correcta..",
+    "no_pink_usb_dongle": "No tienes un Dongle USB rosa..",
+    "no_laptop": "No tienes una computadora portátil rosa..",
+    "cant_do_right_now": "No se puede hacer esto ahora mismo..",
+    "wrong_lever_sequence": "Has tirado de las palancas en el orden incorrecto.."
+  },
+  "success": {
+    "out_to_sea": "Has viajado lejos mar adentro..",
+    "pressure_at": "Necesitas la presión alrededor del 55%",
+    "pressure_at_2": "Una vez que la presión sea la correcta, necesitas hackear ciertas áreas..",
+    "automatic_pressure_deactive": "Reguladores automáticos de presión desactivados..",
+    "took_barrel": "Has tomado el barril lleno de petróleo..",
+    "pulled_lever": "Palanca accionada",
+    "current_pressure": "La lectura de presión actual es:",
+    "security_system_override": "Inicio de la anulación del sistema de seguridad..",
+    "find_levers_to_deactivate_pressure": "Debes encontrar palancas para desactivar los reguladores de presión.."
+  },
+  "letters": {
+    "hidden_letter": "La letra oculta es",
+    "first_hidden_letter": "La primera letra oculta es",
+    "second_hidden_letter": "La segunda letra oculta es",
+    "third_hidden_letter": "La tercera letra oculta es",
+    "fourth_hidden_letter": "La cuarta letra oculta es"
+  },
+  "menu": {
+    "input_password": "Introduce una contraseña de 4 letras:",
+    "submit_Text": "Enviar",
+    "uppercase_only": "Solo mayúsculas",
+    "sell_barrel": "Vender barril a esta gasolinera",
+    "going_price": "Precio actual aquí:"
+  },
+  "prints": {
+    "cooldown_started": "PLATAFORMA PETROLERA: Inicio del enfriamiento",
+    "cooldown_finished": "PLATAFORMA PETROLERA: Fin del enfriamiento"
+  },
+  "target": {
+    "grab_barrel": "Coger barril",
+    "sell_barrel": "Vender barril de petróleo",
+    "pull_lever_1": "Tirar de la palanca n.º 1",
+    "pull_lever_2": "Tirar de la palanca n.º 2",
+    "pull_lever_3": "Tirar de la palanca n.º 3",
+    "insert_dongle": "Insertar dongle USB",
+    "increase_pressure": "Aumentar presión",
+    "lower_pressure": "Disminuir presión",
+    "check_pressure": "Comprobar presión",
+    "enter_password": "Introducir contraseña",
+    "loot_body": "Saquear",
+    "hack_password": "Hackear contraseña"
+  },
+  "progress": {
+    "reviving": "Reviviendo..",
+    "selling": "Vendiendo..",
+    "turning_valve": "Girando válvula..",
+    "pickup_barrel": "Recogiendo barril.."
+  }
+}

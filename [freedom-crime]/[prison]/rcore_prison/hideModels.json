@@ -1,0 +1,72 @@
+[
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "z": 45.12,
+            "x": 1627.38,
+            "y": 2584.98
+        },
+        "model": "prop_fnclink_10e",
+        "distance": 0.01
+    },
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "z": 45.12,
+            "x": 1622.38,
+            "y": 2585.98
+        },
+        "model": "prop_fnclink_10d",
+        "distance": 0.01
+    },
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "x": 1617.107,
+            "y": 2585.720,
+            "z": 45.564
+        },
+        "model": "prop_fnclink_10d",
+        "distance": 0.0001
+    },
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "x": 1617.5469970703,
+            "y": 2583.2800292969,
+            "z": 44.288635253906
+        },
+        "model": 1976339873,
+        "distance": 0.0001
+    },
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "x": 1609.4256591797,
+            "y": 2526.3557128906,
+            "z": 44.288635253906
+        },
+        "model": 1976339873,
+        "distance": 0.0001
+    },
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "x": 1610.4254150391,
+            "y": 2523.7846679688,
+            "z": 44.288635253906
+        },
+        "model": 1976339873,
+        "distance": 0.0001
+    },
+    {
+        "resource": "cfx_prompt_Bolingbroke_Prison_Interiors",
+        "pos": {
+            "x": 1612.4935302734,
+            "y": 2521.9790039062,
+            "z": 44.288635253906
+        },
+        "model": 1976339873,
+        "distance": 0.0001
+    }
+]

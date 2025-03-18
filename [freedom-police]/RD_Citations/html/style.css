@@ -1,0 +1,539 @@
+body {
+    background: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.main {
+    width: 358px;
+    height: 887px;
+    position: absolute;
+    transform: translate(0%, -50%);
+    top: 50%;
+    right: 50px;
+}
+
+.main>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.main>.title {
+    width: 80%;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main>.sub_title {
+    width: 80%;
+    position: absolute;
+    top: 47px;
+    left: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main>input {
+    height: 32px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    padding-left: 10px;
+}
+
+.main>.half_input {
+    width: 152px;
+}
+
+.main>.full_input {
+    width: 302px;
+}
+
+.main>.left {
+    left: 27px;
+}
+
+.main>.right {
+    right: 29px;
+}
+
+.main>#citation_id {
+    position: absolute;
+    top: 88px;
+    left: 97px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main>#sus_firstname {
+    top: 122px;
+    width: 150px;
+}
+
+.main>#sus_lastname {
+    top: 122px;
+}
+
+.main>#date {
+    top: 168px;
+}
+
+.main>#postal {
+    top: 168px;
+    width: 150px;
+}
+
+.main>#street {
+    top: 217px;
+}
+
+.main>.plate_input {
+    width: 38px;
+    top: 267px;
+    text-align: center;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+.main>#plate_1 {
+    left: 27px;
+}
+
+.main>#plate_2 {
+    left: 65px;
+}
+
+.main>#plate_3 {
+    left: 103px;
+}
+
+.main>#plate_4 {
+    left: 141px;
+}
+
+.main>#plate_5 {
+    left: 180px;
+}
+
+.main>#plate_6 {
+    left: 218px;
+}
+
+.main>#plate_7 {
+    width: 37px;
+    left: 256px;
+}
+
+.main>#plate_8 {
+    width: 35px;
+    left: 294px;
+}
+
+.main>#veh_make {
+    width: 95px;
+    top: 316px;
+    left: 27px;
+}
+
+.main>#veh_color {
+    width: 116px;
+    top: 316px;
+    left: 122px;
+}
+
+.main>#veh_type {
+    width: 91px;
+    top: 316px;
+    left: 238px;
+}
+
+.main>#officer_name {
+    width: 211px;
+    top: 365px;
+    left: 27px;
+}
+
+.main>#officer_badge {
+    width: 91px;
+    top: 365px;
+    left: 238px;
+}
+
+.main>#agency {
+    top: 413px;
+}
+
+.main>.vio_code {
+    width: 105px;
+}
+
+.main>.vio_title {
+    width: 196px;
+}
+
+.main>.vio_1 {
+    top: 463px;
+}
+
+.main>.vio_2 {
+    top: 512px;
+}
+
+.main>.vio_3 {
+    top: 561px;
+}
+
+.main>#amount {
+    position: absolute;
+    top: 607px;
+    left: 155px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.main>.sign_input {
+    top: 661px;
+    font-family: signatur;
+}
+
+.main>#sus_sign {
+    width: 150px;
+}
+
+.main>#comments {
+    width: 302px;
+    height: 67px;
+    position: absolute;
+    top: 707px;
+    left: 27px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    resize: none;
+}
+
+.main>#citation_info {
+    width: 292px;
+    position: absolute;
+    left: 32px;
+    top: 777px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.main>#suggest_scroll {
+    width: 302px;
+    height: 60px;
+    max-height: 155px;
+    position: absolute;
+    left: 27px;
+    top: 154px;
+    overflow: scroll;
+}
+
+.main>#suggest_scroll>div {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    background-color: rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.main>#suggest_scroll>div:hover {
+    background-color: rgb(20, 98, 187);
+}
+
+.main>#suggest_scroll>div>h1 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.main>button {
+    bottom: 10px;
+    background-color: rgb(0, 144, 2);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: absolute;
+    height: 30px;
+}
+
+.main>button:hover {
+    background-color: rgb(0, 97, 2);
+}
+
+.main>#scan_btn {
+    width: 302px;
+    left: 27px;
+}
+
+.main>#print_btn {
+    width: 94px;
+    left: 27px;
+}
+
+.main>#pay_cash_btn {
+    width: 94px;
+    left: 131px;
+}
+
+.main>#pay_bank_btn {
+    width: 94px;
+    left: 235px;
+}
+
+.main>#paid_icon {
+    width: 358px;
+    height: 239px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+@font-face {
+    font-family: signatur;
+    src: url(fonts/BrittanySignature-LjyZ.otf);
+}
+
+#mycitationsmenu {
+    width: 450px;
+    height: 750px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(25, 25, 25);
+    border-radius: 20px;
+    border: 2px solid rgb(23, 52, 200);
+}
+
+#mycitationsmenu>.title {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    top: 10px;
+    left: 50%;
+    color: rgb(220, 220, 220);
+    font-size: 25px;
+}
+
+#mycitationsmenu>.scroll {
+    width: 400px;
+    height: 674px;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 51px;
+    overflow-y: scroll;
+}
+
+#mycitationsmenu>.scroll>.host {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: rgb(53, 56, 89);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#mycitationsmenu>.scroll>.host:hover {
+    background-color: rgb(33, 34, 51);
+}
+
+#mycitationsmenu>.scroll>.host>.name {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    top: 9px;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#mycitationsmenu>.scroll>.host>.hl {
+    height: 1px;
+    position: absolute;
+    background-color: rgb(103, 103, 103);
+}
+
+#mycitationsmenu>.scroll>.host>.hl_1 {
+    width: 350px;
+    top: 34px;
+    left: 25px;
+}
+
+#mycitationsmenu>.scroll>.host>.chargeshost {
+    width: 350px;
+    height: 68px;
+    position: absolute;
+    top: 41px;
+    left: 25px;
+    overflow: hidden;
+}
+
+#mycitationsmenu>.scroll>.host>.chargeshost>h1 {
+    position: relative;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+#mycitationsmenu>.scroll>.host>.hl_2 {
+    width: 350px;
+    bottom: 34px;
+    left: 25px;
+}
+
+#mycitationsmenu>.scroll>.host>.price {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    bottom: 9px;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+
+
+#controlpanel {
+    width: 450px;
+    height: 750px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(25, 25, 25);
+    border-radius: 20px;
+    border: 2px solid rgb(23, 52, 200);
+}
+
+#controlpanel>#citations_search {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    top: 10px;
+    left: 50%;
+    color: rgb(220, 220, 220);
+    font-size: 18px;
+    border-bottom: 2px solid rgb(23, 52, 200);
+    outline: none;
+}
+
+#controlpanel>.scroll {
+    width: 400px;
+    height: 683px;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 42px;
+    overflow-y: scroll;
+}
+
+#controlpanel>.scroll>.host {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: rgb(53, 56, 89);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#controlpanel>.scroll>.host:hover {
+    background-color: rgb(33, 34, 51);
+}
+
+#controlpanel>.scroll>.host>.name {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    top: 9px;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#controlpanel>.scroll>.host>.hl {
+    height: 1px;
+    position: absolute;
+    background-color: rgb(103, 103, 103);
+}
+
+#controlpanel>.scroll>.host>.hl_1 {
+    width: 350px;
+    top: 34px;
+    left: 25px;
+}
+
+#controlpanel>.scroll>.host>.chargeshost {
+    width: 350px;
+    height: 68px;
+    position: absolute;
+    top: 41px;
+    left: 25px;
+    overflow: hidden;
+}
+
+#controlpanel>.scroll>.host>.chargeshost>h1 {
+    position: relative;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+#controlpanel>.scroll>.host>.hl_2 {
+    width: 350px;
+    bottom: 34px;
+    left: 25px;
+}
+
+#controlpanel>.scroll>.host>.price {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    bottom: 9px;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#controlpanel>.scroll>.host>.status {
+    width: 350px;
+    height: 3px;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    bottom: -3px;
+    left: 50%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(0, 144, 2);
+}
+
+#controlpanel>.scroll>.host>.green {
+    background-color: rgb(0, 144, 2);
+}
+
+#controlpanel>.scroll>.host>.red {
+    background-color: rgb(144, 0, 2);
+}

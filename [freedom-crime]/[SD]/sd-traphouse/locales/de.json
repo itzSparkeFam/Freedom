@@ -1,0 +1,38 @@
+{
+  "error": {
+    "failed_hack": "Du bist gescheitert!",
+    "missing_required_item": "Dir fehlt etwas.",
+    "cooldown_active": "Das wurde kürzlich gemacht.",
+    "not_enough_cops": "Das kannst du gerade nicht tun.",
+    "failed_interaction": "Interaktion fehlgeschlagen!"
+  },
+  "success": {},
+  "prints": {
+    "cooldown_started": "Traphouse: Abklingzeit gestartet",
+    "cooldown_finished": "Traphouse: Abklingzeit beendet"
+  },
+  "target": {
+    "loot_body": "Leiche plündern",
+    "unlock_front_door": "Vordertür aufschließen"
+  },
+  "progress": {
+    "lockpicking": "Alle Schlüssel ausprobieren..",
+    "collecting": "Sammeln..",
+    "cracking_vault": "Tresor knacken.."
+  },
+  "objects": {
+    "grab_money": "Geld nehmen",
+    "grab_package": "Paket nehmen",
+    "grab_weapon": "Waffe nehmen",
+    "grab_coke_baggy": "Coke-Beutel nehmen",
+    "crack_open_vault": "Tresor öffnen",
+    "grab_document": "Ordner nehmen",
+    "grab_coke_brick": "Coke-Ziegel nehmen",
+    "grab_cash": "Bargeld nehmen",
+    "grab_statue": "Statue nehmen",
+    "grab_gold": "Gold nehmen",
+    "grab_gold_bar": "Goldbarren nehmen",
+    "grab_watch": "Uhr nehmen",
+    "grab_bat": "Schläger nehmen"
+  }
+}

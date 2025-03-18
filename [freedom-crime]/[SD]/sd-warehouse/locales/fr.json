@@ -1,0 +1,30 @@
+{
+  "error": {
+    "canceled": "Annulé..",
+    "you_failed": "Vous avez échoué !",
+    "no_equipment": "Vous n'avez pas l'équipement requis.",
+    "get_to_safe": "Mettez-vous à l'abri !",
+    "no_cops": "Pas assez de policiers !",
+    "recently_robbed": "Cet endroit a été récemment cambriolé !"
+  },
+  "success": {
+    "locks_disabled": "Les verrous électroniques ont été désactivés ! Entrez par la porte 1",
+    "locks_enabled": "Vous avez verrouillé toutes les entrées..",
+    "doors_unlocked": "Toutes les sorties sont maintenant déverrouillées !"
+  },
+  "prints": {
+    "cooldown_started": "ENTREPÔT : Refroidissement commencé",
+    "cooldown_finished": "ENTREPÔT : Refroidissement terminé"
+  },
+  "target": {
+    "loot_crate": "Caisse de butin",
+    "loot_guard": "Garde du Butin",
+    "enter_warehouse": "Entrer dans l'entrepôt",
+    "leave_warehouse": "Quitter l'entrepôt",
+    "enable_locks": "Activer les verrous",
+    "disable_locks": "Désactiver les verrous"
+  },
+  "progress": {
+    "looting_crate": "Pillage de la caisse.."
+  }
+}

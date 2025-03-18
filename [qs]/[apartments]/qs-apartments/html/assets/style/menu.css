@@ -1,0 +1,690 @@
+/* Style for decorate subelement menu */
+
+/* Container for menu */
+.decorate .menubar {
+    position: fixed;
+    bottom: 14vw;
+    left: 0;
+
+    transition: height 0.211s ease-in-out;
+    overflow: hidden;
+
+    border-radius: 0 1vw 1vw 0;
+
+    width: 24.75vw;
+    height: 3vw;
+
+    background:var(--color-ffffff8a);
+} 
+
+:has(.box:not(.selected):not(.stash):hover) .menubar,
+.decorate .menubar.active {
+    height: min(27vw, 100vh - 17vw);
+}
+
+/* CSS for mainbar */
+.menubar .mainbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3vw;
+}
+
+/* Search */
+.mainbar-searchbar {
+    position: absolute;
+    background-color: var(--color-ffffff);
+    bottom: 0.5vw;
+    left: 0.25vw;
+
+    outline: none;
+    border: none;
+    border-radius: 1.05vw;
+
+    width: 12.25vw;
+    height: 1.5vw;
+    
+    padding: 0.25vw 0.5vw;
+    
+    font-size: 0.85vw;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.mainbar-searchbtn {
+    position: absolute;
+    z-index: auto;
+
+    top: 50%;
+    left: 14.25vw;
+
+    transform: translateY(-50%);
+    filter: drop-shadow(0px 0px 3px var(--color-000000e6));
+    height: 1.5vw;
+
+    cursor: pointer;
+    
+    stroke: var(--color-ffffff); 
+    stroke-width: 10%;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Button */
+.mainbar-helpbtn {
+    position: absolute;
+    z-index: auto;
+
+    top: 50%;
+    left: 16.5vw;
+
+    transform: translateY(-50%);
+
+    height: 1.35vw;
+    filter: drop-shadow(0px 0px 3px var(--color-000000e6));
+    cursor: pointer;
+
+    stroke: var(--color-ffffff);
+    stroke-width: 10%;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.mainbar-settingsbtn {
+    position: absolute;
+    z-index: auto;
+    
+    top: 50%;
+    left: 18.75vw;
+    filter: drop-shadow(0px 0px 3px var(--color-000000e6));
+    transform: translateY(-50%);
+
+    width: 1.25vw;
+    height: 1.25vw;
+
+    cursor: pointer;
+
+    fill: var(--color-ffffff);
+}
+.mainbar-darkmodebtn {
+    position: absolute;
+    z-index: auto;
+    filter: drop-shadow(0px 0px 3px var(--color-0000001a));
+    top: 50%;
+    left: 20.65vw;
+
+    transform: translateY(-50%);
+
+    width: 1.35vw;
+    height: 1.35vw;
+
+    cursor: pointer;
+
+    fill: var(--color-ffffff);
+}
+
+.mainbar-closebtn {
+    position: absolute;
+    z-index: auto;
+
+    top: 50%;
+    left: 22.25vw;
+    filter: drop-shadow(0px 0px 3px var(--color-000000e6));
+    transform: translateY(-50%);
+
+    height: 1.5vw;
+
+    cursor: pointer;
+    
+    stroke: var(--color-ffffff); 
+    stroke-width: 10%;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Infobox */
+/* Container for infobox */
+.menubar .infobox {
+    overflow: hidden;
+
+    opacity: 0;
+    transition: opacity 0.211s ease-in-out;
+
+
+    position: absolute;
+    bottom: 3vw;
+    left: 0;
+    
+    width: 22.75vw;
+    height: min(22vw, 100vh - 22vw);
+
+    padding: 1vw 0;
+
+    color: var(--color-002b53-white);
+}
+
+:not(:has(.box:not(.selected):not(.stash):hover)) .menubar.active .infobox {
+    opacity: 1;
+}
+
+:has(.box:not(.selected):hover) .menubar:not(.active) .infobox {
+    display: none;
+}
+
+/* Infobox Title */
+.infobox-title {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    height: 3.5vw;
+
+    font-size: 3vw;
+    font-family: 'Sims';
+}
+
+/* Infobox Content */
+.infobox-content {
+    padding: 1vw;
+    height: min(17.5vw, 100vh - 24.5vw);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+.infobox-content::-webkit-scrollbar {
+    display: block;
+
+    width: 0.75vw;
+}
+  
+.infobox-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.infobox-content::-webkit-scrollbar-thumb {
+    border-radius: 1vw;
+    height: 1vw;
+
+    background: var(--color-ffffff); 
+}
+  
+.infobox-content::-webkit-scrollbar-thumb:hover {
+    background: var(--color-ffffff);
+}
+
+/* Infobox Item */
+/* Help */
+.helpbox-description {
+    margin: 0;
+    font-size: 1.3vw;
+}
+
+.helpbox-list {
+    margin: 0;
+    margin-top: 0.5vw;
+    padding: 0 1.25vw;
+}
+
+.helpbox-list-item {
+    font-size: 0.8vw;
+}
+
+/* Settings */
+.settingsbox-description {
+    margin: 0;
+    font-size: 1.3vw;
+}
+
+.settingsbox-container {
+    margin: 0.5vw;
+}
+
+.settingsbox-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settingsbox-slider-label {
+    font-size: 1.3vw;
+}
+
+.settingsbox-slider-range {
+    display: inline-flex;
+
+    margin: 0;
+    border-radius: 1vw;
+
+    width: 10vw;
+    height: 0.4vw;
+
+    background: ease-in-out-gradient(90deg, var(--color-002b53) 50%, var(--color-ffffff) 50%);
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.settingsbox-slider-range::-webkit-slider-thumb {
+    border-radius: 50%;
+
+    width: 0.7vw;
+    height: 0.7vw; 
+
+    background-color:var(--color-002b53); 
+
+    -webkit-appearance: none;
+}
+
+/* Selected */
+.selectedbox-description {
+    margin: 0;
+
+    font-size: 1.3vw;
+    hyphens: auto;
+}
+
+/* Color */
+.selectedbox-color {
+    margin: 0.75vw 0;
+    padding: 0.5vw 0;
+}
+
+.selectedbox-color-label {
+    font-size: 1vw;
+}
+
+.selectedbox-color-current {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    transition: border-radius 0.2s ease-in-out;
+
+    box-shadow: 0 0 0.5vw var(--color-00000010);
+
+    border-radius: 0.5vw;
+
+    height: 1vw;
+    padding: 0.5vw 1vw;
+
+    cursor: pointer;
+    background: var(--color-ffffff);
+}
+
+.selectedbox-color-container { 
+    position: relative;
+}
+
+.selectedbox-color:hover .selectedbox-color-current:has(.selectedbox-color-current-svg) {
+    border-radius: 0.5vw 0.5vw 0 0;
+}
+
+.selectedbox-color-current-label {
+    font-size: 1vw;
+    color: var(--color-000000);
+}
+
+.selectedbox-color-current-svg {
+    height: 1vw;
+    fill: var(--color-000000);
+}
+
+.selectedbox-color-dropdown {
+    position: absolute;
+
+    display: grid;
+    gap: 0.5vw;
+
+    overflow: hidden;
+
+    transition: all 0.2s ease-in-out;
+
+    border-radius: 0 0 0.5vw 0.5vw;
+    border-top: 0vw var(--color-0000000f) solid;
+
+    width: 20.75vw;
+    max-height: 0;
+
+    background: var(--color-ffffff);
+}
+
+
+.selectedbox-color:hover .selectedbox-color-dropdown {
+    border-top-width: 0.1vw;
+    max-height: 5.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.selectedbox-color-dropdown-color {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    cursor: pointer;
+}
+
+.selectedbox-color-dropdown:has(> :nth-child(4)) {
+    overflow-y: scroll;
+}
+
+.selectedbox-color-dropdown:has(> :nth-child(4)) .selectedbox-color-dropdown-color {
+    margin-right: 0.5vw;
+}
+
+.selectedbox-color-dropdown-color-label {
+    font-size: 1vw;
+    color: var(--color-000000);
+}
+
+.selectedbox-color-dropdown-color-specifications {
+    gap: 0.5vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.selectedbox-color-dropdown-color-price {
+    font-size: 0.8vw;
+    color: var(--color-000000);
+}
+
+.selectedbox-color-dropdown-color-type {
+    width: 0.8vw;
+}
+
+/* Dropdown scroll */
+.selectedbox-color-dropdown::-webkit-scrollbar {
+    display: block;
+
+    width: 0.5vw;
+}
+  
+.selectedbox-color-dropdown::-webkit-scrollbar-track {
+    background: transparent;
+    border-bottom-right-radius: 0.5vw;
+    border-left: 0.1vw solid var(--color-0000000f);
+}
+
+.selectedbox-color-dropdown::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 1vw var(--color-00000048);
+    border-radius: 0.5vw;
+    height: 1vw;
+
+    background: rgba(0, 0, 0, 0.95); 
+}
+  
+.selectedbox-color-dropdown::-webkit-scrollbar-thumb:hover {
+    background: var(--color-000000);
+}
+
+
+/* Editmode */
+.selectedbox-editmode {
+    display: grid;
+    gap: 0.5vw;
+
+    box-sizing: 0 0 1vw #00000030;
+
+    margin: 0.5vw 0;
+    border-radius: 0.5vw;
+
+    padding: 0.5vw;
+
+    background: #2cb3d7;
+}
+
+.selectedbox-editmode-label {
+    font-size: 1vw;
+    font-family: system-ui;
+    font-weight: 100;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-ffffff);
+}
+
+.selectedbox-editmode-container {
+    display: flex;
+    gap: 0.35vw;
+}
+
+.selectedbox-editmode-button {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    outline: none;
+    border: 0.1vw transparent solid;
+    border-radius: 0.25vw;
+
+    width: 100%;
+    height: 1.5vw;
+
+    cursor: pointer;
+
+    font-size: 0.8vw;
+    color: var(--color-002b53);
+
+    transition: all 0.2s ease-in-out;
+}
+
+.selectedbox-editmode-button:hover {
+    border: 0.1vw #2cb3d7 solid;
+}
+
+.selectedbox-editmode-button.active {
+    background-color: #d8d8d8;
+}
+
+/* Buy */
+.selectedbox-buybutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 1vw var(--color-00000040);
+
+    border: none;
+    border-radius: 0.5vw;
+
+    margin-bottom: 0.5vw;
+
+    width: 100%;
+    height: 2vw;
+
+    background: var(--color-002b53ed);
+
+    cursor: pointer;
+
+    font-size: 1vw;
+    font-family: system-ui;
+    font-weight: 100;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-ffffff-dark);
+}
+
+/* Type */
+.selectedbox-type {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1vw;
+
+    width: 1vw;
+    height: 1vw;
+
+    padding: 0.25vw;
+
+    background: var(--color-002b53-white);
+    fill: var(--color-ffffff-dark);
+}
+
+.selectedbox-type-svg { 
+    fill: var(--color-ffffff-dark);
+}
+
+.selectedbox-type-tooltip {
+    position: absolute;
+    top: 2vw;
+    right: -0.5vw;
+
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+
+    border-radius: 0.5vw;
+
+    width: max-content;
+    padding: 0.25vw 0.5vw;
+
+    background: var(--color-002b53-white);
+    box-shadow: 0 0 1vw var(--color-00000040);
+    
+    font-size: 1vw;
+    font-family: monospace;
+    font-weight: 100;
+    color: var(--color-ffffff);
+}
+
+.selectedbox-type-tooltip::before {
+    content: "";
+    position: absolute;
+    top: -0.4vw;
+    right: 0.75vw;
+    display: block;
+    transform: translateY(-50%) rotate(90deg);
+    transition: opacity 0.1s ease-in-out;
+    border: 0.5vw solid var(--color-002b53);
+    border-color: transparent var(--color-002b53) transparent transparent;
+}
+
+.selectedbox-type:hover .selectedbox-type-tooltip {
+    opacity: 1;
+}
+
+/* Hover */
+.itemhover {
+    position: fixed;
+    bottom: 17vw;
+    left: 0;
+
+    opacity: 0;
+    overflow: hidden;
+
+    transition: all 0.211s ease-in-out;
+
+    width: 22.75vw;
+    height: min(24vw, 100vh - 20vw);
+
+    pointer-events: none;
+}
+
+.itemhover-container {
+    position: absolute;
+    bottom: 0;
+
+    width: 22.75vw;
+    height: min(22vw, 100vh - 22vw);
+
+    padding: 1vw 0;
+
+    color: var(--color-002b53-white);
+}
+
+
+:has(.menubar:not(.active)):not(:has(.box:not(.selected):hover)) .itemhover {
+    height: 0;
+}
+
+.box:not(.selected):hover .itemhover {
+    opacity: 1;
+}
+
+/* Hover title */
+.itemhover-title {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    height: 3.5vw;
+
+    font-size: 3vw;
+    font-family: 'Sims';
+}
+
+/* Hover colors */
+.itemhover-colors {
+    position: absolute;
+    left: 1vw;
+
+    display: grid;
+    gap: 0.5vw;
+
+    overflow: hidden;
+
+    margin-top: 1vw;
+
+    border-top: 0vw var(--color-0000000f) solid;
+    border-radius: 0.5vw;
+
+    width: 20.75vw;
+    max-height: 11vw;
+
+    padding: 0.5vw 0;
+
+    background: var(--color-ffffff);
+}
+
+.itemhover-colors:has(> :nth-child(7)) {
+    overflow-y: scroll;
+}
+
+.itemhover-colors:has(> :nth-child(7)) .selectedbox-color-dropdown-color {
+    margin-right: 0.5vw;
+}
+
+/* Hover scroll */
+.itemhover-colors::-webkit-scrollbar {
+    display: block;
+
+    width: 0.5vw;
+}
+  
+.itemhover-colors::-webkit-scrollbar-track {
+    background: transparent;
+    border-bottom-right-radius: 0.5vw;
+    border-left: 0.1vw solid var(--color-0000000f);
+}
+
+.itemhover-colors::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 1vw var(--color-00000048);
+    border-radius: 0.5vw;
+    height: 1vw;
+
+    background: rgba(0, 0, 0, 0.95); 
+}
+  
+.itemhover-colors::-webkit-scrollbar-thumb:hover {
+    background: var(--color-000000);
+}
+

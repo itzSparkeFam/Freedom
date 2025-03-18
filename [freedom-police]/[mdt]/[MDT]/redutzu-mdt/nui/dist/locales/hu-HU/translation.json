@@ -1,0 +1,990 @@
+{
+    "navigation": {
+        "dashboard": "Főoldal",
+        "incidents": "Események",
+        "evidences": "Bizonyítékok",
+        "warrants": "Körözések",
+        "officers": "Rendőrök",
+        "bolos": "Megfigyelendő",
+        "dispatch": "Diszpécser",
+        "cameras": "Kamerák",
+        "citizens": "Polgárok",
+        "vehicles": "Járművek",
+        "houses": "Házak",
+        "weapons": "Fegyverek",
+        "codes": "Kódok",
+        "charges": "Büntetések",
+        "announcements": "Felhívások",
+        "config": "Konfiguráció",
+        "administration": "Adminisztráció",
+        "exit": "Kilépés"
+    },
+    "general": {
+        "close": "Bezárás",
+        "delete": "Törlés",
+        "male": "Férfi",
+        "female": "Nő",
+        "status": "Státusz",
+        "active": "Aktív",
+        "inactive": "Inaktív",
+        "information": "Információ",
+        "reason": "Indok",
+        "name": "Név",
+        "description": "Leírás",
+        "job": "Foglalkozás",
+        "grade": "Fokozat",
+        "callsign": "Hívójel",
+        "phone_number": "Telefonszám",
+        "dateofbirth": "Születési dátum",
+        "tag": "Cimke",
+        "house": "Ház",
+        "createdAt": "Létrehozva",
+        "expiresIn": "Lejárat",
+        "startedAt": "Kezdési időpont",
+        "startedOn": "Kezdési hely",
+        "registeredTo": "Bejegyezve",
+        "locatedAt": "Helyszín: {{street}}",
+        "save": "Véltoztatások mentése",
+        "duty": "Szolgálati státusz",
+        "on_duty": "Szolgálatban",
+        "off_duty": "Szolgálaton kívül",
+        "search": "Keresés",
+        "weapons": "Fegyverek",
+        "incidents": "Események",
+        "evidences": "Bizonyítékok",
+        "warrants": "Körözések",
+        "bolos": "Megfigyelendő",
+        "vehicles": "Járművek",
+        "houses": "Házak",
+        "no-results": "Nincs találat",
+        "gender": "Neme",
+        "location": "Helyszín",
+        "weapon": "Fegyver",
+        "fine": "Számlák",
+        "jail": "Börtön",
+        "vehicle": "Jármű",
+        "citizen": "Állampolgár",
+        "title": "Fejléc",
+        "cancel": "Mégse",
+        "continue": "Folytatás",
+        "notes": "Jegyzetek",
+        "code": "Kódok",
+        "position": "Pozíció",
+        "firstname": "Keresztnév",
+        "lastname": "Vezetéknév",
+        "fingerprint": "Ujjlenyomat",
+        "proceed": "Eljár",
+        "plate": "Rendszám",
+        "model": "Modell",
+        "insurance": "Biztosítás",
+        "owner": "Tulajdonos",
+        "owned": "Tulajdonában van",
+        "street": "Utca",
+        "prop": "Prop",
+        "none": "Semmi",
+        "no": "Nem",
+        "yes": "Igen",
+        "serial": "Azonosító szám",
+        "list": "Lista",
+        "create": "Léthozás",
+        "camera": "Kamera",
+        "link": "Link",
+        "pin": "Kitűz",
+        "unpin": "Kitűzés megszüntetése",
+        "page_of": " {{x}} lap a {{y}}-ból",
+        "backToSafety": "Vissza a biztonságba",
+        "coords": "Koordináták",
+        "expand-image": "Kép kiterjesztése",
+        "remove-image": "Kép törlése",
+        "zoomed-image": "Kép nagyítása",
+        "image-link": "Kép linkje",
+        "image-description": "Kép leírása",
+        "submit": "Küldés",
+        "placeholders": {
+            "citizens": "Állampolgár keresése",
+            "officers": "Rendőr keresése",
+            "vehicles": "Jármű keresése",
+            "incidents": "Esemény keresése",
+            "evidences": "Bizonyítés keresése",
+            "weapons": "Fegyverek keresése",
+            "weapon": "Fegyvere keresése",
+            "bolos": "Megfigyelendő keresése",
+            "archive": "Archivált bizonyítés keresése",
+            "warrants": "Körözés keresése",
+            "charges": "Büntetés keresése",
+            "codes": "Kód keresése",
+            "houses": "Ház keresése",
+            "announcements": "Felhívás keresése",
+            "recruits": "Újonc keresése",
+            "citizen": "Állampolgár keresése",
+            "vehicle": "Jármű keresése",
+            "owner": "Tulajdonos keresése",
+            "identifier": "Azonosító keresése",
+            "house": "Ház keresése",
+            "tag": "Cimke keresése",
+            "status": "Státusz keresése",
+            "license": "Engedély keresése",
+            "date": "Válassz dátumot",
+            "starting_date": "Válassz kezdési időpontot",
+            "expiring_date": "Válassz lejárati időpontot"
+        }
+    },
+    "templates": {
+        "incident": "Esemény #{id}",
+        "evidence": "Bizonyíték #{id}",
+        "warrant": "Körözés #{id}",
+        "bolo": "Megfigyelendő #{id}",
+        "vehicle": "{plate}"
+    },
+    "instructional": {
+        "press": "Nyomj",
+        "exit": "a kilépéshez"
+    },
+    "jobs": {
+        "police": "Rendőrség"
+    },
+    "licenses": {
+        "driver": "Jogosítvány",
+        "weapon": "Fegyvertartási engedély",
+        "business": "Vállalkozói engedély",
+        "hunting": "Vadászengedély"
+    },
+    "notification": {
+        "error": "Oops! Váratlan hiba történt.",
+        "create": "Sikeresen létrehoztad a feljegyzést!",
+        "update": "Sikeresen frissítetted a feljegyzést!",
+        "camera-connect": "Sikeresen csatlakoztál a kamerára!",
+        "bodycam-connect": "Sikeresen csatlakoztál a testkamerára!",
+        "existent-citizen": "Találtunk egyezést ezzel az azonosítóval!",
+        "existent-vehicle": "Találtunk egyezést ezzel a rendszámmal!",
+        "registered-citizen": "Sikeresen regisztráltad az Állampolgárt!",
+        "registered-vehicle": "Sikeresen regisztráltad a Járművet!",
+        "permission-changed": "Sikeresen megváltoztattad a jogosultságokat ehhez a ranghoz!",
+        "employee-fired": "Sikeresen elbocsájtottad az alkalmazottat!",
+        "employee-fire-error": "Nem rúghatsz ki magasabb rangú személyt, vagy magadat!",
+        "rank-changed": "Sikeresen megváltoztattad az alkalmazott rangját!",
+        "hire-citizen": "Sikeresen felvetted az Állampolgárt!",
+        "camera-created": "Sikeresen létrehoztál egy Kamera hozzáférést!",
+        "camera-deleted": "Sikeresen törölted a Kamera hozzáférést!",
+        "camera-toggled": "Megváltoztattad a kamera állapotát!",
+        "image-attached": "Új képet csatoltál a feljegyzéshez",
+        "remove-image": "Sikeresen törölted a képet a feljegyzésből",
+        "title": {
+            "created": "Feljegyzés elkészítve",
+            "updated": "Feljegyzés frissítve",
+            "error": "Nem várt hiba",
+            "camera-connect": "Kamera csatlakozva",
+            "bodycam-connect": "Testkamera csatlakozva",
+            "existent-citizen": "Létező személy",
+            "existent-vehicle": "Létező jármű",
+            "registered-citizen": "Állampolgár regisztrálva",
+            "registered-vehicle": "Jármű regisztrálva",
+            "permission-changed": "Hozzáférés megváltoztatva",
+            "employee-fired": "Alkalmazott elbocsájtva",
+            "rank-changed": "Rang megváltoztattva",
+            "hire-citizen": "Állampolgár felvéve",
+            "camera-created": "Kamera létrehozva",
+            "camera-deleted": "Kamera törölve",
+            "camera-toggled": "Kamera állapot megváltoztatva",
+            "image-attached": "Kép csatolva",
+            "remove-image": "Kép törölve"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Biztos vagy benne?",
+            "description": "A művelet nem visszavonható. Végleg törli a feljegyzést az adatbázisból.",
+            "citizen": "Biztos vagy benne, hogy törlöd az Állampolgárt a feljegyzésből?",
+            "officer": "Biztos vagy benne, hogy törlöd a rendőrt a feljegyzésből?",
+            "vehicle": "Biztos vagy benne, hogy törlöd a járművet a feljegyzésből?",
+            "incident": "Biztos vagy benne, hogy törlöd az eseményt a feljegyzésből?",
+            "evidence": "Biztos vagy benne, hogy törlöd a bizonyítékot a feljegyzésből?",
+            "warrant": "Biztos vagy benne, hogy törlöd a körözést a feljegyzésből?",
+            "bolo": "Biztos vagy benne, hogy törlöd a megfigyelendőt  feljegyzésből?",
+            "charge": "Biztos vagy benne, hogy törlöd a bírságot a feljegyzésből?",
+            "weapon": "Biztos vagy benne, hogy törlöd a fegyvert a feljegyzésből?",
+            "archive": "Biztos vagy benne, hogy törlöd az archív fájlt a feljegyzésből?"
+        },
+        "delete_alert": {
+            "title": "Biztos vagy benne, hogy törlöd a vészhívást?",
+            "description": "A művelet nem visszavonható. Végleg törli a vészhívást."
+        },
+        "delete-camera": {
+            "title": "Kamera törlése",
+            "description": "Biztos vagy benne, hogy törlöd a kamerát?"
+        },
+        "add-value": {
+            "title": "Új tétel hozzáadása",
+            "description": "Új tétel hozzáadása a listához."
+        },
+        "set_position": {
+            "title": "Megadod a helyzeted?",
+            "description": "Ezzel riasztást küldesz a helyzetedről az MDT rendszeren keresztűl."
+        },
+        "job": {
+            "title": "Foglalkozás választása",
+            "description": "Ezzel megadhatod a felhasználó foglalkozását és rangját"
+        },
+        "grant-license": {
+            "title": "Engedély kiadása",
+            "description": "Válaszd ki, milyen engedélyt állítasz ki az Állampolgárnak"
+        },
+        "suspend-license": {
+            "title": "Biztos vagy benne?",
+            "description": "Törölni akarod az engedélyt az Állampolgártól?"
+        },
+        "update-permission": {
+            "title": "Hozzáférés frissítése",
+            "description": "Adj hozzá, vagy vegyél el hozzáférés(eke)t a felhasználótól"
+        },
+        "add-permission": {
+            "title": "Hozzáférés hozzáadása",
+            "description": "Adj új engedélyeket a felhasználónak"
+        },
+        "fire-employee": {
+            "title": "Alkalmazott elbocsájtása",
+            "description": "Biztos vagy benne, hogy elbocsájtod az alkalmazottat?"
+        },
+        "change-rank": {
+            "title": "Rang változtatása",
+            "description": "Változtasd meg az alkalmazott rangját"
+        },
+        "hire-citizen": {
+            "title": "Állampolgár felvétele",
+            "description": "Biztos vagy benne, hogy alkalmazod?"
+        },
+        "add-image": {
+            "title": "Fénykép hozzádaása",
+            "description": "Adj új képet a feljegyzéshez"
+        },
+        "remove-image": {
+            "title": "Kép törlése",
+            "description": "Valóban törölni szeretnéd a képet a feljegyzésből?"
+        },
+        "change-image": {
+            "title": "Kép cseréje",
+            "description": "Válaszd ki az új képet a galériából"
+        },
+        "reset-form": {
+            "title": "Űrlap visszaállítása",
+            "description": "Biztos vagy benne, hogy visszaállítod az űrlapot?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Nincs engedélyed törölni!",
+        "loading": {
+            "title": "Kérlérk várj, dolgozunk rajte",
+            "description": "Éppen keressük az adatbázisban az információt, amit kértél.Kérlek várj türelemmel, hamarosan jelentkezünk az ereménnyel! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Whoops! Valami hiba történt",
+            "description": "Elnézést, úgy látom gond van a kérelmeddel. Kérj segítséget a fejlesztőtől."
+        },
+        "unexpected-error": {
+            "title": "Nem várt hiba",
+            "description": "Valami hiba van. Vedd fel a kapcsolatot a fejlesztővel."
+        },
+        "search-no-matched": {
+            "title": "Nincs találat",
+            "description": "Nem találatunk egyezést erre a keresésre: \"{{query}}\""
+        },
+        "fetching": {
+            "title": "Lekérjük a találatokat",
+            "description": "Kérem várjon, keressük a kért adatokat. A pontosabb keresési eredményhez specifikálja a keresést."
+        },
+        "fetch-error": {
+            "title": "Whoops! Valami hiba történt",
+            "description": "Elnézést, úgy látom gond van a kérelmeddel. Kérj segítséget a fejlesztőtől."
+        },
+        "fetch-no-results": {
+            "title": "Oops! Nincs találat",
+            "description": "Specifikáld a keresésed a pontosabb találathoz."
+        },
+        "fetch-no-matched": {
+            "title": "Nincs ilyen adat",
+            "description": "Nincs találat a keresésedre."
+        }
+    },
+    "dashboard": {
+        "title": "Üdv újra, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Jelenlegi helyzeted",
+        "street_name": "Utca név:",
+        "personal": {
+            "title": "Személyes információk",
+            "description": "Ezek a személyes információid"
+        },
+        "global_search": {
+            "title": "Teljes keresés",
+            "description": "Esemény, bizonyíték, körözés, megfigyelendő, jármű vagy Állampolgár keresése",
+            "no-results": "Írd be a keresett esemény, bizonyíték, körözés, megfigyelendő, jármű vagy Állampolgár nevét."
+        },
+        "officers": {
+            "title": "Elérhető rendőrök",
+            "description": "Itt láthatod az összes elérhető kollégát"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Itt üzenhetsz a kollégáknak",
+            "placeholder": "Üzenet írása..."
+        },
+        "calls": {
+            "title": "Legutóbbi hívások",
+            "description": "Itt látod a legutóbbi hívásokat",
+            "no-alerts": "Jelenleg nincs aktív vészhívás",
+            "details": "Kattins a hívásra a részletekért",
+            "time": "Felvétel ideje"
+        }
+    },
+    "incidents": {
+        "title": "Események",
+        "description": "Nézd meg a legutóbbi események listáját",
+        "individual": {
+            "title": "Esemény #{{id}}",
+            "description": "Nézd meg az összes információt az eseményről",
+            "information": "Megnézheted és szerkesztheted az esemény részleteit"
+        },
+        "charge_list": {
+            "jail": "{{amount}} hónap börtön",
+            "fine": "{{amount}} bírság",
+            "reduction": {
+                "title": "Büntetés csökkentése",
+                "description": "Csökkentheted a bírság vagy a börtön mértékét"
+            },
+            "mutual": "Váltás közös csökkentére",
+            "separate": "Váltás egyéni csökkentésre",
+            "reduce": "Büntetés csökkentése",
+            "charge_reduction": "{{amount}}% büntetés csökkentése",
+            "fine_reduction": "{{amount}}% bírság csökkentése",
+            "jail_reduction": "{{amount}}% börtön csökkentése"
+        },
+        "citizens": "Állampolgár",
+        "officers": "Rednőr",
+        "vehicles": "Jármű",
+        "evidences": "Bizonyíték",
+        "charges": "Büntetés"
+    },
+    "evidences": {
+        "title": "Bizonyítés",
+        "description": "Nézd meg a bizonyítékok listáját",
+        "individual": {
+            "title": "Bizonyíték #{{id}}",
+            "description": "Nézd meg a bizonyíték részleteit",
+            "information": "Megnézheted és szerkesztheted a bizonyíték részleteit"
+        }
+    },
+    "warrants": {
+        "title": "Körözés",
+        "description": "Nézd mege a körözési listát",
+        "individual": {
+            "title": "Körözés #{{id}}",
+            "description": "Nézd meg a körözés részleteit",
+            "information": "Megnézheted és szerkesztheted a körözés részleteit"
+        }
+    },
+    "officers": {
+        "title": "Rendőrök",
+        "description": "Nézd meg a rendőrök listáját",
+        "header": "{{job}} - {{length}} elérhető rendőrök",
+        "paragraph": "Nézd meg a rendőrök listáját"
+    },
+    "bolos": {
+        "title": "Megfigyelendő",
+        "description": "Nézd meg a megfigyelendők listáját",
+        "individual": {
+            "title": "Megfigyelendő #{{id}}",
+            "description": "A megfigyelendő részleteinek megtekintése és módosítása",
+            "information": "Megtekintheti és szerkesztheti ennek a megfigyelendőnek az adatait"
+        }
+    },
+    "dispatch": {
+        "title": "Dispécser",
+        "description": "Tekintse meg, törölje és fogadja a diszpécserhívásokat",
+        "individual": {
+            "title": "Vészhívás #{{id}}",
+            "description": "A vészhívással kapcsolatos összes információ megtekintése",
+            "vehicle-info": "(Rendszám: {{plate}} | Osztály: {{class}} | Szín: {{color}} | Ajtó: {{doors}})"
+        },
+        "delete": "Vészhívás törlése",
+        "position": "Cél beállítása",
+        "alerts": {
+            "title": "Vészhívás",
+            "description": "Az összes hívás megtekintése"
+        },
+        "map": {
+            "title": "Diszpécser térkép",
+            "description": "Nézd meg az aktív vészhívásokat"
+        }
+    },
+    "cameras": {
+        "title": "Kamerák",
+        "description": "Hozzáférés a város összes kamerájához",
+        "information": "A kiválasztott alkalmazott testkamérájának megtekintése",
+        "cctv": "CCTV",
+        "bodycams": "Testkamerák",
+        "open": "Kamera megnézése",
+        "location": "Utolsó ismert helyzete",
+        "view-bodycam": "Testkamera megtekintése"
+    },
+    "citizens": {
+        "title": "Állampolgárok",
+        "description": "Az összes feljegyzés megtekintése az állampolgárokról",
+        "register": "Állampolgár regisztrációja",
+        "grant-license": "Engedély kiadása",
+        "suspend-license": "Engedély visszavonása",
+        "individual": {
+            "title": "Állampolgár",
+            "description": "Az összes információ megtekintése az állampolgárról",
+            "information": "Hasznos információk megtekintése az állampolgárról"
+        },
+        "results": {
+            "title": "Állampolgár keresése",
+            "description": "Keresés név és ujjlenyomat alapján"
+        }
+    },
+    "vehicles": {
+        "title": "Járművek",
+        "description": "Jármű azonosítása regisztrációs szám alapján",
+        "register": "Jármű regisztrációja",
+        "insurance-expiring": "Lejárat {{time}}",
+        "individual": {
+            "title": "Jármű",
+            "description": "Az összes információ megtekintése a járműről",
+            "information": "Releváns információk a járműről"
+        },
+        "results": {
+            "title": "Jármű keresése",
+            "description": "Jármű keresése rendszám alapján"
+        }
+    },
+    "houses": {
+        "title": "Házak",
+        "description": "Hasznos információk az ingatlanokról",
+        "individual": {
+            "title": "Ház",
+            "description": "Az összes információ megtekintése a házról",
+            "information": "Tekintse meg az ingatlannal kapcsolatos hasznos információkat, például a helyet"
+        },
+        "results": {
+            "title": "Ház keresése",
+            "description": "Ház keresése név vagy azonosító alapján"
+        }
+    },
+    "weapons": {
+        "title": "Fegyverek",
+        "description": "Tekintse meg és regisztrálja a fegyvereket a könnyebb azonosítás érdekében",
+        "register": "Fegyver regisztrálása",
+        "individual": {
+            "title": "Fegyver",
+            "description": "Tekintse meg az összes információt erről a fegyverről",
+            "information": "Tekintse meg a fegyver információit, valamint a sorozatszámot"
+        },
+        "results": {
+            "title": "Fegyver keresése",
+            "description": "Fegyver keresése típus és szériaszám alapján"
+        }
+    },
+    "codes": {
+        "title": "Kódok",
+        "description": "Tekintse meg a kommunikációhoz használt kódok listáját",
+        "individual": {
+            "title": "Kód #{{id}}",
+            "description": "A kóddal kapcsolatos összes információ megtekintése",
+            "information": "Megtekintheti és szerkesztheti ennek a kódnak az információit"
+        }
+    },
+    "charges": {
+        "title": "Büntetések",
+        "description": "Büntetések megtekintése, létrehozása, törlése és szerkesztése",
+        "fine": "Bírság mértéke",
+        "jail": "Börtön mértéke",
+        "individual": {
+            "title": "Büntetés #{{id}}",
+            "description": "A büntetéssel kapcsolatos összes információ megtekintése",
+            "information": "Megtekintheti és szerkesztheti a büntetésre vonatkozó információkat"
+        }
+    },
+    "announcements": {
+        "title": "Felhívások",
+        "description": "Bejelentések megtekintése, létrehozása és rögzítése a kollégák számára",
+        "pin": "Felhívás kitűzése",
+        "unpin": "Felhívás kitűzésének megszüntetése",
+        "save": "Felhívás mentése",
+        "edit": "Felhívás szerkesztése",
+        "written": "Létrehozó",
+        "individual": {
+            "title": "Felhívás #{{id}}",
+            "description": "A felhívással kapcsolatos összes információ megtekintése"
+        }
+    },
+    "configuration": {
+        "title": "Konfiguráció",
+        "description": "Szabja testre az MDT-t ízlése szerint",
+        "colors": {
+            "title": "Színek",
+            "description": "Módosítsa az MDT megjelenését",
+            "text": "Szöveg szín",
+            "other": "Egyébb színek",
+            "reset": "Színek visszaállítása",
+            "name": {
+                "background": "Háttérszín",
+                "secondary": "Másodlagos szín",
+                "text": "Szöveg szín",
+                "text-muted": "Szöveg elnémított színe",
+                "primary-text": "Elsődleges szöveg szín",
+                "contrast": "Kontraszt szín",
+                "error": "Hiba szín",
+                "ring": "Gyűrű szín"
+            }
+        },
+        "language": {
+            "title": "Nyelv",
+            "description": "Módosítsa az MDT nyelvét",
+            "select": "Válassza ki a kívánt nyelvet"
+        }
+    },
+    "administration": {
+        "title": "Adminisztráció",
+        "description": "Kezelje a rangokat, a bírágokat, az alkalmazottakat, az újoncokat és a kamerákat",
+        "permissions": "Hozzáférések",
+        "management": "Menedzsment",
+        "recruitment": "Toborzás",
+        "cameras": "Kamerák",
+        "camera-information": "További információ erről a kameráról",
+        "select-camera": "Válasszon egy kamera kinézetet",
+        "change-position": "Helyzet megváltoztatása",
+        "set-position": "Helyzet megadása",
+        "open-camera": "Kamera megtekintése",
+        "delete-camera": "Kamera törlése",
+        "enable-camera": "Kamera aktiválása",
+        "disable-camera": "Kamera deaktiválása",
+        "job": {
+            "add-permission": "Hozzáférés hozzáadásan",
+            "update-permission": "Hozzáférés frissítése",
+            "select-permission": "Hozzáférés kiválasztása",
+            "grades": {
+                "title": "Rang - {{level}}",
+                "description": "A foglalkozás rangja \"{{job}}\" ",
+                "footer": "Ez magában foglalja a korábbi hozzáféréseket is"
+            }
+        },
+        "employees": {
+            "title": "Alkalmazottak",
+            "description": "Az összes online alkalmazott listája"
+        },
+        "manage": {
+            "title": "Kezelés \"{{name}}\"",
+            "description": "További információk megtekintése vagy műveletek végrehajtása ezzel az alkalmazottal",
+            "fire": "Alkalmazott elbocsájtása",
+            "hire": "Állampolgár felvétele",
+            "change_rank": "Rang megváltoztatása",
+            "rank_select": "Rang kiválasztásaű",
+            "activity": {
+                "title": "Tevékenység",
+                "description": "Tekintse meg az alkalmazott tevékenységi statisztikáit",
+                "chart": "Utolsó 7 nap",
+                "table": {
+                    "head": {
+                        "number": "Azonosító.",
+                        "clock-in": "Becsekkolás",
+                        "clock-out": "Kicsekkolás",
+                        "hours": "Órák"
+                    },
+                    "total": "Összes óra"
+                }
+            },
+            "funds": {
+                "header": "Bírságok",
+                "footer": "Bevétel a bírságokból"
+            },
+            "employees": {
+                "header": "Alkalmazottak",
+                "footer": "Összes elérhető alkalmazott"
+            },
+            "calls": {
+                "header": "Hívások",
+                "footer": "Aktív diszpécser hívások"
+            }
+        },
+        "recruits": {
+            "description": "Tekintse meg az állampolgárral kapcsolatos információkat",
+            "see": "Adatlap megtekintése"
+        }
+    },
+    "forms": {
+        "description": "Töltse ki az űrlapot minden szükséges információval",
+        "citizens": "Állampolgár regisztrációja",
+        "vehicles": "Jármű regisztrációja",
+        "incidents": "Esemény létrehozása",
+        "evidences": "Bizonyíték létrehozása",
+        "warrants": "Körözés létrehozása",
+        "bolos": "Megfigyelendő létrehozása",
+        "codes": "Kód létrehozása",
+        "charges": "Büntetés létrehozása",
+        "weapons": "Fegyver regisztrációja",
+        "announcements": "Felhívás létrehozása",
+        "cameras": "Kamera létrehozása",
+        "tag": {
+            "title": "Címke létrehozása",
+            "description": "Hozzon létre egy új címkét ennek kategorizálásához. Új címke hozzáadásához kattintson a létrehozás gombra.",
+            "field-name": "Címke neve",
+            "field-description": "Címke leírása",
+            "field-color": "Címke színe",
+            "button": "Új címke létrehozása",
+            "notification": {
+                "title": "Címke létrehozva",
+                "description": "Sikeresen létrehozta a címkét!"
+            }
+        },
+        "errors": {
+            "required": "A mező kitöltése kötelező",
+            "create": "Nincs hozzáférésed feljegyzést készíteni",
+            "min-length": "A mezőnek tartalmaznia kell legalább {{length}} karaktert",
+            "min-number": "A mező minimum értéke {{min}}",
+            "max-number": "A mező maximum értéke {{max}}",
+            "invalid-link": "Érvényes kép URL-t kell megadnia!",
+            "bolos": {
+                "citizen-vehicle-required": "Ki kell választania egy állampolgárt vagy egy járművet"
+            },
+            "codes": {
+                "format": "Rossz formátum, csak számjegyeket használjon"
+            },
+            "warrants": {
+                "citizen-house-required": "Ki kell választania egy polgárt vagy egy házat"
+            },
+            "evidences": {
+                "fields-required": "Hozzá kell adnia egy állampolgárt, rendőrt, járművet vagy fegyvert"
+            },
+            "charges": {
+                "fine-jail-required": "Meg kell határoznia a bírság vagy a börtön összegét"
+            },
+            "cameras": {
+                "prop-required": "A beállított pozíció előtt ki kell választania egy kinézetet"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Választhat {{n}} több {{word}}",
+            "maximum": "A maximális mennyiséget választotta ki {{word}}"
+        },
+        "words": {
+            "citizens": "Állampolgárok",
+            "officers": "Rendőrök",
+            "vehicles": "Járművek",
+            "incidents": "Események",
+            "evidences": "Bizonyítékok",
+            "charges": "Büntetések",
+            "evidence_archive": "Bizonyítékok az archívumból"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "Az érintett állampolgárok",
+            "officer": "Az érintett rendőrök",
+            "vehicle": "Az érintett járművek",
+            "weapon": "Fegyverek",
+            "evidence": "Bizonyítékok",
+            "charge": "Kiosztott büntetések",
+            "archive": "Archív fájlok",
+            "licenses": "Kiadott engedélyek"
+        },
+        "description": {
+            "template": "A feljegyzéshez csatolt {{word}} megtekintése és szerkesztése",
+            "licenses": "Vonja vissza vagy adjon engedélyt ennek az állampolgárnak",
+            "citizen-weapon": "Tekintse meg és szerkessze ennek a polgárnak az engedélyezett fegyvereit",
+            "citizen-incident": "Tekintse meg és szerkessze az ehhez az állampolgárhoz rendelt eseményeket",
+            "vehicle-incident": "Tekintse meg és szerkessze a járműhöz rendelt eseményeket",
+            "citizen-evidence": "Tekintse meg és szerkessze azokat a bizonyítékokat, amelyekben az állampolgár érintett",
+            "citizen-warrant": "Tekintse meg és szerkessze az ehhez az állampolgárhoz rendelt körözéseket",
+            "house-warrant": "Tekintse meg és szerkessze a házhoz rendelt körözéseket",
+            "citizen-bolo": "Az ehhez a polgárhoz rendelt megfigyelendő megtekintése és szerkesztése",
+            "vehicle-bolo": "A járműhöz rendelt megfigyelendő megtekintése és szerkesztése",
+            "citizen-vehicle": "Tekintse meg az állampolgár tulajdonában lévő járműveket",
+            "citizen-house": "Tekintse meg az állampolgár tulajdonában lévő ingatlanokat",
+            "words": {
+                "citizen": "Állampolgár",
+                "officer": "Rendőr",
+                "vehicle": "Jármű",
+                "weapon": "Fegyver",
+                "evidence": "Bizonyíték",
+                "charge": "Büntetés",
+                "archive": "Archív fájlok"
+            }
+        },
+        "add": {
+            "citizen": "Állampolgár hozzáadása",
+            "officer": "Rendőr hozzáadása",
+            "vehicle": "Jármű hozzáadása",
+            "incident": "Esemény hozzáadása",
+            "evidence": "Bizonyíték hozzáadása",
+            "warrant": "Körözés hozzáadása",
+            "bolo": "Megfigyelendő hozzáadása",
+            "charge": "Büntetés hozzáadása",
+            "weapon": "Fegyver hozzáadása",
+            "archive": "Archív fájl hozzáadása"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Állampolgárok képei",
+            "vehicle": "Járművek képei",
+            "evidence": "Képek"
+        },
+        "description": {
+            "citizen": "Képek megtekintése erről az állampolgárról",
+            "vehicle": "Képek megtekintése erről a járműről",
+            "evidence": "Képek megtekintése ezekről a bizonyítékokról"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Főoldal megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a főoldal megtekintését"
+        },
+        "incidents.view": {
+            "label": "Események megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára az események megtekintését"
+        },
+        "evidences.view": {
+            "label": "Bizonyítékok megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a bizonyítékok megtekintését"
+        },
+        "warrants.view": {
+            "label": "Körözések megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a körözések megtekintését"
+        },
+        "officers.view": {
+            "label": "Rendőrök megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a rendőrök megtekintését"
+        },
+        "bolos.view": {
+            "label": "Megfigyelendő megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a megfigyelendő megtekintését"
+        },
+        "dispatch.view": {
+            "label": "Diszpécser megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a diszpécser megtekintését"
+        },
+        "cameras.view": {
+            "label": "Kamerák megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a kamerák elérését"
+        },
+        "citizens.view": {
+            "label": "Állampolgárok megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára az állampolgárok megtekintését"
+        },
+        "vehicles.view": {
+            "label": "Járművek megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a járművek megtekintését"
+        },
+        "houses.view": {
+            "label": "Házak megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a házak megtekintését"
+        },
+        "weapons.view": {
+            "label": "Fegyverek megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a fegyverek megtekintését"
+        },
+        "codes.view": {
+            "label": "Kódok megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a kódok megtekintését"
+        },
+        "charges.view": {
+            "label": "Büntetések megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a büntetések megtekintését"
+        },
+        "announcements.view": {
+            "label": "Felhívások megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a felhívások megtekintését"
+        },
+        "config.view": {
+            "label": "Konfiguráció megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a konfiguráció megtekintését"
+        },
+        "administration.view": {
+            "label": "Adminisztráció megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára az adminisztráció megtekintését"
+        },
+        "incidents.delete": {
+            "label": "Esemény törlése",
+            "description": "Lehetővé teszi a felhasználó számára az események törlését"
+        },
+        "incidents.create": {
+            "label": "Esemény létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új események létrehozását"
+        },
+        "incidents.edit": {
+            "label": "Esemény szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő események szerkesztését"
+        },
+        "evidences.delete": {
+            "label": "Bizonyíték törlése",
+            "description": "Lehetővé teszi a felhasználó számára a bizonyítékok törlését"
+        },
+        "evidences.create": {
+            "label": "Bizonyíték létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új bizonyítékok létrehozását"
+        },
+        "evidences.edit": {
+            "label": "Bizonyíték szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő bizonyítékok szerkesztését"
+        },
+        "warrants.delete": {
+            "label": "Körözés törlése",
+            "description": "Lehetővé teszi a felhasználó számára a körözések törlését"
+        },
+        "warrants.create": {
+            "label": "Körözés létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új körözések létrehozását"
+        },
+        "warrants.edit": {
+            "label": "Körözés szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő körözések szerkesztését"
+        },
+        "bolos.delete": {
+            "label": "Megfigyelendő törlése",
+            "description": "Lehetővé teszi a felhasználó számára a megfigyelendők törlését"
+        },
+        "bolos.create": {
+            "label": "Megfigyelendő létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új megfigyelendők létrehozását"
+        },
+        "bolos.edit": {
+            "label": "Megfigyelendő szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő megfigyelendők szerkesztését"
+        },
+        "dispatch.alert.delete": {
+            "label": "Vészhívások törlése",
+            "description": "Lehetővé teszi a felhasználó számára a vészhívások törlését"
+        },
+        "cameras.open": {
+            "label": "Kamera megtekintése",
+            "description": "Lehetővé teszi a felhasználó számára a kamerák elérését és megtekintését"
+        },
+        "cameras.bodycam.view": {
+            "label": "Testkamera felvételei",
+            "description": "Lehetővé teszi a felhasználó számára, hogy megtekintse a testkamerák kameráiból származó felvételeket"
+        },
+        "citizens.register": {
+            "label": "Állampolgár regisztráció",
+            "description": "Lehetővé teszi a felhasználó számára, hogy új állampolgárokat regisztráljon"
+        },
+        "citizens.edit": {
+            "label": "Állampolgár szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő állampolgárok szerkesztését"
+        },
+        "citizens.license.grant": {
+            "label": "Engedély kiállítás",
+            "description": "Lehetővé teszi a felhasználó számára, hogy engedélyeket adjon az állampolgároknak"
+        },
+        "citizens.license.revoke": {
+            "label": "Engedélyek visszavonása",
+            "description": "Lehetővé teszi a felhasználó számára, hogy visszavonja az engedélyeket az állampolgároktól"
+        },
+        "gallery.edit": {
+            "label": "Kepek szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a képek tartalmának szerkesztését"
+        },
+        "vehicles.register": {
+            "label": "Jármű regisztráció",
+            "description": "Lehetővé teszi a felhasználó számára új járművek regisztrálását"
+        },
+        "vehicles.edit": {
+            "label": "Jármű szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő járművek szerkesztését"
+        },
+        "houses.edit": {
+            "label": "Ház szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő házak szerkesztését"
+        },
+        "weapons.register": {
+            "label": "Fegyver regisztráció",
+            "description": "Lehetővé teszi a felhasználó számára új fegyverek regisztrálását"
+        },
+        "weapons.edit": {
+            "label": "Fegyver szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő fegyverek szerkesztését"
+        },
+        "codes.delete": {
+            "label": "Kód törlésees",
+            "description": "Lehetővé teszi a felhasználó számára kódok törlését"
+        },
+        "codes.create": {
+            "label": "Kód létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új kódok létrehozását"
+        },
+        "codes.edit": {
+            "label": "Kódok szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő kódok szerkesztését"
+        },
+        "charges.delete": {
+            "label": "Büntetés törlése",
+            "description": "Lehetővé teszi a felhasználó számára a büntetések törlését"
+        },
+        "charges.create": {
+            "label": "Büntetés létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új büntetések létrehozását"
+        },
+        "charges.edit": {
+            "label": "Büntetés szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő büntetések szerkesztését"
+        },
+        "announcements.create": {
+            "label": "Felhívás létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új felhívás létrehozását"
+        },
+        "announcements.delete": {
+            "label": "Felhívás törlése",
+            "description": "Lehetővé teszi a felhasználó számára a felhívások törlését"
+        },
+        "announcements.pin": {
+            "label": "Felhívás kitűzése",
+            "description": "Lehetővé teszi a felhasználó számára a felhívások kitűzését"
+        },
+        "announcements.edit": {
+            "label": "Felhívás szerkesztése",
+            "description": "Lehetővé teszi a felhasználó számára a meglévő felhívások szerkesztését"
+        },
+        "administration.permissions.update": {
+            "label": "Hozzáférés frissítése",
+            "description": "Lehetővé teszi a felhasználó számára a hozzáférések frissítését az adminisztrációs panelen"
+        },
+        "administration.management.employee.view": {
+            "label": "Alkalmazott kezelés",
+            "description": "Lehetővé teszi a felhasználó számára, hogy megtekintse az alkalmazottak kezelését az adminisztrációs panelen"
+        },
+        "administration.management.employee.fire": {
+            "label": "Alkalmazott elbocsájtás",
+            "description": "Lehetővé teszi a felhasználónak egy alkalmazott elbocsátását"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Alkalmazott rangjának változtatása",
+            "description": "Lehetővé teszi a felhasználó számára az alkalmazott rangjának megváltoztatását"
+        },
+        "administration.recruit.view": {
+            "label": "Újonc kezelés",
+            "description": "Lehetővé teszi a felhasználó számára a toborzáskezelés megtekintését az adminisztrációs panelen"
+        },
+        "administration.recruit.hire": {
+            "label": "Újonc felvétel",
+            "description": "Lehetővé teszi a felhasználó számára újonc felvételét"
+        },
+        "administration.camera.view": {
+            "label": "Kamerakezelés",
+            "description": "Lehetővé teszi a felhasználó számára a kamerakezelés megtekintését az adminisztrációs panelen"
+        },
+        "administration.camera.create": {
+            "label": "Kamera létrehozása",
+            "description": "Lehetővé teszi a felhasználó számára új kamera létrehozását"
+        },
+        "administration.camera.delete": {
+            "label": "Kamera törlése",
+            "description": "Lehetővé teszi a felhasználó számára a kamera törlését"
+        },
+        "administration.camera.toggle": {
+            "label": "Kamera állapot",
+            "description": "Lehetővé teszi a felhasználó számára a kamera állapotának váltását"
+        }
+    }
+}

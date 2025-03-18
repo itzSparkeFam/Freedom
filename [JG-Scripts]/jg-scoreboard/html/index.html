@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jg-scoreboard</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha256-8M+b2Hj+vy/2J5tZ9pYDHeuPD59KsaEZn1XXj3xVhjg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="modal fade scoreboard-modal" id="scoreboard-modal" tabindex="-1" data-bs-backdrop="false" data-bs-keyboard="false">
+      <div class="modal-xl modal-dialog modal-dialog-scrollable">
+        <div class="modal-content text-bg-dark">
+          <div class="modal-header">
+            <div class="server-info d-flex align-items-center">
+              <img src="my-logo.png" alt="Server Logo" />
+              <div class="ms-3">
+                <h4 class="modal-title" id="server-title">JG Scripts</h4>
+                <div class="modal-subtitle text-light"><span id="players-count">0/0</span> players</div>
+              </div>
+            </div>
+            <div class="highlighted-jobs" id="highlighted-jobs"></div>
+            <div class="server-cur-player" id="current-player-data"></div>
+          </div>
+          <div class="modal-body" id="all-players"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha256-wMCQIK229gKxbUg3QWa544ypI4OoFlC2qQl8Q8xD8x8=" crossorigin="anonymous"></script>
+    <script src="js/scoreboard.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

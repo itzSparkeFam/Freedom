@@ -1,0 +1,3 @@
+SConfig = {
+    Webhook = "",
+}

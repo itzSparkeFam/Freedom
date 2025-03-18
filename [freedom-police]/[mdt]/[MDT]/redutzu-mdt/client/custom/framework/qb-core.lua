@@ -1,0 +1,38 @@
+if Config.Framework ~= 'qb-core' then
+    return
+end
+
+Framework = {}
+
+QBCore = exports['qb-core']:GetCoreObject()
+
+RegisterNetEvent('QBCore:Client:OnPlayerLoaded',function()
+    TriggerServerEvent('redutzu-mdt:server:onPlayerLoaded')
+    TriggerEvent('redutzu-mdt:client:onPlayerLoaded')
+end)
+
+function Framework.GetPlayerGender()
+    if LocalPlayer.state.isLoggedIn then    
+        local PlayerData = QBCore.Functions.GetPlayerData()
+        return PlayerData.charinfo.gender == 1 and Locales['gender:female'] or Locales['gender:male']
+    end
+end
+
+function Framework.GetPlayerJob()
+    if LocalPlayer.state.isLoggedIn then
+        local PlayerData = QBCore.Functions.GetPlayerData()
+        return PlayerData.job.name
+    end
+end
+
+function Framework.Notify(message, type)
+    TriggerEvent('QBCore:Notify', message, type, 5000)
+end
+
+function Framework.TriggerCallback(name, callback, ...)
+    QBCore.Functions.TriggerCallback(name, callback, ...)
+end
+
+function Framework.RegisterClientCallback(name, callback)
+    QBCore.Functions.CreateClientCallback(name, callback)
+end

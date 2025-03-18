@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS `rd_citations` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`citationid` VARCHAR(50) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`offender_firstname` VARCHAR(50) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`offender_surname` VARCHAR(50) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`officer_name` VARCHAR(50) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`street` VARCHAR(50) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`postal` VARCHAR(6) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`comments` VARCHAR(500) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`badge` VARCHAR(5) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`plate` VARCHAR(8) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`make` VARCHAR(15) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`color` VARCHAR(10) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`type` VARCHAR(20) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`agency` VARCHAR(30) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`code_1` VARCHAR(11) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`code_2` VARCHAR(11) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`code_3` VARCHAR(11) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`date` VARCHAR(10) DEFAULT NULL COLLATE 'utf8_general_ci',
+	`active` INT(1) DEFAULT NULL,
+	`society` VARCHAR(40) DEFAULT NULL COLLATE 'utf8_general_ci',
+	PRIMARY KEY (`id`) USING BTREE
+)COLLATE='utf8_general_ci' ENGINE=InnoDB AUTO_INCREMENT=2;

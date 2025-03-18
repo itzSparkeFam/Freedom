@@ -1,0 +1,56 @@
+{
+  "error": {
+    "trip_lasers": "Du hast die Laser ausgelöst, alle Panels wurden deaktiviert.",
+    "required_equipment_missing": "Dir fehlt die erforderliche Ausrüstung.",
+    "timer_input_closed": "Du hast die Timer-Eingabe geschlossen",
+    "failure": "Du hast versagt!",
+    "door_already_opened": "Diese Tür wurde bereits geöffnet..",
+    "terminal_disabled": "Dieses Terminal wurde deaktiviert.",
+    "terminal_already_hacked": "Dieses Terminal wurde bereits gehackt.",
+    "password_input_closed": "Du hast die Passworteingabe geschlossen",
+    "security_locked_down": "Das Sicherheitssystem wurde heruntergefahren..",
+    "security_active": "Das Sicherheitssystem ist derzeit aktiv.",
+    "invalid_code": "Ungültiger Code.. Du hast begrenzte Versuche.",
+    "codes_missing": "Du hast die Codes noch nicht.",
+    "not_enough_police": "Nicht genügend Polizei im Dienst.",
+    "drill_overheated": "Dein Bohrer hat überhitzt und ist kaputt gegangen.",
+    "drill_overheated2": "Dein Bohrer hat überhitzt oder du hast angehalten.",
+    "nothing_left": "Es gibt nichts mehr zu bohren.",
+    "get_closer": "Es gibt nichts mehr zu bohren.",
+    "cant_interact": "Du kannst damit nicht interagieren.",
+    "lasers_tripped": "Du hast die Laser ausgelöst, alle Panels wurden deaktiviert."
+  },
+  "success": {
+    "explosive_planted": "Sprengstoff wurde platziert! Geh auf sichere Distanz!",
+    "security_gate_unlocked": "Das Sicherheitstor wurde entsperrt.",
+    "security_deactivated": "Sicherheitssystem im Erdgeschoss deaktiviert.",
+    "computer": "Computer",
+    "code": "Code:",
+    "computer_hacked": "gehackt."
+  },
+  "menu": {
+    "enter_12_digit_code": "Gib einen 12-stelligen Code ein:",
+    "submit_text": "Bestätigen",
+    "XXX_XXX": "Code",
+    "enter_timer": "Gib Timer ein (in Sekunden):",
+    "bomb_timer": "Bomben-Timer"
+  },
+  "prints": {
+    "cooldown_started": "PACIFIC BANK: Abkühlphase begonnen",
+    "cooldown_finished": "PACIFIC BANK: Abkühlphase beendet"
+  },
+  "target": {
+    "loot": "Beute",
+    "plant_bomb": "Bombe platzieren",
+    "enter_password": "Passwort eingeben",
+    "use_thermite": "Thermit verwenden",
+    "hack_computer": "Computer hacken",
+    "hack_terminal": "Terminal hacken",
+    "drill_depo": "Schließfächer aufbohren",
+    "grab_loot": "Beute greifen"
+  },
+  "progress": {
+    "code_search": "Suche nach 3-stelligem Code..",
+    "start_hack": "Hack beginnen.."
+  }
+}

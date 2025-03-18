@@ -1,0 +1,37 @@
+/* Imports fonts */
+
+/* Crimson for contract */
+@font-face {
+    font-family: 'Crimson';
+    src: url("../fonts/CrimsonFont.ttf");
+}
+
+/* Hindi for contract */
+@font-face {
+    font-family: 'Hindi Light';
+    src: url("../fonts/LightHindiFont.ttf");
+}
+
+/* Hindi for contract */
+@font-face {
+    font-family: 'Hindi';
+    src: url("../fonts/MediumHindiFont.ttf");
+}
+
+/* Source Sans for decorate */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../fonts/SourceSansFont.ttf");
+}
+
+/* Sims for decorate */
+@font-face {
+    font-family: 'Sims';
+    src: url("../fonts/SimsFont.woff2");
+}
+
+/* Britania */
+@font-face {
+    font-family: 'Britania';
+    src: url("../fonts/Britania-Sign.ttf");
+}

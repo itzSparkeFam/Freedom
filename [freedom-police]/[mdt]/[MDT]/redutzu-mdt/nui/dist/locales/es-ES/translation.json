@@ -1,0 +1,1012 @@
+{
+    "navigation": {
+        "dashboard": "Inicio",
+        "incidents": "Incidentes",
+        "evidences": "Evidencias",
+        "warrants": "Ordenes",
+        "officers": "Oficiales",
+        "bolos": "Bolos",
+        "dispatch": "Avisos",
+        "cameras": "Camaras",
+        "citizens": "Ciudadanos",
+        "vehicles": "Vehiculos",
+        "houses": "Propiedades",
+        "weapons": "Armas",
+        "codes": "Codigos",
+        "charges": "Multas",
+        "announcements": "Anuncios",
+        "config": "Configuracion",
+        "administration": "Administracion",
+        "exit": "Salir"
+    },
+    "general": {
+        "close": "Cerrar",
+        "delete": "Borrar",
+        "male": "Hombre",
+        "female": "Mujer",
+        "status": "Estatus",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "information": "Informacion",
+        "reason": "Razón",
+        "name": "Nombre",
+        "description": "Descripcion",
+        "job": "Trabajo",
+        "grade": "Grado",
+        "callsign": "Señal de llamada",
+        "phone_number": "Numero de telefono",
+        "dateofbirth": "Fecha de nacimiento",
+        "tag": "Tag",
+        "house": "Vivienda",
+        "createdAt": "Creado en",
+        "expiresIn": "Expira en",
+        "startedAt": "Empezó a las",
+        "startedOn": "Comenzó en",
+        "registeredTo": "Registrado a",
+        "locatedAt": "Situado en {{street}}",
+        "save": "Guardar cambios",
+        "duty": "De servicio",
+        "on_duty": "Dentro de servicio",
+        "off_duty": "Fuera de servicio",
+        "search": "Buscar",
+        "weapons": "Armas",
+        "incidents": "Incidentes",
+        "evidences": "Evidencias",
+        "warrants": "Ordenes",
+        "bolos": "Bolos",
+        "vehicles": "Vehiculos",
+        "houses": "Propiedades",
+        "no-results": "Sin resultados",
+        "gender": "Genero",
+        "location": "Ubicación",
+        "weapon": "Arma",
+        "fine": "Multa",
+        "jail": "Carcel",
+        "vehicle": "Vehiculo",
+        "citizen": "Ciudadano",
+        "title": "Titulo",
+        "cancel": "Cancelar",
+        "continue": "Continuar",
+        "notes": "Notas",
+        "code": "Codigo",
+        "position": "Ubicacion",
+        "firstname": "Nombre",
+        "lastname": "Apellido",
+        "fingerprint": "Huella dactilar",
+        "proceed": "Proceder",
+        "plate": "Matricula",
+        "model": "Modelo",
+        "insurance": "Seguro",
+        "owner": "Dueño",
+        "owned": "Propiedad",
+        "street": "Calle",
+        "prop": "Prop",
+        "none": "Ninguno",
+        "no": "No",
+        "yes": "Si",
+        "serial": "Numero de serie",
+        "list": "Lista",
+        "create": "Crear",
+        "camera": "Camara",
+        "link": "Link",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "page_of": "Pagina {{x}} de {{y}}",
+        "backToSafety": "De vuelta a la seguridad",
+        "coords": "Coordenadas",
+        "expand-image": "Abrir imagen",
+        "remove-image": "Eliminar imagen",
+        "zoomed-image": "Ampliadar imagen",
+        "image-link": "imagen link",
+        "image-description": "Descripcion de imagen",
+        "submit": "Entregar",
+        "loading": "Cargando..",
+        "wanted": "Buscado",
+        "placeholders": {
+            "citizens": "Buscar ciudadanos",
+            "suspects": "Buscar sospechosos",
+            "victims": "Buscar víctimas",
+            "officers": "Buscar oficiales",
+            "vehicles": "Buscar vehiculos",
+            "incidents": "Buscar incidentes",
+            "evidences": "Buscar evidencias",
+            "weapons": "Buscar armas",
+            "weapon": "Buscar un arma",
+            "bolos": "Buscar bolos",
+            "archive": "Buscar evidencias de archivo",
+            "warrants": "Buscar buscados",
+            "charges": "Buscar multas",
+            "codes": "Buscar codigos",
+            "houses": "Buscar propiedades",
+            "announcements": "Buscar anuncios",
+            "recruits": "Buscar reclutas",
+            "citizen": "Buscar a ciudadano",
+            "vehicle": "Buscar a vehiculo",
+            "owner": "Buscar dueño",
+            "identifier": "Buscar un identificador",
+            "house": "Buscar una propiedad",
+            "tag": "Buscar un tag",
+            "status": "Selecionar un estado",
+            "license": "Selecionar una licencia",
+            "date": "Elija una fecha",
+            "starting_date": "Elige una fecha de inicio",
+            "expiring_date": "Elija una fecha de vencimiento"
+        }
+    },
+    "templates": {
+        "incident": "Incidente #{id}",
+        "evidence": "Evidencia #{id}",
+        "warrant": "Busqueda #{id}",
+        "bolo": "Bolo #{id}",
+        "vehicle": "{plate}"
+    },
+    "instructional": {
+        "press": "Presiona",
+        "exit": "para salir"
+    },
+    "jobs": {
+        "police": "Cumplimiento de la ley"
+    },
+    "licenses": {
+        "driver": "Licencia de conducir",
+        "weapon": "Permiso de armas",
+        "business": "Licencia de negocios",
+        "hunting": "Licencia de caza",
+        "drive_bike": "Licencia de motocicleta",
+        "drive_truck": "Licencia de conducir comercial",
+        "weed_processing": "Licencia de procesamiento de malezas",
+        "dmv": "Licencia de conducir",
+        "boat": "Licencia de barco",
+        "drive": "Licencia de conducir"
+    },
+    "notification": {
+        "error": "¡Ups! Algo salió mal inesperadamente.",
+        "create": "¡Has creado exitosamente este registro!",
+        "update": "¡Has actualizado este registro con éxito!",
+        "camera-connect": "¡Has sido conectado con éxito a la cámara!",
+        "bodycam-connect": "¡Has sido conectado exitosamente a la bodycam!",
+        "existent-citizen": "¡Se encontró un ciudadano con este identificador!",
+        "existent-vehicle": "¡Se encontró un vehículo con esta placa!",
+        "registered-citizen": "¡Has registrado exitosamente a este ciudadano!",
+        "registered-vehicle": "¡Ha registrado correctamente este vehículo!",
+        "permission-changed": "¡Has cambiado exitosamente los permisos para este grado!",
+        "employee-fired": "¡Has despedido con éxito a este empleado!",
+        "employee-fire-error": "¡No puedes despedir a un rango superior ni a ti mismo!",
+        "rank-changed": "¡Has cambiado con éxito el rango de este empleado!",
+        "hire-citizen": "¡Has contratado con éxito a este ciudadano!",
+        "camera-created": "¡Has creado con éxito la cámara!",
+        "camera-deleted": "¡Has eliminado la cámara con éxito!",
+        "camera-toggled": "¡Has alternado exitosamente la cámara!",
+        "image-attached": "Adjuntaste una nueva imagen al registro.",
+        "remove-image": "Has eliminado con éxito la imagen del registro.",
+        "title": {
+            "created": "Grabación creada",
+            "updated": "Registro actualizado",
+            "error": "Error inesperado",
+            "camera-connect": "Cámara conectada",
+            "bodycam-connect": "Bodycam conectada",
+            "existent-citizen": "Ciudadano existente",
+            "existent-vehicle": "Vehículo existente",
+            "registered-citizen": "Ciudadano registrado",
+            "registered-vehicle": "Vehículo matriculado",
+            "permission-changed": "Permisos cambiados",
+            "employee-fired": "Empleado despedido",
+            "rank-changed": "Rango cambiado",
+            "hire-citizen": "Ciudadano contratado",
+            "camera-created": "Cámara creada",
+            "camera-deleted": "Cámara eliminada",
+            "camera-toggled": "Cámara alternada",
+            "image-attached": "Imagen adjunta",
+            "remove-image": "Imagen eliminada"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "¿Estás seguro de esto?",
+            "description": "Esta acción no se puede deshacer. Esto eliminará permanentemente el registro de la base de datos.",
+            "citizen": "¿Está seguro de que desea eliminar a este ciudadano de este registro?",
+            "suspect": "¿Está seguro de que desea eliminar a este sospechoso de este registro?",
+            "victim": "¿Está seguro de que desea eliminar a esta víctima de este registro?",
+            "officer": "¿Está seguro de que desea eliminar a este funcionario de este registro?",
+            "vehicle": "¿Está seguro de que desea eliminar este vehículo de este registro?",
+            "incident": "¿Está seguro de que desea eliminar este incidente de este registro?",
+            "evidence": "¿Está seguro de que desea eliminar esta evidencia de este registro?",
+            "warrant": "¿Está seguro de que desea eliminar esta busqueda?",
+            "bolo": "¿Está seguro de que desea eliminar este bolo de este registro?",
+            "charge": "¿Está seguro de que desea eliminar este cargo de este registro?",
+            "weapon": "¿Está seguro de que desea eliminar esta arma de este registro?",
+            "archive": "¿Está seguro de que desea eliminar este archivo de este registro?"
+        },
+        "delete_alert": {
+            "title": "¿Estás seguro de que deseas eliminar esta alerta?",
+            "description": "Esta acción no se puede deshacer. Esto eliminará permanentemente la alerta."
+        },
+        "delete-camera": {
+            "title": "Eliminar cámara",
+            "description": "¿Estás seguro de que quieres eliminar esta cámara?"
+        },
+        "add-value": {
+            "title": "Agregar un nuevo elemento",
+            "description": "Agregue un nuevo elemento a la lista."
+        },
+        "set_position": {
+            "title": "¿Quieres establecer el punto de control?",
+            "description": "Esto establecerá su punto de control del mapa MDT en la ubicación enviada de esta alerta."
+        },
+        "job": {
+            "title": "Seleccione un trabajo",
+            "description": "Puedes elegir un trabajo y una calificación para este usuario."
+        },
+        "grant-license": {
+            "title": "Conceder una licencia",
+            "description": "Selecciona una licencia que quieras otorgar al ciudadano."
+        },
+        "suspend-license": {
+            "title": "¿Estás seguro de esto?",
+            "description": "¿Quieres quitarle esta licencia a este ciudadano?"
+        },
+        "update-permission": {
+            "title": "Actualizar permisos",
+            "description": "Agregar o eliminar permisos para este grado"
+        },
+        "add-permission": {
+            "title": "Agregar permiso",
+            "description": "Agregar un nuevo permiso a la calificación"
+        },
+        "fire-employee": {
+            "title": "Despedir empleado",
+            "description": "¿Está seguro de que quiere despedir a este empleado?"
+        },
+        "change-rank": {
+            "title": "Cambiar rango",
+            "description": "Cambiar el rango de este empleado"
+        },
+        "hire-citizen": {
+            "title": "Contratar ciudadano",
+            "description": "¿Estás seguro de que quieres contratar a este ciudadano?"
+        },
+        "add-image": {
+            "title": "Añadir una imagen",
+            "description": "Adjuntar una nueva imagen a este registro"
+        },
+        "remove-image": {
+            "title": "Quita la imagen",
+            "description": "¿Quieres eliminar esta imagen del registro?"
+        },
+        "change-image": {
+            "title": "Cambiar imagen",
+            "description": "Selecciona una nueva foto de perfil de la galería."
+        },
+        "reset-form": {
+            "title": "Restablecer formulario",
+            "description": "¿Está seguro de que desea restablecer este formulario?"
+        },
+        "connect-camera": {
+            "title": "Conectar a la cámara",
+            "description": "¿Estás seguro de que quieres conectarte a esta cámara?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "¡No tienes permisos para eliminar esto!",
+        "loading": {
+            "title": "Espera, estamos en el caso.",
+            "description": "Actualmente estamos rastreando nuestra base de datos para encontrar la información que solicitó. ¡Espera, lo tendremos para ti en breve! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "¡Vaya! Algo salió mal",
+            "description": "Lo siento, parece que ha habido un problema con tu solicitud. Comuníquese con el desarrollador para obtener ayuda."
+        },
+        "unexpected-error": {
+            "title": "Error inesperado",
+            "description": "Algo salió mal. Comuníquese con el propietario del servidor para resolver este problema."
+        },
+        "search-no-matched": {
+            "title": "No se han encontrado resultados",
+            "description": "No se encontraron resultados con la siguiente consulta: \"{{query}}\""
+        },
+        "fetching": {
+            "title": "Nosotros estamos recuperando los resultados",
+            "description": "Espere pacientemente mientras recopilamos los datos necesarios. Su opinión nos ayudará a proporcionar resultados personalizados."
+        },
+        "fetch-error": {
+            "title": "¡Vaya! Algo salió mal",
+            "description": "Lo siento, parece que ha habido un problema con tu solicitud. Comuníquese con el desarrollador para obtener ayuda."
+        },
+        "fetch-no-results": {
+            "title": "¡Ups! Nada que mostrar aquí",
+            "description": "Escriba algo para revelar los resultados. Tus comentarios personalizan lo que ves."
+        },
+        "fetch-no-matched": {
+            "title": "No se encontraron coincidencias",
+            "description": "Parece que no pudimos encontrar ningún resultado que coincida con sus criterios de búsqueda."
+        }
+    },
+    "dashboard": {
+        "title": "Bienvenido de nuevo, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Ubicacion",
+        "street_name": "Calle:",
+        "personal": {
+            "title": "Informacion personal",
+            "description": "Esta es tu informacion personal"
+        },
+        "global_search": {
+            "title": "Busqueda general",
+            "description": "Búsqueda de incidentes, pruebas, órdenes, bolos o vehículos por ciudadano",
+            "no-results": "Escriba el nombre de un ciudadano para poder encontrar sus incidencias, evidencias, órdenes, bolos, vehículos."
+        },
+        "officers": {
+            "title": "Oficiales en línea",
+            "description": "Ver todos los funcionarios en línea e información útil"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Comunicate con otros oficiales a través del chat.",
+            "placeholder": "Escribe un mensaje..."
+        },
+        "calls": {
+            "title": "Llamadas recientes",
+            "description": "Aquí podrás ver las últimas alertas.",
+            "no-alerts": "No hay alertas en este momento, cuando aparezcan verás una lista aquí",
+            "details": "Haga clic en la alerta para ver más detalles",
+            "time": "Tiempo del envío"
+        }
+    },
+    "incidents": {
+        "title": "Incidentes",
+        "description": "Ver una lista de los últimos incidentes",
+        "individual": {
+            "title": "Incidente #{{id}}",
+            "description": "Ver toda la información sobre este incidente",
+            "information": "Puedes ver y editar la información de este incidente."
+        },
+        "charge_list": {
+            "jail": "{{amount}} meses de carcel",
+            "fine": "{{amount}} multa",
+            "reduction": {
+                "title": "Reducción de carga",
+                "description": "Puedes reducir el monto de la cárcel o la multa."
+            },
+            "mutual": "Cambiar a reducción mutua",
+            "separate": "Cambiar a reducción separada",
+            "reduce": "Reducir la carga",
+            "charge_reduction": "{{amount}}% reducción de carga",
+            "fine_reduction": "{{amount}}% reducción multa",
+            "jail_reduction": "{{amount}}% reducción de cárcel"
+        },
+        "citizens": "ciudadanos",
+        "officers": "oficiales",
+        "vehicles": "vehiculos",
+        "evidences": "evidencias",
+        "charges": "multas"
+    },
+    "evidences": {
+        "title": "Evidencias",
+        "description": "Ver una lista de las últimas evidencias",
+        "individual": {
+            "title": "Evidencia #{{id}}",
+            "description": "Ver toda la información sobre esta evidencia",
+            "information": "Puedes ver y editar la información de esta evidencia."
+        }
+    },
+    "warrants": {
+        "title": "Órdenes",
+        "description": "Vea una lista de las últimas garantías",
+        "individual": {
+            "title": "Orden #{{id}}",
+            "description": "Ver y cambiar detalles sobre esta orden",
+            "information": "Puede ver y cambiar la información de esta orden"
+        }
+    },
+    "officers": {
+        "title": "Oficiales",
+        "description": "Ver una lista de personas en línea que pueden acceder a MDT",
+        "header": "{{job}} - {{length}} oficiales en línea",
+        "paragraph": "Ver oficiales de este trabajo"
+    },
+    "bolos": {
+        "title": "Bolos",
+        "description": "Ver una lista de los últimos bolos",
+        "individual": {
+            "title": "Bolo #{{id}}",
+            "description": "Ver y cambiar detalles sobre este bolo",
+            "information": "Puedes ver y editar la información de este bolo"
+        }
+    },
+    "dispatch": {
+        "title": "Avisos",
+        "description": "Ver, eliminar y atender llamadas de despacho",
+        "individual": {
+            "title": "Alerta #{{id}}",
+            "description": "Ver toda la información sobre esta alerta",
+            "vehicle-info": "(Matricula: {{plate}} | Clase: {{class}} | Color: {{color}} | Puertas: {{doors}})"
+        },
+        "delete": "Borrar aviso",
+        "position": "Poner ubicacion",
+        "alerts": {
+            "title": "Alertas",
+            "description": "Ver todas las últimas llamadas"
+        },
+        "map": {
+            "title": "Mapa de avisos",
+            "description": "Ver la ubicación de las alertas activas"
+        }
+    },
+    "cameras": {
+        "title": "Camaras",
+        "description": "Accede a todas las cámaras ubicadas en la ciudad.",
+        "information": "Ver la cámara corporal de este empleado",
+        "cctv": "CCTV",
+        "bodycams": "Bodycams",
+        "open": "Abrir camara",
+        "location": "Última ubicación conocida",
+        "view-bodycam": "Ver bodycam"
+    },
+    "citizens": {
+        "title": "Ciudadanos",
+        "description": "Ver todos los registros e información de un ciudadano",
+        "register": "Registrar un ciudadano",
+        "grant-license": "Conceder licencia",
+        "suspend-license": "Suspender licencia",
+        "individual": {
+            "title": "Ciudadano",
+            "description": "Ver toda la información sobre este ciudadano",
+            "information": "Ver toda la información útil sobre este ciudadano"
+        },
+        "results": {
+            "title": "Buscar ciudadanos",
+            "description": "Puedes buscar por nombre, huella digital"
+        }
+    },
+    "vehicles": {
+        "title": "Vehiculos",
+        "description": "Identificar cualquier vehículo por número de matrícula",
+        "register": "Registrar vehiculo",
+        "insurance-expiring": "expira {{time}}",
+        "individual": {
+            "title": "Vehiculo",
+            "description": "Ver toda la información sobre este vehículo",
+            "information": "Ver toda la información relevante para este vehículo"
+        },
+        "results": {
+            "title": "Buscar vehiculos",
+            "description": "Puedes buscar por la matricula."
+        }
+    },
+    "houses": {
+        "title": "Propiedades",
+        "description": "Ver información útil de cada propiedad",
+        "individual": {
+            "title": "Propiedade",
+            "description": "Ver toda la información sobre esta propiedad",
+            "information": "Ver información útil sobre esta propiedad como la ubicación"
+        },
+        "results": {
+            "title": "Buscar propiedades",
+            "description": "Puedes buscar por nombre de propiedad o id."
+        }
+    },
+    "weapons": {
+        "title": "Armas",
+        "description": "Ver y registrar armas para una identificación más fácil",
+        "register": "Registar un arma",
+        "individual": {
+            "title": "Arma",
+            "description": "Ver toda la información sobre esta arma",
+            "information": "Ver la información de esta arma así como el número de serie."
+        },
+        "results": {
+            "title": "Buscar armas",
+            "description": "Puedes buscar por nombre, número de serie."
+        }
+    },
+    "codes": {
+        "title": "Codigos",
+        "description": "Ver una lista de códigos utilizados para la comunicación",
+        "individual": {
+            "title": "Codigo #{{id}}",
+            "description": "Ver toda la información sobre este código",
+            "information": "Puedes ver y editar la información de este código."
+        }
+    },
+    "charges": {
+        "title": "Cargos",
+        "description": "Ver, crear, eliminar y editar cargos",
+        "fine": "Cantidad multa",
+        "jail": "Cantidad carcel",
+        "individual": {
+            "title": "Cargo #{{id}}",
+            "description": "Ver toda la información sobre este cargo",
+            "information": "Puedes ver y editar la información de este cargo."
+        }
+    },
+    "announcements": {
+        "title": "Anuncios",
+        "description": "Ver, crear y fijar anuncios para otros oficiales",
+        "pin": "Fijar anuncio",
+        "unpin": "Desfijar anuncio",
+        "save": "Guardar anuncio",
+        "edit": "Editar anuncio",
+        "written": "Escrito por:",
+        "individual": {
+            "title": "Anuncio #{{id}}",
+            "description": "Ver toda la información sobre este anuncio"
+        }
+    },
+    "configuration": {
+        "title": "Configuracion",
+        "description": "Personaliza la tablet mdt a tu gusto.",
+        "colors": {
+            "title": "Colores",
+            "description": "Cambia la apariencia de tu mdt",
+            "text": "Colores del texto",
+            "other": "Otros colores",
+            "reset": "Restablecer colores",
+            "name": {
+                "background": "Color de fondo",
+                "secondary": "Color secundario",
+                "text": "Color del texto",
+                "text-muted": "Color apagado del texto",
+                "primary-text": "Color de texto principal",
+                "contrast": "Color de contraste",
+                "error": "Color de error",
+                "ring": "Color de tono"
+            }
+        },
+        "language": {
+            "title": "Lenguaje",
+            "description": "Cambia el lenguaje de tu tablet",
+            "select": "Selecciona tu lenguaje"
+        }
+    },
+    "administration": {
+        "title": "Administracion",
+        "description": "Administre calificaciones, fondos de la sociedad, empleados, reclutas y cámaras.",
+        "permissions": "Permisos",
+        "management": "Gestión",
+        "recruitment": "Reclutamiento",
+        "cameras": "Camaras",
+        "camera-information": "Ver más información sobre esta cámara",
+        "select-camera": "Seleccione un modelo de cámara",
+        "change-position": "Cambiar de posición",
+        "set-position": "Poner ubicacion",
+        "open-camera": "Abrir camara",
+        "delete-camera": "Borrar camara",
+        "enable-camera": "Activar camara",
+        "disable-camera": "Desactivar camara",
+        "job": {
+            "add-permission": "Agregar permiso",
+            "update-permission": "Actualizar permisos",
+            "select-permission": "Seleccione un permiso",
+            "grades": {
+                "title": "Grado - {{level}}",
+                "description": "Grados de la \"{{job}}\" trabajo",
+                "footer": "Esto también incluye permisos previos."
+            }
+        },
+        "employees": {
+            "title": "Empleados",
+            "description": "Una lista de todos los empleados en línea."
+        },
+        "manage": {
+            "title": "Administrar \"{{name}}\"",
+            "description": "Ver más información o aplicar acciones a este empleado",
+            "fire": "Despedir empleado",
+            "hire": "Contratar ciudadano",
+            "change_rank": "Cambiar rango",
+            "rank_select": "Selecionar rango",
+            "activity": {
+                "title": "Actividad",
+                "description": "Ver estadísticas de actividad de este empleado",
+                "chart": "Ultimos 7 dias",
+                "table": {
+                    "head": {
+                        "number": "No.",
+                        "clock-in": "Hora de entrada",
+                        "clock-out": "Hora de salida",
+                        "hours": "Horas"
+                    },
+                    "total": "Total de horas"
+                }
+            },
+            "funds": {
+                "header": "Fondos de la sociedad",
+                "footer": "ingresos por multas"
+            },
+            "employees": {
+                "header": "Empleados",
+                "footer": "total de empleados en línea"
+            },
+            "calls": {
+                "header": "Llamadas totales",
+                "footer": "llamadas de despacho activas"
+            }
+        },
+        "recruits": {
+            "description": "Ver información sobre este ciudadano",
+            "see": "Ver página ciudadana"
+        }
+    },
+    "forms": {
+        "description": "Rellena el formulario con toda la información necesaria",
+        "citizens": "Registrar un ciudadano",
+        "vehicles": "Registrar un vehiculo",
+        "incidents": "Crear una incidencia",
+        "evidences": "Crear una evidencia",
+        "warrants": "Crear un buscado",
+        "bolos": "Crear un bolo",
+        "codes": "Crear un codigo",
+        "charges": "Crear un cargo",
+        "weapons": "Registrar un arma",
+        "announcements": "Crear un anuncio",
+        "cameras": "Crear una camara",
+        "tag": {
+            "title": "Crear etiqueta",
+            "description": "Crea una nueva etiqueta para categorizar esto. Haga clic en crear para agregar una nueva etiqueta.",
+            "field-name": "Nombre de la etiqueta",
+            "field-description": "Descripcion del la etiqueta",
+            "field-color": "Color de la etiqueta",
+            "button": "Crear una nueva etiqueta",
+            "notification": {
+                "title": "Etiqueta creada",
+                "description": "Has creado correctamente la etiqueta.!"
+            }
+        },
+        "errors": {
+            "required": "Este campo es obligatorio",
+            "create": "No tienes permisos para crear un nuevo registro",
+            "min-length": "Este campo debe tener al menos {{length}} caracteres",
+            "min-number": "El valor mínimo para este campo es {{min}}",
+            "max-number": "El valor máximo para este campo es {{max}}",
+            "invalid-link": "Debes pasar una URL de imagen válida.!",
+            "bolos": {
+                "citizen-vehicle-required": "Debes seleccionar un ciudadano o un vehículo."
+            },
+            "codes": {
+                "format": "Formato incorrecto, debes usar solo dígitos"
+            },
+            "warrants": {
+                "citizen-house-required": "Debes seleccionar un ciudadano o una propiedad."
+            },
+            "evidences": {
+                "fields-required": "Debes agregar un ciudadano, oficial, vehículo o arma."
+            },
+            "charges": {
+                "fine-jail-required": "Debes fijar un monto de multa o cárcel"
+            },
+            "cameras": {
+                "prop-required": "Debes seleccionar un accesorio antes de establecer la posición."
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Puedes elegir {{n}} más {{word}}",
+            "maximum": "Ha seleccionado la cantidad máxima de {{word}}"
+        },
+        "words": {
+            "citizens": "ciudadanos",
+            "officers": "oficiales",
+            "vehicles": "vehiculos",
+            "incidents": "incidentes",
+            "evidences": "evidencias",
+            "charges": "cargos",
+            "evidence_archive": "evidencias del archivo"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "Ciudadanos involucrados",
+            "suspect": "Sospechosos involucrados",
+            "victim": "Víctimas involucradas",
+            "officer": "Oficiales involucrados",
+            "vehicle": "Vehiculos involucrado",
+            "weapon": "Armas",
+            "evidence": "Evidencias",
+            "charge": "Cargos aplicados",
+            "archive": "Archivar archivos",
+            "licenses": "Licencias concedidas"
+        },
+        "description": {
+            "template": "Ver y editar {{word}} adjunto a este registro",
+            "licenses": "Revocar y otorgar licencias a este ciudadano",
+            "citizen-weapon": "Ver y editar armas ciudadanas de este ciudadano",
+            "citizen-incident": "Ver y editar incidentes asignados a este ciudadano.",
+            "vehicle-incident": "Ver y editar incidentes asignados a este vehículo",
+            "citizen-evidence": "Ver y editar evidencias de que el ciudadano está involucrado en",
+            "citizen-warrant": "Ver y editar órdenes asignadas a este ciudadano",
+            "house-warrant": "Ver y editar órdenes asignadas a esta casa",
+            "citizen-bolo": "Ver y editar bolos asignados a este ciudadano",
+            "vehicle-bolo": "Ver y editar bolos asignados a este vehículo",
+            "citizen-vehicle": "Ver vehículos de este ciudadano.",
+            "citizen-house": "Ver propiedades que posee este ciudadano",
+            "words": {
+                "citizen": "ciudadanos",
+                "suspect": "sospechosos",
+                "victim": "victimas",
+                "officer": "oficiales",
+                "vehicle": "vehiculos",
+                "weapon": "armas",
+                "evidence": "evidencias",
+                "charge": "cargos",
+                "archive": "archivar archivos"
+            }
+        },
+        "add": {
+            "citizen": "Añadir un ciudadano",
+            "suspect": "Añadir un sospechoso",
+            "victim": "Añadir una victima",
+            "officer": "Añadir un oficial",
+            "vehicle": "Añadir un vehiculo",
+            "incident": "Añadir un incidente",
+            "evidence": "Añadir una evidencia",
+            "warrant": "Añadir una busqueda",
+            "bolo": "Añadir un bolo",
+            "charge": "Añadir un cargo",
+            "weapon": "Añadir una arma",
+            "archive": "Añadir un archivo"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Galeria del ciudadano",
+            "vehicle": "Galeria del vehiculo",
+            "evidence": "Imágenes"
+        },
+        "description": {
+            "citizen": "Ver imágenes con este ciudadano",
+            "vehicle": "Ver imágenes con este vehículo",
+            "evidence": "Ver imágenes adjuntas a esta evidencia"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Ver página del panel",
+            "description": "Permitir al usuario ver la página del panel"
+        },
+        "incidents.view": {
+            "label": "Ver página de incidentes",
+            "description": "Permite al usuario ver la página de incidencias"
+        },
+        "evidences.view": {
+            "label": "Ver página de evidencias",
+            "description": "Permite al usuario ver la página de evidencias"
+        },
+        "warrants.view": {
+            "label": "Ver página de buscados",
+            "description": "Permite al usuario ver la página de buscados"
+        },
+        "officers.view": {
+            "label": "Ver página de oficiales",
+            "description": "Permite al usuario ver la página de oficiales"
+        },
+        "bolos.view": {
+            "label": "Ver página de bolos",
+            "description": "Permite al usuario ver la página bolos (Be On the Lookout)"
+        },
+        "dispatch.view": {
+            "label": "Ver página de avisos",
+            "description": "Permite al usuario ver la página de avisos"
+        },
+        "cameras.view": {
+            "label": "Ver página de cámaras",
+            "description": "Permite al usuario ver la página de las cámaras"
+        },
+        "citizens.view": {
+            "label": "Ver página de ciudadanos",
+            "description": "Permite al usuario ver la página de ciudadanos"
+        },
+        "vehicles.view": {
+            "label": "Ver página de vehículos",
+            "description": "Permite al usuario ver la página de vehículos"
+        },
+        "houses.view": {
+            "label": "Ver página de propiedades",
+            "description": "Permite al usuario ver la página de propiedades"
+        },
+        "weapons.view": {
+            "label": "Ver página de armas",
+            "description": "Permite al usuario ver la página de armas"
+        },
+        "codes.view": {
+            "label": "Ver página de códigos",
+            "description": "Permite al usuario ver la página de códigos"
+        },
+        "charges.view": {
+            "label": "Ver página de cargos",
+            "description": "Permite al usuario ver la página de cargos"
+        },
+        "announcements.view": {
+            "label": "Ver página de anuncios",
+            "description": "Permite al usuario ver la página de anuncios"
+        },
+        "config.view": {
+            "label": "Ver página de configuración",
+            "description": "Permite al usuario ver la página de configuración"
+        },
+        "administration.view": {
+            "label": "Ver página de administracióne",
+            "description": "Permite al usuario ver la página de administración"
+        },
+        "incidents.delete": {
+            "label": "Eliminar incidentes",
+            "description": "Permite al usuario eliminar incidentes"
+        },
+        "incidents.create": {
+            "label": "Crear incidentes",
+            "description": "Permite al usuario crear nuevas incidencias"
+        },
+        "incidents.edit": {
+            "label": "Editar incidentes",
+            "description": "Permite al usuario editar incidencias existentes"
+        },
+        "evidences.delete": {
+            "label": "Eliminar evidencias",
+            "description": "Permite al usuario eliminar evidencias"
+        },
+        "evidences.create": {
+            "label": "Crear evidencias",
+            "description": "Permite al usuario crear nuevas evidencias"
+        },
+        "evidences.edit": {
+            "label": "Editar evidencias",
+            "description": "Permite al usuario editar evidencias existentes"
+        },
+        "warrants.delete": {
+            "label": "Eliminar busquedas",
+            "description": "Permite al usuario eliminar busquedas"
+        },
+        "warrants.create": {
+            "label": "Crear busquedas",
+            "description": "Permite al usuario crear nuevas busquedas"
+        },
+        "warrants.edit": {
+            "label": "Editar busquedas",
+            "description": "Permite al usuario editar busquedas existentes"
+        },
+        "bolos.delete": {
+            "label": "Borrar bolos",
+            "description": "Permite al usuario eliminar bolos"
+        },
+        "bolos.create": {
+            "label": "Crear bolos",
+            "description": "Permite al usuario crear nuevos bolos"
+        },
+        "bolos.edit": {
+            "label": "Editar bolos",
+            "description": "Permite al usuario editar bolos existentes"
+        },
+        "dispatch.alert.delete": {
+            "label": "Borrar avisos",
+            "description": "Permite al usuario eliminar alertas de despacho"
+        },
+        "cameras.open": {
+            "label": "Abrir camaras",
+            "description": "Permite al usuario acceder y ver las transmisiones de la cámara"
+        },
+        "cameras.bodycam.view": {
+            "label": "Ver imágenes de la bodycam",
+            "description": "Permite al usuario ver imágenes de las bodycams"
+        },
+        "citizens.register": {
+            "label": "Registrar ciudadanos",
+            "description": "Permite al usuario registrar nuevos ciudadanos"
+        },
+        "citizens.edit": {
+            "label": "Editar ciudadanos",
+            "description": "Permite al usuario editar ciudadanos existentes"
+        },
+        "citizens.license.grant": {
+            "label": "Otorgar identificaciones",
+            "description": "Permite al usuario otorgar licencias a los ciudadanos"
+        },
+        "citizens.license.revoke": {
+            "label": "Revocar licencias de ciudadanos",
+            "description": "Permite al usuario revocar licencias a los ciudadanos"
+        },
+        "gallery.edit": {
+            "label": "Editar galería",
+            "description": "Permite al usuario editar el contenido de la galería"
+        },
+        "vehicles.register": {
+            "label": "Registrar vehículos",
+            "description": "Permite al usuario registrar vehículos nuevos"
+        },
+        "vehicles.edit": {
+            "label": "Editar vehículos",
+            "description": "Permite al usuario editar vehículos existentes"
+        },
+        "houses.edit": {
+            "label": "Editar propiedades",
+            "description": "Permite al usuario editar casas existentes"
+        },
+        "weapons.register": {
+            "label": "Registar armas",
+            "description": "Permite al usuario registrar nuevas armas"
+        },
+        "weapons.edit": {
+            "label": "Editar armas",
+            "description": "Permite al usuario editar armas existentes"
+        },
+        "codes.delete": {
+            "label": "Borrar codigos",
+            "description": "Permite al usuario eliminar códigos"
+        },
+        "codes.create": {
+            "label": "Crear codigos",
+            "description": "Permite al usuario crear nuevos códigos"
+        },
+        "codes.edit": {
+            "label": "Editar codigos",
+            "description": "Permite al usuario editar códigos existentes"
+        },
+        "charges.delete": {
+            "label": "Borrar cargos",
+            "description": "Permite al usuario eliminar cargos"
+        },
+        "charges.create": {
+            "label": "Crear codigos",
+            "description": "Permite al usuario crear nuevos cargos"
+        },
+        "charges.edit": {
+            "label": "Editar cargos",
+            "description": "Permite al usuario editar los cargos existentes"
+        },
+        "announcements.create": {
+            "label": "Crear anuncios",
+            "description": "Permite al usuario crear nuevos anuncios"
+        },
+        "announcements.delete": {
+            "label": "Borrar anuncios",
+            "description": "Permite al usuario eliminar anuncios"
+        },
+        "announcements.pin": {
+            "label": "Fijar anuncios",
+            "description": "Permite al usuario anclar anuncios"
+        },
+        "announcements.edit": {
+            "label": "Editar anuncios",
+            "description": "Permite al usuario editar anuncios existentes"
+        },
+        "administration.permissions.update": {
+            "label": "Actualizar permisos",
+            "description": "Permite al usuario actualizar permisos en el panel de administración"
+        },
+        "administration.management.employee.view": {
+            "label": "Ver gestión de empleados",
+            "description": "Permite al usuario ver la gestión de empleados en el panel de administración"
+        },
+        "administration.management.employee.fire": {
+            "label": "Despedir empleados",
+            "description": "Permite al usuario despedir a un empleado"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Cambiar rango de empleado",
+            "description": "Permite al usuario cambiar el rango de un empleado"
+        },
+        "administration.recruit.view": {
+            "label": "Ver gestión de reclutamiento",
+            "description": "Permite al usuario ver la gestión de reclutas en el panel de administración"
+        },
+        "administration.recruit.hire": {
+            "label": "Contratar recluta",
+            "description": "Permite al usuario contratar a un recluta"
+        },
+        "administration.camera.view": {
+            "label": "Ver gestión de cámara",
+            "description": "Permite al usuario ver la gestión de cámaras en el panel de administración"
+        },
+        "administration.camera.create": {
+            "label": "Crear camaras",
+            "description": "Permite al usuario crear una nueva cámara"
+        },
+        "administration.camera.delete": {
+            "label": "Borrar camaras",
+            "description": "Permite al usuario eliminar una cámara"
+        },
+        "administration.camera.toggle": {
+            "label": "Activar/desactivar cámara",
+            "description": "Permite al usuario alternar el estado de una cámara"
+        }
+    }
+}

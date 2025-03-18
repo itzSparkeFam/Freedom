@@ -1,0 +1,617 @@
+{
+    "navigation": {
+        "dashboard": "Übersicht",
+        "incidents": "Vorfälle",
+        "doctors": "Ärzte",
+        "dispatch": "Einsatzleitung",
+        "citizens": "Bürger",
+        "codes": "Codes",
+        "invoices": "Rechnungen",
+        "announcements": "Ankündigungen",
+        "config": "Einstellungen",
+        "administration": "Verwaltung",
+        "exit": "Verlassen"
+    },
+    "general": {
+        "close": "Schließen",
+        "delete": "Löschen",
+        "male": "Männlich",
+        "female": "Weiblich",
+        "status": "Status",
+        "information": "Information",
+        "amount": "Betrag",
+        "name": "Name",
+        "description": "Beschreibung",
+        "job": "Beruf",
+        "grade": "Rang",
+        "phone_number": "Telefonnummer",
+        "dateofbirth": "Geburtsdatum",
+        "tag": "Tag",
+        "createdAt": "Erstellt am",
+        "save": "Änderungen speichern",
+        "duty": "Dienst",
+        "on_duty": "Im Dienst",
+        "off_duty": "Außer Dienst",
+        "search": "Suchen",
+        "incidents": "Vorfälle",
+        "no-results": "Keine Ergebnisse",
+        "gender": "Geschlecht",
+        "location": "Ort",
+        "title": "Titel",
+        "cancel": "Abbrechen",
+        "continue": "Fortfahren",
+        "notes": "Notizen",
+        "code": "Code",
+        "firstname": "Vorname",
+        "lastname": "Nachname",
+        "fingerprint": "Fingerabdruck",
+        "proceed": "Fortfahren",
+        "insurance": "Versicherung",
+        "no": "Nein",
+        "yes": "Ja",
+        "list": "Liste",
+        "create": "Erstellen",
+        "camera": "Kamera",
+        "link": "Link",
+        "pin": "Anheften",
+        "unpin": "Lösen",
+        "page_of": "Seite {{x}} von {{y}}",
+        "backToSafety": "Zurück zur Sicherheit",
+        "expand-image": "Bild vergrößern",
+        "remove-image": "Bild entfernen",
+        "zoomed-image": "Vergrößertes Bild",
+        "image-link": "Bildlink",
+        "image-description": "Bildbeschreibung",
+        "submit": "Absenden",
+        "reduction": "Ermäßigung",
+        "reduce": "Reduzieren",
+        "bloodtype": "Blutgruppe",
+        "placeholders": {
+            "citizens": "Bürger suchen",
+            "victims": "Opfer suchen",
+            "doctors": "Ärzte suchen",
+            "incidents": "Vorfälle suchen",
+            "invoices": "Rechnungen suchen",
+            "codes": "Codes suchen",
+            "announcements": "Ankündigungen suchen",
+            "recruits": "Rekruten suchen",
+            "identifier": "Kennung suchen",
+            "tag": "Tag suchen",
+            "date": "Datum auswählen"
+        }
+    },
+    "templates": {
+        "incident": "Vorfall #{id}"
+    },
+    "jobs": {
+        "ambulance": "Rettungsdienst"
+    },
+    "notification": {
+        "error": "Oops! Etwas ist unerwartet schiefgelaufen.",
+        "create": "Sie haben diesen Datensatz erfolgreich erstellt!",
+        "update": "Sie haben diesen Datensatz erfolgreich aktualisiert!",
+        "existent-citizen": "Es wurde ein Bürger mit diesem Identifikator gefunden!",
+        "registered-citizen": "Sie haben diesen Bürger erfolgreich registriert!",
+        "permission-changed": "Sie haben die Berechtigungen für diesen Rang erfolgreich geändert!",
+        "employee-fired": "Sie haben diesen Mitarbeiter erfolgreich entlassen!",
+        "employee-fire-error": "Sie können keinen höheren Rang oder sich selbst entlassen!",
+        "rank-changed": "Sie haben den Rang dieses Mitarbeiters erfolgreich geändert!",
+        "hire-citizen": "Sie haben diesen Bürger erfolgreich eingestellt!",
+        "image-attached": "Sie haben ein neues Bild zum Datensatz hinzugefügt",
+        "remove-image": "Sie haben das Bild erfolgreich vom Datensatz entfernt",
+        "title": {
+            "created": "Datensatz erstellt",
+            "updated": "Datensatz aktualisiert",
+            "error": "Unerwarteter Fehler",
+            "existent-citizen": "Vorhandener Bürger",
+            "registered-citizen": "Bürger registriert",
+            "permission-changed": "Berechtigungen geändert",
+            "employee-fired": "Mitarbeiter entlassen",
+            "rank-changed": "Rang geändert",
+            "hire-citizen": "Bürger eingestellt",
+            "image-attached": "Bild hinzugefügt",
+            "remove-image": "Bild entfernt"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Sind Sie sicher?",
+            "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dies wird den Datensatz dauerhaft aus der Datenbank löschen.",
+            "citizen": "Sind Sie sicher, dass Sie diesen Bürger aus diesem Datensatz entfernen möchten?",
+            "victim": "Sind Sie sicher, dass Sie dieses Opfer aus diesem Datensatz entfernen möchten?",
+            "doctor": "Sind Sie sicher, dass Sie diesen Arzt aus diesem Datensatz entfernen möchten?",
+            "incident": "Sind Sie sicher, dass Sie diesen Vorfall aus diesem Datensatz entfernen möchten?",
+            "invoice": "Sind Sie sicher, dass Sie diese Rechnung aus diesem Datensatz entfernen möchten?"
+        },
+        "delete_alert": {
+            "title": "Sind Sie sicher, dass Sie diesen Alarm löschen möchten?",
+            "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dies wird den Alarm dauerhaft löschen."
+        },
+        "add-value": {
+            "title": "Neues Element hinzufügen",
+            "description": "Fügen Sie ein neues Element zur Liste hinzu."
+        },
+        "set_position": {
+            "title": "Möchten Sie den Checkpoint setzen?",
+            "description": "Dies wird den MDT-Kartencheckpoint auf den zugewiesenen Ort dieses Alarms setzen."
+        },
+        "job": {
+            "title": "Beruf auswählen",
+            "description": "Sie können einen Beruf und Rang für diesen Benutzer auswählen"
+        },
+        "update-permission": {
+            "title": "Berechtigungen aktualisieren",
+            "description": "Berechtigungen für diesen Rang hinzufügen oder entfernen"
+        },
+        "add-permission": {
+            "title": "Berechtigung hinzufügen",
+            "description": "Eine neue Berechtigung zum Rang hinzufügen"
+        },
+        "fire-employee": {
+            "title": "Mitarbeiter entlassen",
+            "description": "Sind Sie sicher, dass Sie diesen Mitarbeiter entlassen möchten?"
+        },
+        "change-rank": {
+            "title": "Rang ändern",
+            "description": "Ändern Sie den Rang dieses Mitarbeiters"
+        },
+        "hire-citizen": {
+            "title": "Bürger einstellen",
+            "description": "Sind Sie sicher, dass Sie diesen Bürger einstellen möchten?"
+        },
+        "add-image": {
+            "title": "Bild hinzufügen",
+            "description": "Fügen Sie ein neues Bild zu diesem Datensatz hinzu"
+        },
+        "remove-image": {
+            "title": "Bild entfernen",
+            "description": "Möchten Sie dieses Bild aus dem Datensatz entfernen?"
+        },
+        "change-image": {
+            "title": "Bild ändern",
+            "description": "Wählen Sie ein neues Profilbild aus der Galerie"
+        },
+        "reset-form": {
+            "title": "Formular zurücksetzen",
+            "description": "Sind Sie sicher, dass Sie dieses Formular zurücksetzen möchten?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Sie haben keine Berechtigung, dies zu löschen!",
+        "loading": {
+            "title": "Moment, wir kümmern uns darum",
+            "description": "Wir durchsuchen gerade unsere Datenbank, um die angeforderten Informationen zu finden. Bleiben Sie dran, wir haben es gleich! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Ups! Etwas ist schiefgelaufen",
+            "description": "Entschuldigung, es scheint ein Problem mit Ihrer Anfrage gegeben zu haben. Bitte kontaktieren Sie den Entwickler für Unterstützung."
+        },
+        "unexpected-error": {
+            "title": "Unerwarteter Fehler",
+            "description": "Etwas ist schiefgelaufen, bitte kontaktieren Sie den Serverbesitzer, um dieses Problem zu lösen."
+        },
+        "fetching": {
+            "title": "Wir holen die Ergebnisse",
+            "description": "Bitte warten Sie geduldig, während wir die benötigten Daten sammeln. Ihre Eingaben helfen uns, maßgeschneiderte Ergebnisse zu liefern."
+        },
+        "fetch-error": {
+            "title": "Ups! Etwas ist schiefgelaufen",
+            "description": "Entschuldigung, es scheint ein Problem mit Ihrer Anfrage gegeben zu haben. Bitte kontaktieren Sie den Entwickler für Unterstützung."
+        },
+        "fetch-no-results": {
+            "title": "Oops! Nichts zu zeigen",
+            "description": "Geben Sie etwas ein, um Ergebnisse anzuzeigen. Ihre Eingabe passt an, was Sie sehen."
+        },
+        "fetch-no-matched": {
+            "title": "Keine Übereinstimmungen gefunden",
+            "description": "Es scheint, wir konnten keine Ergebnisse finden, die Ihren Suchkriterien entsprechen."
+        }
+    },
+    "dashboard": {
+        "title": "Willkommen zurück, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Aktueller Standort",
+        "street_name": "Straßenname:",
+        "last_announcement": {
+            "title": "Letzte Ankündigung",
+            "description": "Hier sehen Sie die zuletzt erstellte Ankündigung",
+            "no-results": "Es gibt keine Ankündigung, die angezeigt werden kann."
+        },
+        "personal": {
+            "title": "Persönliche Informationen",
+            "description": "Dies sind Ihre persönlichen Informationen"
+        },
+        "doctors": {
+            "title": "Online-Ärzte",
+            "description": "Alle Online-Ärzte und nützliche Informationen anzeigen"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Kommunizieren Sie über den Chat mit anderen Ärzten",
+            "placeholder": "Nachricht eingeben..."
+        },
+        "calls": {
+            "title": "Aktuelle Anrufe",
+            "description": "Hier sehen Sie die neuesten Alarme",
+            "no-alerts": "Derzeit gibt es keine Alarme. Sobald welche auftreten, wird hier eine Liste angezeigt.",
+            "details": "Klicken Sie auf den Alarm, um weitere Details zu sehen",
+            "time": "Einsatzzeit"
+        }
+    },
+    "incidents": {
+        "title": "Vorfälle",
+        "description": "Liste der neuesten Vorfälle anzeigen",
+        "individual": {
+            "title": "Vorfall #{{id}}",
+            "description": "Alle Informationen zu diesem Vorfall anzeigen",
+            "information": "Sie können die Informationen zu diesem Vorfall einsehen und bearbeiten"
+        },
+        "invoice_reduction": "{{amount}}% Rechnungsreduzierung",
+        "reduction_description": "Hier können Sie den Rechnungsbetrag reduzieren"
+    },
+    "doctors": {
+        "title": "Ärzte",
+        "description": "Liste der Online-Personen anzeigen, die auf MDT zugreifen können",
+        "header": "{{job}} - {{length}} Ärzte online",
+        "paragraph": "Ärzte dieses Berufs anzeigen"
+    },
+    "dispatch": {
+        "title": "Einsatzleitung",
+        "description": "Einsatzanrufe anzeigen, löschen und übernehmen",
+        "individual": {
+            "title": "Alarm #{{id}}",
+            "description": "Alle Informationen zu diesem Alarm anzeigen"
+        },
+        "delete": "Alarm löschen",
+        "position": "Position setzen",
+        "alerts": {
+            "title": "Alarme",
+            "description": "Alle neuesten Anrufe anzeigen"
+        },
+        "map": {
+            "title": "Einsatzkarte",
+            "description": "Den Standort aktiver Alarme sehen"
+        }
+    },
+    "citizens": {
+        "title": "Bürger",
+        "description": "Alle Datensätze und Informationen eines Bürgers anzeigen",
+        "register": "Einen Bürger registrieren",
+        "individual": {
+            "title": "Bürger",
+            "description": "Alle Informationen zu diesem Bürger anzeigen",
+            "information": "Alle nützlichen Informationen zu diesem Bürger anzeigen"
+        },
+        "results": {
+            "title": "Bürger suchen",
+            "description": "Sie können nach Namen suchen"
+        }
+    },
+    "codes": {
+        "title": "Codes",
+        "description": "Liste der Codes für die Kommunikation anzeigen",
+        "individual": {
+            "title": "Code #{{id}}",
+            "description": "Alle Informationen zu diesem Code anzeigen",
+            "information": "Sie können die Informationen zu diesem Code einsehen und bearbeiten"
+        }
+    },
+    "invoices": {
+        "title": "Rechnungen",
+        "description": "Rechnungen anzeigen, erstellen, löschen und bearbeiten",
+        "individual": {
+            "title": "Rechnung #{{id}}",
+            "description": "Alle Informationen zu dieser Rechnung anzeigen",
+            "information": "Sie können die Informationen zu dieser Rechnung einsehen und bearbeiten"
+        }
+    },
+    "announcements": {
+        "title": "Ankündigungen",
+        "description": "Ankündigungen für andere Ärzte anzeigen, erstellen und anheften",
+        "pin": "Ankündigung anheften",
+        "unpin": "Ankündigung lösen",
+        "save": "Ankündigung speichern",
+        "edit": "Ankündigung bearbeiten",
+        "written": "Geschrieben von",
+        "individual": {
+            "title": "Ankündigung #{{id}}",
+            "description": "Alle Informationen zu dieser Ankündigung anzeigen"
+        }
+    },
+    "configuration": {
+        "title": "Konfiguration",
+        "description": "Passen Sie das MDT nach Ihren Wünschen an",
+        "colors": {
+            "title": "Farben",
+            "description": "Das Erscheinungsbild Ihres MDTs ändern",
+            "text": "Textfarben",
+            "other": "Andere Farben",
+            "reset": "Farben zurücksetzen",
+            "name": {
+                "background": "Hintergrundfarbe",
+                "secondary": "Sekundärfarbe",
+                "text": "Textfarbe",
+                "text-muted": "Gedämpfte Textfarbe",
+                "primary-text": "Primäre Textfarbe",
+                "contrast": "Kontrastfarbe",
+                "error": "Fehlerfarbe",
+                "ring": "Ringfarbe"
+            }
+        },
+        "language": {
+            "title": "Sprache",
+            "description": "Ändern Sie die Sprache Ihres MDTs",
+            "select": "Wählen Sie Ihre bevorzugte Sprache"
+        }
+    },
+    "administration": {
+        "title": "Verwaltung",
+        "description": "Verwalten von Rängen, Gesellschaftsfonds, Mitarbeitern, Rekruten",
+        "permissions": "Berechtigungen",
+        "management": "Management",
+        "recruitment": "Rekrutierung",
+        "job": {
+            "add-permission": "Berechtigung hinzufügen",
+            "update-permission": "Berechtigungen aktualisieren",
+            "select-permission": "Eine Berechtigung auswählen",
+            "grades": {
+                "title": "Rang - {{level}}",
+                "description": "Ränge des Jobs \"{{job}}\"",
+                "footer": "Dies umfasst auch frühere Berechtigungen"
+            }
+        },
+        "employees": {
+            "title": "Mitarbeiter",
+            "description": "Eine Liste aller Online-Mitarbeiter"
+        },
+        "manage": {
+            "title": "Verwalten von \"{{name}}\"",
+            "description": "Weitere Informationen anzeigen oder Aktionen auf diesen Mitarbeiter anwenden",
+            "fire": "Mitarbeiter entlassen",
+            "hire": "Bürger einstellen",
+            "change_rank": "Rang ändern",
+            "rank_select": "Einen Rang auswählen",
+            "activity": {
+                "title": "Aktivität",
+                "description": "Aktivitätsstatistiken für diesen Mitarbeiter anzeigen",
+                "chart": "Letzte 7 Tage",
+                "table": {
+                    "head": {
+                        "number": "Nr.",
+                        "clock-in": "Einchecken",
+                        "clock-out": "Auschecken",
+                        "hours": "Stunden"
+                    },
+                    "total": "Gesamtstunden"
+                }
+            },
+            "funds": {
+                "header": "Gesellschaftsfonds",
+                "footer": "Einnahmen aus Rechnungen"
+            },
+            "employees": {
+                "header": "Mitarbeiter",
+                "footer": "insgesamt Online-Mitarbeiter"
+            },
+            "calls": {
+                "header": "Gesamtanrufe",
+                "footer": "aktive Einsatzanrufe"
+            }
+        },
+        "recruits": {
+            "description": "Informationen über diesen Bürger anzeigen",
+            "see": "Bürgerseite anzeigen"
+        }
+    },
+    "forms": {
+        "description": "Füllen Sie das Formular mit allen erforderlichen Informationen aus",
+        "citizens": "Einen Bürger registrieren",
+        "incidents": "Einen Vorfall erstellen",
+        "codes": "Einen Code erstellen",
+        "invoices": "Eine Rechnung erstellen",
+        "announcements": "Eine Ankündigung erstellen",
+        "tag": {
+            "title": "Tag erstellen",
+            "description": "Erstellen Sie einen neuen Tag, um dies zu kategorisieren. Klicken Sie auf erstellen, um einen neuen Tag hinzuzufügen.",
+            "field-name": "Tag-Name",
+            "field-description": "Tag-Beschreibung",
+            "field-color": "Tag-Farbe",
+            "button": "Neuen Tag erstellen",
+            "notification": {
+                "title": "Tag erstellt",
+                "description": "Der Tag wurde erfolgreich erstellt!"
+            }
+        },
+        "errors": {
+            "required": "Dieses Feld ist erforderlich",
+            "create": "Sie haben keine Berechtigung, einen neuen Eintrag zu erstellen",
+            "min-length": "Dieses Feld muss mindestens {{length}} Zeichen enthalten",
+            "min-number": "Der Mindestwert für dieses Feld beträgt {{min}}",
+            "max-number": "Der Höchstwert für dieses Feld beträgt {{max}}",
+            "invalid-link": "Sie müssen eine gültige Bild-URL angeben!",
+            "codes": {
+                "format": "Falsches Format, Sie dürfen nur Ziffern verwenden"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Sie können noch {{n}} weitere {{word}} auswählen",
+            "maximum": "Sie haben die maximale Anzahl an {{word}} ausgewählt"
+        },
+        "words": {
+            "citizens": "Bürger",
+            "doctors": "Ärzte",
+            "incidents": "Vorfälle",
+            "invoices": "Rechnungen"
+        }
+    },
+    "values": {
+        "title": {
+            "victim": "Beteiligte Opfer",
+            "doctor": "Beteiligte Ärzte",
+            "invoice": "Angewandte Rechnungen"
+        },
+        "description": {
+            "template": "{{word}} anzeigen und bearbeiten, die diesem Eintrag zugeordnet sind",
+            "citizen-incident": "Anzeigen und Bearbeiten von Vorfällen, die diesem Bürger zugewiesen sind",
+            "words": {
+                "citizen": "Bürger",
+                "victim": "Opfer",
+                "doctor": "Ärzte",
+                "invoice": "Rechnungen"
+            }
+        },
+        "add": {
+            "citizen": "Einen Bürger hinzufügen",
+            "victim": "Ein Opfer hinzufügen",
+            "doctor": "Einen Arzt hinzufügen",
+            "incident": "Einen Vorfall hinzufügen",
+            "invoice": "Eine Rechnung hinzufügen"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Bürgergalerie",
+            "incident": "Bilder"
+        },
+        "description": {
+            "citizen": "Bilder mit diesem Bürger anzeigen",
+            "incident": "Bilder anzeigen, die diesem Vorfall zugeordnet sind"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Dashboard-Seite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Dashboard-Seite anzusehen"
+        },
+        "incidents.view": {
+            "label": "Vorfallseite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Vorfallseite anzusehen"
+        },
+        "doctors.view": {
+            "label": "Ärzte-Seite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Ärzte-Seite anzusehen"
+        },
+        "dispatch.view": {
+            "label": "Einsatz-Seite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Einsatz-Seite anzusehen"
+        },
+        "citizens.view": {
+            "label": "Bürger-Seite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Bürger-Seite anzusehen"
+        },
+        "codes.view": {
+            "label": "Code-Seite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Code-Seite anzusehen"
+        },
+        "invoices.view": {
+            "label": "Rechnungsseite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Rechnungsseite anzusehen"
+        },
+        "announcements.view": {
+            "label": "Ankündigungsseite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Ankündigungsseite anzusehen"
+        },
+        "config.view": {
+            "label": "Konfigurationsseite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Konfigurationsseite anzusehen"
+        },
+        "administration.view": {
+            "label": "Administrationsseite anzeigen",
+            "description": "Erlaubt dem Benutzer, die Administrationsseite anzusehen"
+        },
+        "incidents.delete": {
+            "label": "Vorfall löschen",
+            "description": "Erlaubt dem Benutzer, Vorfälle zu löschen"
+        },
+        "incidents.create": {
+            "label": "Vorfall erstellen",
+            "description": "Erlaubt dem Benutzer, neue Vorfälle zu erstellen"
+        },
+        "incidents.edit": {
+            "label": "Vorfall bearbeiten",
+            "description": "Erlaubt dem Benutzer, bestehende Vorfälle zu bearbeiten"
+        },
+        "dispatch.alert.delete": {
+            "label": "Einsatzalarm löschen",
+            "description": "Erlaubt dem Benutzer, Einsatzalarme zu löschen"
+        },
+        "citizens.register": {
+            "label": "Bürger registrieren",
+            "description": "Erlaubt dem Benutzer, neue Bürger zu registrieren"
+        },
+        "citizens.edit": {
+            "label": "Bürger bearbeiten",
+            "description": "Erlaubt dem Benutzer, bestehende Bürger zu bearbeiten"
+        },
+        "gallery.edit": {
+            "label": "Galerie bearbeiten",
+            "description": "Erlaubt dem Benutzer, den Galerieinhalt zu bearbeiten"
+        },
+        "codes.delete": {
+            "label": "Code löschen",
+            "description": "Erlaubt dem Benutzer, Codes zu löschen"
+        },
+        "codes.create": {
+            "label": "Code erstellen",
+            "description": "Erlaubt dem Benutzer, neue Codes zu erstellen"
+        },
+        "codes.edit": {
+            "label": "Code bearbeiten",
+            "description": "Erlaubt dem Benutzer, bestehende Codes zu bearbeiten"
+        },
+        "invoices.delete": {
+            "label": "Rechnung löschen",
+            "description": "Erlaubt dem Benutzer, Rechnungen zu löschen"
+        },
+        "invoices.create": {
+            "label": "Rechnung erstellen",
+            "description": "Erlaubt dem Benutzer, neue Rechnungen zu erstellen"
+        },
+        "invoices.edit": {
+            "label": "Rechnung bearbeiten",
+            "description": "Erlaubt dem Benutzer, bestehende Rechnungen zu bearbeiten"
+        },
+        "announcements.create": {
+            "label": "Ankündigung erstellen",
+            "description": "Erlaubt dem Benutzer, neue Ankündigungen zu erstellen"
+        },
+        "announcements.delete": {
+            "label": "Ankündigung löschen",
+            "description": "Erlaubt dem Benutzer, Ankündigungen zu löschen"
+        },
+        "announcements.pin": {
+            "label": "Ankündigung anheften",
+            "description": "Erlaubt dem Benutzer, Ankündigungen anzuheften"
+        },
+        "announcements.edit": {
+            "label": "Ankündigung bearbeiten",
+            "description": "Erlaubt dem Benutzer, bestehende Ankündigungen zu bearbeiten"
+        },
+        "administration.permissions.update": {
+            "label": "Berechtigungen aktualisieren",
+            "description": "Erlaubt dem Benutzer, Berechtigungen im Administrationsbereich zu aktualisieren"
+        },
+        "administration.management.employee.view": {
+            "label": "Mitarbeiterverwaltung anzeigen",
+            "description": "Erlaubt dem Benutzer, die Mitarbeiterverwaltung im Administrationsbereich anzuzeigen"
+        },
+        "administration.management.employee.fire": {
+            "label": "Mitarbeiter entlassen",
+            "description": "Erlaubt dem Benutzer, einen Mitarbeiter zu entlassen"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Rang eines Mitarbeiters ändern",
+            "description": "Erlaubt dem Benutzer, den Rang eines Mitarbeiters zu ändern"
+        },
+        "administration.recruit.view": {
+            "label": "Rekrutierungsverwaltung anzeigen",
+            "description": "Erlaubt dem Benutzer, die Rekrutierungsverwaltung im Administrationsbereich anzuzeigen"
+        },
+        "administration.recruit.hire": {
+            "label": "Rekrut einstellen",
+            "description": "Erlaubt dem Benutzer, einen Rekruten einzustellen"
+        }
+    }
+}

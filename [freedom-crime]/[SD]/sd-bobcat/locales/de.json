@@ -1,0 +1,38 @@
+{
+  "error": {
+    "canceled": "Abgebrochen..",
+    "no_c4": "Du hast kein C4!",
+    "you_failed": "Du hast versagt!",
+    "how_you_get_here": "Wie bist du hierher gekommen?",
+    "missing_something": "Dir fehlt Thermit.",
+    "missing_something2": "Du hast die erforderliche Schlüsselkarte nicht.",
+    "no_cops": "Nicht genug Polizisten!",
+    "recently_robbed": "Dieser Ort wurde kürzlich ausgeraubt!",
+    "cannot_use_here": "Du kannst diesen Gegenstand hier nicht verwenden..",
+    "timer_too_high": "Die maximale Länge des Timers kann sein:"
+  },
+  "success": {
+    "planted_bomb": "Sprengsatz wurde platziert! Komme in Sicherheit!"
+  },
+  "target": {
+    "place_bomb": "Sprengsätze platzieren",
+    "take_weapon": "Waffen nehmen",
+    "take_ammo": "Munition nehmen",
+    "plant_thermite": "Thermit platzieren",
+    "swipe_card": "Karte durchziehen",
+    "loot": "Beute"
+  },
+  "prints": {
+    "cooldown_started": "BOBCAT: Abkühlphase begonnen",
+    "cooldown_finished": "BOBCAT: Abkühlphase beendet"
+  },
+  "menu": {
+    "submit_text": "Bestätigen",
+    "enter_timer": "Timer eingeben (in Sekunden):",
+    "bomb_timer": "Bomben-Timer",
+    "seconds": "Sekunden"
+  },
+  "progress": {
+    "looting_crate": "Kiste wird geplündert.."
+  }
+}

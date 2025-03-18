@@ -1,0 +1,60 @@
+{
+  "error": {
+    "canceled": "Annulé..",
+    "done_recently": "Vous avez déjà fait cela récemment, revenez bientôt !",
+    "someone_recently_did_this": "Quelqu'un vient de le faire..",
+    "cannot_do_this_right_now": "Impossible de faire cela maintenant..",
+    "does_not_speak": "Éloignez d'abord l'autre colis..",
+    "get_out_vehicle": "Sortez d'abord de votre véhicule..",
+    "bring_other_package": "Éloignez d'abord l'autre colis..",
+    "what_do_you_want": "Que voulez-vous ?",
+    "you_cannot_do_this": "Vous ne pouvez pas faire cela..",
+    "you_dont_have_enough_money": "Vous n'avez pas assez d'argent..",
+    "no_package": "Vous ne tenez pas de colis..",
+    "leave_area": "Vos clients partiront si vous ne restez pas dans la zone..",
+    "occupied_routes": "Toutes les routes sont actuellement occupées, réessayez plus tard..",
+    "missing_required_item": "Il vous manque quelque chose..",
+    "you_robbed": "Le client essaie de partir sans vous donner votre oxy !",
+    "you_were_robbed": "Le client est parti sans vous donner votre oxy !",
+    "robbery_stopped": "Vous avez réussi à empêcher le client de partir sans vous donner votre oxy !"
+  },
+  "success": {
+    "you_have_arrived": "Vous êtes arrivé à l'endroit marqué, attendez les clients..",
+    "drive_to_location": "Conduisez à l'endroit marqué sur votre GPS..",
+    "arrived_location": "Vous êtes arrivé à l'endroit marqué, attendez les clients..",
+    "suppliers_position": "La position du fournisseur a été marquée sur votre GPS..",
+    "send_email_right_now": "Je vais vous envoyer un e-mail maintenant..",
+    "start_run": "Vous êtes connecté, trouvez-vous un véhicule..",
+    "run_ended": "Votre course est terminée.."
+  },
+  "prints": {
+    "global_cooldown_started": "COURSE OXY : Début du Cooldown Global",
+    "global_cooldown_finished": "COURSE OXY : Fin du Cooldown Global"
+  },
+  "mailstart": {
+    "sender": "Inconnu",
+    "subject": "Livraison Spéciale",
+    "message": "Merci de m'avoir aidé, vous serez généreusement récompensé ! Trouvez-vous un véhicule pour vous rendre chez le fournisseur !"
+  },
+  "mailfinish": {
+    "sender": "Inconnu",
+    "subject": "Livraison Spéciale",
+    "message": "Vous m'avez rendu un grand service ! Revenez vers moi quand vous serez prêt pour plus !"
+  },
+  "target": {
+    "oxyboss": "Se Connecter",
+    "oxysupplier": "Saisir le colis",
+    "handoff_package": "Transférer le colis",
+    "view_reputation": "Voir la Réputation"
+  },
+  "info": {
+    "reputation_level": "Niveau de Réputation",
+    "reputation_points": "Points de Réputation",
+    "current_level": "Niveau Actuel : {level}",
+    "total_points": "Points Totals : {points}",
+    "error_retrieving_info": "Impossible de récupérer les informations du joueur."
+  },
+  "progress": {
+    "talking_to_boss": "Discussion avec le Boss.."
+  }
+}

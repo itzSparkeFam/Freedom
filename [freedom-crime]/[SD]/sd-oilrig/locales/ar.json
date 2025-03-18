@@ -1,0 +1,72 @@
+{
+  "error": {
+    "cannot_use_kit_here": "لا يمكنك استخدام هذه المجموعة هنا..",
+    "already_hacked": "تم اختراق هذا النظام بالفعل..",
+    "still_active": "نظام الأمان لا يزال نشطًا..",
+    "fully_lockdown": "نظام الأمان قام بالإغلاق الكامل..",
+    "automatic_pressure_active": "منظمات الضغط التلقائية نشطة..",
+    "automatic_pressure_active2": "تنظيم الضغط التلقائي لا يزال نشطًا..",
+    "pressure_too_low": "انخفض الضغط إلى مستوى منخفض جدًا وتسبب في تعطل الجهاز..",
+    "incorrect_pass": "كلمة المرور غير صحيحة",
+    "how_did_you_get": "أوه، كيف وصلت إلى هنا؟!",
+    "not_enough_cops": "عدد الشرطة غير كافٍ..",
+    "already_have_barrel": "لديك برميل بالفعل..",
+    "trying_to_exploit": "هل تحاول استغلال الوضع؟!",
+    "pressure_too_high": "أصبح الضغط مرتفعًا جدًا! اهرب!!",
+    "cannot_hack_right_now": "لا يمكنك اختراق هذا الآن..",
+    "pressure_not_right_yet": "الضغط ليس صحيحًا بعد..",
+    "no_pink_usb_dongle": "ليس لديك قطعة USB باللون الوردي..",
+    "cant_do_right_now": "لا يمكن القيام بذلك الآن..",
+    "no_laptop": "ليس لديك كمبيوتر محمول وردي..",
+    "wrong_lever_sequence": "لقد قمت بسحب الأذرع بتسلسل خاطئ.."
+  },
+  "success": {
+    "out_to_sea": "لقد سافرت بعيدًا إلى عرض البحر..",
+    "pressure_at": "تحتاج الضغط إلى حوالي 55%",
+    "pressure_at_2": "بمجرد أن يكون الضغط مناسبًا تحتاج إلى اختراق مناطق معينة..",
+    "automatic_pressure_deactive": "تم تعطيل منظمات الضغط التلقائية..",
+    "took_barrel": "لقد أخذت برميلًا مليئًا بالنفط..",
+    "pulled_lever": "تم سحب الذراع",
+    "current_pressure": "القراءة الحالية للضغط هي:",
+    "security_system_override": "بدأ تجاوز نظام الأمان..",
+    "find_levers_to_deactivate_pressure": "يجب عليك العثور على أذرع لتعطيل منظمات الضغط.."
+  },
+  "letters": {
+    "hidden_letter": "الحرف الخفي هو",
+    "first_hidden_letter": "الحرف الخفي الأول هو",
+    "second_hidden_letter": "الحرف الخفي الثاني هو",
+    "third_hidden_letter": "الحرف الخفي الثالث هو",
+    "fourth_hidden_letter": "الحرف الخفي الرابع هو"
+  },
+  "menu": {
+    "input_password": "أدخل كلمة المرور المكونة من 4 أحرف:",
+    "submit_Text": "إرسال",
+    "uppercase_only": "أحرف كبيرة فقط",
+    "sell_barrel": "بيع البرميل لهذه محطة الوقود",
+    "going_price": "السعر الجاري هنا:"
+  },
+  "prints": {
+    "cooldown_started": "منصة النفط: بدأت فترة التبريد",
+    "cooldown_finished": "منصة النفط: انتهت فترة التبريد"
+  },
+  "target": {
+    "grab_barrel": "الإمساك بالبرميل",
+    "sell_barrel": "بيع برميل النفط",
+    "pull_lever_1": "سحب الذراع رقم 1",
+    "pull_lever_2": "سحب الذراع رقم 2",
+    "pull_lever_3": "سحب الذراع رقم 3",
+    "insert_dongle": "إدخال قطعة USB",
+    "increase_pressure": "زيادة الضغط",
+    "lower_pressure": "خفض الضغط",
+    "check_pressure": "فحص الضغط",
+    "enter_password": "إدخال كلمة المرور",
+    "loot_body": "نهب",
+    "hack_password": "اختراق كلمة المرور"
+  },
+  "progress": {
+    "reviving": "إنعاش..",
+    "selling": "بيع..",
+    "turning_valve": "تدوير الصمام..",
+    "pickup_barrel": "التقاط البرميل.."
+  }
+}

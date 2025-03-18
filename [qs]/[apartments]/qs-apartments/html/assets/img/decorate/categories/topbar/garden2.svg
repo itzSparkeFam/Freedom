@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 48" width="53" height="48">
+	<title>Nowy projekt</title>
+	<defs>
+		<image  width="53" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAwCAMAAACG9cLxAAAAAXNSR0IB2cksfwAAAEJQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////CF/ShgAAABZ0Uk5TAEDPIJCPEL9f/3DfUO+fP28wH3+vYHaHMOYAAAEKSURBVHic7ZbdTsMwDIXtNEm3shskeP8nRLAxUNiyhDiNYxckJLhE8UXbJOc7Pv2RUoS/FMoV4k2vWMSLGk4Ww3fKujJ4VyIDJojNASPE6xeKRKVcaPZ4iOR0YxvyBLFBJZL5VVQq1pRTnht8DUJ1EdSUrXG3oXRca0qEjYhSJiWilBenl2salHRpA4OBtBnzMqVETmfscZlUk5QhWwXNL9MucUrcN1Esjfs8icpBbIx/BvC79uj3jVqe6sk3+9K4ntnm7rS+kSVrKvfX7gizH/xV+EjP3J14+T4oyh95+vFMrd7kdowkoeZ+UIMa1KAGNagfqblTlnYiI/8dWHeiVx4+nBX1y/q31CdriMfvjdyhNAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Warstwa 1" href="#img1" x="0" y="0"/>
+</svg>

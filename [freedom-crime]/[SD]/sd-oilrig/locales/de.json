@@ -1,0 +1,72 @@
+{
+  "error": {
+    "cannot_use_kit_here": "Du kannst dieses Kit hier nicht verwenden..",
+    "already_hacked": "Dieses System wurde bereits gehackt..",
+    "still_active": "Das Sicherheitssystem ist noch aktiv..",
+    "fully_lockdown": "Das Sicherheitssystem hat sich vollständig abgeriegelt..",
+    "automatic_pressure_active": "Die automatischen Druckregler sind aktiv..",
+    "automatic_pressure_active2": "Die automatische Druckregulierung ist noch aktiv..",
+    "pressure_too_low": "Der Druck ist zu stark gefallen und hat die Anlage blockiert..",
+    "incorrect_pass": "Falsches Passwort",
+    "how_did_you_get": "Hoppla, wie bist du hierher gekommen?!",
+    "not_enough_cops": "Nicht genug Polizei..",
+    "already_have_barrel": "Du hast bereits ein Fass..",
+    "trying_to_exploit": "Versuchst du etwa zu betrügen?!",
+    "pressure_too_high": "Der Druck ist zu hoch geworden! Lauf!!",
+    "cannot_hack_right_now": "Du kannst das gerade nicht hacken..",
+    "pressure_not_right_yet": "Der Druck ist noch nicht richtig..",
+    "no_pink_usb_dongle": "Du hast keinen pinken USB-Dongle..",
+    "no_laptop": "Du hast keinen rosa Laptop..",
+    "cant_do_right_now": "Das geht gerade nicht..",
+    "wrong_lever_sequence": "Du hast die Hebel in der falschen Reihenfolge gezogen.."
+  },
+  "success": {
+    "out_to_sea": "Du bist weit aufs Meer hinausgefahren..",
+    "pressure_at": "Du benötigst einen Druck von etwa 55%",
+    "pressure_at_2": "Sobald der Druck stimmt, musst du bestimmte Bereiche hacken..",
+    "automatic_pressure_deactive": "Automatische Druckregler deaktiviert..",
+    "took_barrel": "Du hast ein Fass voll Öl genommen..",
+    "pulled_lever": "Hebel gezogen",
+    "current_pressure": "Der aktuelle Druck beträgt:",
+    "security_system_override": "Übersteuerung des Sicherheitssystems gestartet..",
+    "find_levers_to_deactivate_pressure": "Du musst Hebel finden, um die Druckregler zu deaktivieren.."
+  },
+  "letters": {
+    "hidden_letter": "Der versteckte Buchstabe ist",
+    "first_hidden_letter": "Der erste versteckte Buchstabe ist",
+    "second_hidden_letter": "Der zweite versteckte Buchstabe ist",
+    "third_hidden_letter": "Der dritte versteckte Buchstabe ist",
+    "fourth_hidden_letter": "Der vierte versteckte Buchstabe ist"
+  },
+  "menu": {
+    "input_password": "Gib ein 4-Buchstaben Passwort ein:",
+    "submit_Text": "Absenden",
+    "uppercase_only": "Nur Großbuchstaben",
+    "sell_barrel": "Fass an diese Tankstelle verkaufen",
+    "going_price": "Aktueller Preis hier:"
+  },
+  "prints": {
+    "cooldown_started": "ÖLPLATTFORM: Abkühlphase begonnen",
+    "cooldown_finished": "ÖLPLATTFORM: Abkühlphase beendet"
+  },
+  "target": {
+    "grab_barrel": "Fass greifen",
+    "sell_barrel": "Ölfass verkaufen",
+    "pull_lever_1": "Hebel #1 ziehen",
+    "pull_lever_2": "Hebel #2 ziehen",
+    "pull_lever_3": "Hebel #3 ziehen",
+    "insert_dongle": "USB-Dongle einstecken",
+    "increase_pressure": "Druck erhöhen",
+    "lower_pressure": "Druck verringern",
+    "check_pressure": "Druck prüfen",
+    "enter_password": "Passwort eingeben",
+    "loot_body": "Plündern",
+    "hack_password": "Passwort hacken"
+  },
+  "progress": {
+    "reviving": "Wiederbeleben..",
+    "selling": "Verkaufen..",
+    "turning_valve": "Ventil drehen..",
+    "pickup_barrel": "Fass aufheben.."
+  }
+}

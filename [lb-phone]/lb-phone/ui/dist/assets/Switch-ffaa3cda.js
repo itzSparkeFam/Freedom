@@ -1,0 +1,1 @@
+import{j as t,a as c,d as a}from"./index-594e1857.js";function d(e){return t("label",{className:`switch ${e.theme??"light"}`,children:[e.disabled?c(a,{type:"checkbox",checked:e.checked,disabled:!0}):c(a,{type:"checkbox",defaultChecked:e.checked,onChange:e.onChange}),c("span",{className:"slider round"})]})}export{d as S};

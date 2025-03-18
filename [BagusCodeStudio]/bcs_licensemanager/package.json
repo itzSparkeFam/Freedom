@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@citizenfx/server": "^2.0.11895-1",
+    "image-js": "^0.35.6",
+    "axios": "^1.7.9",
+    "form-data": "^4.0.1"
+  }
+}

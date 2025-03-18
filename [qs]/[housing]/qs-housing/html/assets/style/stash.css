@@ -1,0 +1,108 @@
+/* CSS for Stash page */
+
+/* Stash title */
+.stash-object-title,
+.stash-empty-title {
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    margin: 0;
+
+    font-size: 1.5vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--color-002b53);
+}
+
+/* If no stash */
+.stash-empty-topbar,
+.stash-empty-title {
+    cursor: url('../img/decorate/categories/stash/cursor.svg'), not-allowed;  
+}
+
+.stash-empty-content {
+    background: repeating-linear-gradient(
+        -45deg, 
+        var(--color-002b53), 
+        var(--color-002b53) 0.5vw, 
+        var(--color-b9b9b9a6) 0.5vw, 
+        var(--color-b9b9b9a6) 1.25vw
+    );
+
+    cursor: url('../img/decorate/categories/stash/cursor.svg'), not-allowed;  
+}
+
+/* if has stash */
+.stash-content {
+    background-color: var(--color-b9b9b9a6);
+}
+
+.stash-object-icon {
+    position: absolute;
+    right: 0;
+
+    margin: 0.5vw;
+
+    box-shadow: 0 0 1vw var(--color-00000020);
+
+    border-radius: 0.5vw;
+
+    width: 8.5vw;
+    height: 9vw;
+
+    padding: 0.5vw;
+
+    background: white;
+
+    object-fit: contain;
+}
+
+.stash-object-information {
+    position: absolute;
+    overflow-x: hidden;
+    margin: 0.5vw;
+    width: 14.5vw;
+    height: 10vw;
+}
+
+.stash-object-description {
+    margin: 1.4vw 0vw;
+    font-size: 1vw;
+    hyphens: auto;
+}
+
+.stash-object-category {
+    font-size: 0.85vw;
+    padding-top: 0.5vw;
+    border-top: 0.1vw var(--color-000000) solid;
+    text-align: right;
+    padding-right: 0.5vw;
+}
+
+/* Scrollbar */
+.stash-object-information::-webkit-scrollbar {
+    display: block;
+
+    width: 0.75vw;
+}
+  
+.stash-object-information::-webkit-scrollbar-track {
+    box-shadow: 0 0 1vw var(--color-00000020);
+
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 1vw;
+}
+
+.stash-object-information::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 1vw #00000048;
+    border-radius: 1vw;
+    height: 1vw;
+
+    background: var(--color-ffffff); 
+}
+  
+.stash-object-information::-webkit-scrollbar-thumb:hover {
+    background: var(--color-ffffff);
+}

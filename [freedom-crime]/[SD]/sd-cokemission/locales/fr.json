@@ -1,0 +1,45 @@
+{
+  "error": {
+    "canceled": "Annulé",
+    "cannot_do_right_now": "Impossible de faire cela maintenant.",
+    "recently_did_this": "Quelqu'un a récemment fait cela.",
+    "power_grid_active": "Le réseau électrique de la ville est toujours actif.",
+    "wrong_phone_number": "Mauvais numéro de téléphone, essayez à nouveau.",
+    "supplier_scared_off": "Vous avez entré le mauvais numéro 3 fois. Le fournisseur a été effrayé !",
+    "not_enough_money": "Vous n'avez pas assez d'argent.",
+    "executor_detected": "Uh Oh.. Il semble que quelqu'un utilise un exécuteur",
+    "key_required": "Vous avez besoin d'une clé pour ouvrir ce cache !",
+    "key_broke": "Votre clé s'est cassée..",
+    "cache_already_taken": "Le cache a déjà été pris..",
+    "supplier_abandoned": "Vous avez mis trop de temps, le fournisseur vous a abandonné.",
+    "no_refunds": "Pas de remboursements !"
+  },
+  "success": {
+    "marked_locations_on_map": "J'ai marqué des emplacements sur votre carte.",
+    "email_sent": "Je vais envoyer un e-mail tout de suite !",
+    "email_received": "Vous avez reçu un e-mail avec les numéros de téléphone que vous devez saisir.",
+    "correct_number_dialed": "Vous avez composé le bon numéro. Trouvez maintenant le suivant.",
+    "all_numbers_dialed": "Vous avez composé tous les bons numéros, les caches ont été marqués sur la carte.",
+    "key_found": "Vous avez trouvé une clé !",
+    "cache_retrieved": "Vous avez récupéré le cache."
+  },
+  "prints": {
+    "cooldown_started": "MISSION COKE : Début du refroidissement",
+    "cooldown_finished": "MISSION COKE : Fin du refroidissement"
+  },
+  "email": {
+    "unknown": "Inconnu",
+    "mystery_package_subject": "Collecte du Colis Mystère",
+    "mystery_package_message": "Mon ami a réapprovisionné des caches sous-marins cachés le long de la côte de LS et les a marqués avec des fusées éclairantes. J'ai également marqué les emplacements sur votre GPS. Vous pouvez atteindre ces endroits en volant un bateau ou en utilisant le vôtre. Bonne chance !",
+    "supplier_subject": "Numéros de Téléphone",
+    "supplier_phone_numbers": "Voici les numéros de téléphone que vous devez entrer pour que mon fournisseur reçoive le signal pour réapprovisionner les caches :"
+  },
+  "target": {
+    "retrieve_cache": "Récupérer le Cache",
+    "pay_cost": "Payez-moi"
+  },
+  "progress": {
+    "search_register": "Discussion avec...",
+    "open_trunk": "Récupération du Cache"
+  }
+}

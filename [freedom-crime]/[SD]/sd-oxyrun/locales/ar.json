@@ -1,0 +1,60 @@
+{
+  "error": {
+    "canceled": "تم الإلغاء..",
+    "done_recently": "لقد قمت بهذا مؤخرًا، عد مرة أخرى قريبًا!",
+    "someone_recently_did_this": "قام شخص ما بهذا مؤخرًا..",
+    "cannot_do_this_right_now": "لا يمكن القيام بذلك الآن..",
+    "does_not_speak": "أحضر الطرد الآخر أولًا..",
+    "get_out_vehicle": "اخرج من مركبتك أولًا..",
+    "bring_other_package": "أحضر الطرد الآخر أولًا..",
+    "what_do_you_want": "ماذا تريد؟",
+    "you_cannot_do_this": "لا يمكنك فعل هذا..",
+    "you_dont_have_enough_money": "ليس لديك ما يكفي من المال..",
+    "no_package": "أنت لا تحمل طردًا..",
+    "leave_area": "سيغادر عملاؤك إذا لم تبق في المنطقة..",
+    "occupied_routes": "جميع الطرق مشغولة حاليًا، حاول مرة أخرى لاحقًا..",
+    "missing_required_item": "تفتقد إلى شيء ما..",
+    "you_robbed": "العميل يحاول الابتعاد دون أن يعطيك الأوكسي الخاص بك!",
+    "you_were_robbed": "العميل ابتعد دون أن يعطيك الأوكسي الخاص بك!",
+    "robbery_stopped": "لقد نجحت في منع العميل من الابتعاد دون أن يعطيك الأوكسي الخاص بك!"
+  },
+  "success": {
+    "you_have_arrived": "لقد وصلت إلى المكان المحدد، انتظر الزبائن..",
+    "drive_to_location": "قُد إلى الموقع المحدد على نظام تحديد المواقع الخاص بك..",
+    "arrived_location": "لقد وصلت إلى المكان المحدد، انتظر الزبائن..",
+    "suppliers_position": "تم تحديد موقع المورد على نظام تحديد المواقع الخاص بك..",
+    "send_email_right_now": "سأرسل لك بريدًا إلكترونيًا الآن..",
+    "start_run": "لقد سجلت الدخول، احصل على مركبة لنفسك..",
+    "run_ended": "انتهت جولتك.."
+  },
+  "prints": {
+    "global_cooldown_started": "جولة الأوكسي: بدأت فترة التهدئة العامة",
+    "global_cooldown_finished": "جولة الأوكسي: انتهت فترة التهدئة العامة"
+  },
+  "mailstart": {
+    "sender": "مجهول",
+    "subject": "توصيل خاص",
+    "message": "شكرًا لمساعدتي، ستُكافأ بسخاء! احصل على مركبة حتى تتمكن من الوصول إلى المورد!"
+  },
+  "mailfinish": {
+    "sender": "مجهول",
+    "subject": "توصيل خاص",
+    "message": "لقد قدمت لي خدمة كبيرة! عُد إلي عندما تكون جاهزًا للمزيد!"
+  },
+  "target": {
+    "oxyboss": "تسجيل الدخول",
+    "oxysupplier": "الحصول على الحزمة",
+    "handoff_package": "تسليم الحزمة",
+    "view_reputation": "عرض السمعة"
+  },
+  "info": {
+    "reputation_level": "مستوى السمعة",
+    "reputation_points": "نقاط السمعة",
+    "current_level": "المستوى الحالي: {level}",
+    "total_points": "مجموع النقاط: {points}",
+    "error_retrieving_info": "تعذر استرداد معلومات اللاعب."
+  },  
+  "progress": {
+    "talking_to_boss": "التحدث إلى الرئيس.."
+  }
+}

@@ -1,0 +1,750 @@
+[
+    {
+        "question": "Speed limiters for road trains are required to be set for what maximum speed capability?",
+        "answers": {
+            "c": "100 Km/h",
+            "b": "90 Km/h",
+            "a": "80 Km/h",
+            "d": "110 Km/h",
+            "correct": "a"
+        },
+        "id": 1
+    },
+    {
+        "question": "When driving near parked vehicles, you should:",
+        "answers": {
+            "c": "Sound your horn and flash your headlights to warn drivers not to pull out.",
+            "b": "Stop, if you see a car with its right-hand indicator on.",
+            "a": "Check for parked vehicles with turn signals on, or children about to step out.",
+            "d": "Speed up to pass the parked vehicles as quickly as possible.",
+            "correct": "a"
+        },
+        "id": 2
+    },
+    {
+        "question": "What is the maximum length for a rigid vehicle?",
+        "answers": {
+            "c": "12.5 metres.",
+            "b": "12 metres.",
+            "a": "10.5 metres.",
+            "d": "10 metres",
+            "correct": "a"
+        },
+        "id": 3
+    },
+    {
+        "question": "As you drive into an intersection, the lights turn to yellow. You should:",
+        "answers": {
+            "c": "Brake immediately to a stop.",
+            "b": "Accelerate as hard as you can.",
+            "a": "Continue through the intersection.",
+            "d": "Reverse out of the intersection.",
+            "correct": "c"
+        },
+        "id": 4
+    },
+    {
+        "question": "You must give way to pedestrians on a marked pedestrian crossing:",
+        "answers": {
+            "c": "When they are crossing from your left only.",
+            "b": "When they are crossing from your right only.",
+            "a": "Only if there are no traffic lights at the crossing.",
+            "d": "If there is any danger of a collision.",
+            "correct": "d"
+        },
+        "id": 5
+    },
+    {
+        "question": "Child restraints (e.g., baby capsules and child seats):",
+        "answers": {
+            "c": "Need only be used if the child wants to sleep.",
+            "b": "Are not as safe as holding a child in your arms.",
+            "a": "Should be fitted according to the manufacturers' instructions.",
+            "d": "Are optional if you are driving at low speed",
+            "correct": "a"
+        },
+        "id": 6
+    },
+    {
+        "question": "If you are driving along the highway and come across road works with a reduced speed zone, you must:",
+        "answers": {
+            "c": "Slow down to the new speed limit.",
+            "b": "Drive through the road works zone as fast as you can to get past it.",
+            "a": "Drive at the same speed as other vehicles.",
+            "d": "Ignore the speed limit and continue at your normal speed.",
+            "correct": "c"
+        },
+        "id": 7
+    },
+    {
+        "question": "If an oncoming vehicle crosses the centre line and is coming straight at you and you cannot stop, you should:",
+        "answers": {
+            "c": "Brake, look for room to the left, sound your horn and flash your lights.",
+            "b": "Slow down and hope that the driver will turn away.",
+            "a": "Drive onto the wrong side of the road and hope the other vehicle does not do the same.",
+            "d": "Close your eyes and brace for impact.",
+            "correct": "c"
+        },
+        "id": 8
+    },
+    {
+        "question": "What are you required to do if you develop a serious medical condition that could affect your driving?",
+        "answers": {
+            "c": "Hand your licence in at the nearest police station.",
+            "b": "Once you become aware of the condition you must notify Roads and Maritime",
+            "a": "Tell your doctor and let him or her notify Roads and Maritime",
+            "d": "Continue driving as usual until you're involved in an accident.",
+            "correct": "b"
+        },
+        "id": 9
+    },
+    {
+        "question": "Provided the total width of a vehicle does not exceed 2.5 metres, a load must not overhang to the sides of the vehicle by more than:",
+        "answers": {
+            "c": "250 millimetres.",
+            "b": "200 millimetres.",
+            "a": "150 millimetres.",
+            "d": "300 millimetres.",
+            "correct": "a"
+        },
+        "id": 10
+    },
+    {
+        "question": "If you are convicted of dangerous driving:",
+        "answers": {
+            "c": "You could only be fined and given demerit points.",
+            "b": "You could lose your licence and may be sent to prison.",
+            "a": "You could be given demerit points only.",
+            "d": "You will automatically get a reward for driving safely after the conviction.",
+            "correct": "b"
+        },
+        "id": 11
+    },
+    {
+        "question": "You approach a person crossing the road. You should:",
+        "answers": {
+            "c": "Maintain your speed and swerve around the person.",
+            "b": "Slow down and sound your horn to hurry up the person.",
+            "a": "Slow down or stop to avoid hitting the person.",
+            "d": "Speed up to get past the person quickly.",
+            "correct": "a"
+        },
+        "id": 12
+    },
+    {
+        "question": "You give a friend and her 12 year old son a lift. Your friend sits in the front and her son gets in the back. The boy does not put his seat belt on. By law, who has to make sure the child wears his seat belt?",
+        "answers": {
+            "c": "You do, because you are the driver.",
+            "b": "Your friend does because she is the parent.",
+            "a": "The child does because it is always the passenger's responsibility.",
+            "d": "The child’s friend should make sure the seat belt is on.",
+            "correct": "c"
+        },
+        "id": 13
+    },
+    {
+        "question": "At night, if an oncoming vehicle's headlights dazzle you, you should:",
+        "answers": {
+            "c": "Slow down, until your eyes recover.",
+            "b": "Watch the centre line of the road.",
+            "a": "Close your eyes for a short time until they recover.",
+            "d": "Turn your headlights on full beam to return the dazzle.",
+            "correct": "c"
+        },
+        "id": 14
+    },
+    {
+        "question": "If you are involved in an accident where your vehicle needs to be towed away and the Police does not attend the crash scene, you:",
+        "answers": {
+            "c": "Only need to report the accident to the Police if someone was injured.",
+            "b": "Do not need to report the accident to the Police.",
+            "a": "Must report the accident to the Police Station nearest to where the accident happened within 24 hours.",
+            "d": "Must report the accident to the Police Station nearest to your home within 24 hours",
+            "correct": "a"
+        },
+        "id": 15
+    },
+    {
+        "question": "You are at a busy intersection with slow moving traffic and want to go straight ahead. When the traffic lights change to green you should make sure that:",
+        "answers": {
+            "c": "You do not hold up the traffic behind you.",
+            "b": "You have the car in the right gear.",
+            "a": "You do not block the intersection.",
+            "d": "You honk your horn to speed up the traffic.",
+            "correct": "a"
+        },
+        "id": 16
+    },
+    {
+        "question": "Overtaking another vehicle requires good concentration and judgement. Which of the following statements is correct?",
+        "answers": {
+            "c": "You need to watch out for all large, long vehicles which are turning.",
+            "b": "It is best and safest to speed up when a vehicle behind you tries to overtake you.",
+            "a": "The faster the vehicle you are overtaking is going, the less distance you need to overtake.",
+            "d": "You can overtake anytime, even if there are no clear gaps in traffic.",
+            "correct": "c"
+        },
+        "id": 17
+    },
+    {
+        "question": "Driving faster than the maximum speed limit is:",
+        "answers": {
+            "c": "Permitted only when passing another vehicle.",
+            "b": "Never legally permitted.",
+            "a": "Only permitted when other vehicles are going faster than the speed limit.",
+            "d": "Permitted if you're running late and need to catch up.",
+            "correct": "b"
+        },
+        "id": 18
+    },
+    {
+        "question": "If the police suspect you may have been involved in street or drag racing, they may take immediate action. Which one of the following is correct? The police may:",
+        "answers": {
+            "c": "Take your vehicle to the local police station and keep it till the following morning.",
+            "b": "Take your vehicle from you and keep it stored for up to three months.",
+            "a": "Take your vehicle away and sell it at an auction.",
+            "d": "Take your vehicle and give you a temporary replacement car.",
+            "correct": "b"
+        },
+        "id": 19
+    },
+    {
+        "question": "You drive up to a corner where you see some loose gravel on the road. You should",
+        "answers": {
+            "c": "Slow down.",
+            "b": "Check the mirrors and change lanes.",
+            "a": "Speed up and drive over the gravel as quickly as possible.",
+            "d": "Ignore the gravel and continue at the same speed.",
+            "correct": "c"
+        },
+        "id": 20
+    },
+    {
+        "question": "As you leave a freeway, which of the following should you check?",
+        "answers": {
+            "c": "Windscreen wipers",
+            "b": "Fuel gauge",
+            "a": "Your speed",
+            "d": "Check if your radio is tuned to your favorite station.",
+            "correct": "a"
+        },
+        "id": 21
+    },
+    {
+        "question": "When starting to overtake you see a large vehicle ahead of you. Which of the following should you NOT do?",
+        "answers": {
+            "c": "Stay in the middle lane as you overtake.",
+            "b": "Indicate well in advance of your overtaking move.",
+            "a": "Stay close to the vehicle and speed up to overtake.",
+            "d": "Check the road ahead to ensure you have enough space.",
+            "correct": "a"
+        },
+        "id": 22
+    },
+    {
+        "question": "If your throttle sticks while in traffic, what is the first thing you should do?",
+        "answers": {
+            "c": "Immediately squeeze the clutch lever, turn off the engine at the cutoff switch and apply the brakes.",
+            "b": "Rotate the throttle back and forth several times.",
+            "a": "Sound your horn to warn other vehicles.",
+            "d": "Try to accelerate further to see if the throttle releases on its own.",
+            "correct": "c"
+        },
+        "id": 23
+    },
+    {
+        "question": "When approaching a turn on your motorcycle you should:",
+        "answers": {
+            "c": "Cover your brakes in case you need them while in the turn.",
+            "b": "Leave your braking until you are in the turn so you do not lose too much speed.",
+            "a": "Slow down before the turn and increase your speed gradually as you come out of the turn.",
+            "d": "Accelerate quickly before the turn to gain more speed.",
+            "correct": "c"
+        },
+        "id": 24
+    },
+    {
+        "question": "Check all that apply. You should use your right-hand indicator when:",
+        "answers": {
+            "c": "You intend to move to the right, at any time.",
+            "b": "You intend to slow down.",
+            "a": "You are about to stop.",
+            "d": "You want to let people know they can overtake you",
+            "correct": "c"
+        },
+        "id": 25
+    },
+    {
+        "question": "You are being overtaken by a car on a two-laned road. In what part of the lane should you ride?",
+        "answers": {
+            "c": "No special part of your lane.",
+            "b": "The centre or left of your lane.",
+            "a": "The far right of your lane.",
+            "d": "Ride as close to the centre line as possible.",
+            "correct": "b"
+        },
+        "id": 26
+    },
+    {
+        "question": "In the diagram shown you are being followed very closely by another vehicle, you should:",
+        "answers": {
+            "c": "Brake hard to force the other vehicle to drop back.",
+            "b": "Attempt to get the other vehicle to drop back by giving a hand signal.",
+            "a": "Create more space in front of you by slowing down, until it is safe for the other vehicle to pass.",
+            "d": "Speed up to get away from the other vehicle.",
+            "correct": "a"
+        },
+        "id": 27
+    },
+    {
+        "question": "When being overtaken by another vehicle what should you do to help?",
+        "answers": {
+            "c": "Keep left and allow plenty of room to let the other vehicle back in.",
+            "b": "Brake quickly to let the other vehicle overtake.",
+            "a": "Move to the left and stop.",
+            "d": "Speed up to prevent the other vehicle from overtaking.",
+            "correct": "c"
+        },
+        "id": 28
+    },
+    {
+        "question": "When a road is wet the most slippery part is likely to be:",
+        "answers": {
+            "c": "The centre of your lane.",
+            "b": "The left side of your lane.",
+            "a": "The right side of your lane.",
+            "d": "The shoulder of the road.",
+            "correct": "c"
+        },
+        "id": 29
+    },
+    {
+        "question": "In wet weather when it becomes hard for you to see, you should:",
+        "answers": {
+            "c": "Turn your headlights on high beam.",
+            "b": "Turn on your headlights, slow down, and double your following distance behind the vehicle in front.",
+            "a": "Flash your headlights to warn other drivers.",
+            "d": "Turn off your headlights to avoid glare.",
+            "correct": "b"
+        },
+        "id": 30
+    },
+    {
+        "question": "What will happen if you offer a testing officer a bribe to pass your driving test?",
+        "answers": {
+            "c": "Nothing, there is no penalty.",
+            "b": "Action will be taken against you. The penalties are severe and include fines and imprisonment.",
+            "a": "Only the testing officer will be investigated.",
+            "d": "You will receive a warning but no further action will be taken.",
+            "correct": "b"
+        },
+        "id": 31
+    },
+    {
+        "question": "What should be displayed upon an approved helmet?",
+        "answers": {
+            "c": "A manufacturer's approval and checked by sticker.",
+            "b": "Bright stickers to make the helmet more visible to vehicle drivers.",
+            "a": "Certification sticker that meets the national safety standards.",
+            "d": "A logo or brand name of the helmet manufacturer.",
+            "correct": "a"
+        },
+        "id": 32
+    },
+    {
+        "question": "Which portion of the airfield is used for parking aircraft or helicopters before, after, or between flights, as well as for servicing and maintenance?",
+        "answers": {
+            "c": "Apron",
+            "b": "Runway",
+            "a": "Taxiway",
+            "d": "Control Tower",
+            "correct": "c"
+        },
+        "id": 33
+    },
+    {
+        "question": "Which of the following are identified by numbers that represent the orientation in compass degrees, rounded to the nearest ten degrees?",
+        "answers": {
+            "c": "Apron zones",
+            "b": "Runways",
+            "a": "Taxiways",
+            "d": "Control towers",
+            "correct": "b"
+        },
+        "id": 34
+    },
+    {
+        "question": "Which color combination represents a mandatory instruction sign located at a runway holdline?",
+        "answers": {
+            "c": "Black Letters, Yellow Background",
+            "b": "Yellow Letters, Green Background",
+            "a": "White Letters, Red Background",
+            "d": "Blue Letters, White Background",
+            "correct": "a"
+        },
+        "id": 35
+    },
+    {
+        "question": "Where would the sign '4-22' be located?",
+        "answers": {
+            "c": "At the Apron Boundary for Runway 4-22",
+            "b": "At the Taxiway Intersection for Runway 4-22",
+            "a": "At the VFR Holdline for Runway 4-22",
+            "d": "At the Control Tower for Runway 4-22",
+            "correct": "b"
+        },
+        "id": 36
+    },
+    {
+        "question": "Near what airfield pavement marking would the following sign be located?",
+        "answers": {
+            "c": "VFR Holdline",
+            "b": "Runway Threshold",
+            "a": "Taxiway Centerline",
+            "d": "Apron Boundary",
+            "correct": "c"
+        },
+        "id": 37
+    },
+    {
+        "question": "Is it true that at night and during inclement weather, it is critical to gain permission from and maintain communication with the tower controller while driving in the Controlled Movement Area (CMA)?",
+        "answers": {
+            "c": "Only during the day",
+            "b": "False",
+            "a": "True",
+            "d": "Only in clear weather",
+            "correct": "a"
+        },
+        "id": 38
+    },
+    {
+        "question": "Is it true that vehicles with daytime running lights must park in a safe location with the ignition off, parking brake set, and emergency flashers off?",
+        "answers": {
+            "c": "Only if it's nighttime",
+            "b": "False",
+            "a": "True",
+            "d": "Only in the Controlled Movement Area",
+            "correct": "a"
+        },
+        "id": 39
+    },
+    {
+        "question": "For periods of lowered visibility, which of the following statements is true?",
+        "answers": {
+            "c": "Communication with the tower controller should be maintained",
+            "b": "Vehicles should reduce speed and increase following distance",
+            "a": "Vehicles must use their headlights and taillights",
+            "d": "All of the above",
+            "correct": "d"
+        },
+        "id": 40
+    },
+    {
+        "question": "Prior to driving on the airfield, all drivers must:",
+        "answers": {
+            "c": "Only wear reflective gear",
+            "b": "Have a valid pilot’s license",
+            "a": "Complete local airfield drivers training and possess proper documentation authorizing airfield driving",
+            "d": "Be familiar with airport security protocols",
+            "correct": "a"
+        },
+        "id": 41
+    },
+    {
+        "question": "The speed limit (maximum) when driving a vehicle on a taxiway or inactive runway is:",
+        "answers": {
+            "c": "25 mph",
+            "b": "10 knots",
+            "a": "Determined by the installation commander",
+            "d": "50 mph",
+            "correct": "c"
+        },
+        "id": 42
+    },
+    {
+        "question": "When did the Wright Brothers make their first powered flight by aircraft?",
+        "answers": {
+            "c": "1923",
+            "b": "1913",
+            "a": "1903",
+            "d": "1933",
+            "correct": "a"
+        },
+        "id": 43
+    },
+    {
+        "question": "Which of the following is the largest passenger aircraft in the world?",
+        "answers": {
+            "c": "Bombardier Global 8000",
+            "b": "Airbus A380",
+            "a": "Boeing 767",
+            "d": "Airbus A330",
+            "correct": "b"
+        },
+        "id": 44
+    },
+    {
+        "question": "How many minutes of oxygen are cabin oxygen masks equipped to provide in an emergency?",
+        "answers": {
+            "c": "30 minutes",
+            "b": "15 minutes",
+            "a": "5 minutes",
+            "d": "60 minutes",
+            "correct": "b"
+        },
+        "id": 45
+    },
+    {
+        "question": "What name is given to the wispy white lines airplanes leave in their trail?",
+        "answers": {
+            "c": "Airtrails",
+            "b": "Chemtrails",
+            "a": "Skytrails",
+            "d": "Contrails",
+            "correct": "d"
+        },
+        "id": 46
+    },
+    {
+        "question": "Contrary to popular belief, an airplane's black box is typically which of the following colors?",
+        "answers": {
+            "c": "White",
+            "b": "Orange",
+            "a": "Red",
+            "d": "Blue",
+            "correct": "b"
+        },
+        "id": 47
+    },
+    {
+        "question": "What name is given to the fear of flying?",
+        "answers": {
+            "c": "Fliophobia",
+            "b": "Planophobia",
+            "a": "Aviophobia",
+            "d": "Astrophobia",
+            "correct": "a"
+        },
+        "id": 48
+    },
+    {
+        "question": "Which model of military aircraft has been produced for over six decades, owing to it's solid design?",
+        "answers": {
+            "c": "Beluga",
+            "b": "Hercules",
+            "a": "Skyhawk",
+            "d": "Atlas",
+            "correct": "b"
+        },
+        "id": 49
+    },
+    {
+        "question": "The main body of a passenger airplane is known in the industry by what name?",
+        "answers": {
+            "c": "Cockpit",
+            "b": "Rudder",
+            "a": "Fuselage",
+            "d": "Spoiler",
+            "correct": "a"
+        },
+        "id": 50
+    },
+    {
+        "question": "What is the purpose of the flaps on an aircraft's wings?",
+        "answers": {
+            "c": "To reduce drag at high speeds",
+            "b": "To control the aircraft's pitch",
+            "a": "To increase lift during takeoff and landing",
+            "d": "To stabilize the aircraft in turbulence",
+            "correct": "a"
+        },
+        "id": 51
+    },
+    {
+        "question": "What is the maximum permissible blood alcohol concentration (BAC) for a person 18 years of age or more when driving a vessel in NSW?",
+        "answers": {
+            "correct": "a",
+            "b": "0.00",
+            "a": "Under 0.05",
+            "d": "Under 0.02",
+            "c": "Under 0.03"
+        },
+        "id": 52
+    },
+    {
+        "question": "What will happen if you are caught cheating on the knowledge test?",
+        "answers": {
+            "correct": "a",
+            "b": "Nothing, there is no penalty",
+            "a": "You will not be allowed to take another test for 6 weeks",
+            "d": "You will only receive a warning.",
+            "c": "You will never be allowed to take another test"
+        },
+        "id": 53
+    },
+    {
+        "question": "Children aged under 12 years must wear a lifejacket:",
+        "answers": {
+            "correct": "b",
+            "b": "On all vessels up to 4.8 metres long.",
+            "a": "On all sailing boats, but no requirement on other vessels.",
+            "d": "Only when the boat is anchored.",
+            "c": "On all canoes, kayaks and rowing boats, but no requirement on other vessels."
+        },
+        "id": 54
+    },
+    {
+        "question": "How should you care for your lifejackets?",
+        "answers": {
+            "correct": "c",
+            "b": "Regularly air them in sunlight.",
+            "a": " Leave them in a bucket of cold fresh water in between uses.",
+            "d": "Store them wet to prevent them from drying out.",
+            "c": "Clean off salt, check for damage and store them dry, out of sunlight."
+        },
+        "id": 55
+    },
+    {
+        "question": "Why must inflatable lifejackets be serviced regularly?",
+        "answers": {
+            "correct": "a",
+            "b": "They are difficult to fit into storage if you don’t get them serviced.",
+            "a": "If they are not in working order, they may not inflate you when you need them.",
+            "d": "To make them more comfortable to wear.",
+            "c": "The plastic wrapping will wear off if you don’t get them serviced."
+        },
+        "id": 56
+    },
+    {
+        "question": "When must you carry a waterproof torch on a powered vessel (other than a personal watercraft)?",
+        "answers": {
+            "correct": "a",
+            "b": " Only between sunset and sunrise.",
+            "a": "At all times.",
+            "d": "Only during foggy conditions.",
+            "c": "Only when going more than 2 nautical miles from shore on open waters."
+        },
+        "id": 57
+    },
+    {
+        "question": "When must you carry an EPIRB (Emergency Position Indicating Radio Beacon) on your vessel?",
+        "answers": {
+            "correct": "b",
+            "b": "When you go 2 or more nautical miles from shore on open waters.",
+            "a": "When you go on enclosed waters.",
+            "d": "Only during strong winds.",
+            "c": "Only between sunset and sunrise."
+        },
+        "id": 58
+    },
+    {
+        "question": "When must you carry a marine two-way radio on your vessel?",
+        "answers": {
+            "correct": "a",
+            "b": "At all times on all waters.",
+            "a": "At all times when you go 2 nautical miles or more from shore on open waters.",
+            "d": "Only when the vessel is over 5 meters long.",
+            "c": "Between sunset and sunrise on all waters."
+        },
+        "id": 59
+    },
+    {
+        "question": "When do you need a General Boat driving licence?",
+        "answers": {
+            "correct": "c",
+            "b": "Only when driving a powered vessel on NSW waters at speeds over 20 knots.",
+            "a": "Only when driving a commercial vessel.",
+            "d": " Only when driving a vessel with a capacity of more than 5 passengers.",
+            "c": "Only when driving a powered vessel on NSW waters at speeds over 10 knots."
+        },
+        "id": 60
+    },
+    {
+        "question": "The pilot of an aircraft that has been involved in an accident is required to file an NTSB accident report within how many days?",
+        "answers": {
+            "correct": "b",
+            "b": "7",
+            "a": "5",
+            "d": "14",
+            "c": "10"
+        },
+        "id": 61
+    },
+    {
+        "question": "With respect to the certification of airmen, which are categories of aircraft?",
+        "answers": {
+            "correct": "b",
+            "b": "Airplane, rotorcraft, glider, lighter-than-air.",
+            "a": "Gyroplane, helicopter, airship, free balloon.",
+            "d": "Supersonic, hypersonic, jet, propeller-driven.",
+            "c": "Single-engine land and sea, multiengine land and sea."
+        },
+        "id": 62
+    },
+    {
+        "question": "A flashing white light signal from the control tower to a taxiing aircraft is an indication  to",
+        "answers": {
+            "correct": "c",
+            "b": "Taxi only on taxiways and not cross runways.",
+            "a": "Taxi at a faster speed.",
+            "d": " Prepare for takeoff immediately.",
+            "c": "Return to the starting point on the airport."
+        },
+        "id": 63
+    },
+    {
+        "question": "During operations outside controlled airspace at altitudes of more than 1,200 feet AGL, but less than 10,000 feet MSL, the minimum flight visibility for day VFR flight is:",
+        "answers": {
+            "correct": "b",
+            "b": "3 miles.",
+            "a": "1 mile.",
+            "d": "10 miles.",
+            "c": "5 miles."
+        },
+        "id": 64
+    },
+    {
+        "question": "During operations outside controlled airspace at altitudes of more than 1,200 feet AGL, but less than 10,000 feet MSL, the minimum distance below clouds requirement for VFR flight at night is:",
+        "answers": {
+            "correct": "b",
+            "b": "1,000 feet.",
+            "a": " 500 feet.",
+            "d": " 2,000 feet.",
+            "c": "1,500 feet."
+        },
+        "id": 65
+    },
+    {
+        "question": "Two-way radio communication must be established with the Air Traffic Control facility having jurisdiction over the area prior to entering which class airspace?",
+        "answers": {
+            "correct": "a",
+            "b": "Class E.",
+            "a": "Class C.",
+            "d": "Class B.",
+            "c": "Class G."
+        },
+        "id": 66
+    },
+    {
+        "question": "Which is appropriate for a helicopter approaching an airport for landing?",
+        "answers": {
+            "correct": "b",
+            "b": "Avoid the flow of fixed-wing traffic.",
+            "a": "Remain below the airplane traffic pattern altitude.",
+            "d": "Follow the same pattern as fixed-wing aircraft.",
+            "c": "Fly right-hand traffic."
+        },
+        "id": 67
+    },
+    {
+        "question": "Pre-takeoff briefing of passengers about the use of seat belts for a flight is the responsibility of:",
+        "answers": {
+            "correct": "b",
+            "b": "The pilot in command.",
+            "a": " All passengers.",
+            "d": "The flight attendants.",
+            "c": "The right seat pilot."
+        },
+        "id": 68
+    }
+]

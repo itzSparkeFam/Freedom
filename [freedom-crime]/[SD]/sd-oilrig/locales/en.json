@@ -1,0 +1,72 @@
+{
+  "error": {
+    "cannot_use_kit_here": "You can't use this kit here..",
+    "already_hacked": "This System has already been hacked..",
+    "still_active": "The Security System is still active..",
+    "fully_lockdown": "The Security System has fully locked down..",
+    "automatic_pressure_active": "The automatic pressure regulators are active..",
+    "automatic_pressure_active2": "Automatic Pressure Regulation is still Active..",
+    "pressure_too_low": "The pressure has dropped too low and seized up the rig..",
+    "incorrect_pass": "Incorrect password",
+    "how_did_you_get": "Oops, how did you get here?!",
+    "not_enough_cops": "Not Enough Police..",
+    "already_have_barrel": "You already have a barrel..",
+    "trying_to_exploit": "Trying to exploit are we?!",
+    "pressure_too_high": "The pressure has gotten too high! run!!",
+    "cannot_hack_right_now": "You can't hack this right now..",
+    "pressure_not_right_yet": "The pressure isnt right yet..",
+    "no_pink_usb_dongle": "You don't have a Pink USB Dongle..",
+    "no_laptop": "You don't have a Pink Laptop..",
+    "cant_do_right_now": "Can't do this right now..",
+    "wrong_lever_sequence": "You've pulled the levers in the wrong sequence.."
+  },
+  "success": {
+    "out_to_sea": "You've travelled far out to sea..",
+    "pressure_at": "You need pressure at around 55%",
+    "pressure_at_2": "Once the pressure is right you need to hack certain areas..",
+    "automatic_pressure_deactive": "Deactivated Automatic Pressure Regulators..",
+    "took_barrel": "You have taken the barrel full of Oil..",
+    "pulled_lever": "Pulled lever",
+    "current_pressure": "The current pressure read is:",
+    "security_system_override": "Security System Override started..",
+    "find_levers_to_deactivate_pressure": "You have to find levers to deactivate pressure regulators.."
+  },
+  "letters": {
+    "hidden_letter": "The hidden letter is",
+    "first_hidden_letter": "The first hidden letter is",
+    "second_hidden_letter": "The second hidden letter is",
+    "third_hidden_letter": "The third hidden letter is",
+    "fourth_hidden_letter": "The fourth hidden letter is"
+  },
+  "menu": {
+    "input_password": "Enter 4 Letter Password:",
+    "submit_Text": "Submit",
+    "uppercase_only": "Uppercase only",
+    "sell_barrel": "Sell Barrel to this Gas Station",
+    "going_price": "Going price here:"
+  },
+  "prints": {
+    "cooldown_started": "OILRIG: Cooldown started",
+    "cooldown_finished": "OILRIG: Cooldown finished"
+  },
+  "target": {
+    "grab_barrel": "Grab Barrel",
+    "sell_barrel": "Sell Oil Barrel",
+    "pull_lever_1": "Pull Lever #1",
+    "pull_lever_2": "Pull Lever #2",
+    "pull_lever_3": "Pull Lever #3",
+    "insert_dongle": "Insert USB Dongle",
+    "increase_pressure": "Increase pressure",
+    "lower_pressure": "Lower pressure",
+    "check_pressure": "Check Pressure",
+    "enter_password": "Enter Password",
+    "loot_body": "Loot",
+    "hack_password": "Hack Password"
+  },
+  "progress": {
+    "reviving": "Reviving..",
+    "selling": "Selling..",
+    "turning_valve": "Turning valve..",
+    "pickup_barrel": "Picking up barrel.."
+  }
+}

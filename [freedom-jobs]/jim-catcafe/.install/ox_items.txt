@@ -1,0 +1,52 @@
+["bmochi"] = { label = "Blue Mochi", weight = 200, stack = true, close = true, description = "", client = { image = "mochiblue.png", hunger = math.random(40, 50) } },
+["pmochi"] = { label = "Pink Mochi", weight = 200, stack = true, close = true, description = "", client = { image = "mochipink.png", hunger = math.random(40, 50) } },
+["gmochi"] = { label = "Green Mochi", weight = 200, stack = true, close = true, description = "", client = { image = "mochigreen.png", hunger = math.random(40, 50) } },
+["omochi"] = { label = "Orange Mochi", weight = 200, stack = true, close = true, description = "", client = { image = "mochiorange.png", hunger = math.random(40, 50) } },
+
+["bobatea"] = { label = "Boba Teai", weight = 200, stack = true, close = true, description = "", client = { image = "bubbletea.png", thirst = math.random(40, 50) } },
+["bbobatea"] = { label = "Blue Boba Tea", weight = 200, stack = true, close = true, description = "", client = { image = "bubbleteablue.png", thirst = math.random(40, 50) } },
+["gbobatea"] = { label = "Green Boba Tea", weight = 200, stack = true, close = true, description = "", client = { image = "bubbleteagreen.png", thirst = math.random(40, 50) } },
+["pbobatea"] = { label = "Pink Boba Tea", weight = 200, stack = true, close = true, description = "", client = { image = "bubbleteapink.png", thirst = math.random(40, 50) } },
+["obobatea"] = { label = "Orange Boba Tea", weight = 200, stack = true, close = true, description = "", client = { image = "bubbleteaorange.png", thirst = math.random(40, 50) } },
+
+["nekolatte"] = { label = "Neko Latte", weight = 200, stack = true, close = true, description = "", client = { image = "latte.png", thirst = math.random(20, 30) } },
+["voodoo"] = { label = "Cat Coffee", weight = 200, stack = true, close = true, description = "", client = { image = "catcoffee.png", thirst = math.random(20, 30) } },
+
+["nekolatte"] = { label = "Neko Latte", weight = 200, stack = true, close = true, description = "", client = { image = "latte.png", thirst = math.random(20, 30) } },
+["catcoffee"] = { label = "Cat Coffee", weight = 200, stack = true, close = true, description = "", client = { image = "catcoffee.png", thirst = math.random(20, 30) } },
+
+["sake"] = { label = "Sake", weight = 200, stack = true, close = true, description = "", client = { image = "sake.png", thirst = math.random(20, 30) } },
+
+["miso"] = { label = "Miso Soup", weight = 200, stack = true, close = true, description = "", client = { image = "miso.png", hunger = math.random(20, 30) } },
+["cake"] = { label = "Strawberry Cake", weight = 200, stack = true, close = true, description = "", client = { image = "cake.png", hunger = math.random(20, 30) } },
+["bento"] = { label = "Bento Box", weight = 200, stack = true, close = true, description = "", client = { image = "bento.png", hunger = math.random(20, 30) } },
+
+["riceball"] = { label = "Neko Onigiri", weight = 200, stack = true, close = true, description = "", client = { image = "catrice.png", hunger = math.random(20, 30) } },
+
+["nekocookie"] = { label = "Neko Cookie", weight = 200, stack = true, close = true, description = "", client = { image = "catcookie.png", hunger = math.random(20, 30) } },
+["nekodonut"] = { label = "Neko Donut", weight = 200, stack = true, close = true, description = "", client = { image = "catdonut.png", hunger = math.random(20, 30) } },
+
+["boba"] = { label = "Boba", weight = 200, stack = true, close = true, description = "", client = { image = "boba.png", hunger = math.random(20, 30) } },
+["flour"] = { label = "Flour", weight = 200, stack = true, close = true, description = "", client = { image = "flour.png", hunger = math.random(20, 30) } },
+["rice"] = { label = "Bowl of Rice", weight = 200, stack = true, close = true, description = "", client = { image = "rice.png", hunger = math.random(20, 30) } },
+["sugar"] = { label = "Sugar", weight = 200, stack = true, close = true, description = "", client = { image = "sugar.png", hunger = math.random(20, 30) } },
+["nori"] = { label = "Nori", weight = 200, stack = true, close = true, description = "", client = { image = "nori.png", } },
+["blueberry"] = { label = "Blueberry", weight = 200, stack = true, close = true, description = "", client = { image = "blueberry.png", hunger = math.random(20, 30) } },
+["strawberry"] = { label = "Strawberry", weight = 200, stack = true, close = true, description = "", client = { image = "strawberry.png", hunger = math.random(20, 30) } },
+["orange"] = { label = "Orange", weight = 200, stack = true, close = true, description = "", client = { image = "orange.png", } },
+["mint"] = { label = "Matcha", weight = 200, stack = true, close = true, description = "", client = { image = "matcha.png", } },
+["tofu"] = { label = "Tofu", weight = 200, stack = true, close = true, description = "", client = { image = "tofu.png", hunger = math.random(20, 30) } },
+
+["mocha"] = { label = "Mocha Meow", weight = 200, stack = true, close = true, description = "", client = { image = "mochameow.png", thirst = math.random(20, 30) } },
+
+["cakepop"] = { label = "Cat Cake-Pop", weight = 200, stack = true, close = true, description = "", client = { image = "cakepop.png", hunger = math.random(20, 30) } },
+["pancake"] = { label = "PawCake", weight = 200, stack = true, close = true, description = "", client = { image = "pawcakes.png", hunger = math.random(20, 30) } },
+["pizza"] = { label = "Kitty Pizza", weight = 200, stack = true, close = true, description = "", client = { image = "catpizza.png", hunger = math.random(20, 30) } },
+["purrito"] = { label = "Purrito", weight = 200, stack = true, close = true, description = "", client = { image = "purrito.png", hunger = math.random(20, 30) } },
+
+["noodlebowl"] = { label = "Bowl of Noodles", weight = 200, stack = true, close = true, description = "", client = { image = "noodlebowl.png", hunger = math.random(20, 30) } },
+["noodles"] = { label = "Instant Noodles", weight = 200, stack = true, close = true, description = "", client = { image = "noodles.png", } },
+["ramen"] = { label = "owl of Ramen", weight = 200, stack = true, close = true, description = "", client = { image = "ramen.png", hunger = math.random(20, 30) } },
+
+["milk"] = { label = "Milk", weight = 200, stack = true, close = true, description = "", client = { image = "burger-milk.png", thirst = math.random(20, 30) } },
+["onion"] = { label = "Onion", weight = 200, stack = true, close = true, description = "", client = { image = "burger-onion.png", } },

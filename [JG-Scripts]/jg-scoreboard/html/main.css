@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 3px;
+}
+::-webkit-scrollbar-track {
+  background-color: #555;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #222;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #555;
+  border-radius: 100px;
+  border: 4px solid #222;
+}
+::-webkit-scrollbar-corner {
+  background-color: #555;
+}
+::-webkit-resizer {
+  background-color: #555;
+}
+
+.scoreboard-modal .modal-xl {
+  width: calc(100% - 5rem) !important;
+  max-width: none !important;
+}
+
+.scoreboard-modal .modal-content {
+  background: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.scoreboard-modal .modal-header .server-info,
+.scoreboard-modal .modal-header .server-cur-player {
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.scoreboard-modal .modal-header {
+  border: none;
+  background: #0f0f0f;
+}
+
+.scoreboard-modal .modal-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.scoreboard-modal .modal-header .modal-title {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.scoreboard-modal .modal-header .modal-subtitle {
+  white-space: nowrap;
+}
+
+.scoreboard-modal .modal-header .sn-discord {
+  background-color: #5865f2;
+  font-weight: bold;
+}
+
+.scoreboard-modal .highlighted-jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.scoreboard-modal .modal-header .whitelist-job {
+  padding: 8px 10px;
+  margin: 7.5px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.scoreboard-modal .modal-header .whitelist-job .job-icon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.scoreboard-modal .modal-header .whitelist-job .player-count {
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.scoreboard-modal .modal-header .whitelist-job .job-name {
+  font-weight: inherit;
+}
+
+.scoreboard-modal .modal-header .player-card {
+  margin-left: auto;
+  width: fit-content;
+  max-width: 600px;
+}
+
+.scoreboard-modal .modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+  background: rgb(34, 34, 34, 0.9);
+  border: none;
+  border-top: 1px solid #444;
+}
+
+/* PLAYER CARD */
+
+.scoreboard-modal .player-card {
+  flex-basis: calc(25% - 12px);
+  background: rgba(15, 15, 15, 1);
+  border-radius: 8px;
+}
+
+.scoreboard-modal .player-card .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.scoreboard-modal .player-card .player-id {
+  min-width: 28px;
+  height: 28px;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid #777;
+  border-radius: 100px;
+  margin-right: 10px;
+  color: #bbb;
+  flex-shrink: 0;
+}
+
+.scoreboard-modal .player-card .player-details {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.scoreboard-modal .player-card .player-name {
+  font-size: 17px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scoreboard-modal .player-card .player-accolades {
+  display: flex;
+  align-items: center;
+}
+
+.scoreboard-modal .player-card .player-accolades .badge {
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.scoreboard-modal .player-card .player-ping {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  flex-shrink: 0;
+  margin-left: 10px;
+}

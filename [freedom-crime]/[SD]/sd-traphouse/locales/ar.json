@@ -1,0 +1,38 @@
+{
+  "error": {
+    "failed_hack": "لقد فشلت!",
+    "missing_required_item": "ينقصك شيء.",
+    "cooldown_active": "لقد تم القيام بذلك مؤخرًا.",
+    "not_enough_cops": "لا يمكنك فعل ذلك الآن.",
+    "failed_interaction": "فشل التفاعل!"
+  },
+  "success": {},
+  "prints": {
+    "cooldown_started": "Traphouse: بدأ وقت الانتظار",
+    "cooldown_finished": "Traphouse: انتهى وقت الانتظار"
+  },
+  "target": {
+    "loot_body": "نهب الجثة",
+    "unlock_front_door": "فتح الباب الأمامي"
+  },
+  "progress": {
+    "lockpicking": "تجربة كل المفاتيح..",
+    "collecting": "جارٍ التجميع..",
+    "cracking_vault": "فتح الخزنة.."
+  },
+  "objects": {
+    "grab_money": "أخذ المال",
+    "grab_package": "أخذ الحزمة",
+    "grab_weapon": "أخذ السلاح",
+    "grab_coke_baggy": "أخذ كيس الكوكايين",
+    "crack_open_vault": "فتح الخزنة",
+    "grab_document": "أخذ الملف",
+    "grab_coke_brick": "أخذ طوبة الكوكايين",
+    "grab_cash": "أخذ النقود",
+    "grab_statue": "أخذ التمثال",
+    "grab_gold": "أخذ الذهب",
+    "grab_gold_bar": "أخذ سبيكة الذهب",
+    "grab_watch": "أخذ الساعة",
+    "grab_bat": "أخذ المضرب"
+  }
+}

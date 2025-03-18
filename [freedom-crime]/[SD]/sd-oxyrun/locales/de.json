@@ -1,0 +1,60 @@
+{
+  "error": {
+    "canceled": "Abgebrochen..",
+    "done_recently": "Du hast das kürzlich gemacht, komm bald wieder!",
+    "someone_recently_did_this": "Jemand hat das kürzlich gemacht..",
+    "cannot_do_this_right_now": "Das ist gerade nicht möglich..",
+    "does_not_speak": "Bringe zuerst das andere Paket weg..",
+    "get_out_vehicle": "Steige zuerst aus deinem Fahrzeug aus..",
+    "bring_other_package": "Bringe zuerst das andere Paket weg..",
+    "what_do_you_want": "Was möchtest du?",
+    "you_cannot_do_this": "Das kannst du nicht machen..",
+    "you_dont_have_enough_money": "Du hast nicht genug Geld..",
+    "no_package": "Du hältst kein Paket..",
+    "leave_area": "Deine Kunden werden gehen, wenn du das Gebiet nicht betrittst..",
+    "occupied_routes": "Alle Routen sind derzeit besetzt, versuche es später noch einmal..",
+    "missing_required_item": "Dir fehlt etwas..",
+    "you_robbed": "Der Kunde versucht wegzufahren, ohne dir dein Oxy zu geben!",
+    "you_were_robbed": "Der Kunde ist weggefahren, ohne dir dein Oxy zu geben!",
+    "robbery_stopped": "Du hast den Kunden erfolgreich daran gehindert wegzufahren, ohne dir dein Oxy zu geben!"
+  },
+  "success": {
+    "you_have_arrived": "Du bist am markierten Ort angekommen, warte auf Kunden..",
+    "drive_to_location": "Fahre zum auf deinem GPS markierten Ort..",
+    "arrived_location": "Du bist am markierten Ort angekommen, warte auf Kunden..",
+    "suppliers_position": "Die Position des Lieferanten wurde auf deinem GPS markiert..",
+    "send_email_right_now": "Ich werde dir jetzt eine E-Mail senden..",
+    "start_run": "Du hast dich angemeldet, besorge dir ein Fahrzeug..",
+    "run_ended": "Dein Lauf ist beendet.."
+  },
+  "prints": {
+    "global_cooldown_started": "OXY RUN: Globale Abkühlungsphase begonnen",
+    "global_cooldown_finished": "OXY RUN: Globale Abkühlungsphase beendet"
+  },
+  "mailstart": {
+    "sender": "Unbekannt",
+    "subject": "Spezielle Lieferung",
+    "message": "Danke, dass du mir geholfen hast, du wirst großzügig belohnt! Besorge dir ein Fahrzeug, damit du zum Lieferanten gelangen kannst!"
+  },
+  "mailfinish": {
+    "sender": "Unbekannt",
+    "subject": "Spezielle Lieferung",
+    "message": "Du hast mir einen großen Gefallen getan! Komm zurück zu mir, wenn du bereit für mehr bist!"
+  },
+  "target": {
+    "oxyboss": "Anmelden",
+    "oxysupplier": "Paket schnappen",
+    "handoff_package": "Paket übergeben",
+    "view_reputation": "Ruf anzeigen"
+  },
+  "info": {
+    "reputation_level": "Ruflevel",
+    "reputation_points": "Rufpunkte",
+    "current_level": "Aktuelles Level: {level}",
+    "total_points": "Gesamtpunkte: {points}",
+    "error_retrieving_info": "Spielerinformationen konnten nicht abgerufen werden."
+  },
+  "progress": {
+    "talking_to_boss": "Spreche mit dem Boss.."
+  }
+}

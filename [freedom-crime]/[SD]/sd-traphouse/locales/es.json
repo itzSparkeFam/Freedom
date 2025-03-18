@@ -1,0 +1,38 @@
+{
+  "error": {
+    "failed_hack": "¡Has fallado!",
+    "missing_required_item": "Te falta algo.",
+    "cooldown_active": "Alguien hizo esto recientemente.",
+    "not_enough_cops": "No puedes hacer esto ahora.",
+    "failed_interaction": "¡Interacción fallida!"
+  },
+  "success": {},
+  "prints": {
+    "cooldown_started": "Traphouse: Tiempo de espera iniciado",
+    "cooldown_finished": "Traphouse: Tiempo de espera terminado"
+  },
+  "target": {
+    "loot_body": "Saquear cuerpo",
+    "unlock_front_door": "Abrir puerta principal"
+  },
+  "progress": {
+    "lockpicking": "Intentando todas las llaves..",
+    "collecting": "Recogiendo..",
+    "cracking_vault": "Abriendo la bóveda.."
+  },
+  "objects": {
+    "grab_money": "Tomar dinero",
+    "grab_package": "Tomar paquete",
+    "grab_weapon": "Tomar arma",
+    "grab_coke_baggy": "Tomar bolsa de cocaína",
+    "crack_open_vault": "Abrir bóveda",
+    "grab_document": "Tomar carpeta",
+    "grab_coke_brick": "Tomar ladrillo de cocaína",
+    "grab_cash": "Tomar efectivo",
+    "grab_statue": "Tomar estatua",
+    "grab_gold": "Tomar oro",
+    "grab_gold_bar": "Tomar barra de oro",
+    "grab_watch": "Tomar reloj",
+    "grab_bat": "Tomar bate"
+  }
+}

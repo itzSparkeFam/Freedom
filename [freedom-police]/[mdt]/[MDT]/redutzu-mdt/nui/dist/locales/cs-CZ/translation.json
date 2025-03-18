@@ -1,0 +1,990 @@
+{
+    "navigation": {
+        "dashboard": "Hlavní panel",
+        "incidents": "Incidenty",
+        "evidences": "Důkazy",
+        "warrants": "Zatykače",
+        "officers": "Policisté",
+        "bolos": "Pátrání",
+        "dispatch": "Dispečink",
+        "cameras": "Kamery",
+        "citizens": "Občané",
+        "vehicles": "Vozidla",
+        "houses": "Baráky",
+        "weapons": "Zbraně",
+        "codes": "Kódy",
+        "charges": "Poplatky",
+        "announcements": "Oznámení",
+        "config": "Nastavení",
+        "administration": "Administrace",
+        "exit": "Exit"
+    },
+    "general": {
+        "close": "Zavřít",
+        "delete": "Vymazat",
+        "male": "Můž",
+        "female": "Žena",
+        "status": "Stav",
+        "active": "Aktivní",
+        "inactive": "Neaktivní",
+        "information": "Informace",
+        "reason": "Důvod",
+        "name": "Jméno",
+        "description": "Popis",
+        "job": "Práce",
+        "grade": "Grade",
+        "callsign": "Volací znak",
+        "phone_number": "Telefonní Číslo",
+        "dateofbirth": "Datum narození",
+        "tag": "Štítek",
+        "house": "Dům",
+        "createdAt": "Vytvořeno v",
+        "expiresIn": "Vyprší v",
+        "startedAt": "Začalo v",
+        "startedOn": "Začalo na",
+        "registeredTo": "Registrován na",
+        "locatedAt": "Nachází se na {{street}}",
+        "save": "Uložit změny",
+        "duty": "Služba",
+        "on_duty": "Ve službě",
+        "off_duty": "Mimo službu",
+        "search": "Vyhledat",
+        "weapons": "Zbraně",
+        "incidents": "Incidenty",
+        "evidences": "Důkazy",
+        "warrants": "Zatykače",
+        "bolos": "Pátrání",
+        "vehicles": "Vozidla",
+        "houses": "Nemovitosti",
+        "no-results": "Žádné výsledky",
+        "gender": "Pohlaví",
+        "location": "Lokace",
+        "weapon": "Zbraň",
+        "fine": "Pokuta",
+        "jail": "Vězení",
+        "vehicle": "Vozidlo",
+        "citizen": "Občan",
+        "title": "Nadpis",
+        "cancel": "Zrušit",
+        "continue": "Pokračovat",
+        "notes": "Poznámky",
+        "code": "Kódy",
+        "position": "Pozice",
+        "firstname": "Křestní jméno",
+        "lastname": "Příjmení",
+        "fingerprint": "Otisk prstu",
+        "proceed": "Postupujte podle",
+        "plate": "SPZ",
+        "model": "Mode",
+        "insurance": "Pojištění",
+        "owner": "Majitel",
+        "owned": "Vlastní",
+        "street": "Ulice",
+        "prop": "Prop",
+        "none": "Žádné",
+        "no": "Ne",
+        "yes": "Ano",
+        "serial": "Sériové číslo",
+        "list": "Seznam",
+        "create": "Vytvořit",
+        "camera": "Kamera",
+        "link": "Odkaz",
+        "pin": "Připnout",
+        "unpin": "Odepnout",
+        "page_of": "Stránka {{x}} z {{y}}",
+        "backToSafety": "Zpět do bezpečí",
+        "coords": "Souřadnice",
+        "expand-image": "Zvětšit obrázek",
+        "remove-image": "Odstranit obrázek",
+        "zoomed-image": "Přiblížený obrázek",
+        "image-link": "Odkaz na obrázek",
+        "image-description": "Popis obrázku",
+        "submit": "Odeslat",
+        "placeholders": {
+            "citizens": "Vyhledávání občanů",
+            "officers": "Vyhledávání policistů",
+            "vehicles": "Vyhledávání vozidel",
+            "incidents": "Vyhledávání incidentů",
+            "evidences": "Vyhledávání důkazů",
+            "weapons": "Vyhledávání zbraní",
+            "weapon": "Vyhledat zbraň",
+            "bolos": "Search bolos",
+            "archive": "Vyhledávání archivních důkazů",
+            "warrants": "Search warrants",
+            "charges": "Vyhledávání pokut",
+            "codes": "Vyhledávání kodů",
+            "houses": "Vyhledávání domů",
+            "announcements": "Vyhledávání oznámení",
+            "recruits": "Vyhledávání nováčků",
+            "citizen": "Vyhledat občana",
+            "vehicle": "Vyhledat vozidlo",
+            "owner": "Vyhledat vlastníka",
+            "identifier": "Hledání identifikátoru",
+            "house": "Vyhledat dům",
+            "tag": "Vyhledat štítek",
+            "status": "Výběr stavu",
+            "license": "Výběr licence",
+            "date": "Výběr data",
+            "starting_date": "Zvolte si datum zahájení",
+            "expiring_date": "Zvolte datum vypršení platnosti"
+        }
+    },
+    "templates": {
+        "incident": "Incident #{id}",
+        "evidence": "Důkaz #{id}",
+        "warrant": "Warrant #{id}",
+        "bolo": "BOLO #{id}",
+        "vehicle": "{plate}"
+    },
+    "instructional": {
+        "press": "Stiskněte",
+        "exit": "k ukončení"
+    },
+    "jobs": {
+        "police": "Law Enforcement"
+    },
+    "licenses": {
+        "driver": "Řidičský průkaz",
+        "weapon": "Zbrojní průkaz",
+        "business": "Obchodní licence",
+        "hunting": "Lovecký průkaz"
+    },
+    "notification": {
+        "error": "Ups! Něco se nečekaně pokazilo.",
+        "create": "Úspěšně jste vytvořili tento záznam!",
+        "update": "Úspěšně jste aktualizovali tento záznam!",
+        "camera-connect": "Byli jste úspěšně připojeni ke kameře!",
+        "bodycam-connect": "Byli jste úspěšně připojeni k bodycamu!",
+        "existent-citizen": "Byl nalezen občan s tímto identifikátorem!",
+        "existent-vehicle": "Bylo nalezeno vozidlo s touto značkou!",
+        "registered-citizen": "Úspěšně jste zaregistroval tohoto občana!",
+        "registered-vehicle": "Úspěšně jste zaregistroval toto vozidlo!",
+        "permission-changed": "Úspěšně jste změnil oprávnění pro tuto hodnost!",
+        "employee-fired": "Úspěšně jste propustili tohoto zaměstnance!",
+        "employee-fire-error": "Nemůžete vyhodit vyšší hodnost ani sebe!",
+        "rank-changed": "Úspěšně jste změnili hodnost tohoto zaměstnance!",
+        "hire-citizen": "Úspěšně jste si najali tohoto občana!",
+        "camera-created": "Úspěšně jste vytvořili kameru!",
+        "camera-deleted": "Úspěšně jste odstranil kameru!",
+        "camera-toggled": "Úspěšně jste přepnuli kameru!",
+        "image-attached": "K záznamu jste připojili nový obrázek",
+        "remove-image": "Úspěšně jste odstranili obrázek ze záznamu",
+        "title": {
+            "created": "Vytvořený záznam",
+            "updated": "Aktualizace záznamu",
+            "error": "Neočekávaná chyba",
+            "camera-connect": "Kamera připojena",
+            "bodycam-connect": "Bodycam přijen",
+            "existent-citizen": "Existující občan",
+            "existent-vehicle": "Existující vozidlo",
+            "registered-citizen": "Registrovaný občan",
+            "registered-vehicle": "Registrované vozidlo",
+            "permission-changed": "Změna oprávnění",
+            "employee-fired": "Propuštění zaměstnance",
+            "rank-changed": "Změna hodnosti",
+            "hire-citizen": "Najatý občan",
+            "camera-created": "Vytvořená kamera",
+            "camera-deleted": "Odstraněná kamera",
+            "camera-toggled": "Přepnutí kamery",
+            "image-attached": "Přiložený obrázek",
+            "remove-image": "Obrázek odstraněn"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Jste si tím jistý?",
+            "description": "Tuto akci nelze vzít zpět. Záznam bude z databáze trvale vymazán.",
+            "citizen": "Jste si jist, že chcete tohoto občana z tohoto záznamu odstranit?",
+            "officer": "Jste si jist, že chcete z tohoto záznamu odstranit tohoto policistu?",
+            "vehicle": "Jste si jist, že chcete z tohoto záznamu odstranit toto vozidlo?",
+            "incident": "Opravdu chcete tuto událost z tohoto záznamu odstranit?",
+            "evidence": "Jste si jist, že chcete tento důkaz z tohoto záznamu odstranit?",
+            "warrant": "Are you sure you want to remove this warrant from this record?",
+            "bolo": "Are you sure you want to remove this BOLO from this record?",
+            "charge": "Jste si jist, že chcete tento poplatek z tohoto záznamu odstranit?",
+            "weapon": "Jste si jist, že chcete z tohoto záznamu odstranit tuto zbraň?",
+            "archive": "Opravdu chcete tento archivní soubor z tohoto záznamu odstranit?"
+        },
+        "delete_alert": {
+            "title": "Opravdu chcete toto upozornění odstranit?",
+            "description": "Tuto akci nelze vzít zpět. Upozornění se tím trvale odstraní."
+        },
+        "delete-camera": {
+            "title": "Odstranit kameru",
+            "description": "Jste si jist, že chcete tuto kameru vymazat?"
+        },
+        "add-value": {
+            "title": "Přidat novou položku",
+            "description": "Přidání nové položky do seznamu."
+        },
+        "set_position": {
+            "title": "Chcete nastavit kontrolní bod?",
+            "description": "Tím nastavíte kontrolní bod mapy MDT na místo odeslání tohoto záznamu."
+        },
+        "job": {
+            "title": "Výběr práce",
+            "description": "Pro tohoto uživatele můžete vybrat práci a hodnost."
+        },
+        "grant-license": {
+            "title": "Udělit licenci",
+            "description": "Vyberte licenci, kterou chcete občanovi udělit."
+        },
+        "suspend-license": {
+            "title": "Jste si tím jistý?",
+            "description": "Chcete odebrat tuto licenci tomuto občanovi?"
+        },
+        "update-permission": {
+            "title": "Aktualizace oprávnění",
+            "description": "Přidat nebo odebrat oprávnění pro tuto třídu"
+        },
+        "add-permission": {
+            "title": "Přidat oprávnění",
+            "description": "Přidání nového oprávnění k hodnosti"
+        },
+        "fire-employee": {
+            "title": "Propustit zaměstnance",
+            "description": "Jste si jist, že chcete tohoto zaměstnance propustit?"
+        },
+        "change-rank": {
+            "title": "Změna hodnosti",
+            "description": "Změna hodnosti tohoto zaměstnance"
+        },
+        "hire-citizen": {
+            "title": "Zaměstnat občana",
+            "description": "Jste si jist, že chcete tohoto občana zaměstnat?"
+        },
+        "add-image": {
+            "title": "Přidat obrázek",
+            "description": "Připojit nový obrázek k tomuto záznamu"
+        },
+        "remove-image": {
+            "title": "Odstranění obrázku",
+            "description": "Chcete tento obrázek ze záznamu odstranit?"
+        },
+        "change-image": {
+            "title": "Změnit obrázek",
+            "description": "Výběr nového profilového obrázku z galerie"
+        },
+        "reset-form": {
+            "title": "Obnovit formulář",
+            "description": "Opravdu chcete tento formulář resetovat?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Nemáte oprávnění ke smazání!",
+        "loading": {
+            "title": "Vydržte, pracujeme na případu",
+            "description": "V současné době procházíme naši databázi a hledáme informace, které jste požadovali. Vydržte, brzy je pro vás budeme mít! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Ups! Něco se pokazilo",
+            "description": "Omlouváme se, ale zdá se, že došlo k problému s vaším požadavkem. Obraťte se prosím na vývojáře a požádejte o pomoc."
+        },
+        "unexpected-error": {
+            "title": "Neočekávaná chyba",
+            "description": "Něco se pokazilo, obraťte se prosím na majitele serveru, aby tento problém vyřešil."
+        },
+        "search-no-matched": {
+            "title": "Nebyly nalezeny žádné výsledky",
+            "description": "Na následující dotaz nebyly nalezeny žádné výsledky: \"{{query}}\""
+        },
+        "fetching": {
+            "title": "Získáváme výsledky",
+            "description": "Prosíme, vyčkejte trpělivě, než shromáždíme potřebné údaje. Vaše podněty nám pomohou poskytnout výsledky šité na míru."
+        },
+        "fetch-error": {
+            "title": "Ups! Něco se pokazilo",
+            "description": "Omlouváme se, ale zdá se, že došlo k problému s vaším požadavkem. Obraťte se prosím na vývojáře a požádejte o pomoc."
+        },
+        "fetch-no-results": {
+            "title": "Ups! Zde není co ukázat",
+            "description": "Zadejte něco a zobrazte výsledky. Vaše zadání přizpůsobí to, co se vám zobrazí."
+        },
+        "fetch-no-matched": {
+            "title": "Nebyly nalezeny žádné shody",
+            "description": "Zdá se, že jsme nenašli žádné výsledky odpovídající vašim kritériím hledání."
+        }
+    },
+    "dashboard": {
+        "title": "Vítejte zpátky, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Přesná lokace",
+        "street_name": "Název ulice:",
+        "personal": {
+            "title": "Osobní údaje",
+            "description": "Jedná se o vaše osobní údaje"
+        },
+        "global_search": {
+            "title": "Globální vyhledávání",
+            "description": "Prohlídky incidentů, důkazů, příkazů, bolosů nebo vozidel občana",
+            "no-results": "Zadejte jméno občana, abyste našli jeho incidenty, důkazy, zatykače, pátrání, vozidla."
+        },
+        "officers": {
+            "title": "Aktivní policisté",
+            "description": "Zobrazit všechny online úředníky a užitečné informace"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Komunikujte s ostatními důstojníky prostřednictvím chatu",
+            "placeholder": "Napište zprávu..."
+        },
+        "calls": {
+            "title": "Poslední hovory",
+            "description": "Zde se zobrazují nejnovější upozornění",
+            "no-alerts": "V tuto chvíli zde nejsou žádná upozornění, až se objeví, uvidíte zde jejich seznam",
+            "details": "Kliknutím na výstrahu zobrazíte další podrobnosti",
+            "time": "Čas odeslání"
+        }
+    },
+    "incidents": {
+        "title": "Incidenty",
+        "description": "Zobrazit seznam nejnovějších incidentů",
+        "individual": {
+            "title": "Incident #{{id}}",
+            "description": "Zobrazit všechny informace o tomto incidentu",
+            "information": "Můžete zobrazit a upravit informace o tomto incidentu"
+        },
+        "charge_list": {
+            "jail": "{{amount}} měsíců vězení",
+            "fine": "{{amount}} fine",
+            "reduction": {
+                "title": "Snížení poplatku",
+                "description": "Můžete snížit výši vězení nebo pokuty"
+            },
+            "mutual": "Přepnout na vzájemné snížení",
+            "separate": "Přepnout na oddělené snížení",
+            "reduce": "Snížit poplatek",
+            "charge_reduction": "{{amount}}% snížení poplatku",
+            "fine_reduction": "{{amount}}% fine reduction",
+            "jail_reduction": "{{amount}}% jail reduction"
+        },
+        "citizens": "občané",
+        "officers": "úředníci",
+        "vehicles": "vozidla",
+        "evidences": "důkazy",
+        "charges": "obvinění"
+    },
+    "evidences": {
+        "title": "Evidence",
+        "description": "Vidět seznam nejnovějších důkazů",
+        "individual": {
+            "title": "Evidence #{{id}}",
+            "description": "Zobrazit všechny informace o tomto důkazu",
+            "information": "Můžete zobrazit a upravit informace o tomto důkazu"
+        }
+    },
+    "warrants": {
+        "title": "Zatykače",
+        "description": "Vidět seznam nejnovějších zatykačů",
+        "individual": {
+            "title": "Warrant #{{id}}",
+            "description": "Zobrazení a změna údajů o tomto příkazu",
+            "information": "Můžete zobrazit a změnit údaje o tomto příkazu"
+        }
+    },
+    "officers": {
+        "title": "Mírový důstojníci",
+        "description": "Vidět všechny mírové důstojníky ",
+        "header": "{{job}} - {{length}} Policisté online",
+        "paragraph": "See officers from this job"
+    },
+    "bolos": {
+        "title": "Pátrání",
+        "description": "Vidět seznam všech pátrání",
+        "individual": {
+            "title": "BOLO #{{id}}",
+            "description": "Zobrazit a změnit podrobnosti o tomto BOLO",
+            "information": "Můžete zobrazit a upravit informace o tomto BOLO"
+        }
+    },
+    "dispatch": {
+        "title": "Dispačink",
+        "description": "Zobrazování, mazání a přijímání dispečerských hovorů",
+        "individual": {
+            "title": "Alert #{{id}}",
+            "description": "Zobrazit všechny informace o tomto upozornění",
+            "vehicle-info": "(Deska: {{plate}} | Třída: {{class}} | Barva: {{color}} | Dveře: {{doors}})"
+        },
+        "delete": "Smazat hlášení",
+        "position": "Nastavit pozici",
+        "alerts": {
+            "title": "Hlášení",
+            "description": "Všechny poslední cally"
+        },
+        "map": {
+            "title": "Dispatch Map",
+            "description": "Všechna aktivní hlášení"
+        }
+    },
+    "cameras": {
+        "title": "Kamery",
+        "description": "Přístup ke všem kamerám umístěným ve městě",
+        "information": "Podívejte se na bodycam tohoto zaměstnance",
+        "cctv": "CCTV",
+        "bodycams": "Bodycams",
+        "open": "Zapnout kameru",
+        "location": "Poslední známá lokace",
+        "view-bodycam": "Sledovat bodycam"
+    },
+    "citizens": {
+        "title": "Občané",
+        "description": "Všechny záznamy o civilistech",
+        "register": "Zapsaní občané",
+        "grant-license": "Udělené licence",
+        "suspend-license": "Odebrané licence",
+        "individual": {
+            "title": "Občan",
+            "description": "Zobrazit všechny informace o tomto občanovi",
+            "information": "Zobrazit všechny užitečné informace o tomto občanovi"
+        },
+        "results": {
+            "title": "Hledat občana",
+            "description": "Můžete vyhledávat podle jména nebo otisku prstu"
+        }
+    },
+    "vehicles": {
+        "title": "Vozidla",
+        "description": "Identifikace vozidla podle registrační značky",
+        "register": "Zapsaná vozidla",
+        "insurance-expiring": "expries {{time}}",
+        "individual": {
+            "title": "Vozidlo",
+            "description": "Zobrazit všechny informace o tomto vozidle",
+            "information": "Zobrazit všechny informace týkající se tohoto vozidla"
+        },
+        "results": {
+            "title": "Hledat vozidlo",
+            "description": "Můžeš hledat pomocí spz"
+        }
+    },
+    "houses": {
+        "title": "Nemovitosti",
+        "description": "Podívejte se na užitečné informace ke každé nemovitosti",
+        "individual": {
+            "title": "Nemovitosti",
+            "description": "Zobrazit všechny informace o tomto domě",
+            "information": "Zobrazit užitečné informace o této nemovitosti, například polohu"
+        },
+        "results": {
+            "title": "Hledat nemovitost",
+            "description": "Můžete vyhledávat podle názvu domu nebo ID"
+        }
+    },
+    "weapons": {
+        "title": "Zbraně",
+        "description": "Zobrazení a registrace zbraní pro snadnější identifikaci",
+        "register": "Registrovat zbraň",
+        "individual": {
+            "title": "Zbraň",
+            "description": "Zobrazit všechny informace o této zbrani",
+            "information": "Zobrazit informace o této zbrani a sériové číslo"
+        },
+        "results": {
+            "title": "Hledat zbraně",
+            "description": "Můžete vyhledávat podle názvu, sériového čísla"
+        }
+    },
+    "codes": {
+        "title": "Kódy",
+        "description": "Celý list kódů pro komunikaci na vysílačce",
+        "individual": {
+            "title": "Kód #{{id}}",
+            "description": "Zobrazit všechny informace o tomto kódu",
+            "information": "Můžete zobrazit a upravit informace o tomto kódu"
+        }
+    },
+    "charges": {
+        "title": "Sankce",
+        "description": "Zobrazení, vytvoření, odstranění a úprava poplatků",
+        "fine": "Výše pokuty",
+        "jail": "Výše trestu odnětí svobody",
+        "individual": {
+            "title": "Sankce #{{id}}",
+            "description": "Zobrazit všechny informace o tomto poplatku",
+            "information": "Můžete zobrazit a upravit informace o tomto poplatku"
+        }
+    },
+    "announcements": {
+        "title": "Oznámení",
+        "description": "Zobrazení, vytvoření a připnutí oznámení pro ostatní úředníky",
+        "pin": "Oznámení o kolíku",
+        "unpin": "Unpin announcement",
+        "save": "Uložit oznámení",
+        "edit": "Upravit oznámení",
+        "written": "Napsal",
+        "individual": {
+            "title": "Oznámení #{{id}}",
+            "description": "Zobrazit všechny informace o tomto oznámení"
+        }
+    },
+    "configuration": {
+        "title": "Konfigurace",
+        "description": "Přizpůsobte si MDT podle svých představ",
+        "colors": {
+            "title": "Barvy",
+            "description": "Change the appearance of your MDT",
+            "text": "Barva textu",
+            "other": "Ostatní barvy",
+            "reset": "Reset barev",
+            "name": {
+                "background": "Barva pozadí",
+                "secondary": "Sekundární barva",
+                "text": "Barva textu",
+                "text-muted": "Text tlumené barvy",
+                "primary-text": "Primární barva textu",
+                "contrast": "Kontrastní barva",
+                "error": "Barva chyby",
+                "ring": "Barva kroužku"
+            }
+        },
+        "language": {
+            "title": "Jazyky",
+            "description": "Změnit jazyk tvého MDT",
+            "select": "Vyber preferovaný jazyk"
+        }
+    },
+    "administration": {
+        "title": "Administrace",
+        "description": "Správa tříd, fondů společnosti, zaměstnanců, rekrutů a kamer",
+        "permissions": "Oprávnění",
+        "management": "Správa",
+        "recruitment": "Nábor",
+        "cameras": "Kamery",
+        "camera-information": "Zobrazit další informace o tomto fotoaparátu",
+        "select-camera": "Výběr rekvizity fotoaparátu",
+        "change-position": "Změnit pozici",
+        "set-position": "Nastavit pozici",
+        "open-camera": "Otevřít kameru",
+        "delete-camera": "Odstranit kameru",
+        "enable-camera": "Povolit kameru",
+        "disable-camera": "Zakázat kameru",
+        "job": {
+            "add-permission": "Udělit oprvánění",
+            "update-permission": "Oprávnění k aktualizaci",
+            "select-permission": "Vybrat oprávnění",
+            "grades": {
+                "title": "Pozice - {{level}}",
+                "description": "Pozice z \"{{job}}\" job",
+                "footer": "To se týká i předchozích povolení."
+            }
+        },
+        "employees": {
+            "title": "Zaměstnanci",
+            "description": "Seznam všech zaměstnanců online"
+        },
+        "manage": {
+            "title": "Správa \"{{name}}\"",
+            "description": "Zobrazit další informace nebo použít akce pro tohoto zaměstnance",
+            "fire": "Vyhodit zaměstnance",
+            "hire": "Nabrat zaměstnance",
+            "change_rank": "Změna hodnosti",
+            "rank_select": "Vybrat hodnost",
+            "activity": {
+                "title": "Aktivity",
+                "description": "Zobrazit statistiky činnosti tohoto zaměstnance",
+                "chart": "Posledních 7 dní",
+                "table": {
+                    "head": {
+                        "number": "Číslo",
+                        "clock-in": "Přihlášení",
+                        "clock-out": "Odhlášení",
+                        "hours": "Hodiny"
+                    },
+                    "total": "Celkový počet hodin"
+                }
+            },
+            "funds": {
+                "header": "Společenské fondy",
+                "footer": "příjmy z pokut"
+            },
+            "employees": { 
+                "header": "Zaměstnanci",
+                "footer": "celkový počet online zaměstnanců"
+            },
+            "calls": {
+                "header": "Celkový počet hovorů",
+                "footer": "aktivní volání na dispečink"
+            }
+        },
+        "recruits": {
+            "description": "Zobrazit informace o tomto občanovi",
+            "see": "Viz stránka pro občany"
+        }
+    },
+    "forms": {
+        "description": "Vyplňte formulář všemi potřebnými údaji",
+        "citizens": "Registrace občana",
+        "vehicles": "Registrovat vozidlo",
+        "incidents": "Vytvořit incident",
+        "evidences": "Vytvořit důkaz",
+        "warrants": "Vytvořit příkaz",
+        "bolos": "Vytvořit BOLO",
+        "codes": "Vytvořit kód",
+        "charges": "Vytvořit poplatek",
+        "weapons": "Registrace zbraně",
+        "announcements": "Vytvořit oznámení",
+        "cameras": "Vytvořit kameru",
+        "tag": {
+            "title": "vytvořit tag",
+            "description": "Vytvořte novou značku pro zařazení do kategorie. Klepnutím na vytvořit přidáte novou značku.",
+            "field-name": "Tag jméno",
+            "field-description": "Tag popisek",
+            "field-color": "Tag barva",
+            "button": "Vytvořit nový tag",
+            "notification": {
+                "title": "Tag vytvořen",
+                "description": "Úspěšně jsi vytvořil tag!"
+            }
+        },
+        "errors": {
+            "required": "Toto pole je povinné",
+            "create": "Nemáte oprávnění k vytvoření nového záznamu",
+            "min-length": "Toto pole musí mít alespoň {{length}} znaků",
+            "min-number": "Minimální hodnota tohoto pole je {{min}}",
+            "max-number": "Maximální hodnota pro toto pole je {{max}}",
+            "invalid-link": "Musíte zadat platnou url adresu obrázku!",
+            "bolos": {
+                "citizen-vehicle-required": "Musíte vybrat občana nebo vozidlo"
+            },
+            "codes": {
+                "format": "Špatný formát, musíte používat pouze číslice"
+            },
+            "warrants": {
+                "citizen-house-required": "Musíte si vybrat občana nebo dům"
+            },
+            "evidences": {
+                "fields-required": "Musíte přidat občana, policistu, vozidlo nebo zbraň"
+            },
+            "charges": {
+                "fine-jail-required": "Musíte stanovit výši pokuty nebo vězení"
+            },
+            "cameras": {
+                "prop-required": "Před nastavením polohy je třeba vybrat podpěru"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "You can select {{n}} more {{word}}",
+            "maximum": "You wrote the maximum words {{word}}"
+        },
+        "words": {
+            "citizens": "občané",
+            "officers": "policisté",
+            "vehicles": "vozidla",
+            "incidents": "incidenty",
+            "evidences": "evidences",
+            "charges": "sankce",
+            "evidence_archive": "evidences z archivu"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "Zapojení občané",
+            "officer": "Zapojení policisté",
+            "vehicle": "Zapojená vozidla",
+            "weapon": "Zbraně",
+            "evidence": "Důkazy",
+            "charge": "Použité poplatky",
+            "archive": "Archivní soubory",
+            "licenses": "Udělené licence"
+        },
+        "description": {
+            "template": "Zobrazit a upravit {{word}} připojené k tomuto záznamu",
+            "licenses": "Zrušit a udělit licence tomuto občanovi",
+            "citizen-weapon": "Zobrazit a upravit zbraně tohoto občana",
+            "citizen-incident": "Zobrazit a upravit incidenty přiřazené tomuto občanovi",
+            "vehicle-incident": "Zobrazit a upravit incidenty přiřazené tomuto vozidlu",
+            "citizen-evidence": "Zobrazit a upravit důkazy, do kterých je občan zapojen",
+            "citizen-warrant": "Zobrazit a upravit zatykače přidělené tomuto občanovi",
+            "house-warrant": "Zobrazit a upravit příkazy přiřazené tomuto domu",
+            "citizen-bolo": "Zobrazit a upravit příkazy přidělené tomuto občanovi",
+            "vehicle-bolo": "Zobrazit a upravit bolosy přiřazené tomuto vozidlu",
+            "citizen-vehicle": "Zobrazit vozidla, která tento občan vlastní",
+            "citizen-house": "Zobrazit vlastnosti, které tento občan vlastní",
+            "words": {
+                "citizen": "občané",
+                "officer": "úředníci",
+                "vehicle": "vozidla",
+                "weapon": "zbraně",
+                "evidence": "důkazy",
+                "charge": "obvinění",
+                "archive": "archivní soubory"
+            }
+        },
+        "add": {
+            "citizen": "Přidat občana",
+            "officer": "Přidat policistu",
+            "vehicle": "Přidat vozidlo",
+            "incident": "Přidat událost",
+            "evidence": "Přidat důkaz",
+            "warrant": "Přidat příkaz",
+            "bolo": "Přidejte bolo",
+            "charge": "Přidat sankci",
+            "weapon": "Přidat zbraň",
+            "archive": "Přidat soubor"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Občanská galerie",
+            "vehicle": "Galerie vozidel",
+            "evidence": "Obrázky"
+        },
+        "description": {
+            "citizen": "Zobrazit obrázky s tímto občanem",
+            "vehicle": "Zobrazit snímky s tímto vozidlem",
+            "evidence": "Zobrazit snímky připojené k tomuto důkazu"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Zobrazit stránku s přístrojovou deskou",
+            "description": "Umožňuje uživateli zobrazit stránku ovládacího panelu"
+        },
+        "incidents.view": {
+            "label": "Zobrazit stránku s incidenty",
+            "description": "Umožňuje uživateli zobrazit stránku s událostmi"
+        },
+        "evidences.view": {
+            "label": "Zobrazit stránku EVIDENCE",
+            "description": "Umožňuje uživateli zobrazit stránku s důkazy"
+        },
+        "warrants.view": {
+            "label": "Zobrazit stránku s příkazy",
+            "description": "Umožňuje uživateli zobrazit stránku se zárukami"
+        },
+        "officers.view": {
+            "label": "Zobrazit stránku s policisty",
+            "description": "Umožňuje uživateli zobrazit stránku důstojníků"
+        },
+        "bolos.view": {
+            "label": "Zobrazit stránku s pátráním",
+            "description": "Umožňuje uživateli zobrazit stránku BOLO (Be On the Lookout)"
+        },
+        "dispatch.view": {
+            "label": "Zobrazit stránku s cally",
+            "description": "Umožňuje uživateli zobrazit stránku dispatch."
+        },
+        "cameras.view": {
+            "label": "Zobrazit stránku s kamerami",
+            "description": "Umožňuje uživateli zobrazit stránku s kamerami"
+        },
+        "citizens.view": {
+            "label": "Zobrazit stránku občanů",
+            "description": "Umožňuje uživateli zobrazit stránku občana"
+        },
+        "vehicles.view": {
+            "label": "Zobrazit stránku s vozidly",
+            "description": "Umožňuje uživateli zobrazit stránku s vozidly"
+        },
+        "houses.view": {
+            "label": "Zobrazit stránku domů",
+            "description": "Umožňuje uživateli zobrazit stránku s domy"
+        },
+        "weapons.view": {
+            "label": "Zobrazit stránku se zbraněmi",
+            "description": "Umožňuje uživateli zobrazit stránku se zbraněmi"
+        },
+        "codes.view": {
+            "label": "Zobrazit stránku s kódy",
+            "description": "Umožňuje uživateli zobrazit stránku s kódy"
+        },
+        "charges.view": {
+            "label": "Zobrazit stránku s poplatky",
+            "description": "Umožňuje uživateli zobrazit stránku s poplatky"
+        },
+        "announcements.view": {
+            "label": "Zobrazit stránku s oznámeními",
+            "description": "Umožňuje uživateli zobrazit stránku s oznámeními"
+        },
+        "config.view": {
+            "label": "Zobrazit stránku konfigurace",
+            "description": "Umožňuje uživateli zobrazit konfigurační stránku"
+        },
+        "administration.view": {
+            "label": "Zobrazit stránku pro správu",
+            "description": "Umožňuje uživateli zobrazit stránku pro správu"
+        },
+        "incidents.delete": {
+            "label": "Odstranit incidenty",
+            "description": "Umožňuje uživateli odstranit incidenty"
+        },
+        "incidents.create": {
+            "label": "Vytvářet incidenty",
+            "description": "Umožňuje uživateli vytvářet nové incidenty"
+        },
+        "incidents.edit": {
+            "label": "Upravit incidenty",
+            "description": "Umožňuje uživateli upravovat existující incidenty"
+        },
+        "evidences.delete": {
+            "label": "Odstranit důkazy",
+            "description": "Umožňuje uživateli odstranit důkazy"
+        },
+        "evidences.create": {
+            "label": "Vytvořit důkazy",
+            "description": "Umožňuje uživateli vytvářet nové důkazy"
+        },
+        "evidences.edit": {
+            "label": "Editace důkazů",
+            "description": "Umožňuje uživateli upravovat existující důkazy"
+        },
+        "warrants.delete": {
+            "label": "Smazat příkazy",
+            "description": "Umožňuje uživateli odstranit příkazy"
+        },
+        "warrants.create": {
+            "label": "Vytvoření příkazů",
+            "description": "Umožňuje uživateli vytvářet nové příkazy"
+        },
+        "warrants.edit": {
+            "label": "Editace příkazů",
+            "description": "Umožňuje uživateli upravovat existující příkazy"
+        },
+        "bolos.delete": {
+            "label": "Odstranit BOLO",
+            "description": "Umožňuje uživateli odstranit BOLO"
+        },
+        "bolos.create": {
+            "label": "Vytvořit BOLO",
+            "description": "Umožňuje uživateli vytvářet nové BOLO."
+        },
+        "bolos.edit": {
+            "label": "Upravit BOLO",
+            "description": "Umožňuje uživateli upravit nové BOLO."
+        },
+        "dispatch.alert.delete": {
+            "label": "Odstranění výstrah dispečinku",
+            "description": "Umožňuje uživateli odstranit záznamy o odeslání."
+        },
+        "cameras.open": {
+            "label": "Otevřené kamery",
+            "description": "Umožňuje uživateli přistupovat ke kamerovým kanálům a prohlížet si je."
+        },
+        "cameras.bodycam.view": {
+            "label": "Zobrazení záznamů z bodycam",
+            "description": "Umožňuje uživateli prohlížet záznamy z kamer."
+        },
+        "citizens.register": {
+            "label": "Registrace občanů",
+            "description": "Umožňuje uživateli registrovat nové občany"
+        },
+        "citizens.edit": {
+            "label": "Upravit občany",
+            "description": "Umožňuje uživateli upravovat stávající občany"
+        },
+        "citizens.license.grant": {
+            "label": "Udělování občanských licencí",
+            "description": "Umožňuje uživateli udělovat licence občanům."
+        },
+        "citizens.license.revoke": {
+            "label": "Zrušení občanských průkazů",
+            "description": "Umožňuje uživateli odebírat licence občanům"
+        },
+        "gallery.edit": {
+            "label": "Upravit galerii",
+            "description": "Umožňuje uživateli upravovat obsah galerie"
+        },
+        "vehicles.register": {
+            "label": "Registrace vozidel",
+            "description": "Umožňuje uživateli registrovat nová vozidla"
+        },
+        "vehicles.edit": {
+            "label": "Úprava vozidel",
+            "description": "Umožňuje uživateli upravovat stávající vozidla"
+        },
+        "houses.edit": {
+            "label": "Úprava domů",
+            "description": "Umožňuje uživateli upravovat existující domy"
+        },
+        "weapons.register": {
+            "label": "Registrace zbraní",
+            "description": "Umožňuje uživateli registrovat nové zbraně"
+        },
+        "weapons.edit": {
+            "label": "Úprava zbraní",
+            "description": "Umožňuje uživateli upravovat existující zbraně"
+        },
+        "codes.delete": {
+            "label": "Odstranit kódy",
+            "description": "Umožňuje uživateli odstranit kódy"
+        },
+        "codes.create": {
+            "label": "Vytvořit kódy",
+            "description": "Umožňuje uživateli vytvářet nové kódy"
+        },
+        "codes.edit": {
+            "label": "Upravit kódy",
+            "description": "Umožňuje uživateli upravovat stávající kódy"
+        },
+        "charges.delete": {
+            "label": "Odstranění poplatků",
+            "description": "Umožňuje uživateli odstranit poplatky"
+        },
+        "charges.create": {
+            "label": "Vytvořit poplatky",
+            "description": "Umožňuje uživateli vytvářet nové poplatky"
+        },
+        "charges.edit": {
+            "label": "Úprava poplatků",
+            "description": "Umožňuje uživateli upravovat stávající poplatky"
+        },
+        "announcements.create": {
+            "label": "Vytvořit oznámení",
+            "description": "Umožňuje uživateli vytvářet nová oznámení."
+        },
+        "announcements.delete": {
+            "label": "Odstranit oznámení",
+            "description": "Umožňuje uživateli odstranit oznámení."
+        },
+        "announcements.pin": {
+            "label": "Připnuté Oznámení",
+            "description": "Umožňuje uživateli připnout oznámení"
+        },
+        "announcements.edit": {
+            "label": "Upravit oznámení",
+            "description": "Umožňuje uživateli upravovat existující oznámení."
+        },
+        "administration.permissions.update": {
+            "label": "Aktualizace oprávnění",
+            "description": "Umožňuje uživateli aktualizovat oprávnění v panelu správy."
+        },
+        "administration.management.employee.view": {
+            "label": "Zobrazit Správa zaměstnanců",
+            "description": "Umožňuje uživateli zobrazit správu zaměstnanců v panelu správy."
+        },
+        "administration.management.employee.fire": {
+            "label": "Vyhodit zaměstnance",
+            "description": "Umožňuje uživateli propustit zaměstnance"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Změna hodnosti zaměstnance",
+            "description": "Umožňuje uživateli změnit hodnost zaměstnance."
+        },
+        "administration.recruit.view": {
+            "label": "Zobrazit Recruit Management",
+            "description": "Umožňuje uživateli zobrazit správu náborů v panelu správy."
+        },
+        "administration.recruit.hire": {
+            "label": "Najímání zaměstnanců",
+            "description": "Umožňuje uživateli najmout náboráře"
+        },
+        "administration.camera.view": {
+            "label": "Zobrazení správy kamer",
+            "description": "Umožňuje uživateli zobrazit správu kamer v panelu správy."
+        },
+        "administration.camera.create": {
+            "label": "Vytvořit kameru",
+            "description": "Umožňuje uživateli vytvořit novou kameru"
+        },
+        "administration.camera.delete": {
+            "label": "Odstranit fotoaparát",
+            "description": "Umožňuje uživateli odstranit fotoaparát"
+        },
+        "administration.camera.toggle": {
+            "label": "Přepínání fotoaparátu",
+            "description": "Umožňuje uživateli přepínat stav kamery."
+        }
+    }
+}

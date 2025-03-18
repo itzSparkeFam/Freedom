@@ -1,0 +1,30 @@
+{
+  "error": {
+    "canceled": "تم الإلغاء..",
+    "you_failed": "لقد فشلت!",
+    "no_equipment": "أنت لا تملك المعدات المطلوبة.",
+    "get_to_safe": "انتقل إلى مكان آمن!",
+    "no_cops": "لا يوجد عدد كافٍ من الشرطة!",
+    "recently_robbed": "تم سرقة هذا المكان مؤخرًا!"
+  },
+  "success": {
+    "locks_disabled": "تم تعطيل الأقفال الإلكترونية! ادخل من البوابة رقم 1",
+    "locks_enabled": "لقد قمت بقفل جميع المداخل..",
+    "doors_unlocked": "جميع المخارج مفتوحة الآن!"
+  },
+  "prints": {
+    "cooldown_started": "المستودع: بدأت فترة التبريد",
+    "cooldown_finished": "المستودع: انتهت فترة التبريد"
+  },
+  "target": {
+    "loot_crate": "نهب الصندوق",
+    "loot_guard": "حارس الغنيمة",
+    "enter_warehouse": "دخول المستودع",
+    "leave_warehouse": "مغادرة المستودع",
+    "enable_locks": "تفعيل الأقفال",
+    "disable_locks": "تعطيل الأقفال"
+  },
+  "progress": {
+    "looting_crate": "جاري نهب الصندوق.."
+  }
+}

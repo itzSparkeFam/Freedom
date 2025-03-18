@@ -1,0 +1,617 @@
+{
+    "navigation": {
+        "dashboard": "Ülevaade",
+        "incidents": "Juhtumid",
+        "doctors": "Arstid",
+        "dispatch": "Dispetšer",
+        "citizens": "Kodanikud",
+        "codes": "Koodid",
+        "invoices": "Arved",
+        "announcements": "Teadaanded",
+        "config": "Konfiguratsioon",
+        "administration": "Administratsioon",
+        "exit": "Välju"
+    },
+    "general": {
+        "close": "Sulge",
+        "delete": "Kustuta",
+        "male": "Mees",
+        "female": "Naine",
+        "status": "Olek",
+        "information": "Informatsioon",
+        "amount": "Summa",
+        "name": "Nimi",
+        "description": "Kirjeldus",
+        "job": "Töökoht",
+        "grade": "Aste",
+        "phone_number": "Telefoni number",
+        "dateofbirth": "Sünnikuupäev",
+        "tag": "Silt",
+        "createdAt": "Koostatud",
+        "save": "Salvesta",
+        "duty": "Töö",
+        "on_duty": "Tööl",
+        "off_duty": "Töölt vaba",
+        "search": "Otsi",
+        "incidents": "Juhtumid",
+        "no-results": "Tulemus puudub",
+        "gender": "Sugu",
+        "location": "Asukoht",
+        "title": "Pealkiri",
+        "cancel": "Katkesta",
+        "continue": "Jätka",
+        "notes": "Märkmed",
+        "code": "Kood",
+        "firstname": "Eesnimi",
+        "lastname": "Perekonnanimi",
+        "fingerprint": "Sõrmejälg",
+        "proceed": "Jätka",
+        "insurance": "Kindlustus",
+        "no": "Ei",
+        "yes": "Jah",
+        "list": "Nimekiri",
+        "create": "Koosta",
+        "camera": "Kaamera",
+        "link": "Link",
+        "pin": "Kinnita",
+        "unpin": "Vabasta",
+        "page_of": "Lehekülg {{x}} of {{y}}",
+        "backToSafety": "Tagasi turvalisusesse",
+        "expand-image": "Suurenda pilti",
+        "remove-image": "Kustuta pilt",
+        "zoomed-image": "Suumitud pilt",
+        "image-link": "Pildi link",
+        "image-description": "Pildi kirjeldus",
+        "submit": "Esita",
+        "reduction": "Vähendus",
+        "reduce": "Vähenda",
+        "bloodtype": "Veretüüp",
+        "placeholders": {
+            "citizens": "Otsi kodanike",
+            "victims": "Otsi kannatanuid",
+            "doctors": "Otsi arste",
+            "incidents": "Otsi juhtumeid",
+            "invoices": "Otsi arveid",
+            "codes": "Otsi koode",
+            "announcements": "Otsi teadaandeid",
+            "recruits": "Otsi värvatuid",
+            "identifier": "Otsige identifikaatorit",
+            "tag": "Otsige silti",
+            "date": "Vali kuupäev"
+        }
+    },
+    "templates": {
+        "incident": "Juhtum #{id}"
+    },
+    "jobs": {
+        "ambulance": "Emergency Services"
+    },
+    "notification": {
+        "error": "Oops! Midagi läks valesti.",
+        "create": "Juhtum loodud",
+        "update": "Juhtum uuendatud",
+        "existent-citizen": "Kodanik leitud",
+        "registered-citizen": "Kodanik registreeritud",
+        "permission-changed": "Auastme load uuendatud",
+        "employee-fired": "Töötaja edukalt vallandatud",
+        "employee-fire-error": "Sa ei saa vallandada endast kõrgemat auastet",
+        "rank-changed": "Töötaja auaste muudetud",
+        "hire-citizen": "Kodanik palgatud",
+        "image-attached": "Juhtumile pilt lisatud",
+        "remove-image": "Juhtumilt pilt eemaldatud",
+        "title": {
+            "created": "Juhtum loodud",
+            "updated": "Juhtum uuendatud",
+            "error": "Ootamatu viga",
+            "existent-citizen": "Kodanik",
+            "registered-citizen": "Kodanik registreeritud",
+            "permission-changed": "Luba muudetud",
+            "employee-fired": "Töötaja vallandatud",
+            "rank-changed": "Auaste muudetud",
+            "hire-citizen": "Kodanik palgatud",
+            "image-attached": "Pilt lisatud",
+            "remove-image": "Pilt eemaldatud"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Oled sa selles kindel?",
+            "description": "Seda tegevust ei saa enam tagasi võtta.",
+            "citizen": "Oled sa kindel, et soovid kodaniku eemaldada?",
+            "victim": "Oled sa kindel, et soovid kannatanu eemaldada?",
+            "doctor": "Oled sa kindel, et soovid arsti eemaldada?",
+            "incident": "Oled sa kindel, et soovid selle juhtumi eemaldada?",
+            "invoice": "Oled sa kindel, et soovid selle arve eemaldada?"
+        },
+        "delete_alert": {
+            "title": "Oled sa kindel, et soovid selle teate kustutada?",
+            "description": "Seda tegevust ei saa enam tagasi võtta."
+        },
+        "add-value": {
+            "title": "Lisa uus ese",
+            "description": "Lisa uus ese nimekirja."
+        },
+        "set_position": {
+            "title": "Kas soovite kontrollpunkti määrata?",
+            "description": "See seab teie MDT kaardi kontrollpunkti selle hoiatuse saadetud asukohta."
+        },
+        "job": {
+            "title": "Vali töö",
+            "description": "Saad valid töö ja auastme töötajale"
+        },
+        "update-permission": {
+            "title": "Uuenda lubasid",
+            "description": "Lisa või eemalda lubasid"
+        },
+        "add-permission": {
+            "title": "Lisa luba",
+            "description": "Lisa uus luba"
+        },
+        "fire-employee": {
+            "title": "Vallanda töötaja",
+            "description": "Kas sa oled kindel, et soovid selle töötaja vallandada?"
+        },
+        "change-rank": {
+            "title": "Muuda auastet",
+            "description": "Muuda töötaja auastet"
+        },
+        "hire-citizen": {
+            "title": "Palka kodanik",
+            "description": "Kas sa oled kindel, et soovid selle kodaniku palgata?"
+        },
+        "add-image": {
+            "title": "Lisa pilt",
+            "description": "Lisa uus pilt"
+        },
+        "remove-image": {
+            "title": "Kustuta pilt",
+            "description": "Kas sa soovid selle pildi kustutada?"
+        },
+        "change-image": {
+            "title": "Muuda pilti",
+            "description": "Vali uus profiili pilt galeriist"
+        },
+        "reset-form": {
+            "title": "Taasta",
+            "description": "Kas oled kindel, et soovid taastada?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Sul puudub luba seda kustutada!",
+        "loading": {
+            "title": "Oota, me tegeleme juhtumiga",
+            "description": "Uurime praegu oma andmebaasi, et leida teie soovitud teavet. Oodake, saame selle teile peagi!️"
+        },
+        "page-error": {
+            "title": "Ups! Midagi läks valesti",
+            "description": "Kahjuks tundub, et teie taotlusega on tekkinud probleem. Abi saamiseks võtke ühendust."
+        },
+        "unexpected-error": {
+            "title": "Ootamatu viga",
+            "description": "Midagi läks valesti, võtke selle probleemi lahendamiseks ühendust serveri omanikuga."
+        },
+        "fetching": {
+            "title": "Toome tulemused",
+            "description": "Palun oodake kannatlikult, kuni kogume vajalikke andmeid."
+        },
+        "fetch-error": {
+            "title": "Ups! Midagi läks valesti",
+            "description": "Kahjuks tundub, et teie taotlusega on tekkinud probleem. Abi saamiseks võtke ühendust."
+        },
+        "fetch-no-results": {
+            "title": "Ups! Pole midagi näidata",
+            "description": "Tulemuste kuvamiseks sisestage midagi. Teie sisend kohandab seda, mida näete."
+        },
+        "fetch-no-matched": {
+            "title": "Ei leitud ühtegi vastet",
+            "description": "Näib, et me ei leidnud ühtegi teie otsingukriteeriumile vastavat tulemust."
+        }
+    },
+    "dashboard": {
+        "title": "Tere tulemast tagasi, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Live asukoht",
+        "street_name": "Tänava nimi:",
+        "last_announcement": {
+            "title": "Viimane teadaanne",
+            "description": "Siin näed viimaseid teadaandeid",
+            "no-results": "Pole teadaandeid mida näidata."
+        },
+        "personal": {
+            "title": "Personaalne info",
+            "description": "Siin on sinu personaalne info"
+        },
+        "doctors": {
+            "title": "Online arstid",
+            "description": "Vaata kõiki online arste ja infot"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Suhtle teiste arstidega",
+            "placeholder": "Kirjuta sõnum ..."
+        },
+        "calls": {
+            "title": "Viimased teated",
+            "description": "Siin näed viimaseid teateid",
+            "no-alerts": "Hetkel pole teateid. Kui need tekivad näed neid siin",
+            "details": "Vajuta teatele, et näha rohkem",
+            "time": "Reageerimis aeg"
+        }
+    },
+    "incidents": {
+        "title": "Juhtumid",
+        "description": "Viimased juhtumid",
+        "individual": {
+            "title": "Juhtum #{{id}}",
+            "description": "Vaata kogu infot juhtumist",
+            "information": "Saad vaadata ja muuta juhtumit"
+        },
+        "invoice_reduction": "{{amount}}% arve vähendamine",
+        "reduction_description": "Siin saad vähendada arve suurust"
+    },
+    "doctors": {
+        "title": "Arstid",
+        "description": "Arstide nimekiri",
+        "header": "{{job}} - {{length}} arstid online",
+        "paragraph": "Vaata tööl olevaid arste"
+    },
+    "dispatch": {
+        "title": "Dispetšer",
+        "description": "Vaata, kustuta ja vasta dispetšerile",
+        "individual": {
+            "title": "Teade #{{id}}",
+            "description": "Vaata kogu infot teatest"
+        },
+        "delete": "Kustuta teade",
+        "position": "Lisa asukoht",
+        "alerts": {
+            "title": "Teade",
+            "description": "Vaata viimaseid teateid"
+        },
+        "map": {
+            "title": "Dispetšeri kaart",
+            "description": "Vaata aktiivsete juhtumite asukohta"
+        }
+    },
+    "citizens": {
+        "title": "Kodanikud",
+        "description": "Vaata kodanike infot",
+        "register": "Registreeri kodanik",
+        "individual": {
+            "title": "Kodanik",
+            "description": "Vaata kogu infot kodanikust",
+            "information": "Vaata kogu kasuliku infot kodanikust"
+        },
+        "results": {
+            "title": "Otsi kodaniku",
+            "description": "Otsi nime järgi"
+        }
+    },
+    "codes": {
+        "title": "Koodid",
+        "description": "Koodide nimekiri",
+        "individual": {
+            "title": "Kood #{{id}}",
+            "description": "Vaata kogu infot koodist",
+            "information": "Saad vaadata ja muuta koodi infot"
+        }
+    },
+    "invoices": {
+        "title": "Arve",
+        "description": "Vaata, kustuta ja muuda arvet",
+        "individual": {
+            "title": "Arve #{{id}}",
+            "description": "Vaata kogu infot arvest",
+            "information": "Saad vaadata ja muuta arvet"
+        }
+    },
+    "announcements": {
+        "title": "Teadaanded",
+        "description": "Vaata, muuda ja kinnita teadaanne teistele arstidele",
+        "pin": "Kinnita teadaanne",
+        "unpin": "Vabasta teadaanne",
+        "save": "Salvesta teadaanne",
+        "edit": "Muuda teadaannet",
+        "written": "Koostanud",
+        "individual": {
+            "title": "teadaanne #{{id}}",
+            "description": "Vaata infot teadaandest"
+        }
+    },
+    "configuration": {
+        "title": "Konfigutarsioon",
+        "description": "Muuda tahvli kujundust",
+        "colors": {
+            "title": "Värvid",
+            "description": "Muuda tahvli kujundust",
+            "text": "Teksti värv",
+            "other": "Teised värvid",
+            "reset": "Taasta värvid",
+            "name": {
+                "background": "Tausta värv",
+                "secondary": "Teine värv",
+                "text": "Teksti värv",
+                "text-muted": "Teksti värv",
+                "primary-text": "Põhi teksti värv",
+                "contrast": "Kontrasti värv",
+                "error": "Häire värv",
+                "ring": "Ringi värv"
+            }
+        },
+        "language": {
+            "title": "Keel",
+            "description": "Muuda tahvli keelt",
+            "select": "Vali eelistatud keel"
+        }
+    },
+    "administration": {
+        "title": "Administratsioon",
+        "description": "Halda auastmeid, rahasid, töötajaid, värbamisi",
+        "permissions": "Load",
+        "management": "Juhtkond",
+        "recruitment": "Värbamine",
+        "job": {
+            "add-permission": "Lisa lube",
+            "update-permission": "Uuenda lube",
+            "select-permission": "Vali load",
+            "grades": {
+                "title": "auaste - {{level}}",
+                "description": "Auastmed \"{{job}}\" job",
+                "footer": "See sisaldab ka eelmisi lubasid"
+            }
+        },
+        "employees": {
+            "title": "Töötajad",
+            "description": "Nimekiri online töötajatest"
+        },
+        "manage": {
+            "title": "Manageeri \"{{name}}\"",
+            "description": "Vaata rohkem infot töötajast",
+            "fire": "Vallanda töötaja",
+            "hire": "Palka kodanik",
+            "change_rank": "Muuda auastet",
+            "rank_select": "Vali auaste",
+            "activity": {
+                "title": "Aktiivsus",
+                "description": "Vaata töötaja aktiivsuse statistikat",
+                "chart": "Viimased 7 päeva",
+                "table": {
+                    "head": {
+                        "number": "Ei",
+                        "clock-in": "Tööle",
+                        "clock-out": "Lahku",
+                        "hours": "Tunnid"
+                    },
+                    "total": "Tunnid kokku"
+                }
+            },
+            "funds": {
+                "header": "Raha",
+                "footer": "Sissetulek arvetest"
+            },
+            "employees": {
+                "header": "Töötajad",
+                "footer": "Kõik online töötajad"
+            },
+            "calls": {
+                "header": "Juhtumeid",
+                "footer": "Aktiivseid juhtumeid"
+            }
+        },
+        "recruits": {
+            "description": "Vaata infot kodanikust",
+            "see": "Vaata kodaniku lehte"
+        }
+    },
+    "forms": {
+        "description": "Täida vorm vajaliku infoga",
+        "citizens": "Registreeri kodanik",
+        "incidents": "Koosta juhtum",
+        "codes": "Koosta kood",
+        "invoices": "Koosta arve",
+        "announcements": "Koosta teadaanne",
+        "tag": {
+            "title": "Koosta silt",
+            "description": "Koosta uus silt",
+            "field-name": "Sildi Nimi",
+            "field-description": "Sildi kirjeldus",
+            "field-color": "Sildi värv",
+            "button": "Koosta uus silt",
+            "notification": {
+                "title": "Koosta silt",
+                "description": "Silt edukalt loodud"
+            }
+        },
+        "errors": {
+            "required": "See väli on oluline",
+            "create": "Sul puudub selle koostamiseks luba",
+            "min-length": "See väli peab olema vähemalt {{length}} tähte",
+            "min-number": "Minimaalne väärtus sellel väljal on {{min}}",
+            "max-number": "Maksimaalne väärtus sellel väljal on {{max}}",
+            "invalid-link": "Pead andma õige pildi url-i!",
+            "codes": {
+                "format": "Vale formaat. Ainult numbrid!"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Sa saad valida {{n}} veel {{word}}",
+            "maximum": "Oled valinud maksimum koguse {{word}}"
+        },
+        "words": {
+            "citizens": "kodanik",
+            "doctors": "arstid",
+            "incidents": "juhtumid",
+            "invoices": "arved"
+        }
+    },
+    "values": {
+        "title": {
+            "victim": "Kannatanuid osales",
+            "doctor": "Arste osales",
+            "invoice": "Arve lisatud"
+        },
+        "description": {
+            "template": "Vaata ja muuda {{word}} lisatud sellele juhtumile",
+            "citizen-incident": "Vaata ja muuda antud kodaniku juhtumeid",
+            "words": {
+                "citizen": "kodanikud",
+                "victim": "kannatanud",
+                "doctor": "arstid",
+                "invoice": "arved"
+            }
+        },
+        "add": {
+            "citizen": "Lisa kodanik",
+            "victim": "Lisa kannatanu",
+            "doctor": "Lisa arst",
+            "incident": "Lisa juhtum",
+            "invoice": "Lisa arve"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Pildid kodanikust",
+            "incident": "Pildid"
+        },
+        "description": {
+            "citizen": "Vaata pilte kodanikust",
+            "incident": "Vaata pilte mis on lisatud sellele juhtumile"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Vaata ülevaate lehte",
+            "description": "Luba vaadata ülevaate lehte"
+        },
+        "incidents.view": {
+            "label": "Vaata juhtumite lehte",
+            "description": "Luba vaadata juhtumite lehte"
+        },
+        "doctors.view": {
+            "label": "Vaata arstide lehte",
+            "description": "Luba vaadata arstide lehte"
+        },
+        "dispatch.view": {
+            "label": "Vaata dispetšerite lehte",
+            "description": "Luba vaadata dispetšerite lehte"
+        },
+        "citizens.view": {
+            "label": "Vaata kodanike lehte",
+            "description": "Luba vaadata kodanike lehte"
+        },
+        "codes.view": {
+            "label": "Vaata koodide lehte",
+            "description": "Luba vaadata koodide lehte"
+        },
+        "invoices.view": {
+            "label": "Vaata arvte lehte",
+            "description": "Luba vaadata arvete lehte"
+        },
+        "announcements.view": {
+            "label": "Vaata teadaannete lehte",
+            "description": "Luba vaadata teadaannete lehte"
+        },
+        "config.view": {
+            "label": "Vaata konfiguratsiooni lehte",
+            "description": "Anna luba vaadata konfiguratsiooni lehte"
+        },
+        "administration.view": {
+            "label": "Vaata administratsiooni lehte",
+            "description": "Luba vaadata administratsiooni lehte"
+        },
+        "incidents.delete": {
+            "label": "Kustuta juhtum",
+            "description": "Luba kustutada juhtumeid"
+        },
+        "incidents.create": {
+            "label": "Koosata juhtum",
+            "description": "Luba koostada juhtumeid"
+        },
+        "incidents.edit": {
+            "label": "Muuda juhtumit",
+            "description": "Luba muuta juhtumit"
+        },
+        "dispatch.alert.delete": {
+            "label": "Kustuta dispetšeri teateid",
+            "description": "Luba kustutada dispetšeri teateid"
+        },
+        "citizens.register": {
+            "label": "Registreeri kodanik",
+            "description": "Luba registreerida kodanik"
+        },
+        "citizens.edit": {
+            "label": "Muuda kodaniku teavet",
+            "description": "Luba muuta kodaniku teavet"
+        },
+        "gallery.edit": {
+            "label": "Muuda galeriid",
+            "description": "Luba muuta galeriid"
+        },
+        "codes.delete": {
+            "label": "Kustuta koode",
+            "description": "Luba kustutada koode"
+        },
+        "codes.create": {
+            "label": "Koosta koode",
+            "description": "Luba koostada koode"
+        },
+        "codes.edit": {
+            "label": "Muuda koode",
+            "description": "Luba muuta koode"
+        },
+        "invoices.delete": {
+            "label": "Kustuta arve",
+            "description": "Luba kustutada arveid"
+        },
+        "invoices.create": {
+            "label": "Koosata arve",
+            "description": "Luba koostada arveid"
+        },
+        "invoices.edit": {
+            "label": "Muuda arveid",
+            "description": "Luba muuta arveid"
+        },
+        "announcements.create": {
+            "label": "Koosata teadaanne",
+            "description": "Luba koostada teadaandeid"
+        },
+        "announcements.delete": {
+            "label": "Kustuta teadaanne",
+            "description": "Luba kustutada teadaandeid"
+        },
+        "announcements.pin": {
+            "label": "Kinnita teadaanne",
+            "description": "Luba kinnitada teadaandeid"
+        },
+        "announcements.edit": {
+            "label": "Muuda teadaannet",
+            "description": "Luba muuta teadaannet"
+        },
+        "administration.permissions.update": {
+            "label": "Uuenda lubasid",
+            "description": "Luba uuendada lubasid administratsiooni lehel"
+        },
+        "administration.management.employee.view": {
+            "label": "Vaata töötajatega tegevusi",
+            "description": "Luba vaadata töötajatega tegevusi administratsiooni lehel"
+        },
+        "administration.management.employee.fire": {
+            "label": "Vallanda töötaja",
+            "description": "Luba vallandada töötajaid"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Muuda töötaja auastet",
+            "description": "Luba muuta töötaja auastet"
+        },
+        "administration.recruit.view": {
+            "label": "Vaata värbamisi",
+            "description": "Luba vaadata värbamisi administratsiooni lehel"
+        },
+        "administration.recruit.hire": {
+            "label": "Palka töötaja",
+            "description": "Luba palgata töötajaid"
+        }
+    }    
+}

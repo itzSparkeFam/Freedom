@@ -1,0 +1,45 @@
+{
+  "error": {
+    "canceled": "Cancelado",
+    "cannot_do_right_now": "No se puede hacer esto ahora mismo.",
+    "recently_did_this": "Alguien hizo esto recientemente.",
+    "power_grid_active": "La red eléctrica de la ciudad aún está activa.",
+    "wrong_phone_number": "Número de teléfono incorrecto, inténtalo de nuevo.",
+    "supplier_scared_off": "¡Has introducido el número incorrecto 3 veces. El proveedor se ha asustado!",
+    "not_enough_money": "No tienes suficiente dinero.",
+    "executor_detected": "Uh Oh.. Parece que alguien está usando un ejecutor",
+    "key_required": "¡Necesitas una llave para abrir este escondite!",
+    "key_broke": "Tu llave se rompió..",
+    "cache_already_taken": "El escondite ya ha sido tomado..",
+    "supplier_abandoned": "Has tardado demasiado, el proveedor te ha abandonado.",
+    "no_refunds": "¡No hay reembolsos!"
+  },
+  "success": {
+    "marked_locations_on_map": "He marcado ubicaciones en tu mapa.",
+    "email_sent": "¡Enviaré un correo electrónico ahora mismo!",
+    "email_received": "Has recibido un correo electrónico con los números de teléfono que necesitas introducir.",
+    "correct_number_dialed": "Has marcado el número correcto. Ahora encuentra el siguiente.",
+    "all_numbers_dialed": "Has marcado todos los números correctos, los escondites han sido marcados en el mapa.",
+    "key_found": "¡Has encontrado una llave!",
+    "cache_retrieved": "Has recuperado el escondite."
+  },
+  "prints": {
+    "cooldown_started": "MISIÓN COCA: Comienzo del enfriamiento",
+    "cooldown_finished": "MISIÓN COCA: Fin del enfriamiento"
+  },
+  "email": {
+    "unknown": "Desconocido",
+    "mystery_package_subject": "Recogida del Paquete Misterioso",
+    "mystery_package_message": "Mi amigo ha reabastecido escondites submarinos ocultos a lo largo de la costa de LS y los ha marcado con bengalas. También he marcado las ubicaciones en tu GPS. Puedes llegar a estos lugares robando un bote o usando el tuyo propio. ¡Buena suerte!",
+    "supplier_subject": "Números de Teléfono",
+    "supplier_phone_numbers": "Aquí están los números de teléfono que necesitas introducir para que mi proveedor reciba la señal para reabastecer los escondites:"
+  },
+  "target": {
+    "retrieve_cache": "Recuperar Escondite",
+    "pay_cost": "Págame"
+  },
+  "progress": {
+    "search_register": "Hablando con...",
+    "open_trunk": "Recuperando Escondite"
+  }
+}

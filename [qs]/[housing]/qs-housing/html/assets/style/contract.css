@@ -1,0 +1,261 @@
+/* Style for contract element */
+
+/* Container */
+.contract {
+    position: absolute;
+    top: 8vh;
+    right: 5vh;
+    display: none;
+    border-radius: 0.46vh; /* 5px to vh */
+    width: 64vh;
+    height: 80vh;
+    /* background: var(--color-ffffff)smoke;
+    box-shadow: 0 0 0.93vh 0.93vh #0000000d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2.04vh 6.48vh 0.37vh; */
+}
+
+#contract_img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    height: 115%;
+}
+
+.contract::-webkit-scrollbar {
+    display: block;
+    width: 0.75vw;
+}
+  
+.contract::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.226);
+}
+
+.contract::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 1vh var(--color-00000048); /* 10px to vh */
+    border-radius: 0.93vh; /* 10px to vh */
+    height: 0.93vh; /* 10px to vh */
+    background: var(--color-000000); 
+}
+  
+.contract::-webkit-scrollbar-thumb:hover {
+    background: var(--color-ffffff);
+}
+
+.contract.active {
+    display: block;
+}
+
+/* Container Items */
+.contract h1 {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    font-size: 2.5vh; /* Adjusted from 1.5rem to 2.5vh */
+    font-family: 'CabinetGrotesk-Extrabold';
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contract img {
+    position: absolute;
+    top: 3vh; /* 3% to vh */
+    left: 50%;
+    transform: translate(-50%);
+    width: 5.56vh; /* 10% to vh */
+}
+
+/* Content */
+.contract .content {
+    position: absolute;
+    top: 20%; /* 20% to vh */
+    left: 5vh; /* 5% to vh */
+    width: 50vh; /* 90% to vh */
+    font-size: 1.48vh; /* 1rem to vh */
+    line-height: 2.37vh; /* 1.6rem to vh */
+    font-family: 'Hindi Light', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* Custom Elements */
+.contract .content highlight {
+    margin: 0 -0.19vh; /* -0.2em to vh */
+    border-radius: 0.09vh; /* 0.1rem to vh */
+    padding: 0em 0.19vh; /* 0.2em to vh */
+    font-family: 'CabinetGrotesk-Extrabold';
+    background: transparent;
+    background-color: var(--color-00A3FF);
+    font-family: 'CabinetGrotesk-Bold';
+}
+
+.contract .content .informations highlight {
+    background: unset;
+}
+
+.contract .content {
+    font-family: 'CabinetGrotesk-Regular';
+}
+
+/* Informations */
+.contract .informations {
+    display: block;
+}
+
+.contract .informations h2 {
+    display: inline-block;
+    border-radius: 0.19vh; /* 2px to vh */
+    width: -webkit-fill-available;
+    padding: 0.93vh; /* 1% to vh */
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-000000);
+    font-size: 2.22vh; /* 1.5rem to vh */
+    font-family: 'CabinetGrotesk-Extrabold';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Informations Boxes */
+.contract .informations div {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin-bottom: 0.46vh; /* 0.5rem to vh */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contract .informations span {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'CabinetGrotesk-Light';
+}
+
+.contract .informations highlight {
+    height: max-content;
+    text-align: left;
+}
+
+/* Credit */
+.contract .credit {
+    margin-top: 5.56vh; /* 5% to vh */
+}
+
+.contract .credit.active {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.contract .credit possibility {    
+    pointer-events: auto;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.contract .credit possibility.active {
+    pointer-events: none;
+    text-decoration: none;
+}
+
+/* Buttons */
+.contract .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8.33vh; /* 7.5% to vh */
+    width: 100%;
+}
+
+
+.contract .buttons button {
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    border-radius: 1.02vh; /* 11px to vh */
+    width: 39%;
+
+    background: var(--color-9e1818);
+    cursor: pointer;
+
+    font-size: 1.48vh; /* 1rem to vh */
+    font-family: 'CabinetGrotesk-Black';
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1.39vh 0.93vh; /* 15px 10px to vh */
+    color: var(--color-ffffff);
+}
+
+.contract .buttons button:hover {
+    background: var(--color-589e18);
+}
+
+#summary {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 0 1vh 0;
+}
+
+.summary {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#sign_label {
+    position: relative;
+    color: var(--color-000000);
+    font-family: "CabinetGrotesk-Regular";
+    font-size: 1.39vh;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#sign_value {
+    position: relative;
+    color: var(--color-000000);
+    text-align: center;
+    font-family: "Britania";
+    font-size: 2.76vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#contract_total_label {
+    position: relative;
+    color: var(--color-000000);
+    text-align: right;
+    font-family: "CabinetGrotesk-Medium";
+    font-size: 2.96vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#contract_total {
+    position: relative;
+    height: 3.52vh;
+    border-radius: 3px;
+    background: var(--color-00A3FF);
+    color: var(--color-000000);
+    text-align: center;
+    font-family: "CabinetGrotesk-Bold";
+    font-size: 2.96vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#contract_credit {
+    display: none;
+}

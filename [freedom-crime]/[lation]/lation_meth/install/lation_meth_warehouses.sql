@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `lation_meth_warehouses` (
+  `owner` varchar(255) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `style` text DEFAULT NULL,
+  `security` text DEFAULT NULL,
+  `pin` int(11) DEFAULT NULL,
+  `locked` varchar(10) NOT NULL DEFAULT 'unlocked',
+  `remaining` int(11) NOT NULL DEFAULT 0,
+  `upgrade` text DEFAULT NULL,
+  `ammonia` int(11) NOT NULL DEFAULT 0,
+  `iodine` int(11) NOT NULL DEFAULT 0,
+  `acetone` int(11) NOT NULL DEFAULT 0,
+  `stage` int(11) NOT NULL DEFAULT 0,
+  `purity` int(11) DEFAULT NULL,
+  `duration` int(11) NOT NULL DEFAULT 0,
+  `efficiency` int(11) NOT NULL DEFAULT 0,
+  `inputs` longtext DEFAULT NULL,
+  `users` longtext DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);

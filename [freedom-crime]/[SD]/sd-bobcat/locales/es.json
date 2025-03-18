@@ -1,0 +1,38 @@
+{
+  "error": {
+    "canceled": "Cancelado..",
+    "no_c4": "¡No tienes C4!",
+    "you_failed": "¡Has fallado!",
+    "how_you_get_here": "¿Cómo llegaste aquí?",
+    "missing_something": "Te falta termita.",
+    "missing_something2": "No tienes la tarjeta clave necesaria.",
+    "no_cops": "¡No hay suficientes policías!",
+    "recently_robbed": "¡Este lugar ha sido robado recientemente!",
+    "cannot_use_here": "No puedes usar este objeto aquí..",
+    "timer_too_high": "La duración máxima del temporizador puede ser:"
+  },
+  "success": {
+    "planted_bomb": "¡El explosivo ha sido plantado! ¡Ponte a una distancia segura!"
+  },
+  "target": {
+    "place_bomb": "Plantar Explosivos",
+    "take_weapon": "Tomar Armas",
+    "take_ammo": "Tomar Munición",
+    "plant_thermite": "Plantar Termita",
+    "swipe_card": "Pasar Tarjeta",
+    "loot": "Saquear"
+  },
+  "prints": {
+    "cooldown_started": "BOBCAT: Inicio de enfriamiento",
+    "cooldown_finished": "BOBCAT: Enfriamiento finalizado"
+  },
+  "menu": {
+    "submit_text": "Enviar",
+    "enter_timer": "Introducir Temporizador (En Segundos):",
+    "bomb_timer": "Temporizador de la Bomba",
+    "seconds": "segundos"
+  },
+  "progress": {
+    "looting_crate": "Saqueando Caja.."
+  }
+}

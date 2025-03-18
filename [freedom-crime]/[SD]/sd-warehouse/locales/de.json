@@ -1,0 +1,30 @@
+{
+  "error": {
+    "canceled": "Abgebrochen..",
+    "you_failed": "Du hast versagt!",
+    "no_equipment": "Du hast nicht die erforderliche Ausrüstung.",
+    "get_to_safe": "Begib dich in Sicherheit!",
+    "no_cops": "Nicht genug Polizisten!",
+    "recently_robbed": "Dieser Ort wurde kürzlich ausgeraubt!"
+  },
+  "success": {
+    "locks_disabled": "Die elektronischen Schlösser wurden deaktiviert! Betreten Sie durch Tor 1",
+    "locks_enabled": "Du hast alle Eingänge abgeschlossen..",
+    "doors_unlocked": "Alle Ausgänge sind jetzt entsperrt!"
+  },
+  "prints": {
+    "cooldown_started": "LAGERHAUS: Abkühlung begonnen",
+    "cooldown_finished": "LAGERHAUS: Abkühlung beendet"
+  },
+  "target": {
+    "loot_crate": "Beutekiste",
+    "loot_guard": "Beute",
+    "enter_warehouse": "Lagerhaus betreten",
+    "leave_warehouse": "Lagerhaus verlassen",
+    "enable_locks": "Schlösser aktivieren",
+    "disable_locks": "Schlösser deaktivieren"
+  },
+  "progress": {
+    "looting_crate": "Plündern der Kiste.."
+  }
+}

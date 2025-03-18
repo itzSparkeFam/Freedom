@@ -1,0 +1,30 @@
+{
+  "error": {
+    "canceled": "Cancelado..",
+    "you_failed": "¡Has fallado!",
+    "no_equipment": "No tienes el equipo necesario.",
+    "get_to_safe": "¡Ponte a salvo!",
+    "no_cops": "¡No hay suficientes policías!",
+    "recently_robbed": "¡Este lugar ha sido robado recientemente!"
+  },
+  "success": {
+    "locks_disabled": "¡Los candados electrónicos han sido desactivados! Entra por la Puerta 1",
+    "locks_enabled": "Has bloqueado todas las entradas..",
+    "doors_unlocked": "¡Todas las salidas están ahora desbloqueadas!"
+  },
+  "prints": {
+    "cooldown_started": "ALMACÉN: Enfriamiento iniciado",
+    "cooldown_finished": "ALMACÉN: Enfriamiento finalizado"
+  },
+  "target": {
+    "loot_crate": "Saquear Caja",
+    "loot_guard": "Guardia del Botín",
+    "enter_warehouse": "Entrar al Almacén",
+    "leave_warehouse": "Salir del Almacén",
+    "enable_locks": "Activar Candados",
+    "disable_locks": "Desactivar Candados"
+  },
+  "progress": {
+    "looting_crate": "Saqueando Caja.."
+  }
+}

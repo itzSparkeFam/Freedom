@@ -1,0 +1,990 @@
+{
+    "navigation": {
+        "dashboard": "Tablou de bord",
+        "incidents": "Incidente",
+        "evidences": "Probe",
+        "warrants": "Mandate",
+        "officers": "Ofițeri",
+        "bolos": "BOLO-uri",
+        "dispatch": "Dispecerat",
+        "cameras": "Camere",
+        "citizens": "Cetățeni",
+        "vehicles": "Vehicule",
+        "houses": "Case",
+        "weapons": "Arme",
+        "codes": "Coduri",
+        "charges": "Acuzații",
+        "announcements": "Anunțuri",
+        "config": "Configurație",
+        "administration": "Administrație",
+        "exit": "Ieșire"
+    },
+    "general": {
+        "close": "Închide",
+        "delete": "Șterge",
+        "male": "Masculin",
+        "female": "Feminin",
+        "status": "Stare",
+        "active": "Activ",
+        "inactive": "Inactiv",
+        "information": "Informații",
+        "reason": "Motiv",
+        "name": "Nume",
+        "description": "Descriere",
+        "job": "Meserie",
+        "grade": "Grad",
+        "callsign": "Indicativ",
+        "phone_number": "Număr de telefon",
+        "dateofbirth": "Data nașterii",
+        "tag": "Etichetă",
+        "house": "Casă",
+        "createdAt": "Creat la",
+        "expiresIn": "Expiră în",
+        "startedAt": "Început la",
+        "startedOn": "Început pe",
+        "registeredTo": "Înregistrat la",
+        "locatedAt": "Aflat la {{street}}",
+        "save": "Salvează modificările",
+        "duty": "Serviciu",
+        "on_duty": "În serviciu",
+        "off_duty": "În afara serviciului",
+        "search": "Căutare",
+        "weapons": "Arme",
+        "incidents": "Incidente",
+        "evidences": "Probe",
+        "warrants": "Mandate",
+        "bolos": "BOLO-uri",
+        "vehicles": "Vehicule",
+        "houses": "Proprietăți",
+        "no-results": "Fără rezultate",
+        "gender": "Sex",
+        "location": "Locație",
+        "weapon": "Armă",
+        "fine": "Amenzi",
+        "jail": "Închisoare",
+        "vehicle": "Vehicul",
+        "citizen": "Cetățean",
+        "title": "Titlu",
+        "cancel": "Anulează",
+        "continue": "Continuă",
+        "notes": "Note",
+        "code": "Cod",
+        "position": "Poziție",
+        "firstname": "Prenume",
+        "lastname": "Nume de familie",
+        "fingerprint": "Amprentă",
+        "proceed": "Procedează",
+        "plate": "Placă",
+        "model": "Model",
+        "insurance": "Asigurare",
+        "owner": "Proprietar",
+        "owned": "Deținut",
+        "street": "Stradă",
+        "prop": "Prop",
+        "none": "Niciunul",
+        "no": "Nu",
+        "yes": "Da",
+        "serial": "Număr serial",
+        "list": "Listă",
+        "create": "Creează",
+        "camera": "Cameră",
+        "link": "Link",
+        "pin": "Fixează",
+        "unpin": "Înlătură fixarea",
+        "page_of": "Pagina {{x}} din {{y}}",
+        "backToSafety": "Înapoi în siguranță",
+        "coords": "Coordonate",
+        "expand-image": "Mărește imaginea",
+        "remove-image": "Șterge imaginea",
+        "zoomed-image": "Imagine mărită",
+        "image-link": "Link imagine",
+        "image-description": "Descriere imagine",
+        "submit": "Trimite",
+        "placeholders": {
+            "citizens": "Caută cetățeni",
+            "officers": "Caută ofițeri",
+            "vehicles": "Caută vehicule",
+            "incidents": "Caută incidente",
+            "evidences": "Caută probe",
+            "weapons": "Caută arme",
+            "weapon": "Caută o armă",
+            "bolos": "Caută BOLO-uri",
+            "archive": "Caută probe de arhivă",
+            "warrants": "Caută mandate",
+            "charges": "Caută acuzații",
+            "codes": "Caută coduri",
+            "houses": "Caută case",
+            "announcements": "Caută anunțuri",
+            "recruits": "Caută recruți",
+            "citizen": "Caută un cetățean",
+            "vehicle": "Caută un vehicul",
+            "owner": "Caută un proprietar",
+            "identifier": "Caută un identificator",
+            "house": "Caută o casă",
+            "tag": "Caută o etichetă",
+            "status": "Selectează o stare",
+            "license": "Selectează o licență",
+            "date": "Alege o dată",
+            "starting_date": "Alege o dată de început",
+            "expiring_date": "Alege o dată de expirare"
+        }
+    },
+    "templates": {
+        "incident": "Incidentul #{id}",
+        "evidence": "Probă #{id}",
+        "warrant": "Mandatul #{id}",
+        "bolo": "BOLO-ul #{id}",
+        "vehicle": "{plate}"
+    },
+    "instructional": {
+        "press": "Apasă",
+        "exit": "pentru a ieși"
+    },
+    "jobs": {
+        "police": "Forțe de ordine"
+    },
+    "licenses": {
+        "driver": "Permis de conducere",
+        "weapon": "Permis de port armă",
+        "business": "Licență de afaceri",
+        "hunting": "Licență de vânătoare"
+    },
+    "notification": {
+        "error": "Oops! Ceva nu a mers bine în mod neașteptat.",
+        "create": "Ai creat cu succes acest înregistrare!",
+        "update": "Ai actualizat cu succes această înregistrare!",
+        "camera-connect": "Ai fost conectat cu succes la camera!",
+        "bodycam-connect": "Ai fost conectat cu succes la bodycam!",
+        "existent-citizen": "A fost găsit un cetățean cu acest identificator!",
+        "existent-vehicle": "A fost găsit un vehicul cu această placă!",
+        "registered-citizen": "Ai înregistrat cu succes acest cetățean!",
+        "registered-vehicle": "Ai înregistrat cu succes acest vehicul!",
+        "permission-changed": "Ai modificat cu succes permisiunile pentru acest grad!",
+        "employee-fired": "Ai concediat cu succes acest angajat!",
+        "employee-fire-error": "Nu poți concedia un grad superior sau pe tine însuți!",
+        "rank-changed": "Ai modificat cu succes gradul acestui angajat!",
+        "hire-citizen": "Ai angajat cu succes acest cetățean!",
+        "camera-created": "Ai creat cu succes camera!",
+        "camera-deleted": "Ai șters cu succes camera!",
+        "camera-toggled": "Ai comutat cu succes camera!",
+        "image-attached": "Ai atașat o imagine nouă înregistrării",
+        "remove-image": "Ai înlăturat cu succes imaginea din înregistrare",
+        "title": {
+            "created": "Înregistrare creată",
+            "updated": "Înregistrare actualizată",
+            "error": "Eroare neașteptată",
+            "camera-connect": "Camera conectată",
+            "bodycam-connect": "Bodycam conectată",
+            "existent-citizen": "Cetățean existent",
+            "existent-vehicle": "Vehicul existent",
+            "registered-citizen": "Cetățean înregistrat",
+            "registered-vehicle": "Vehicul înregistrat",
+            "permission-changed": "Permisiuni modificate",
+            "employee-fired": "Angajat concediat",
+            "rank-changed": "Grad modificat",
+            "hire-citizen": "Cetățean angajat",
+            "camera-created": "Camera creată",
+            "camera-deleted": "Camera ștearsă",
+            "camera-toggled": "Camera comutată",
+            "image-attached": "Imagine atașată",
+            "remove-image": "Imagine înlăturată"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Ești sigur de asta?",
+            "description": "Această acțiune nu poate fi anulată. Aceasta va șterge în mod permanent înregistrarea din baza de date.",
+            "citizen": "Ești sigur că vrei să înlături acest cetățean din această înregistrare?",
+            "officer": "Ești sigur că vrei să înlături acest ofițer din această înregistrare?",
+            "vehicle": "Ești sigur că vrei să înlături acest vehicul din această înregistrare?",
+            "incident": "Ești sigur că vrei să înlături acest incident din această înregistrare?",
+            "evidence": "Ești sigur că vrei să înlături această probă din această înregistrare?",
+            "warrant": "Ești sigur că vrei să înlături acest mandat din această înregistrare?",
+            "bolo": "Ești sigur că vrei să înlături acest BOLO din această înregistrare?",
+            "charge": "Ești sigur că vrei să înlături această acuzație din această înregistrare?",
+            "weapon": "Ești sigur că vrei să înlături această armă din această înregistrare?",
+            "archive": "Ești sigur că vrei să înlături acest fișier din arhivă din această înregistrare?"
+        },
+        "delete_alert": {
+            "title": "Ești sigur că vrei să ștergi această alertă?",
+            "description": "Această acțiune nu poate fi anulată. Aceasta va șterge alerta în mod permanent."
+        },
+        "delete-camera": {
+            "title": "Șterge camera",
+            "description": "Ești sigur că vrei să ștergi această cameră?"
+        },
+        "add-value": {
+            "title": "Adaugă un element nou",
+            "description": "Adaugă un element nou în listă."
+        },
+        "set_position": {
+            "title": "Vrei să setezi punctul de control?",
+            "description": "Acest lucru va seta punctul tău de control de pe hartă la locația trimisă a acestei alerte."
+        },
+        "job": {
+            "title": "Selectează un loc de muncă",
+            "description": "Poți alege un loc de muncă și un grad pentru acest utilizator"
+        },
+        "grant-license": {
+            "title": "Acordă o licență",
+            "description": "Selectează o licență pe care vrei să o acorzi cetățeanului"
+        },
+        "suspend-license": {
+            "title": "Ești sigur de asta?",
+            "description": "Vrei să înlături această licență de la acest cetățean?"
+        },
+        "update-permission": {
+            "title": "Actualizează permisiunile",
+            "description": "Adaugă sau înlătură permisiuni pentru acest grad"
+        },
+        "add-permission": {
+            "title": "Adaugă permisiune",
+            "description": "Adaugă o nouă permisiune pentru grad"
+        },
+        "fire-employee": {
+            "title": "Concediază angajatul",
+            "description": "Ești sigur că vrei să concediezi acest angajat?"
+        },
+        "change-rank": {
+            "title": "Schimbă gradul",
+            "description": "Schimbă gradul acestui angajat"
+        },
+        "hire-citizen": {
+            "title": "Angajează cetățean",
+            "description": "Ești sigur că vrei să angajezi acest cetățean?"
+        },
+        "add-image": {
+            "title": "Adaugă o imagine",
+            "description": "Atașează o imagine nouă acestei înregistrări"
+        },
+        "remove-image": {
+            "title": "Înlătură imaginea",
+            "description": "Vrei să înlături această imagine din înregistrare?"
+        },
+        "change-image": {
+            "title": "Schimbă imaginea",
+            "description": "Selectează o nouă poză de profil din galerie"
+        },
+        "reset-form": {
+            "title": "Resetează formularul",
+            "description": "Ești sigur că vrei să resetezi acest formular?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Nu ai permisiuni de ștergere pentru asta!",
+        "loading": {
+            "title": "Așteaptă, suntem pe caz",
+            "description": "Căutăm în prezent în baza noastră de date pentru a găsi informațiile pe care le-ai solicitat. Stai pe fază, le vom avea pentru tine în curând! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Hop! Ceva nu a mers bine",
+            "description": "Ne pare rău, pare că a apărut o problemă cu solicitarea ta. Te rugăm să contactezi dezvoltatorul pentru asistență."
+        },
+        "unexpected-error": {
+            "title": "Eroare neașteptată",
+            "description": "Ceva nu a mers bine, te rog contactează proprietarul serverului pentru a rezolva această problemă."
+        },
+        "search-no-matched": {
+            "title": "Nu s-au găsit rezultate",
+            "description": "Nu s-au găsit rezultate cu interogarea următoare: \"{{query}}\""
+        },
+        "fetching": {
+            "title": "Preiau rezultatele",
+            "description": "Te rog așteaptă cu răbdare în timp ce adunăm datele necesare. Contribuția ta ne va ajuta să oferim rezultate personalizate."
+        },
+        "fetch-error": {
+            "title": "Ups! Ceva nu a mers bine",
+            "description": "Ne pare rău, pare că a apărut o problemă cu cererea ta. Te rog contactează dezvoltatorul pentru asistență."
+        },
+        "fetch-no-results": {
+            "title": "Oops! Nimic de arătat aici",
+            "description": "Tastează ceva pentru a afișa rezultate. Contribuția ta personalizează ceea ce vezi."
+        },
+        "fetch-no-matched": {
+            "title": "Niciun rezultat găsit",
+            "description": "Se pare că nu am putut găsi niciun rezultat care să corespundă criteriilor tale de căutare."
+        }
+    },
+    "dashboard": {
+        "title": "Bine ai revenit, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Locație în timp real",
+        "street_name": "Numele străzii:",
+        "personal": {
+            "title": "Informații personale",
+            "description": "Acestea sunt informațiile tale personale"
+        },
+        "global_search": {
+            "title": "Căutare globală",
+            "description": "Caută incidente, probe, mandate, BOLO-uri sau vehicule după cetățean",
+            "no-results": "Tastează numele unui cetățean pentru a găsi incidentele, probele, mandatele, BOLO-urile sau vehiculele sale."
+        },
+        "officers": {
+            "title": "Ofițeri online",
+            "description": "Vezi toți ofițerii online și informații utile"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Comunică cu alți ofițeri prin chat",
+            "placeholder": "Scrie un mesaj..."
+        },
+        "calls": {
+            "title": "Apeluri recente",
+            "description": "Aici vei vedea cele mai recente alerte",
+            "no-alerts": "Momentan nu există alerte, când apar vei vedea o listă aici",
+            "details": "Click pe alertă pentru a vedea mai multe detalii",
+            "time": "Timpul de despachetare"
+        }
+    },
+    "incidents": {
+        "title": "Incidente",
+        "description": "Vezi o listă cu cele mai recente incidente",
+        "individual": {
+            "title": "Incident #{{id}}",
+            "description": "Vezi toate informațiile despre acest incident",
+            "information": "Poți vizualiza și edita informațiile acestui incident"
+        },
+        "charge_list": {
+            "jail": "{{amount}} luni în închisoare",
+            "fine": "{{amount}} amendă",
+            "reduction": {
+                "title": "Reducere de acuzație",
+                "description": "Poți reduce durata de închisoare sau amenda"
+            },
+            "mutual": "Comută la reducere mutuală",
+            "separate": "Comută la reducere separată",
+            "reduce": "Redu acuzația",
+            "charge_reduction": "Reducere de {{amount}}% la acuzație",
+            "fine_reduction": "Reducere de {{amount}}% la amendă",
+            "jail_reduction": "Reducere de {{amount}}% la închisoare"
+        },
+        "citizens": "cetățeni",
+        "officers": "ofițeri",
+        "vehicles": "vehicule",
+        "evidences": "probe",
+        "charges": "acuzații"
+    },
+    "evidences": {
+        "title": "Probe",
+        "description": "Vezi o listă cu cele mai recente probe",
+        "individual": {
+            "title": "Probă #{{id}}",
+            "description": "Vezi toate informațiile despre această probă",
+            "information": "Poți vizualiza și edita informațiile acestei probe"
+        }
+    },
+    "warrants": {
+        "title": "Mandate",
+        "description": "Vezi o listă cu cele mai recente mandate",
+        "individual": {
+            "title": "Mandat #{{id}}",
+            "description": "Vezi și schimbă detaliile despre acest mandat",
+            "information": "Poți vizualiza și schimba informațiile acestui mandat"
+        }
+    },
+    "officers": {
+        "title": "Ofițeri",
+        "description": "Vezi o listă cu persoanele online care pot accesa MDT",
+        "header": "{{job}} - {{length}} ofițeri online",
+        "paragraph": "Vezi ofițeri din acest loc de muncă"
+    },
+    "bolos": {
+        "title": "BOLO-uri",
+        "description": "Vezi o listă cu cele mai recente BOLO-uri",
+        "individual": {
+            "title": "BOLO #{{id}}",
+            "description": "Vezi și schimbă detaliile despre acest BOLO",
+            "information": "Poți vizualiza și edita informațiile acestui BOLO"
+        }
+    },
+    "dispatch": {
+        "title": "Desfășurare",
+        "description": "Vizualizează, șterge și preia apelurile de dispecerat",
+        "individual": {
+            "title": "Alertă #{{id}}",
+            "description": "Vizualizează toate informațiile despre această alertă",
+            "vehicle-info": "(Nr. înmatriculare: {{plate}} | Clasă: {{class}} | Culoare: {{color}} | Uși: {{doors}})"
+        },
+        "delete": "Șterge alerta",
+        "position": "Setează poziția",
+        "alerts": {
+            "title": "Alerte",
+            "description": "Vizualizează toate apelurile recente"
+        },
+        "map": {
+            "title": "Hartă de dispecerat",
+            "description": "Vezi locația alertelor active"
+        }
+    },
+    "cameras": {
+        "title": "Camere",
+        "description": "Accesează toate camerele amplasate în oraș",
+        "information": "Vezi camera de corp a acestui angajat",
+        "cctv": "CCTV",
+        "bodycams": "Camere de corp",
+        "open": "Deschide camera",
+        "location": "Ultima locație cunoscută",
+        "view-bodycam": "Vezi camera de corp"
+    },
+    "citizens": {
+        "title": "Cetățeni",
+        "description": "Vezi toate înregistrările și informațiile despre un cetățean",
+        "register": "Înregistrează un cetățean",
+        "grant-license": "Acordă licență",
+        "suspend-license": "Suspendă licența",
+        "individual": {
+            "title": "Cetățean",
+            "description": "Vizualizează toate informațiile despre acest cetățean",
+            "information": "Vezi toate informațiile utile despre acest cetățean"
+        },
+        "results": {
+            "title": "Căutare cetățeni",
+            "description": "Poți căuta după nume, amprentă"
+        }
+    },
+    "vehicles": {
+        "title": "Vehicule",
+        "description": "Identifică orice vehicul după numărul de înmatriculare",
+        "register": "Înregistrează un vehicul",
+        "insurance-expiring": "expiră în {{time}}",
+        "individual": {
+            "title": "Vehicul",
+            "description": "Vizualizează toate informațiile despre acest vehicul",
+            "information": "Vezi toate informațiile relevante despre acest vehicul"
+        },
+        "results": {
+            "title": "Căutare vehicule",
+            "description": "Poți căuta după numărul de înmatriculare"
+        }
+    },
+    "houses": {
+        "title": "Case",
+        "description": "Vezi informații utile pentru fiecare proprietate",
+        "individual": {
+            "title": "Casă",
+            "description": "Vizualizează toate informațiile despre această casă",
+            "information": "Vezi informații utile despre această proprietate, cum ar fi locația"
+        },
+        "results": {
+            "title": "Căutare case",
+            "description": "Poți căuta după numele sau id-ul casei"
+        }
+    },
+    "weapons": {
+        "title": "Arme",
+        "description": "Vezi și înregistrează arme pentru o identificare mai ușoară",
+        "register": "Înregistrează o armă",
+        "individual": {
+            "title": "Armă",
+            "description": "Vizualizează toate informațiile despre această armă",
+            "information": "Vezi informațiile despre această armă, precum și numărul de serie"
+        },
+        "results": {
+            "title": "Căutare arme",
+            "description": "Poți căuta după nume, număr de serie"
+        }
+    },
+    "codes": {
+        "title": "Coduri",
+        "description": "Vezi o listă de coduri folosite pentru comunicare",
+        "individual": {
+            "title": "Cod #{{id}}",
+            "description": "Vizualizează toate informațiile despre acest cod",
+            "information": "Poți vizualiza și edita informațiile acestui cod"
+        }
+    },
+    "charges": {
+        "title": "Acuzații",
+        "description": "Vezi, creează, șterge și editează acuzații",
+        "fine": "Sumă amendă",
+        "jail": "Sumă închisoare",
+        "individual": {
+            "title": "Acuzație #{{id}}",
+            "description": "Vizualizează toate informațiile despre această acuzație",
+            "information": "Poți vizualiza și edita informațiile acestei acuzații"
+        }
+    },
+    "announcements": {
+        "title": "Anunțuri",
+        "description": "Vezi, creează și fixează anunțuri pentru alți ofițeri",
+        "pin": "Fixează anunț",
+        "unpin": "Desfixează anunț",
+        "save": "Salvează anunțul",
+        "edit": "Editează anunțul",
+        "written": "Scris de",
+        "individual": {
+            "title": "Anunț #{{id}}",
+            "description": "Vizualizează toate informațiile despre acest anunț"
+        }
+    },
+    "configuration": {
+        "title": "Configurare",
+        "description": "Personalizează MDT-ul după preferințele tale",
+        "colors": {
+            "title": "Culori",
+            "description": "Schimbă aspectul MDT-ului tău",
+            "text": "Culori text",
+            "other": "Alte culori",
+            "reset": "Resetare culori",
+            "name": {
+                "background": "Culoare fundal",
+                "secondary": "Culoare secundară",
+                "text": "Culoare text",
+                "text-muted": "Culoare text estompat",
+                "primary-text": "Culoare text primar",
+                "contrast": "Culoare contrast",
+                "error": "Culoare eroare",
+                "ring": "Culoare inel"
+            }
+        },
+        "language": {
+            "title": "Limbă",
+            "description": "Schimbă limba MDT-ului tău",
+            "select": "Selectează limba preferată"
+        }
+    },
+    "administration": {
+        "title": "Administrație",
+        "description": "Administrează grade, fonduri ale societății, angajați, recruți și camere",
+        "permissions": "Permisiuni",
+        "management": "Management",
+        "recruitment": "Recrutare",
+        "cameras": "Camere",
+        "camera-information": "Vezi mai multe informații despre această cameră",
+        "select-camera": "Selectează o cameră",
+        "change-position": "Schimbă poziția",
+        "set-position": "Setează poziția",
+        "open-camera": "Deschide camera",
+        "delete-camera": "Șterge camera",
+        "enable-camera": "Activează camera",
+        "disable-camera": "Dezactivează camera",
+        "job": {
+            "add-permission": "Adaugă permisiune",
+            "update-permission": "Actualizează permisiuni",
+            "select-permission": "Selectează o permisiune",
+            "grades": {
+                "title": "Grad - {{level}}",
+                "description": "Gradele din jobul \"{{job}}\"",
+                "footer": "Aceasta include și permisiunile anterioare"
+            }
+        },
+        "employees": {
+            "title": "Angajați",
+            "description": "O listă a tuturor angajaților online"
+        },
+        "manage": {
+            "title": "Administrează „{{name}}”",
+            "description": "Vezi mai multe informații sau aplică acțiuni acestui angajat",
+            "fire": "Concediază angajatul",
+            "hire": "Angajează cetățean",
+            "change_rank": "Schimbă gradul",
+            "rank_select": "Selectează un grad",
+            "activity": {
+                "title": "Activitate",
+                "description": "Vezi statistici de activitate pentru acest angajat",
+                "chart": "Ultimele 7 zile",
+                "table": {
+                    "head": {
+                        "number": "Nr.",
+                        "clock-in": "Intrare",
+                        "clock-out": "Ieșire",
+                        "hours": "Ore"
+                    },
+                    "total": "Total ore"
+                }
+            },
+            "funds": {
+                "header": "Fonduri ale societății",
+                "footer": "venituri din amenzi"
+            },
+            "employees": {
+                "header": "Angajați",
+                "footer": "total angajați online"
+            },
+            "calls": {
+                "header": "Apeluri totale",
+                "footer": "apeluri de dispecerat active"
+            }
+        },
+        "recruits": {
+            "description": "Vezi informații despre acest cetățean",
+            "see": "Vezi pagina cetățeanului"
+        }
+    },
+    "forms": {
+        "description": "Completează formularul cu toate informațiile necesare",
+        "citizens": "Înregistrează un cetățean",
+        "vehicles": "Înregistrează un vehicul",
+        "incidents": "Creează un incident",
+        "evidences": "Creează o probă",
+        "warrants": "Creează un mandat",
+        "bolos": "Creează un BOLO",
+        "codes": "Creează un cod",
+        "charges": "Creează o acuzație",
+        "weapons": "Înregistrează o armă",
+        "announcements": "Creează un anunț",
+        "cameras": "Creează o cameră",
+        "tag": {
+            "title": "Creează etichetă",
+            "description": "Creează o etichetă nouă pentru a categorisi aceasta. Apasă pe creare pentru a adăuga o etichetă nouă.",
+            "field-name": "Nume etichetă",
+            "field-description": "Descriere etichetă",
+            "field-color": "Culoare etichetă",
+            "button": "Creează etichetă nouă",
+            "notification": {
+                "title": "Etichetă creată",
+                "description": "Ai creat cu succes eticheta!"
+            }
+        },
+        "errors": {
+            "required": "Acest câmp este obligatoriu",
+            "create": "Nu ai permisiuni pentru a crea un nou înregistrare",
+            "min-length": "Acest câmp trebuie să aibă cel puțin {{length}} caractere",
+            "min-number": "Valoarea minimă pentru acest câmp este {{min}}",
+            "max-number": "Valoarea maximă pentru acest câmp este {{max}}",
+            "invalid-link": "Trebuie să furnizezi un URL de imagine valid!",
+            "bolos": {
+                "citizen-vehicle-required": "Trebuie să selectezi un cetățean sau un vehicul"
+            },
+            "codes": {
+                "format": "Format greșit, trebuie să folosești doar cifre"
+            },
+            "warrants": {
+                "citizen-house-required": "Trebuie să selectezi un cetățean sau o casă"
+            },
+            "evidences": {
+                "fields-required": "Trebuie să adaugi un cetățean, un ofițer, un vehicul sau o armă"
+            },
+            "charges": {
+                "fine-jail-required": "Trebuie să setezi o sumă amendă sau de închisoare"
+            },
+            "cameras": {
+                "prop-required": "Trebuie să selectezi un element propriu înainte de a seta poziția"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Poți selecta încă {{n}} {{word}}",
+            "maximum": "Ai selectat numărul maxim de {{word}}"
+        },
+        "words": {
+            "citizens": "cetățeni",
+            "officers": "ofițeri",
+            "vehicles": "vehicule",
+            "incidents": "incidente",
+            "evidences": "probe",
+            "charges": "acuzații",
+            "evidence_archive": "probe din arhivă"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "Cetățeni implicați",
+            "officer": "Ofițeri implicați",
+            "vehicle": "Vehicule implicate",
+            "weapon": "Arme",
+            "evidence": "Probe",
+            "charge": "Acuzații aplicate",
+            "archive": "Fișiere de arhivă",
+            "licenses": "Licențe acordate"
+        },
+        "description": {
+            "template": "Vizualizează și editează {{word}} atașate acestui înregistrare",
+            "licenses": "Revocă și acordă licențe acestui cetățean",
+            "citizen-weapon": "Vizualizează și editează armele cetățeanului acestui cetățean",
+            "citizen-incident": "Vizualizează și editează incidentele atribuite acestui cetățean",
+            "vehicle-incident": "Vizualizează și editează incidentele atribuite acestui vehicul",
+            "citizen-evidence": "Vizualizează și editează probele la care este implicat cetățeanul",
+            "citizen-warrant": "Vizualizează și editează mandatele atribuite acestui cetățean",
+            "house-warrant": "Vizualizează și editează mandatele atribuite acestei case",
+            "citizen-bolo": "Vizualizează și editează bolos atribuite acestui cetățean",
+            "vehicle-bolo": "Vizualizează și editează bolos atribuite acestui vehicul",
+            "citizen-vehicle": "Vizualizează vehiculele pe care le deține acest cetățean",
+            "citizen-house": "Vizualizează proprietățile pe care le deține acest cetățean",
+            "words": {
+                "citizen": "cetățeni",
+                "officer": "ofițeri",
+                "vehicle": "vehicule",
+                "weapon": "arme",
+                "evidence": "probe",
+                "charge": "acuzații",
+                "archive": "fișiere de arhivă"
+            }
+        },
+        "add": {
+            "citizen": "Adaugă un cetățean",
+            "officer": "Adaugă un ofițer",
+            "vehicle": "Adaugă un vehicul",
+            "incident": "Adaugă un incident",
+            "evidence": "Adaugă o probă",
+            "warrant": "Adaugă un mandat",
+            "bolo": "Adaugă un BOLO",
+            "charge": "Adaugă o acuzație",
+            "weapon": "Adaugă o armă",
+            "archive": "Adaugă un fișier"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Galerie cetățeni",
+            "vehicle": "Galerie vehicule",
+            "evidence": "Imagini"
+        },
+        "description": {
+            "citizen": "Vizualizează imagini cu acest cetățean",
+            "vehicle": "Vizualizează imagini cu acest vehicul",
+            "evidence": "Vizualizează imagini atașate acestei probe"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Vizualizare Pagină Tablou de bord",
+            "description": "Permite utilizatorului să vizualizeze pagina tabloului de bord"
+        },
+        "incidents.view": {
+            "label": "Vizualizare Pagină Incidente",
+            "description": "Permite utilizatorului să vizualizeze pagina incidentelor"
+        },
+        "evidences.view": {
+            "label": "Vizualizare Pagină Probe",
+            "description": "Permite utilizatorului să vizualizeze pagina probelor"
+        },
+        "warrants.view": {
+            "label": "Vizualizare Pagină Mandate",
+            "description": "Permite utilizatorului să vizualizeze pagina mandatelor"
+        },
+        "officers.view": {
+            "label": "Vizualizare Pagină Ofițeri",
+            "description": "Permite utilizatorului să vizualizeze pagina ofițerilor"
+        },
+        "bolos.view": {
+            "label": "Vizualizare Pagină BOLO-uri",
+            "description": "Permite utilizatorului să vizualizeze pagina BOLO-urilor (Be On the Lookout)"
+        },
+        "dispatch.view": {
+            "label": "Vizualizare Pagină Dispatch",
+            "description": "Permite utilizatorului să vizualizeze pagina dispatch"
+        },
+        "cameras.view": {
+            "label": "Vizualizare Pagină Camere",
+            "description": "Permite utilizatorului să vizualizeze pagina camerelor"
+        },
+        "citizens.view": {
+            "label": "Vizualizare Pagină Cetățeni",
+            "description": "Permite utilizatorului să vizualizeze pagina cetățenilor"
+        },
+        "vehicles.view": {
+            "label": "Vizualizare Pagină Vehicule",
+            "description": "Permite utilizatorului să vizualizeze pagina vehiculelor"
+        },
+        "houses.view": {
+            "label": "Vizualizare Pagină Case",
+            "description": "Permite utilizatorului să vizualizeze pagina caselor"
+        },
+        "weapons.view": {
+            "label": "Vizualizare Pagină Arme",
+            "description": "Permite utilizatorului să vizualizeze pagina armelor"
+        },
+        "codes.view": {
+            "label": "Vizualizare Pagină Coduri",
+            "description": "Permite utilizatorului să vizualizeze pagina codurilor"
+        },
+        "charges.view": {
+            "label": "Vizualizare Pagină Acuzații",
+            "description": "Permite utilizatorului să vizualizeze pagina acuzațiilor"
+        },
+        "announcements.view": {
+            "label": "Vizualizare Pagină Anunțuri",
+            "description": "Permite utilizatorului să vizualizeze pagina anunțurilor"
+        },
+        "config.view": {
+            "label": "Vizualizare Pagină Configurare",
+            "description": "Permite utilizatorului să vizualizeze pagina de configurare"
+        },
+        "administration.view": {
+            "label": "Vizualizare Pagină Administrare",
+            "description": "Permite utilizatorului să vizualizeze pagina de administrare"
+        },
+        "incidents.delete": {
+            "label": "Ștergere Incidente",
+            "description": "Permite utilizatorului să șteargă incidente"
+        },
+        "incidents.create": {
+            "label": "Creare Incidente",
+            "description": "Permite utilizatorului să creeze noi incidente"
+        },
+        "incidents.edit": {
+            "label": "Editare Incidente",
+            "description": "Permite utilizatorului să editeze incidente existente"
+        },
+        "evidences.delete": {
+            "label": "Ștergere Probe",
+            "description": "Permite utilizatorului să șteargă probe"
+        },
+        "evidences.create": {
+            "label": "Creare Probe",
+            "description": "Permite utilizatorului să creeze noi probe"
+        },
+        "evidences.edit": {
+            "label": "Editare Probe",
+            "description": "Permite utilizatorului să editeze probe existente"
+        },
+        "warrants.delete": {
+            "label": "Ștergere Mandate",
+            "description": "Permite utilizatorului să șteargă mandate"
+        },
+        "warrants.create": {
+            "label": "Creare Mandate",
+            "description": "Permite utilizatorului să creeze noi mandate"
+        },
+        "warrants.edit": {
+            "label": "Editare Mandate",
+            "description": "Permite utilizatorului să editeze mandate existente"
+        },
+        "bolos.delete": {
+            "label": "Ștergere BOLO-uri",
+            "description": "Permite utilizatorului să șteargă BOLO-uri"
+        },
+        "bolos.create": {
+            "label": "Creare BOLO-uri",
+            "description": "Permite utilizatorului să creeze noi BOLO-uri"
+        },
+        "bolos.edit": {
+            "label": "Editare BOLO-uri",
+            "description": "Permite utilizatorului să editeze BOLO-uri existente"
+        },
+        "dispatch.alert.delete": {
+            "label": "Ștergere Alerte Dispatch",
+            "description": "Permite utilizatorului să șteargă alertele de dispatch"
+        },
+        "cameras.open": {
+            "label": "Deschidere Camere",
+            "description": "Permite utilizatorului să acceseze și să vizualizeze fluxurile camerelor"
+        },
+        "cameras.bodycam.view": {
+            "label": "Vizualizare Înregistrări Body Camera",
+            "description": "Permite utilizatorului să vizualizeze înregistrările de body camera de la camere"
+        },
+        "citizens.register": {
+            "label": "Înregistrare Cetățeni",
+            "description": "Permite utilizatorului să înregistreze noi cetățeni"
+        },
+        "citizens.edit": {
+            "label": "Editare Cetățeni",
+            "description": "Permite utilizatorului să editeze cetățeni existenți"
+        },
+        "citizens.license.grant": {
+            "label": "Acordare Licențe Cetățeni",
+            "description": "Permite utilizatorului să acorde licențe cetățenilor"
+        },
+        "citizens.license.revoke": {
+            "label": "Revocare Licențe Cetățeni",
+            "description": "Permite utilizatorului să revocare licențe de la cetățeni"
+        },
+        "gallery.edit": {
+            "label": "Editare Galerie",
+            "description": "Permite utilizatorului să editeze conținutul galeriei"
+        },
+        "vehicles.register": {
+            "label": "Înregistrare Vehicule",
+            "description": "Permite utilizatorului să înregistreze noi vehicule"
+        },
+        "vehicles.edit": {
+            "label": "Editare Vehicule",
+            "description": "Permite utilizatorului să editeze vehicule existente"
+        },
+        "houses.edit": {
+            "label": "Editare Case",
+            "description": "Permite utilizatorului să editeze case existente"
+        },
+        "weapons.register": {
+            "label": "Înregistrare Arme",
+            "description": "Permite utilizatorului să înregistreze noi arme"
+        },
+        "weapons.edit": {
+            "label": "Editare Arme",
+            "description": "Permite utilizatorului să editeze arme existente"
+        },
+        "codes.delete": {
+            "label": "Ștergere Coduri",
+            "description": "Permite utilizatorului să șteargă coduri"
+        },
+        "codes.create": {
+            "label": "Creare Coduri",
+            "description": "Permite utilizatorului să creeze noi coduri"
+        },
+        "codes.edit": {
+            "label": "Editare Coduri",
+            "description": "Permite utilizatorului să editeze coduri existente"
+        },
+        "charges.delete": {
+            "label": "Ștergere Acuzații",
+            "description": "Permite utilizatorului să șteargă acuzații"
+        },
+        "charges.create": {
+            "label": "Creare Acuzații",
+            "description": "Permite utilizatorului să creeze noi acuzații"
+        },
+        "charges.edit": {
+            "label": "Editare Acuzații",
+            "description": "Permite utilizatorului să editeze acuzații existente"
+        },
+        "announcements.create": {
+            "label": "Creare Anunțuri",
+            "description": "Permite utilizatorului să creeze noi anunțuri"
+        },
+        "announcements.delete": {
+            "label": "Ștergere Anunțuri",
+            "description": "Permite utilizatorului să șteargă anunțuri"
+        },
+        "announcements.pin": {
+            "label": "Fixare Anunțuri",
+            "description": "Permite utilizatorului să fixeze anunțuri"
+        },
+        "announcements.edit": {
+            "label": "Editare Anunțuri",
+            "description": "Permite utilizatorului să editeze anunțuri existente"
+        },
+        "administration.permissions.update": {
+            "label": "Actualizare Permisiuni",
+            "description": "Permite utilizatorului să actualizeze permisiunile în panoul de administrare"
+        },
+        "administration.management.employee.view": {
+            "label": "Vizualizare Management Angajați",
+            "description": "Permite utilizatorului să vizualizeze managementul angajaților în panoul de administrare"
+        },
+        "administration.management.employee.fire": {
+            "label": "Concediere Angajat",
+            "description": "Permite utilizatorului să concedieze un angajat"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Schimbare Grad Angajat",
+            "description": "Permite utilizatorului să schimbe gradul unui angajat"
+        },
+        "administration.recruit.view": {
+            "label": "Vizualizare Management Recrutare",
+            "description": "Permite utilizatorului să vizualizeze managementul recrutării în panoul de administrare"
+        },
+        "administration.recruit.hire": {
+            "label": "Angajare Recruit",
+            "description": "Permite utilizatorului să angajeze un recrut"
+        },
+        "administration.camera.view": {
+            "label": "Vizualizare Management Camere",
+            "description": "Permite utilizatorului să vizualizeze managementul camerelor în panoul de administrare"
+        },
+        "administration.camera.create": {
+            "label": "Creare Camera",
+            "description": "Permite utilizatorului să creeze o nouă cameră"
+        },
+        "administration.camera.delete": {
+            "label": "Ștergere Camera",
+            "description": "Permite utilizatorului să șteargă o cameră"
+        },
+        "administration.camera.toggle": {
+            "label": "Comutare Camera",
+            "description": "Permite utilizatorului să comute statusul unei camere"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+If your server doesn't create current_config.json file automatically, follow these steps:
+1. Duplicate the file 'default_config.json' in the same directory
+2. Rename the duplicated file to 'current_config.json'
+3. Move the 'current_config.json' file to the folder that contains the 'fxmanifest.lua' file of the script

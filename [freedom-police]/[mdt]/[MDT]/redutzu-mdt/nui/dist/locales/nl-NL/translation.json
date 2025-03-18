@@ -1,0 +1,990 @@
+{
+    "navigation": {
+        "dashboard": "Dashboard",
+        "incidents": "Incidenten",
+        "evidences": "Bewijsstukken",
+        "warrants": "Bevelen",
+        "officers": "Agenten",
+        "bolos": "BOLO's",
+        "dispatch": "Dispatch",
+        "cameras": "Camera's",
+        "citizens": "Burgers",
+        "vehicles": "Voertuigen",
+        "houses": "Huizen",
+        "weapons": "Wapens",
+        "codes": "Codes",
+        "charges": "Aanklachten",
+        "announcements": "Aankondigingen",
+        "config": "Configuratie",
+        "administration": "Administratie",
+        "exit": "Afsluiten"
+    },
+    "general": {
+        "close": "Sluiten",
+        "delete": "Verwijderen",
+        "male": "Man",
+        "female": "Vrouw",
+        "status": "Status",
+        "active": "Actief",
+        "inactive": "Inactief",
+        "information": "Informatie",
+        "reason": "Reden",
+        "name": "Naam",
+        "description": "Beschrijving",
+        "job": "Baan",
+        "grade": "Rang",
+        "callsign": "Roepnaam",
+        "phone_number": "Telefoonnummer",
+        "dateofbirth": "Geboortedatum",
+        "tag": "Tag",
+        "house": "Huis",
+        "createdAt": "Aangemaakt op",
+        "expiresIn": "Verloopt in",
+        "startedAt": "Begonnen op",
+        "startedOn": "Begonnen op",
+        "registeredTo": "Geregistreerd op",
+        "locatedAt": "Gelegen op {{street}}",
+        "save": "Wijzigingen opslaan",
+        "duty": "Dienst",
+        "on_duty": "In dienst",
+        "off_duty": "Uit dienst",
+        "search": "Zoeken",
+        "weapons": "Wapens",
+        "incidents": "Incidenten",
+        "evidences": "Bewijsstukken",
+        "warrants": "Bevelen",
+        "bolos": "BOLO's",
+        "vehicles": "Voertuigen",
+        "houses": "Eigendommen",
+        "no-results": "Geen resultaten",
+        "gender": "Geslacht",
+        "location": "Locatie",
+        "weapon": "Wapen",
+        "fine": "Boete",
+        "jail": "Gevangenis",
+        "vehicle": "Voertuig",
+        "citizen": "Burger",
+        "title": "Titel",
+        "cancel": "Annuleren",
+        "continue": "Doorgaan",
+        "notes": "Notities",
+        "code": "Code",
+        "position": "Positie",
+        "firstname": "Voornaam",
+        "lastname": "Achternaam",
+        "fingerprint": "Vingerafdruk",
+        "proceed": "Doorgaan",
+        "plate": "Kenteken",
+        "model": "Model",
+        "insurance": "Verzekering",
+        "owner": "Eigenaar",
+        "owned": "In bezit",
+        "street": "Straat",
+        "prop": "Prop",
+        "none": "Geen",
+        "no": "Nee",
+        "yes": "Ja",
+        "serial": "Serienummer",
+        "list": "Lijst",
+        "create": "Aanmaken",
+        "camera": "Camera",
+        "link": "Link",
+        "pin": "Vastzetten",
+        "unpin": "Losmaken",
+        "page_of": "Pagina {{x}} van {{y}}",
+        "backToSafety": "Terug naar veiligheid",
+        "coords": "Coördinaten",
+        "expand-image": "Afbeelding vergroten",
+        "remove-image": "Afbeelding verwijderen",
+        "zoomed-image": "Ingezoomde afbeelding",
+        "image-link": "Afbeeldingslink",
+        "image-description": "Afbeeldingsbeschrijving",
+        "submit": "Verzenden",
+        "placeholders": {
+            "citizens": "Zoek burgers",
+            "officers": "Zoek agenten",
+            "vehicles": "Zoek voertuigen",
+            "incidents": "Zoek incidenten",
+            "evidences": "Zoek bewijsstukken",
+            "weapons": "Zoek wapens",
+            "weapon": "Zoek een wapen",
+            "bolos": "Zoek BOLO's",
+            "archive": "Zoek archiefbewijsstukken",
+            "warrants": "Zoek bevelen",
+            "charges": "Zoek aanklachten",
+            "codes": "Zoek codes",
+            "houses": "Zoek huizen",
+            "announcements": "Zoek aankondigingen",
+            "recruits": "Zoek rekruten",
+            "citizen": "Zoek een burger",
+            "vehicle": "Zoek een voertuig",
+            "owner": "Zoek een eigenaar",
+            "identifier": "Zoek een identificatienummer",
+            "house": "Zoek een huis",
+            "tag": "Zoek een tag",
+            "status": "Selecteer een status",
+            "license": "Selecteer een vergunning",
+            "date": "Kies een datum",
+            "starting_date": "Kies een begindatum",
+            "expiring_date": "Kies een vervaldatum"
+        }
+        },
+        "templates": {
+        "incident": "Incident #{id}",
+        "evidence": "Bewijsstuk #{id}",
+        "warrant": "Bevel #{id}",
+        "bolo": "BOLO #{id}",
+        "vehicle": "{plate}"
+        },
+        "instructional": {
+        "press": "Druk op",
+        "exit": "om af te sluiten"
+        },
+        "jobs": {
+        "police": "Wetshandhaving"
+        },
+        "licenses": {
+        "driver": "Rijbewijs",
+        "weapon": "Wapenvergunning",
+        "business": "Bedrijfsvergunning",
+        "hunting": "Jachtvergunning"
+        },
+        "notification": {
+        "error": "Oeps! Er is onverwachts iets misgegaan.",
+        "create": "Je hebt deze record succesvol aangemaakt!",
+        "update": "Je hebt deze record succesvol bijgewerkt!",
+        "camera-connect": "Je bent succesvol verbonden met de camera!",
+        "bodycam-connect": "Je bent succesvol verbonden met de bodycam!",
+        "existent-citizen": "Er is een burger gevonden met deze identificatie!",
+        "existent-vehicle": "Er is een voertuig gevonden met dit kenteken!",
+        "registered-citizen": "Je hebt deze burger succesvol geregistreerd!",
+        "registered-vehicle": "Je hebt dit voertuig succesvol geregistreerd!",
+        "permission-changed": "Je hebt succesvol de rechten gewijzigd voor deze rang!",
+        "employee-fired": "Je hebt deze medewerker succesvol ontslagen!",
+        "employee-fire-error": "Je kunt geen medewerker van een hogere rang of jezelf ontslaan!",
+        "rank-changed": "Je hebt succesvol de rang van deze medewerker gewijzigd!",
+        "hire-citizen": "Je hebt deze burger succesvol aangenomen!",
+        "camera-created": "Je hebt succesvol de camera aangemaakt!",
+        "camera-deleted": "Je hebt de camera succesvol verwijderd!",
+        "camera-toggled": "Je hebt succesvol de camera omgeschakeld!",
+        "image-attached": "Je hebt succesvol een nieuwe afbeelding toegevoegd aan de record",
+        "remove-image": "Je hebt succesvol de afbeelding verwijderd van de record",
+        "title": {
+            "created": "Record aangemaakt",
+            "updated": "Record bijgewerkt",
+            "error": "Onverwachte fout",
+            "camera-connect": "Camera verbonden",
+            "bodycam-connect": "Bodycam verbonden",
+            "existent-citizen": "Bestaande burger",
+            "existent-vehicle": "Bestaand voertuig",
+            "registered-citizen": "Burger geregistreerd",
+            "registered-vehicle": "Voertuig geregistreerd",
+            "permission-changed": "Rechten gewijzigd",
+            "employee-fired": "Medewerker ontslagen",
+            "rank-changed": "Rang gewijzigd",
+            "hire-citizen": "Burger aangenomen",
+            "camera-created": "Camera aangemaakt",
+            "camera-deleted": "Camera verwijderd",
+            "camera-toggled": "Camera omgeschakeld",
+            "image-attached": "Afbeelding toegevoegd",
+            "remove-image": "Afbeelding verwijderd"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Weet je het zeker?",
+            "description": "Deze actie kan niet ongedaan worden gemaakt. Dit zal het record permanent verwijderen uit de database.",
+            "citizen": "Weet je zeker dat je deze burger uit dit record wilt verwijderen?",
+            "officer": "Weet je zeker dat je deze medewerker uit dit record wilt verwijderen?",
+            "vehicle": "Weet je zeker dat je dit voertuig uit dit record wilt verwijderen?",
+            "incident": "Weet je zeker dat je dit incident uit dit record wilt verwijderen?",
+            "evidence": "Weet je zeker dat je dit bewijsstuk uit dit record wilt verwijderen?",
+            "warrant": "Weet je zeker dat je dit bevel uit dit record wilt verwijderen?",
+            "bolo": "Weet je zeker dat je deze BOLO uit dit record wilt verwijderen?",
+            "charge": "Weet je zeker dat je deze aanklacht uit dit record wilt verwijderen?",
+            "weapon": "Weet je zeker dat je dit wapen uit dit record wilt verwijderen?",
+            "archive": "Weet je zeker dat je dit archiefbestand uit dit record wilt verwijderen?"
+        },
+        "delete_alert": {
+            "title": "Weet je zeker dat je deze melding wilt verwijderen?",
+            "description": "Deze actie kan niet ongedaan worden gemaakt. Dit zal de melding permanent verwijderen."
+        },
+        "delete-camera": {
+            "title": "Camera verwijderen",
+            "description": "Weet je zeker dat je deze camera wilt verwijderen?"
+        },
+        "add-value": {
+            "title": "Voeg een nieuw item toe",
+            "description": "Voeg een nieuw item toe aan de lijst."
+        },
+        "set_position": {
+            "title": "Wil je de controlepost instellen?",
+            "description": "Dit zal je MDT-kaartcontrolepost instellen op de verzonden locatie van deze melding."
+        },
+        "job": {
+            "title": "Selecteer een functie",
+            "description": "Je kunt een functie en rang kiezen voor deze gebruiker"
+        },
+        "grant-license": {
+            "title": "Vergunning verlenen",
+            "description": "Selecteer een vergunning die je aan de burger wilt verlenen"
+        },
+        "suspend-license": {
+            "title": "Weet je het zeker?",
+            "description": "Wil je deze vergunning van deze burger verwijderen?"
+        },
+        "update-permission": {
+            "title": "Rechten bijwerken",
+            "description": "Voeg rechten toe of verwijder rechten voor deze rang"
+        },
+        "add-permission": {
+            "title": "Recht toevoegen",
+            "description": "Voeg een nieuw recht toe aan de rang"
+        },
+        "fire-employee": {
+            "title": "Medewerker ontslaan",
+            "description": "Weet je zeker dat je deze medewerker wilt ontslaan?"
+        },
+        "change-rank": {
+            "title": "Rang wijzigen",
+            "description": "Verander de rang van deze medewerker"
+        },
+        "hire-citizen": {
+            "title": "Burger aannemen",
+            "description": "Weet je zeker dat je deze burger wilt aannemen?"
+        },
+        "add-image": {
+            "title": "Afbeelding toevoegen",
+            "description": "Voeg een nieuwe afbeelding toe aan dit record"
+        },
+        "remove-image": {
+            "title": "Afbeelding verwijderen",
+            "description": "Wil je deze afbeelding uit het record verwijderen?"
+        },
+        "change-image": {
+            "title": "Afbeelding wijzigen",
+            "description": "Selecteer een nieuwe profielfoto uit de galerij"
+        },
+        "reset-form": {
+            "title": "Formulier resetten",
+            "description": "Weet je zeker dat je dit formulier wilt resetten?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Je hebt geen toestemming om dit te verwijderen!",
+        "loading": {
+            "title": "Even geduld, we zijn bezig",
+            "description": "We doorzoeken momenteel onze database om de gevraagde informatie te vinden. Blijf even wachten, we hebben het zo voor je! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Oeps! Er is iets misgegaan",
+            "description": "Sorry, er lijkt een probleem te zijn met je verzoek. Neem contact op met de ontwikkelaar voor hulp."
+        },
+        "unexpected-error": {
+            "title": "Onverwachte fout",
+            "description": "Er is iets misgegaan, neem contact op met de eigenaar van de server om dit probleem op te lossen."
+        },
+        "search-no-matched": {
+            "title": "Geen resultaten gevonden",
+            "description": "Er zijn geen resultaten gevonden met de volgende zoekopdracht: \"{{query}}\""
+        },
+        "fetching": {
+            "title": "We halen de resultaten op",
+            "description": "Wacht geduldig terwijl we de benodigde gegevens verzamelen. Jouw input helpt ons om op maat gemaakte resultaten te bieden."
+        },
+        "fetch-error": {
+            "title": "Oeps! Er is iets misgegaan",
+            "description": "Sorry, er lijkt een probleem te zijn met je verzoek. Neem contact op met de ontwikkelaar voor hulp."
+        },
+        "fetch-no-results": {
+            "title": "Oeps! Hier is niets te zien",
+            "description": "Typ iets om resultaten te tonen. Jouw input bepaalt wat je ziet."
+        },
+        "fetch-no-matched": {
+            "title": "Geen overeenkomsten gevonden",
+            "description": "Het lijkt erop dat we geen resultaten hebben gevonden die overeenkomen met je zoekcriteria."
+        }
+    },
+    "dashboard": {
+        "title": "Welkom terug, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Live locatie",
+        "street_name": "Straatnaam:",
+        "personal": {
+            "title": "Persoonlijke informatie",
+            "description": "Dit zijn jouw persoonlijke gegevens"
+        },
+        "global_search": {
+            "title": "Wereldwijde zoekopdracht",
+            "description": "Zoek naar incidenten, bewijsmateriaal, opsporingsbevelen, BOLO's of voertuigen op basis van burgers",
+            "no-results": "Typ de naam van een burger om zijn incidenten, bewijsmateriaal, opsporingsbevelen, BOLO's of voertuigen te vinden."
+        },
+        "officers": {
+            "title": "Online agenten",
+            "description": "Bekijk alle online agenten en handige informatie"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Communiceer met andere agenten via de chat",
+            "placeholder": "Typ een bericht..."
+        },
+        "calls": {
+            "title": "Recente meldingen",
+            "description": "Hier zie je de nieuwste meldingen",
+            "no-alerts": "Er zijn op dit moment geen meldingen, zodra ze verschijnen zie je hier een lijst",
+            "details": "Klik op de melding om meer details te zien",
+            "time": "Tijd van melding"
+        }
+    },
+    "incidents": {
+        "title": "Incidenten",
+        "description": "Bekijk een lijst met de nieuwste incidenten",
+        "individual": {
+            "title": "Incident #{{id}}",
+            "description": "Bekijk alle informatie over dit incident",
+            "information": "Je kunt de informatie van dit incident bekijken en bewerken"
+        },
+        "charge_list": {
+            "jail": "{{amount}} maanden gevangenisstraf",
+            "fine": "{{amount}} boete",
+            "reduction": {
+                "title": "Strafreductie",
+                "description": "Je kunt de hoeveelheid gevangenisstraf of boete verminderen"
+            },
+            "mutual": "Schakel over naar wederzijdse vermindering",
+            "separate": "Schakel over naar aparte vermindering",
+            "reduce": "Verminder aanklacht",
+            "charge_reduction": "{{amount}}% strafvermindering",
+            "fine_reduction": "{{amount}}% boetevermindering",
+            "jail_reduction": "{{amount}}% gevangenisstrafvermindering"
+        },
+        "citizens": "burgers",
+        "officers": "agenten",
+        "vehicles": "voertuigen",
+        "evidences": "bewijsmateriaal",
+        "charges": "aanklachten"
+    },
+    "evidences": {
+        "title": "Bewijsstukken",
+        "description": "Bekijk een lijst met de nieuwste bewijsstukken",
+        "individual": {
+            "title": "Bewijsstuk #{{id}}",
+            "description": "Bekijk alle informatie over dit bewijsstuk",
+            "information": "Je kunt de informatie van dit bewijsstuk bekijken en bewerken"
+        }
+    },
+    "warrants": {
+        "title": "Bevelen",
+        "description": "Bekijk een lijst met de nieuwste bevelen",
+        "individual": {
+            "title": "Bevel #{{id}}",
+            "description": "Bekijk en wijzig details over dit bevel",
+            "information": "Je kunt de informatie van dit bevel bekijken en wijzigen"
+        }
+    },
+    "officers": {
+        "title": "Agenten",
+        "description": "Bekijk een lijst met online personen die toegang hebben tot MDT",
+        "header": "{{job}} - {{length}} agenten online",
+        "paragraph": "Bekijk agenten van deze functie"
+    },
+    "bolos": {
+        "title": "BOLO's",
+        "description": "Bekijk een lijst met de nieuwste BOLO's",
+        "individual": {
+            "title": "BOLO #{{id}}",
+            "description": "Bekijk en wijzig details over deze BOLO",
+            "information": "Je kunt de informatie van deze BOLO bekijken en bewerken"
+        }
+    },
+    "dispatch": {
+        "title": "Meldingen",
+        "description": "Bekijk, verwijder en neem meldingen aan",
+        "individual": {
+            "title": "Melding #{{id}}",
+            "description": "Bekijk alle informatie over deze melding",
+            "vehicle-info": "(Kenteken: {{plate}} | Klasse: {{class}} | Kleur: {{color}} | Deuren: {{doors}})"
+        },
+        "delete": "Verwijder melding",
+        "position": "Stel positie in",
+        "alerts": {
+            "title": "Meldingen",
+            "description": "Bekijk alle laatste oproepen"
+        },
+        "map": {
+            "title": "Meldingenkaart",
+            "description": "Bekijk de locatie van actieve meldingen"
+        }
+    },
+    "cameras": {
+        "title": "Camera's",
+        "description": "Toegang tot alle camera's in de stad",
+        "information": "Bekijk de bodycam van deze medewerker",
+        "cctv": "CCTV",
+        "bodycams": "Bodycams",
+        "open": "Open camera",
+        "location": "Laatst bekende locatie",
+        "view-bodycam": "Bekijk bodycam"
+    },
+    "citizens": {
+        "title": "Burgers",
+        "description": "Bekijk alle gegevens en informatie van een burger",
+        "register": "Registreer een burger",
+        "grant-license": "Vergunning verlenen",
+        "suspend-license": "Vergunning opschorten",
+        "individual": {
+            "title": "Burger",
+            "description": "Bekijk alle informatie over deze burger",
+            "information": "Bekijk alle nuttige informatie over deze burger"
+        },
+        "results": {
+            "title": "Zoek burgers",
+            "description": "Je kunt zoeken op naam, vingerafdruk"
+        }
+    },
+    "vehicles": {
+        "title": "Voertuigen",
+        "description": "Identificeer elk voertuig aan de hand van het registratienummer",
+        "register": "Registreer een voertuig",
+        "insurance-expiring": "verloopt {{time}}",
+        "individual": {
+            "title": "Voertuig",
+            "description": "Bekijk alle informatie over dit voertuig",
+            "information": "Bekijk alle relevante informatie over dit voertuig"
+        },
+        "results": {
+            "title": "Zoek voertuigen",
+            "description": "Je kunt zoeken op kenteken"
+        }
+    },
+    "houses": {
+        "title": "Huizen",
+        "description": "Bekijk nuttige informatie voor elke woning",
+        "individual": {
+            "title": "Huis",
+            "description": "Bekijk alle informatie over dit huis",
+            "information": "Bekijk nuttige informatie over deze woning, zoals de locatie"
+        },
+        "results": {
+            "title": "Zoek huizen",
+            "description": "Je kunt zoeken op huisnaam of ID"
+        }
+    },
+    "weapons": {
+        "title": "Wapens",
+        "description": "Bekijk en registreer wapens voor gemakkelijkere identificatie",
+        "register": "Registreer een wapen",
+        "individual": {
+            "title": "Wapen",
+            "description": "Bekijk alle informatie over dit wapen",
+            "information": "Bekijk de informatie van dit wapen, inclusief het serienummer"
+        },
+        "results": {
+            "title": "Zoek wapens",
+            "description": "Je kunt zoeken op naam, serienummer"
+        }
+    },
+    "codes": {
+        "title": "Codes",
+        "description": "Bekijk een lijst met codes die worden gebruikt voor communicatie",
+        "individual": {
+            "title": "Code #{{id}}",
+            "description": "Bekijk alle informatie over deze code",
+            "information": "Je kunt de informatie van deze code bekijken en bewerken"
+        }
+    },
+    "charges": {
+        "title": "Aanklachten",
+        "description": "Bekijk, maak, verwijder en bewerk aanklachten",
+        "fine": "Boetebedrag",
+        "jail": "Gevangenisstraf",
+        "individual": {
+            "title": "Aanklacht #{{id}}",
+            "description": "Bekijk alle informatie over deze aanklacht",
+            "information": "Je kunt de informatie van deze aanklacht bekijken en bewerken"
+        }
+    },
+    "announcements": {
+        "title": "Aankondigingen",
+        "description": "Bekijk, maak en pin aankondigingen voor andere agenten",
+        "pin": "Pin aankondiging",
+        "unpin": "Verwijder pin van aankondiging",
+        "save": "Bewaar aankondiging",
+        "edit": "Bewerk aankondiging",
+        "written": "Geschreven door",
+        "individual": {
+            "title": "Aankondiging #{{id}}",
+            "description": "Bekijk alle informatie over deze aankondiging"
+        }
+    },
+    "configuration": {
+        "title": "Configuratie",
+        "description": "Pas de MDT aan naar jouw wensen",
+        "colors": {
+            "title": "Kleuren",
+            "description": "Verander het uiterlijk van jouw MDT",
+            "text": "Tekstkleuren",
+            "other": "Andere kleuren",
+            "reset": "Kleuren resetten",
+            "name": {
+                "background": "Achtergrondkleur",
+                "secondary": "Secundaire kleur",
+                "text": "Tekstkleur",
+                "text-muted": "Gedempte tekstkleur",
+                "primary-text": "Primaire tekstkleur",
+                "contrast": "Contrastkleur",
+                "error": "Foutkleur",
+                "ring": "Ringkleur"
+            }
+        },
+        "language": {
+            "title": "Taal",
+            "description": "Verander de taal van jouw MDT",
+            "select": "Selecteer jouw voorkeurstaal"
+        }
+    },
+    "administration": {
+        "title": "Administratie",
+        "description": "Beheer graden, maatschappijfondsen, medewerkers, rekruten en camera's",
+        "permissions": "Toestemmingen",
+        "management": "Beheer",
+        "recruitment": "Werving",
+        "cameras": "Camera's",
+        "camera-information": "Bekijk meer informatie over deze camera",
+        "select-camera": "Selecteer een cameraprop",
+        "change-position": "Verander positie",
+        "set-position": "Stel positie in",
+        "open-camera": "Open camera",
+        "delete-camera": "Verwijder camera",
+        "enable-camera": "Activeer camera",
+        "disable-camera": "Deactiveer camera",
+        "job": {
+            "add-permission": "Toestemming toevoegen",
+            "update-permission": "Toestemmingen bijwerken",
+            "select-permission": "Selecteer een toestemming",
+            "grades": {
+                "title": "Graad - {{level}}",
+                "description": "Graden van de functie \"{{job}}\"",
+                "footer": "Dit omvat ook eerdere toestemmingen"
+            }
+        },
+        "employees": {
+            "title": "Medewerkers",
+            "description": "Een lijst van alle online medewerkers"
+        },
+        "manage": {
+            "title": "Beheer \"{{name}}\"",
+            "description": "Bekijk meer informatie of pas acties toe op deze medewerker",
+            "fire": "Medewerker ontslaan",
+            "hire": "Burger aannemen",
+            "change_rank": "Rang veranderen",
+            "rank_select": "Selecteer een rang",
+            "activity": {
+                "title": "Activiteit",
+                "description": "Bekijk activiteitsstatistieken voor deze medewerker",
+                "chart": "Laatste 7 dagen",
+                "table": {
+                    "head": {
+                        "number": "Nr.",
+                        "clock-in": "Inklokken",
+                        "clock-out": "Uitklokken",
+                        "hours": "Uren"
+                    },
+                    "total": "Totaal aantal uren"
+                }
+            },
+            "funds": {
+                "header": "Maatschappijfondsen",
+                "footer": "inkomsten uit boetes"
+            },
+            "employees": {
+                "header": "Medewerkers",
+                "footer": "totaal aantal online medewerkers"
+            },
+            "calls": {
+                "header": "Totaal aantal oproepen",
+                "footer": "actieve meldingen"
+            }
+        },
+        "recruits": {
+            "description": "Bekijk informatie over deze burger",
+            "see": "Bekijk burgerpagina"
+        }
+    },
+    "forms": {
+        "description": "Vul het formulier in met alle benodigde informatie",
+        "citizens": "Registreer een burger",
+        "vehicles": "Registreer een voertuig",
+        "incidents": "Maak een incident aan",
+        "evidences": "Maak een bewijsstuk aan",
+        "warrants": "Maak een bevel aan",
+        "bolos": "Maak een BOLO aan",
+        "codes": "Maak een code aan",
+        "charges": "Maak een aanklacht aan",
+        "weapons": "Registreer een wapen",
+        "announcements": "Maak een aankondiging aan",
+        "cameras": "Maak een camera aan",
+        "tag": {
+            "title": "Maak een tag aan",
+            "description": "Maak een nieuwe tag om dit te categoriseren. Klik op aanmaken om een nieuwe tag toe te voegen.",
+            "field-name": "Tag naam",
+            "field-description": "Tag beschrijving",
+            "field-color": "Tag kleur",
+            "button": "Maak nieuwe tag aan",
+            "notification": {
+                "title": "Tag aangemaakt",
+                "description": "Je hebt de tag succesvol aangemaakt!"
+            }
+        },
+        "errors": {
+            "required": "Dit veld is verplicht",
+            "create": "Je hebt geen toestemming om een nieuw record aan te maken",
+            "min-length": "Dit veld moet minimaal {{length}} tekens bevatten",
+            "min-number": "De minimale waarde voor dit veld is {{min}}",
+            "max-number": "De maximale waarde voor dit veld is {{max}}",
+            "invalid-link": "Je moet een geldige afbeeldings-URL opgeven!",
+            "bolos": {
+                "citizen-vehicle-required": "Je moet een burger of een voertuig selecteren"
+            },
+            "codes": {
+                "format": "Verkeerd formaat, je moet alleen cijfers gebruiken"
+            },
+            "warrants": {
+                "citizen-house-required": "Je moet een burger of een woning selecteren"
+            },
+            "evidences": {
+                "fields-required": "Je moet een burger, agent, voertuig of wapen toevoegen"
+            },
+            "charges": {
+                "fine-jail-required": "Je moet een boetebedrag of gevangenisstraf instellen"
+            },
+            "cameras": {
+                "prop-required": "Je moet eerst een prop selecteren voordat je de positie instelt"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Je kunt nog {{n}} {{word}} selecteren",
+            "maximum": "Je hebt het maximale aantal {{word}} geselecteerd"
+        },
+        "words": {
+            "citizens": "burgers",
+            "officers": "agenten",
+            "vehicles": "voertuigen",
+            "incidents": "incidenten",
+            "evidences": "bewijsstukken",
+            "charges": "aanklachten",
+            "evidence_archive": "bewijsstukken uit het archief"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "Betrokken burgers",
+            "officer": "Betrokken agenten",
+            "vehicle": "Betrokken voertuigen",
+            "weapon": "Wapens",
+            "evidence": "Bewijsstukken",
+            "charge": "Toegepaste aanklachten",
+            "archive": "Archiefbestanden",
+            "licenses": "Verleende vergunningen"
+        },
+        "description": {
+            "template": "Bekijk en bewerk {{word}} die aan dit record zijn gekoppeld",
+            "licenses": "Herroep en verleen vergunningen aan deze burger",
+            "citizen-weapon": "Bekijk en bewerk wapens van deze burger",
+            "citizen-incident": "Bekijk en bewerk incidenten die aan deze burger zijn toegewezen",
+            "vehicle-incident": "Bekijk en bewerk incidenten die aan dit voertuig zijn toegewezen",
+            "citizen-evidence": "Bekijk en bewerk bewijsstukken waarbij de burger betrokken is",
+            "citizen-warrant": "Bekijk en bewerk bevelen die aan deze burger zijn toegewezen",
+            "house-warrant": "Bekijk en bewerk bevelen die aan dit huis zijn toegewezen",
+            "citizen-bolo": "Bekijk en bewerk BOLO's die aan deze burger zijn toegewezen",
+            "vehicle-bolo": "Bekijk en bewerk BOLO's die aan dit voertuig zijn toegewezen",
+            "citizen-vehicle": "Bekijk voertuigen die eigendom zijn van deze burger",
+            "citizen-house": "Bekijk eigendommen die eigendom zijn van deze burger",
+            "words": {
+            "citizen": "burgers",
+            "officer": "agenten",
+            "vehicle": "voertuigen",
+            "weapon": "wapens",
+            "evidence": "bewijsstukken",
+            "charge": "aanklachten",
+            "archive": "archiefbestanden"
+            }
+        },
+        "add": {
+            "citizen": "Voeg een burger toe",
+            "officer": "Voeg een agent toe",
+            "vehicle": "Voeg een voertuig toe",
+            "incident": "Voeg een incident toe",
+            "evidence": "Voeg een bewijsstuk toe",
+            "warrant": "Voeg een bevel toe",
+            "bolo": "Voeg een BOLO toe",
+            "charge": "Voeg een aanklacht toe",
+            "weapon": "Voeg een wapen toe",
+            "archive": "Voeg een bestand toe"
+        }
+        },
+        "gallery": {
+        "title": {
+            "citizen": "Burgergalerij",
+            "vehicle": "Voertuiggalerij",
+            "evidence": "Afbeeldingen"
+        },
+        "description": {
+            "citizen": "Bekijk afbeeldingen van deze burger",
+            "vehicle": "Bekijk afbeeldingen van dit voertuig",
+            "evidence": "Bekijk afbeeldingen die aan dit bewijsstuk zijn gekoppeld"
+        }
+        },
+        "permissions": {
+        "dashboard.view": {
+            "label": "Bekijk dashboardpagina",
+            "description": "Stelt de gebruiker in staat om de dashboardpagina te bekijken"
+        },
+        "incidents.view": {
+            "label": "Bekijk incidentenpagina",
+            "description": "Stelt de gebruiker in staat om de incidentenpagina te bekijken"
+        },
+        "evidences.view": {
+            "label": "Bekijk bewijsstukkenpagina",
+            "description": "Stelt de gebruiker in staat om de bewijsstukkenpagina te bekijken"
+        },
+        "warrants.view": {
+            "label": "Bekijk bevelenpagina",
+            "description": "Stelt de gebruiker in staat om de bevelenpagina te bekijken"
+        },
+        "officers.view": {
+            "label": "Bekijk agentenpagina",
+            "description": "Stelt de gebruiker in staat om de agentenpagina te bekijken"
+        },
+        "bolos.view": {
+            "label": "Bekijk BOLO's-pagina",
+            "description": "Stelt de gebruiker in staat om de BOLO's (Be On the Lookout) pagina te bekijken"
+        },
+        "dispatch.view": {
+            "label": "Bekijk dispatchpagina",
+            "description": "Stelt de gebruiker in staat om de dispatchpagina te bekijken"
+        },
+        "cameras.view": {
+            "label": "Bekijk camerapagina's",
+            "description": "Stelt de gebruiker in staat om de camerapagina's te bekijken"
+        },
+        "citizens.view": {
+            "label": "Bekijk burgerpagina's",
+            "description": "Stelt de gebruiker in staat om de burgerpagina's te bekijken"
+        },
+        "vehicles.view": {
+            "label": "Bekijk voertuigpagina's",
+            "description": "Stelt de gebruiker in staat om de voertuigpagina's te bekijken"
+        },
+        "houses.view": {
+            "label": "Bekijk huizenpagina's",
+            "description": "Stelt de gebruiker in staat om de huizenpagina's te bekijken"
+        },
+        "weapons.view": {
+            "label": "Bekijk wapenpagina's",
+            "description": "Stelt de gebruiker in staat om de wapenpagina's te bekijken"
+        },
+        "codes.view": {
+            "label": "Bekijk codepagina's",
+            "description": "Stelt de gebruiker in staat om de codepagina's te bekijken"
+        },
+        "charges.view": {
+            "label": "Bekijk aanklachtpagina's",
+            "description": "Stelt de gebruiker in staat om de aanklachtpagina's te bekijken"
+        },
+        "announcements.view": {
+            "label": "Bekijk aankondigingenpagina",
+            "description": "Stelt de gebruiker in staat om de aankondigingenpagina te bekijken"
+        },
+        "config.view": {
+            "label": "Bekijk configuratiepagina",
+            "description": "Stelt de gebruiker in staat om de configuratiepagina te bekijken"
+        },
+        "administration.view": {
+            "label": "Bekijk beheerpagina",
+            "description": "Stelt de gebruiker in staat om de beheerpagina te bekijken"
+        },
+        "incidents.delete": {
+            "label": "Verwijder incidenten",
+            "description": "Stelt de gebruiker in staat om incidenten te verwijderen"
+        },
+        "incidents.create": {
+            "label": "Maak incidenten aan",
+            "description": "Stelt de gebruiker in staat om nieuwe incidenten aan te maken"
+        },
+        "incidents.edit": {
+            "label": "Bewerk incidenten",
+            "description": "Stelt de gebruiker in staat om bestaande incidenten te bewerken"
+        },
+        "evidences.delete": {
+            "label": "Verwijder bewijsstukken",
+            "description": "Stelt de gebruiker in staat om bewijsstukken te verwijderen"
+        },
+        "evidences.create": {
+            "label": "Maak bewijsstukken aan",
+            "description": "Stelt de gebruiker in staat om nieuwe bewijsstukken aan te maken"
+        },
+        "evidences.edit": {
+            "label": "Bewerk bewijsstukken",
+            "description": "Stelt de gebruiker in staat om bestaande bewijsstukken te bewerken"
+        },
+        "warrants.delete": {
+            "label": "Verwijder bevelen",
+            "description": "Stelt de gebruiker in staat om bevelen te verwijderen"
+        },
+        "warrants.create": {
+            "label": "Maak bevelen aan",
+            "description": "Stelt de gebruiker in staat om nieuwe bevelen aan te maken"
+        },
+        "warrants.edit": {
+            "label": "Bewerk bevelen",
+            "description": "Stelt de gebruiker in staat om bestaande bevelen te bewerken"
+        },
+        "bolos.delete": {
+            "label": "Verwijder BOLO's",
+            "description": "Stelt de gebruiker in staat om BOLO's te verwijderen"
+        },
+        "bolos.create": {
+            "label": "Maak BOLO's aan",
+            "description": "Stelt de gebruiker in staat om nieuwe BOLO's aan te maken"
+        },
+        "bolos.edit": {
+            "label": "Bewerk BOLO's",
+            "description": "Stelt de gebruiker in staat om bestaande BOLO's te bewerken"
+        },
+        "dispatch.alert.delete": {
+            "label": "Verwijder dispatchmeldingen",
+            "description": "Stelt de gebruiker in staat om dispatchmeldingen te verwijderen"
+        },
+        "cameras.open": {
+            "label": "Open camera's",
+            "description": "Stelt de gebruiker in staat om toegang te krijgen tot en camerafeeds te bekijken"
+        },
+        "cameras.bodycam.view": {
+            "label": "Bekijk bodycam-beelden",
+            "description": "Stelt de gebruiker in staat om bodycam-beelden van camera's te bekijken"
+        },
+        "citizens.register": {
+            "label": "Registreer Burgers",
+            "description": "Stelt de gebruiker in staat om nieuwe burgers te registreren"
+        },
+        "citizens.edit": {
+            "label": "Bewerk Burgers",
+            "description": "Stelt de gebruiker in staat om bestaande burgers te bewerken"
+        },
+        "citizens.license.grant": {
+            "label": "Verleen Burgers Licenties",
+            "description": "Stelt de gebruiker in staat om licenties aan burgers te verlenen"
+        },
+        "citizens.license.revoke": {
+            "label": "Trek Burgers Licenties in",
+            "description": "Stelt de gebruiker in staat om licenties van burgers in te trekken"
+        },
+        "gallery.edit": {
+            "label": "Bewerk Galerij",
+            "description": "Stelt de gebruiker in staat om de inhoud van de galerij te bewerken"
+        },
+        "vehicles.register": {
+            "label": "Registreer Voertuigen",
+            "description": "Stelt de gebruiker in staat om nieuwe voertuigen te registreren"
+        },
+        "vehicles.edit": {
+            "label": "Bewerk Voertuigen",
+            "description": "Stelt de gebruiker in staat om bestaande voertuigen te bewerken"
+        },
+        "houses.edit": {
+            "label": "Bewerk Huizen",
+            "description": "Stelt de gebruiker in staat om bestaande huizen te bewerken"
+        },
+        "weapons.register": {
+            "label": "Registreer Wapens",
+            "description": "Stelt de gebruiker in staat om nieuwe wapens te registreren"
+        },
+        "weapons.edit": {
+            "label": "Bewerk Wapens",
+            "description": "Stelt de gebruiker in staat om bestaande wapens te bewerken"
+        },
+        "codes.delete": {
+            "label": "Verwijder Codes",
+            "description": "Stelt de gebruiker in staat om codes te verwijderen"
+        },
+        "codes.create": {
+            "label": "Maak Codes aan",
+            "description": "Stelt de gebruiker in staat om nieuwe codes aan te maken"
+        },
+        "codes.edit": {
+            "label": "Bewerk Codes",
+            "description": "Stelt de gebruiker in staat om bestaande codes te bewerken"
+        },
+        "charges.delete": {
+            "label": "Verwijder Aanklachten",
+            "description": "Stelt de gebruiker in staat om aanklachten te verwijderen"
+        },
+        "charges.create": {
+            "label": "Maak Aanklachten aan",
+            "description": "Stelt de gebruiker in staat om nieuwe aanklachten aan te maken"
+        },
+        "charges.edit": {
+            "label": "Bewerk Aanklachten",
+            "description": "Stelt de gebruiker in staat om bestaande aanklachten te bewerken"
+        },
+        "announcements.create": {
+            "label": "Maak Aankondigingen aan",
+            "description": "Stelt de gebruiker in staat om nieuwe aankondigingen aan te maken"
+        },
+        "announcements.delete": {
+            "label": "Verwijder Aankondigingen",
+            "description": "Stelt de gebruiker in staat om aankondigingen te verwijderen"
+        },
+        "announcements.pin": {
+            "label": "Pin Aankondigingen",
+            "description": "Stelt de gebruiker in staat om aankondigingen vast te zetten"
+        },
+        "announcements.edit": {
+            "label": "Bewerk Aankondigingen",
+            "description": "Stelt de gebruiker in staat om bestaande aankondigingen te bewerken"
+        },
+        "administration.permissions.update": {
+            "label": "Update Permissies",
+            "description": "Stelt de gebruiker in staat om permissies bij te werken in het beheerderspaneel"
+        },
+        "administration.management.employee.view": {
+            "label": "Bekijk Medewerkersbeheer",
+            "description": "Stelt de gebruiker in staat om medewerkersbeheer te bekijken in het beheerderspaneel"
+        },
+        "administration.management.employee.fire": {
+            "label": "Ontsla Medewerker",
+            "description": "Stelt de gebruiker in staat om een medewerker te ontslaan"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Verander Medewerker Rang",
+            "description": "Stelt de gebruiker in staat om de rang van een medewerker te veranderen"
+        },
+        "administration.recruit.view": {
+            "label": "Bekijk Rekruteringsbeheer",
+            "description": "Stelt de gebruiker in staat om rekruteringsbeheer te bekijken in het beheerderspaneel"
+        },
+        "administration.recruit.hire": {
+            "label": "Huur Rekruut",
+            "description": "Stelt de gebruiker in staat om een rekruut aan te nemen"
+        },
+        "administration.camera.view": {
+            "label": "Bekijk Camerabeheer",
+            "description": "Stelt de gebruiker in staat om camerabeheer te bekijken in het beheerderspaneel"
+        },
+        "administration.camera.create": {
+            "label": "Maak Camera aan",
+            "description": "Stelt de gebruiker in staat om een nieuwe camera aan te maken"
+        },
+        "administration.camera.delete": {
+            "label": "Verwijder Camera",
+            "description": "Stelt de gebruiker in staat om een camera te verwijderen"
+        },
+        "administration.camera.toggle": {
+            "label": "Schakel Camera",
+            "description": "Stelt de gebruiker in staat om de status van een camera te wijzigen"
+        }
+    }
+}

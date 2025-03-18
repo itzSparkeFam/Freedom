@@ -1,0 +1,67 @@
+<html>
+<head>
+	<link rel="stylesheet" href="reset.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="./app.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="main" id="citation">
+		<img src="img/citation.png">
+		<h1 class="title">SAN ANDREAS</h1>
+		<h1 class="sub_title">CITATION</h1>
+		<h1 id="citation_id">2839439284923</h1>
+		<input type="text" class="half_input right" id="sus_firstname">
+		<input type="text" class="half_input left" id="sus_lastname">
+		<input type="date" class="half_input left" id="date">
+		<input type="number" class="half_input right" id="postal">
+		<input type="text" class="full_input left" id="street">
+		<input type="text" class="plate_input" id="plate_1">
+		<input type="text" class="plate_input" id="plate_2">
+		<input type="text" class="plate_input" id="plate_3">
+		<input type="text" class="plate_input" id="plate_4">
+		<input type="text" class="plate_input" id="plate_5">
+		<input type="text" class="plate_input" id="plate_6">
+		<input type="text" class="plate_input" id="plate_7">
+		<input type="text" class="plate_input" id="plate_8">
+		<input type="text" id="veh_make">
+		<input type="text" id="veh_color">
+		<input type="text" id="veh_type">
+		<input type="text" id="officer_name">
+		<input type="text" id="officer_badge">
+		<input type="text" class="full_input left" id="agency">
+		<input type="text" class="left vio_code vio_1" id="vio_code_1">
+		<input type="text" class="right vio_title vio_1" id="vio_title_1">
+		<input type="text" class="left vio_code vio_2" id="vio_code_2">
+		<input type="text" class="right vio_title vio_2" id="vio_title_2">
+		<input type="text" class="left vio_code vio_3" id="vio_code_3">
+		<input type="text" class="right vio_title vio_3" id="vio_title_3">
+		<h1 id="amount">$100000</h1>
+		<input type="text" class="half_input left sign_input" id="officer_sign" readonly>
+		<input type="text" class="half_input right sign_input" id="sus_sign" readonly>
+		<textarea id="comments" cols="30" rows="10"></textarea>
+		<h1 id="citation_info">Payment is required no later than 30 days from the date of this violation. You have 30 days to contest this citation.</h1>
+		<button id="scan_btn">SCAN CITATION</button>
+		<button id="print_btn">PRINT</button>
+		<button id="pay_cash_btn">PAY CASH</button>
+		<button id="pay_bank_btn">PAY BANK</button>
+		<img src="img/paid_icon.png" id="paid_icon">
+		<div id="suggest_scroll">
+		</div>
+	</div>
+	<div id="mycitationsmenu">
+		<h1 class="title">My Citations</h1>
+		<div class="scroll">
+			
+		</div>
+	</div>
+	<div id="controlpanel">
+		<input type="text" id="citations_search" placeholder="Search:">
+		<div class="scroll">
+			
+		</div>
+	</div>
+
+	<script src="./index.js" type="text/javascript"></script>
+</body>
+</html>

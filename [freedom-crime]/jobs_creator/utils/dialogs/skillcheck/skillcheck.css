@@ -1,0 +1,12 @@
+#bar-container {
+	position: fixed;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	gap: 4px;
+}
+
+.segment {
+	flex: 0 0 auto;
+}

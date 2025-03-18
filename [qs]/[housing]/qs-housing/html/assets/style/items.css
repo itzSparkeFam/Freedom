@@ -1,0 +1,141 @@
+/* Style for decorate subelement itemlist */
+/* :root {
+    --decorate-box-width: 4.5vw;
+} */
+
+/* Containers */
+.decorate .itemlist {
+    position: absolute;
+    bottom: 0;
+    left: 30.8vw;
+
+    overflow: visible;
+
+    border-left: 0.1vw var(--color-00000014) solid;
+    width: calc(100% - 30vw);
+    height: 14vw;
+    padding-left: 0.45vw;
+
+    background: var(--color-d3d0d04d);
+}
+
+.decorate .itemlist .itemcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3vw;
+
+    align-items: flex-start;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    width: calc(100% - 0.5vw);
+    height: calc(100% - 0.9vw);
+
+    padding: 0.45vw 0;
+}
+
+/* Container Scrollbar */
+.decorate .itemlist .itemcontainer::-webkit-scrollbar {
+    display: block;
+
+    width: 0.45vw;
+}
+  
+.decorate .itemlist .itemcontainer::-webkit-scrollbar-track {
+    background: var(--color-ffffff3a);
+}
+
+.decorate .itemlist .itemcontainer::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 1vw var(--color-00000048);
+    border-radius: 1vw;
+    height: 1vw;
+
+    background: var(--color-ffffff); 
+}
+  
+.decorate .itemlist .itemcontainer::-webkit-scrollbar-thumb:hover {
+    background: var(--color-ffffff);
+}
+
+/* Item Boxes */
+.decorate .itemlist .itemcontainer .box {
+    border: 0.36vh transparent solid; /* 0.2vw to vh */
+    border-radius: 1rem; /* 0.5vw to vh */
+    /* width: var(--decorate-box-width); */
+    height: 8.02vh; /* 4.5vw to vh */
+    aspect-ratio: 1/1;
+    padding: 1.37vh; /* 0.765vw to vh */
+    
+    background: linear-gradient(180deg, var(--color-EEEEEE) 0%, var(--color-B7D6E8) 100%);
+    box-shadow: 0px 0.36vh 2.22vh 0px rgba(0, 0, 0, 0.68); /* 3.845px, 24.031px to vh */
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.decorate .itemlist .itemcontainer .box.selected {
+    background: var(--color-00A3FF);
+    box-shadow: 0px 0px 5px 1px var(--color-00A3FF);
+}
+
+/* Item Boxes Images */
+.decorate .itemlist .itemcontainer .box img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 5vw;
+    height: 5vw;
+
+    pointer-events: none;
+}
+
+/* Item Boxes Details */
+.box-details {
+    /* display: flex;
+    z-index: 1;
+    
+    position: relative;
+    flex-direction: row-reverse;
+    justify-items: right;
+
+    width: 100%;
+    height: 0.85vh;
+
+    margin-top: -2vw;
+    margin-left: -0.95vw;
+
+    padding: 0.25vw;
+    gap: 0.25vw; */
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.25vw;
+    margin: 5%;
+}
+
+.box-details svg {
+    background: var(--color-ABCBF6);
+    fill: var(--color-ffffff);
+    width: 0.75vw;
+    height: 0.75vw;
+    padding: 0.25vw;
+    border-radius: 1vw;
+}
+
+.box-details-gardrobe {
+    background-color: var(--color-F4BFFF) !important;
+}
+
+.box-details-stash {
+    background-color: var(--color-ABF6AB) !important;
+}

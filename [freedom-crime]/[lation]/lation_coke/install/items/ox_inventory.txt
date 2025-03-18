@@ -1,0 +1,93 @@
+['ls_coke_table'] = {
+    label = 'Coke Table',
+    weight = 1000,
+},
+
+['ls_coca_seed'] = {
+    label = 'Coca Seed',
+    weight = 5,
+},
+
+['ls_coca_leaf'] = {
+    label = 'Coca Leaf',
+    weight = 5,
+},
+
+['ls_coca_ground'] = {
+    label = 'Ground Coca',
+    weight = 20,
+},
+
+['ls_coca_base_unf'] = {
+    label = 'Coca Base (unfinished)',
+    weight = 40,
+},
+
+['ls_coca_base'] = {
+    label = 'Coca Base',
+    weight = 50,
+},
+
+['ls_cocaine_brick'] = {
+    label = 'Cocaine Brick',
+    weight = 100,
+},
+
+['ls_crack_brick'] = {
+    label = 'Crack Brick',
+    weight = 100,
+},
+
+['ls_baking_soda'] = {
+    label = 'Baking Soda',
+    weight = 25,
+},
+
+['ls_gasoline'] = {
+    label = 'Gasoline',
+    weight = 1000,
+    stack = false,
+},
+
+['ls_shears'] = {
+    label = 'Shears',
+    weight = 10,
+},
+
+['ls_watering_can'] = {
+    label = 'Watering Can',
+    weight = 3250,
+    stack = false,
+},
+
+['ls_fertilizer'] = {
+    label = 'Fertilizer',
+    weight = 1750,
+    stack = false,
+},
+
+['ls_plant_pot'] = {
+    label = 'Plant Pot',
+    weight = 25,
+},
+
+['ls_cement'] = {
+    label = 'Cement',
+    weight = 2000,
+    stack = false,
+},
+
+['ls_empty_baggy'] = {
+    label = 'Empty Baggy',
+    weight = 5,
+},
+
+['ls_cocaine_bag'] = {
+    label = 'Cocaine',
+    weight = 10,
+},
+
+['ls_crack_bag'] = {
+    label = 'Crack',
+    weight = 10,
+},

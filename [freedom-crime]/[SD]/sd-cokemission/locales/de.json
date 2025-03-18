@@ -1,0 +1,45 @@
+{
+  "error": {
+    "canceled": "Abgebrochen",
+    "cannot_do_right_now": "Das ist gerade nicht möglich.",
+    "recently_did_this": "Jemand hat dies kürzlich getan.",
+    "power_grid_active": "Das Stromnetz der Stadt ist noch aktiv.",
+    "wrong_phone_number": "Falsche Telefonnummer, versuchen Sie es erneut.",
+    "supplier_scared_off": "Sie haben dreimal die falsche Nummer eingegeben. Der Lieferant wurde verängstigt!",
+    "not_enough_money": "Sie haben nicht genug Geld.",
+    "executor_detected": "Uh oh.. Es scheint, als würde jemand einen Executor verwenden",
+    "key_required": "Sie benötigen einen Schlüssel, um diesen Cache zu öffnen!",
+    "key_broke": "Ihr Schlüssel ist abgebrochen..",
+    "cache_already_taken": "Der Cache wurde bereits entnommen..",
+    "supplier_abandoned": "Sie haben zu lange gebraucht, der Lieferant hat Sie im Stich gelassen.",
+    "no_refunds": "Keine Rückerstattungen!"
+  },
+  "success": {
+    "marked_locations_on_map": "Ich habe Standorte auf Ihrer Karte markiert.",
+    "email_sent": "Ich sende jetzt eine E-Mail!",
+    "email_received": "Sie haben eine E-Mail mit den benötigten Telefonnummern erhalten.",
+    "correct_number_dialed": "Sie haben die richtige Nummer gewählt. Finden Sie jetzt die nächste.",
+    "all_numbers_dialed": "Sie haben alle richtigen Nummern gewählt, Caches wurden auf der Karte markiert.",
+    "key_found": "Sie haben einen Schlüssel gefunden!",
+    "cache_retrieved": "Sie haben den Cache geborgen."
+  },
+  "prints": {
+    "cooldown_started": "COKE MISSION: Abkühlphase begonnen",
+    "cooldown_finished": "COKE MISSION: Abkühlphase beendet"
+  },
+  "email": {
+    "unknown": "Unbekannt",
+    "mystery_package_subject": "Abholung des mysteriösen Pakets",
+    "mystery_package_message": "Mein Freund hat versteckte Unterwasserdepots entlang der Küste von LS neu bestückt und mit Leuchtfackeln markiert. Ich habe mir die Freiheit genommen, die Standorte auch auf Ihrem GPS zu markieren. Sie können diese Orte erreichen, indem Sie ein Boot stehlen oder Ihr eigenes verwenden. Viel Glück!",
+    "supplier_subject": "Telefonnummern",
+    "supplier_phone_numbers": "Hier sind die Telefonnummern, die Sie für meinen Lieferanten eingeben müssen, um das Signal für die Nachfüllung der Caches zu erhalten:"
+  },
+  "target": {
+    "retrieve_cache": "Cache bergen",
+    "pay_cost": "Bezahlen Sie mich"
+  },
+  "progress": {
+    "search_register": "Sprechen mit...",
+    "open_trunk": "Cache bergen"
+  }
+}

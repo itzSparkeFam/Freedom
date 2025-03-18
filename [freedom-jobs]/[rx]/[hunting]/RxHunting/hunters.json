@@ -1,0 +1,232 @@
+{
+    "Z05AAJ36": {
+        "kills": 12,
+        "name": "Brian Jackson",
+        "missions": {
+            "Cut 15x Coyote": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 8441,
+                "started": 1742184088
+            },
+            "Kill 5x Pig": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            },
+            "Cut 10x Boar": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 37234,
+                "started": 1742212881
+            },
+            "Kill 3x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Kill 5x Deer": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 6841,
+                "started": 1742096088
+            },
+            "Cut 15x Cow": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            }
+        },
+        "xp": 830,
+        "cuts": 23,
+        "level": 3,
+        "license": false
+    },
+    "C62LV2JQ": {
+        "kills": 1,
+        "name": "Frankie Pierce",
+        "missions": {
+            "Cut 15x Coyote": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 8441,
+                "started": 1742184088
+            },
+            "Kill 5x Pig": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            },
+            "Cut 10x Boar": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 37234,
+                "started": 1742212881
+            },
+            "Cut 15x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 94841,
+                "started": 1742184088
+            },
+            "Kill 3x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Cut 15x Cow": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            }
+        },
+        "xp": 40,
+        "cuts": 0,
+        "level": 0,
+        "license": false
+    },
+    "J0SDZN2I": {
+        "kills": 52,
+        "name": "Zayne Stone",
+        "missions": {
+            "Cut 15x Coyote": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 8441,
+                "started": 1742184088
+            },
+            "Kill 5x Pig": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            },
+            "Cut 10x Boar": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Cut 15x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 6841,
+                "started": 1742096088
+            },
+            "Kill 3x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Cut 15x Cow": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            }
+        },
+        "xp": 3598,
+        "cuts": 93,
+        "level": 6,
+        "license": true
+    },
+    "ZRZ52112": {
+        "kills": 7,
+        "name": "Sarge Jackson",
+        "missions": {
+            "Cut 15x Coyote": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 8441,
+                "started": 1742184088
+            },
+            "Cut 15x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 94841,
+                "started": 1742184088
+            },
+            "Cut 10x Boar": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 37234,
+                "started": 1742212881
+            },
+            "Kill 3x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Kill 5x Deer": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 6841,
+                "started": 1742096088
+            },
+            "Cut 15x Cow": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            }
+        },
+        "xp": 570,
+        "cuts": 16,
+        "level": 2,
+        "license": false
+    },
+    "OUFKKX64": {
+        "kills": 43,
+        "name": "Sarge Jackson",
+        "missions": {
+            "Cut 15x Coyote": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 8441,
+                "started": 1742184088
+            },
+            "Kill 5x Pig": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            },
+            "Cut 10x Boar": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Cut 15x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 6841,
+                "started": 1742096088
+            },
+            "Kill 3x Lion": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 66078,
+                "started": 1742241725
+            },
+            "Cut 15x Cow": {
+                "amountsDone": 0,
+                "claimRewards": false,
+                "timeLeft": 22878,
+                "started": 1742241725
+            }
+        },
+        "xp": 4289,
+        "cuts": 115,
+        "level": 7,
+        "license": true
+    }
+}

@@ -1,0 +1,2 @@
+ALTER TABLE `jobs_data`
+MODIFY COLUMN `specific_grades` LONGTEXT NULL DEFAULT NULL COLLATE 'utf8mb4_bin';

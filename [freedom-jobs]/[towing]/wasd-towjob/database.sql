@@ -1,0 +1,9 @@
+CREATE TABLE
+    IF NOT EXISTS `wasd_towjob_players` (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        identifier VARCHAR(255) NOT NULL,
+        characterName VARCHAR(255) NOT NULL,
+        exp INT DEFAULT 0,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    );

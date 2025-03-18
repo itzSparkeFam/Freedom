@@ -1,0 +1,618 @@
+{
+    "navigation": {
+        "dashboard": "Dashboard",
+        "incidents": "Incidents",
+        "doctors": "Doctors",
+        "dispatch": "Dispatch",
+        "citizens": "Citizens",
+        "codes": "Codes",
+        "invoices": "Invoices",
+        "announcements": "Announcements",
+        "config": "Configuration",
+        "administration": "Administration",
+        "exit": "Exit"
+    },
+    "general": {
+        "close": "Close",
+        "delete": "Delete",
+        "male": "Male",
+        "female": "Female",
+        "status": "Status",
+        "information": "Information",
+        "amount": "Amount",
+        "name": "Name",
+        "description": "Description",
+        "job": "Job",
+        "grade": "Grade",
+        "phone_number": "Phone number",
+        "dateofbirth": "Date of birth",
+        "tag": "Tag",
+        "createdAt": "Created at",
+        "save": "Save changes",
+        "duty": "Duty",
+        "on_duty": "On duty",
+        "off_duty": "Off duty",
+        "search": "Search",
+        "incidents": "Incidents",
+        "no-results": "No results",
+        "gender": "Gender",
+        "location": "Location",
+        "title": "Title",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "notes": "Notes",
+        "code": "Code",
+        "firstname": "Firstname",
+        "lastname": "Lastname",
+        "fingerprint": "Fingerprint",
+        "proceed": "Proceed",
+        "insurance": "Insurance",
+        "no": "No",
+        "yes": "Yes",
+        "list": "List",
+        "create": "Create",
+        "camera": "Camera",
+        "link": "Link",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "page_of": "Page {{x}} of {{y}}",
+        "backToSafety": "Back to safety",
+        "expand-image": "Expand image",
+        "remove-image": "Remove image",
+        "zoomed-image": "Zoomed image",
+        "image-link": "Image link",
+        "image-description": "Image description",
+        "submit": "Submit",
+        "reduction": "Reduction",
+        "reduce": "Reduce",
+        "bloodtype": "Bloodtype",
+        "placeholders": {
+            "citizens": "Search citizens",
+            "victims": "Search victims",
+            "doctors": "Search doctors",
+            "incidents": "Search incidents",
+            "invoices": "Search invoices",
+            "codes": "Search codes",
+            "announcements": "Search announcements",
+            "recruits": "Search recruits",
+            "identifier": "Search an identifier",
+            "tag": "Search a tag",
+            "date": "Pick a date"
+        }
+    },
+    "templates": {
+        "incident": "Incident #{id}"
+    },
+    "jobs": {
+        "ambulance": "Emergency Services"
+    },
+    "notification": {
+        "error": "Oops! Something went wrong unexpectedly.",
+        "create": "You have successfully created this record!",
+        "update": "You have successfully updated this record!",
+        "existent-citizen": "There was found a citizen with this identifier!",
+        "registered-citizen": "You have successfully registered this citizen!",
+        "permission-changed": "You have successfully change the permissions for this grade!",
+        "employee-fired": "You have successfully fired this employee!",
+        "employee-fire-error": "You can't fire a higher rank or yourself!",
+        "rank-changed": "You have successfully changed the rank of this employee!",
+        "hire-citizen": "You have successfully hired this citizen!",
+        "image-attached": "You attached a new image to the record",
+        "remove-image": "You have successfully removed the image from the record",
+        "title": {
+            "created": "Record created",
+            "updated": "Record updated",
+            "error": "Unexpected error",
+            "existent-citizen": "Existent citizen",
+            "registered-citizen": "Citizen registered",
+            "permission-changed": "Permissions changed",
+            "employee-fired": "Employee fired",
+            "rank-changed": "Rank changed",
+            "hire-citizen": "Citizen hired",
+            "image-attached": "Image attached",
+            "remove-image": "Image removed"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Are you sure about this?",
+            "description": "This action cannot be undone. This will permanently delete the record from the database.",
+            "citizen": "Are you sure you want to remove this citizen from this record?",
+            "victim": "Are you sure you want to remove this victim from this record?",
+            "doctor": "Are you sure you want to remove this doctor from this record?",
+            "incident": "Are you sure you want to remove this incident from this record?",
+            "invoice": "Are you sure you want to remove this invoice from this record?"
+        },
+        "delete_alert": {
+            "title": "Are you sure you want to delete this alert?",
+            "description": "This action cannot be undone. This will permanently delete the alert."
+        },
+        "add-value": {
+            "title": "Add a new item",
+            "description": "Add a new item to the list."
+        },
+        "set_position": {
+            "title": "Do you want to set the checkpoint?",
+            "description": "This will set your MDT map checkpoint to the dispatched location of this alert."
+        },
+        "bloodtype": {
+            "title": "Select a bloodtype",
+            "description": "You can choose a bloodtype for this person"
+        },
+        "update-permission": {
+            "title": "Update permissions",
+            "description": "Add or remove permissions for this grade"
+        },
+        "add-permission": {
+            "title": "Add permission",
+            "description": "Add a new permission to the grade"
+        },
+        "fire-employee": {
+            "title": "Fire employee",
+            "description": "Are you sure you want to fire this employee?"
+        },
+        "change-rank": {
+            "title": "Change rank",
+            "description": "Change the rank of this employee"
+        },
+        "hire-citizen": {
+            "title": "Hire citizen",
+            "description": "Are you sure you want to hire this citizen?"
+        },
+        "add-image": {
+            "title": "Add an image",
+            "description": "Attach a new image to this record"
+        },
+        "remove-image": {
+            "title": "Remove image",
+            "description": "Do you want to remove this image from the record?"
+        },
+        "change-image": {
+            "title": "Change image",
+            "description": "Select a new profile picture from the gallery"
+        },
+        "reset-form": {
+            "title": "Reset form",
+            "description": "Are you sure you want to reset this form?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "You don't have permissions to delete this!",
+        "loading": {
+            "title": "Hold on, we're on the case",
+            "description": "We're currently scouring our database to find the information you requested. Hang tight, we'll have it for you shortly! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Whoops! Something went wrong",
+            "description": "Sorry, it seems there's been a problem with your request. Please contact the developer for assistance."
+        },
+        "unexpected-error": {
+            "title": "Unexpected error",
+            "description": "Something went wrong, please contact the server owner to solve this issue."
+        },
+        "fetching": {
+            "title": "We're fetching the results",
+            "description": "Please wait patiently while we gather the necessary data. Your input will help us provide tailored results."
+        },
+        "fetch-error": {
+            "title": "Whoops! Something went wrong",
+            "description": "Sorry, it seems there's been a problem with your request. Please contact the developer for assistance."
+        },
+        "fetch-no-results": {
+            "title": "Oops! Nothing to show here",
+            "description": "Type something to reveal results. Your input customizes what you see."
+        },
+        "fetch-no-matched": {
+            "title": "No matches found",
+            "description": "It seems we couldn't find any results matching your search criteria."
+        }
+    },
+    "dashboard": {
+        "title": "Welcome back, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Live location",
+        "street_name": "Street name:",
+        "last_announcement": {
+            "title": "Last announcement",
+            "description": "Here you will see the last created announcement",
+            "no-results": "There is no announcement created to be shown."
+        },
+        "personal": {
+            "title": "Personal information",
+            "description": "This is your personal information"
+        },
+        "doctors": {
+            "title": "Online doctors",
+            "description": "View all online doctors and useful info"
+        },
+        "chat": {
+            "title": "Chat",
+            "description": "Communicate with other doctors thru the chat",
+            "placeholder": "Type a message..."
+        },
+        "calls": {
+            "title": "Recent calls",
+            "description": "Here you will see the latest alerts",
+            "no-alerts": "There are no alerts at the moment, when they appear you will see a list here",
+            "details": "Click on the alert to see more details",
+            "time": "Dispatch time"
+        }
+    },
+    "incidents": {
+        "title": "Incidents",
+        "description": "See a list of the latest incidents",
+        "individual": {
+            "title": "Incident #{{id}}",
+            "description": "View all information about this incident",
+            "information": "You can view and edit the information of this incident"
+        },
+        "invoice_reduction": "{{amount}}% invoice reduction",
+        "reduction_description": "Here you can reduce the amount of the invoice"
+    },
+    "doctors": {
+        "title": "Doctors",
+        "description": "See a list of online people who can access MDT",
+        "header": "{{job}} - {{length}} doctors online",
+        "paragraph": "See doctors from this job"
+    },
+    "dispatch": {
+        "title": "Dispatch",
+        "description": "View, delete and take dispatch calls",
+        "individual": {
+            "title": "Alert #{{id}}",
+            "description": "View all information about this alert"
+        },
+        "delete": "Delete alert",
+        "position": "Set position",
+        "alerts": {
+            "title": "Alerts",
+            "description": "View all latest calls"
+        },
+        "map": {
+            "title": "Dispatch Map",
+            "description": "See the location of active alerts"
+        }
+    },
+    "citizens": {
+        "title": "Citizens",
+        "description": "See all the records and information of a citizen",
+        "register": "Register a citizen",
+        "insurance-expiring": "expries {{time}}",
+        "individual": {
+            "title": "Citizen",
+            "description": "View all information about this citizen",
+            "information": "See all useful information about this citizen"
+        },
+        "results": {
+            "title": "Search citizens",
+            "description": "You can search by name"
+        }
+    },
+    "codes": {
+        "title": "Codes",
+        "description": "View a list of codes used for communication",
+        "individual": {
+            "title": "Code #{{id}}",
+            "description": "View all information about this code",
+            "information": "You can view and edit the information of this code"
+        }
+    },
+    "invoices": {
+        "title": "Invoices",
+        "description": "View, create, delete and edit invoices",
+        "individual": {
+            "title": "Invoice #{{id}}",
+            "description": "View all information about this invoice",
+            "information": "You can view and edit the information of this invoice"
+        }
+    },
+    "announcements": {
+        "title": "Announcements",
+        "description": "View, create and pin announcements for other doctors",
+        "pin": "Pin announcement",
+        "unpin": "Unpin announcement",
+        "save": "Save announcement",
+        "edit": "Edit announcement",
+        "written": "Written by",
+        "individual": {
+            "title": "Announcement #{{id}}",
+            "description": "View all information about this announcement"
+        }
+    },
+    "configuration": {
+        "title": "Configuration",
+        "description": "Customize the MDT to your liking",
+        "colors": {
+            "title": "Colors",
+            "description": "Change the appearance of your MDT",
+            "text": "Text colors",
+            "other": "Other colors",
+            "reset": "Reset colors",
+            "name": {
+                "background": "Background color",
+                "secondary": "Secondary color",
+                "text": "Text color",
+                "text-muted": "Text muted color",
+                "primary-text": "Primary text color",
+                "contrast": "Contrast color",
+                "error": "Error color",
+                "ring": "Ring color"
+            }
+        },
+        "language": {
+            "title": "Language",
+            "description": "Change the language of your MDT",
+            "select": "Select your preffered language"
+        }
+    },
+    "administration": {
+        "title": "Administration",
+        "description": "Manage grades, society funds, employees, recruits",
+        "permissions": "Permissions",
+        "management": "Management",
+        "recruitment": "Recruitment",
+        "job": {
+            "add-permission": "Add permission",
+            "update-permission": "Update permissions",
+            "select-permission": "Select a permission",
+            "grades": {
+                "title": "Grade - {{level}}",
+                "description": "Grades from the \"{{job}}\" job",
+                "footer": "This also includes previous permissions"
+            }
+        },
+        "employees": {
+            "title": "Employees",
+            "description": "A list of all online employees"
+        },
+        "manage": {
+            "title": "Manage \"{{name}}\"",
+            "description": "See more information or apply actions to this employee",
+            "fire": "Fire employee",
+            "hire": "Hire citizen",
+            "change_rank": "Change rank",
+            "rank_select": "Select a rank",
+            "activity": {
+                "title": "Activity",
+                "description": "See activity statistics for this employee",
+                "chart": "Last 7 days",
+                "table": {
+                    "head": {
+                        "number": "No.",
+                        "clock-in": "Clock-in",
+                        "clock-out": "Clock-out",
+                        "hours": "Hours"
+                    },
+                    "total": "Total hours"
+                }
+            },
+            "funds": {
+                "header": "Society funds",
+                "footer": "income from invoices"
+            },
+            "employees": {
+                "header": "Employees",
+                "footer": "total online employees"
+            },
+            "calls": {
+                "header": "Total calls",
+                "footer": "active dispatch calls"
+            }
+        },
+        "recruits": {
+            "description": "See information about this citizen",
+            "see": "See citizen page"
+        }
+    },
+    "forms": {
+        "description": "Fill the form with all the necessary information",
+        "citizens": "Register a citizen",
+        "incidents": "Create an incident",
+        "codes": "Create a code",
+        "invoices": "Create an invoice",
+        "announcements": "Create an announcement",
+        "tag": {
+            "title": "Create tag",
+            "description": "Create a new tag to categorize this. Click on create to add a new tag.",
+            "field-name": "Tag name",
+            "field-description": "Tag description",
+            "field-color": "Tag color",
+            "button": "Create new tag",
+            "notification": {
+                "title": "Tag created",
+                "description": "You have successfully created the tag!"
+            }
+        },
+        "errors": {
+            "required": "This field is required",
+            "create": "You don't have permissions to create a new record",
+            "min-length": "This field must be at least {{length}} characters",
+            "min-number": "The minimum value for this field is {{min}}",
+            "max-number": "The maximum value for this field is {{max}}",
+            "invalid-link": "You must pass a valid image url!",
+            "codes": {
+                "format": "Wrong format, you must use only digits"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "You can select {{n}} more {{word}}",
+            "maximum": "You have selected the maximum amount of {{word}}"
+        },
+        "words": {
+            "citizens": "citizens",
+            "doctors": "doctors",
+            "incidents": "incidents",
+            "invoices": "invoices"
+        }
+    },
+    "values": {
+        "title": {
+            "victim": "Victims involved",
+            "doctor": "Doctors involved",
+            "invoice": "Invoices applied"
+        },
+        "description": {
+            "template": "View and edit {{word}} attached to this record",
+            "citizen-incident": "View and edit incidents assigned to this citizen",
+            "words": {
+                "citizen": "citizens",
+                "victim": "victims",
+                "doctor": "doctors",
+                "invoice": "invoices"
+            }
+        },
+        "add": {
+            "citizen": "Add a citizen",
+            "victim": "Add a victim",
+            "doctor": "Add a doctor",
+            "incident": "Add an incident",
+            "invoice": "Add an invoice"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Citizen gallery",
+            "incident": "Images"
+        },
+        "description": {
+            "citizen": "View images with this citizen",
+            "incident": "View images attached to this incident"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "View Dashboard Page",
+            "description": "Allows the user to view the dashboard page"
+        },
+        "incidents.view": {
+            "label": "View Incidents Page",
+            "description": "Allows the user to view the incidents page"
+        },
+        "doctors.view": {
+            "label": "View Doctors Page",
+            "description": "Allows the user to view the doctors page"
+        },
+        "dispatch.view": {
+            "label": "View Dispatch Page",
+            "description": "Allows the user to view the dispatch page"
+        },
+        "citizens.view": {
+            "label": "View Citizens Page",
+            "description": "Allows the user to view the citizens page"
+        },
+        "codes.view": {
+            "label": "View Codes Page",
+            "description": "Allows the user to view the codes page"
+        },
+        "invoices.view": {
+            "label": "View Invoices Page",
+            "description": "Allows the user to view the invoices page"
+        },
+        "announcements.view": {
+            "label": "View Announcements Page",
+            "description": "Allows the user to view the announcements page"
+        },
+        "config.view": {
+            "label": "View Configuration Page",
+            "description": "Allows the user to view the configuration page"
+        },
+        "administration.view": {
+            "label": "View Administration Page",
+            "description": "Allows the user to view the administration page"
+        },
+        "incidents.delete": {
+            "label": "Delete Incidents",
+            "description": "Allows the user to delete incidents"
+        },
+        "incidents.create": {
+            "label": "Create Incidents",
+            "description": "Allows the user to create new incidents"
+        },
+        "incidents.edit": {
+            "label": "Edit Incidents",
+            "description": "Allows the user to edit existing incidents"
+        },
+        "dispatch.alert.delete": {
+            "label": "Delete Dispatch Alerts",
+            "description": "Allows the user to delete dispatch alerts"
+        },
+        "citizens.register": {
+            "label": "Register Citizens",
+            "description": "Allows the user to register new citizens"
+        },
+        "citizens.edit": {
+            "label": "Edit Citizens",
+            "description": "Allows the user to edit existing citizens"
+        },
+        "gallery.edit": {
+            "label": "Edit Gallery",
+            "description": "Allows the user to edit the gallery content"
+        },
+        "codes.delete": {
+            "label": "Delete Codes",
+            "description": "Allows the user to delete codes"
+        },
+        "codes.create": {
+            "label": "Create Codes",
+            "description": "Allows the user to create new codes"
+        },
+        "codes.edit": {
+            "label": "Edit Codes",
+            "description": "Allows the user to edit existing codes"
+        },
+        "invoices.delete": {
+            "label": "Delete Invoices",
+            "description": "Allows the user to delete invoices"
+        },
+        "invoices.create": {
+            "label": "Create Invoices",
+            "description": "Allows the user to create new invoices"
+        },
+        "invoices.edit": {
+            "label": "Edit Invoices",
+            "description": "Allows the user to edit existing invoices"
+        },
+        "announcements.create": {
+            "label": "Create Announcements",
+            "description": "Allows the user to create new announcements"
+        },
+        "announcements.delete": {
+            "label": "Delete Announcements",
+            "description": "Allows the user to delete announcements"
+        },
+        "announcements.pin": {
+            "label": "Pin Announcements",
+            "description": "Allows the user to pin announcements"
+        },
+        "announcements.edit": {
+            "label": "Edit Announcements",
+            "description": "Allows the user to edit existing announcements"
+        },
+        "administration.permissions.update": {
+            "label": "Update Permissions",
+            "description": "Allows the user to update permissions in the administration panel"
+        },
+        "administration.management.employee.view": {
+            "label": "View Employee Management",
+            "description": "Allows the user to view employee management in the administration panel"
+        },
+        "administration.management.employee.fire": {
+            "label": "Fire Employee",
+            "description": "Allows the user to fire an employee"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Change Employee Rank",
+            "description": "Allows the user to change the rank of an employee"
+        },
+        "administration.recruit.view": {
+            "label": "View Recruit Management",
+            "description": "Allows the user to view recruit management in the administration panel"
+        },
+        "administration.recruit.hire": {
+            "label": "Hire Recruit",
+            "description": "Allows the user to hire a recruit"
+        }
+    }    
+}

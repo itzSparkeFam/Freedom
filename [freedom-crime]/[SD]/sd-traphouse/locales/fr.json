@@ -1,0 +1,38 @@
+{
+  "error": {
+    "failed_hack": "Échec!",
+    "missing_required_item": "Il vous manque quelque chose.",
+    "cooldown_active": "Quelqu'un a déjà fait cela récemment.",
+    "not_enough_cops": "Vous ne pouvez pas faire cela pour le moment.",
+    "failed_interaction": "Échec de l'interaction!"
+  },
+  "success": {},
+  "prints": {
+    "cooldown_started": "Traphouse : Temps de recharge commencé",
+    "cooldown_finished": "Traphouse : Temps de recharge terminé"
+  },
+  "target": {
+    "loot_body": "Fouiller le corps",
+    "unlock_front_door": "Déverrouiller la porte d'entrée"
+  },
+  "progress": {
+    "lockpicking": "Essayer toutes les clés..",
+    "collecting": "Collecte en cours..",
+    "cracking_vault": "Ouverture du coffre.."
+  },
+  "objects": {
+    "grab_money": "Prendre l'argent",
+    "grab_package": "Prendre le colis",
+    "grab_weapon": "Prendre une arme",
+    "grab_coke_baggy": "Prendre un sachet de cocaïne",
+    "crack_open_vault": "Ouvrir le coffre",
+    "grab_document": "Prendre un dossier",
+    "grab_coke_brick": "Prendre une brique de cocaïne",
+    "grab_cash": "Prendre des espèces",
+    "grab_statue": "Prendre la statue",
+    "grab_gold": "Prendre de l'or",
+    "grab_gold_bar": "Prendre un lingot d'or",
+    "grab_watch": "Prendre une montre",
+    "grab_bat": "Prendre une batte"
+  }
+}

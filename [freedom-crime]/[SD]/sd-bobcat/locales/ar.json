@@ -1,0 +1,38 @@
+{
+  "error": {
+    "canceled": "تم الإلغاء..",
+    "no_c4": "ليس لديك C4!",
+    "you_failed": "لقد فشلت!",
+    "how_you_get_here": "كيف وصلت إلى هنا؟",
+    "missing_something": "ينقصك الثرميت.",
+    "missing_something2": "ليس لديك البطاقة اللازمة.",
+    "no_cops": "ليس هناك ما يكفي من الشرطة!",
+    "recently_robbed": "تمت سرقة هذا المكان مؤخرًا!",
+    "cannot_use_here": "لا يمكنك استخدام هذا العنصر هنا..",
+    "timer_too_high": "الحد الأقصى لطول المؤقت يمكن أن يكون:"
+  },
+  "success": {
+    "planted_bomb": "تم زرع المتفجرات! ابتعد لمسافة آمنة!"
+  },
+  "target": {
+    "place_bomb": "زرع المتفجرات",
+    "take_weapon": "أخذ الأسلحة",
+    "take_ammo": "أخذ الذخيرة",
+    "plant_thermite": "زرع الثرميت",
+    "swipe_card": "تمرير البطاقة",
+    "loot": "النهب"
+  },
+  "prints": {
+    "cooldown_started": "BOBCAT: بدأت فترة التبريد",
+    "cooldown_finished": "BOBCAT: انتهت فترة التبريد"
+  },
+  "menu": {
+    "submit_text": "إرسال",
+    "enter_timer": "أدخل المؤقت (بالثواني):",
+    "bomb_timer": "مؤقت القنبلة",
+    "seconds": "ثواني"
+  },
+  "progress": {
+    "looting_crate": "يتم نهب الصندوق.."
+  }
+}

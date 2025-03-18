@@ -1,0 +1,14 @@
+INSERT INTO `ox_doorlock` (`name`, `data`) VALUES
+	('securitydoor6', '{"coords":{"x":270.10321044921877,"y":212.9229278564453,"z":97.31797790527344},"lockpick":false,"state":1,"model":409280169,"groups":{"police":0},"heading":340,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor4', '{"coords":{"x":251.51986694335938,"y":215.71315002441407,"z":106.37024688720703},"lockpick":false,"state":1,"model":-2121568016,"groups":{"police":0},"heading":250,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor9', '{"coords":{"x":256.4124450683594,"y":229.27593994140626,"z":97.31797790527344},"lockpick":false,"state":1,"model":409280169,"groups":{"police":0},"heading":70,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor13', '{"coords":{"x":272.79046630859377,"y":206.48045349121095,"z":106.38217163085938},"lockpick":false,"state":1,"model":267980221,"groups":{"police":0},"heading":340,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor11', '{"coords":{"x":229.89053344726563,"y":227.34201049804688,"z":97.323974609375},"lockpick":false,"state":1,"model":643152522,"groups":{"police":0},"heading":340,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor1', '{"coords":{"x":256.6068115234375,"y":229.6896209716797,"z":106.37024688720703},"lockpick":false,"state":1,"model":-2121568016,"groups":{"police":0},"heading":70,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor12', '{"coords":{"x":225.6462860107422,"y":228.88677978515626,"z":97.323974609375},"lockpick":false,"state":1,"model":643152522,"groups":{"police":0},"heading":160,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor10', '{"coords":{"x":251.64984130859376,"y":216.19061279296876,"z":97.31797790527344},"lockpick":false,"state":1,"model":409280169,"groups":{"police":0},"heading":250,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor3', '{"coords":{"x":267.3699645996094,"y":213.40798950195313,"z":106.37024688720703},"lockpick":false,"state":1,"model":-2121568016,"groups":{"police":0},"heading":250,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor8', '{"coords":{"x":244.55801391601563,"y":216.89727783203126,"z":97.31797790527344},"lockpick":false,"state":1,"model":409280169,"groups":{"police":0},"heading":340,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor5', '{"coords":{"x":272.64215087890627,"y":219.89871215820313,"z":97.31797790527344},"lockpick":false,"state":1,"model":409280169,"groups":{"police":0},"heading":340,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor7', '{"coords":{"x":250.564208984375,"y":233.39938354492188,"z":97.31797790527344},"lockpick":false,"state":1,"model":409280169,"groups":{"police":0},"heading":340,"hideUi":false,"maxDistance":2.0}'),
+	('securitydoor2', '{"coords":{"x":270.23065185546877,"y":221.26730346679688,"z":106.37024688720703},"lockpick":false,"state":1,"model":-2121568016,"groups":{"police":0},"heading":70,"hideUi":false,"maxDistance":2.0}');

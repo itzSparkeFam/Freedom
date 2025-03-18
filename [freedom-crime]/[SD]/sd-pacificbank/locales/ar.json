@@ -1,0 +1,56 @@
+{
+  "error": {
+    "trip_lasers": "لقد قمت بتفعيل الليزر، جميع الألواح تم تعطيلها.",
+    "required_equipment_missing": "أنت لا تملك المعدات اللازمة.",
+    "timer_input_closed": "لقد أغلقت إدخال الوقت",
+    "failure": "لقد فشلت!",
+    "door_already_opened": "هذا الباب قد فُتح بالفعل..",
+    "terminal_disabled": "هذا الطرفي قد تم تعطيله.",
+    "terminal_already_hacked": "هذا الطرفي قد تم اختراقه بالفعل.",
+    "password_input_closed": "لقد أغلقت إدخال كلمة المرور",
+    "security_locked_down": "نظام الأمان قد تم إغلاقه..",
+    "security_active": "نظام الأمان نشط حاليًا.",
+    "invalid_code": "رمز غير صالح.. لديك محاولات محدودة.",
+    "codes_missing": "أنت لا تملك الرموز بعد.",
+    "not_enough_police": "ليس هناك عدد كاف من الشرطة.",
+    "drill_overheated": "مثقابك قد ارتفعت حرارته وتعطل.",
+    "drill_overheated2": "مثقابك قد ارتفعت حرارته أو أنك توقفت.",
+    "nothing_left": "لا يوجد شيء متبقي للحفر.",
+    "get_closer": "اقترب أكثر.",
+    "cant_interact": "لا يمكنك التفاعل مع هذا.",
+    "lasers_tripped": "لقد قمت بتفعيل الليزر، جميع الألواح تم تعطيلها."
+  },
+  "success": {
+    "explosive_planted": "تم زرع العبوة الناسفة! ابتعد لمسافة آمنة!",
+    "security_gate_unlocked": "تم فتح بوابة الأمان.",
+    "security_deactivated": "تم تعطيل نظام الأمان على مستوى الأرض.",
+    "computer": "الحاسوب",
+    "code": "الرمز:",
+    "computer_hacked": "تم الاختراق."
+  },
+  "menu": {
+    "enter_12_digit_code": "أدخل رمز من 12 رقمًا:",
+    "submit_text": "إرسال",
+    "XXX_XXX": "الرمز",
+    "enter_timer": "أدخل الوقت (بالثواني):",
+    "bomb_timer": "مؤقت القنبلة"
+  },
+  "prints": {
+    "cooldown_started": "بنك الهادئ: بدأت فترة الانتظار",
+    "cooldown_finished": "بنك الهادئ: انتهت فترة الانتظار"
+  },
+  "target": {
+    "loot": "النهب",
+    "plant_bomb": "زرع قنبلة",
+    "enter_password": "أدخل كلمة المرور",
+    "use_thermite": "استخدم الثرميت",
+    "hack_computer": "اختراق الحاسوب",
+    "hack_terminal": "اختراق الطرفي",
+    "drill_depo": "حفر صناديق الإيداع",
+    "grab_loot": "الحصول على الغنيمة"
+  },
+  "progress": {
+    "code_search": "البحث عن رمز من 3 أرقام..",
+    "start_hack": "بدء الاختراق.."
+  }
+}

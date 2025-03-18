@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quasar Housing</title>
+    <link rel="stylesheet" href="./assets/style/main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- <div id="loadImgDiv" style="opacity: 0;"></div> -->
+    <template id="management-light-modal-template">
+        <article>
+            <h3 id="management-light-title">Name</h3>
+            <input type="text" id="management-list-modal-name">
+        </article>
+        <article>
+            <h3 id="management-light-colors-title">Colors</h3>
+            <ul id="management-list-modal-colors"></ul>
+        </article>
+        <article id="management-list-modal-intensity-container">
+            <h3 id="management-light-intensity-title">Intensity</h3>
+            <input type="range" id="management-list-modal-intensity" min="0" max="100" value="20">
+        </article>
+    </template>
+    <template id="management-light-modal-footer-template">
+        <button id="management-list-modal-save">Save</button>
+    </template>
+    <template id="management-price-modal-template">
+        <article>
+            <h3 id="management-price-modal-title">Price</h3>
+            <input type="number" id="management-list-modal-price" min="1" value="1">
+        </article>
+    </template>
+    <template id="management-price-modal-footer-template">
+        <button id="management-list-modal-done">Done</button>
+    </template>
+    <div class="ui">
+        <div id="contract" class="contract">
+            <img src="assets/img/contract.png" alt="contract" id="contract_img">
+            <img src="./assets/img/contract/dynasty8-logo.png" alt="Dynasty 8 Logo">
+            <h1 id="contract_title"></h1>
+            <div class="content">
+                <p id="contract_text"></p>
+                <div class="informations">
+                    <h2 id="contract_sub_title"></h2>
+                    <div>
+                        <span id="contract_price_label"></span>
+                        <highlight id="contract_price"></highlight>
+                    </div>
+                    <div>
+                        <span id="contract_agency_fee_label"></span>
+                        <highlight id="contract_agency_fee"></highlight>
+                    </div>
+                    <div>
+                        <span id="contract_bank_fee_label"></span>
+                        <highlight id="contract_bank_fee"></highlight>
+                    </div>
+                    <div>
+                        <span id="contract_tax_label"></span>
+                        <highlight id="contract_tax"></highlight>
+                    </div>
+                </div>
+                <div id="contract_credit" class="credit">
+                    <span id="contract_credit_text"></span>
+                    <br>
+                    <span>
+                        <possibility id="contract_credit_accept"></possibility>
+                        /
+                        <possibility id="contract_credit_decline"></possibility>
+                    </span>
+                </div>
+                <div id="summary">
+                    <div class="summary">
+                        <span id="sign_label">SIGN:</span>
+                        <span id="sign_value"></span>
+                    </div>
+                    <div class="summary">
+                        <span id="contract_total_label">TOTAL PRICE:</span>
+                        <span id="contract_total"></span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="contract_accept">Accept</button>
+                    <button id="contract_decline">Decline</button>
+                </div>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <span id="modal_title"></span>
+            <svg id="modal_cancel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+            </svg>
+            <br>
+            <span id="modal_text"></span>
+            <div>
+                <button id="modal_accept"></button>
+                <button id="modal_decline"></button>
+            </div>
+        </div>
+        <div id="camera" class="camera">
+            <div class="edge"></div>
+            <div class="edge"></div>
+            <div class="edge"></div>
+            <div class="edge"></div>
+            <div class="center"></div>
+            <div class="center"></div>
+            <div class="recording">
+                <div></div>
+                <p>Live</p>
+            </div>
+            <p id="camera_name" class="camera_name">Kamera 1</p>
+            <p id="camera_type" class="camera_type">#Frontdoor</p>
+        </div>
+        <div id="decorate" class="decorate">
+            <div class="categories">
+                <div class="sidebar">
+                    <a id="dynamic_objects" help-text="Sort objects by room">
+                        <!-- <svg width="2vw" height="2vw" style="enable-background:new 0 0 16 16;" viewBox="0 0 16 16" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M15.45,7L14,5.551V2c0-0.55-0.45-1-1-1h-1c-0.55,0-1,0.45-1,1v0.553L9,0.555C8.727,0.297,8.477,0,8,0S7.273,0.297,7,0.555  L0.55,7C0.238,7.325,0,7.562,0,8c0,0.563,0.432,1,1,1h1v6c0,0.55,0.45,1,1,1h3v-5c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v5h3  c0.55,0,1-0.45,1-1V9h1c0.568,0,1-0.437,1-1C16,7.562,15.762,7.325,15.45,7z" />
+                        </svg> -->
+                        <img src="./assets/img/leftBoxes/house2-blue.svg" alt="Room">
+                    </a>
+                    <a id="objects" help-text="Sort objects by category">
+                        <img src="./assets/img/leftBoxes/chair2-blue.svg" alt="Objects">
+                    </a>
+                    <a id="stash" help-text="Stash objects">
+                        <img src="./assets/img/leftBoxes/box2-blue.svg" alt="Stash">
+                    </a>
+                </div>
+                <div id="topbar" class="topbar"></div>
+                <div id="content" class="content"></div>
+            </div>
+            <div id="menubar" class="menubar" state="none" object="false"></div>
+            <div class="itemlist">
+                <div id="itemcontainer" class="itemcontainer"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <article id="intro" class="intro hidden">
+        <section id="intro-server-container">
+            <p id="intro-server-name">Decoration Menu</p>
+        </section>
+    </article> -->
+    <section id="intro" class="intro hidden">
+        <article id="intro-server-container">
+            <p id="intro-server-name">QUASAR ROLEPLAY</p>
+
+        </article>
+    </section>
+
+    <section id="intro-logo" class="intro hidden">
+        <figure id="intro-top"></figure>
+        <figure id="intro-bottom"></figure>
+        <article id="intro-logo-container">
+            <img src="assets/img/logo.png" alt="logo">
+        </article>
+    </section>
+    <section id="realestate-container">
+        <article id="realestate">
+            <header>
+                <div class="headerText flex uppercase">
+                    <div class="stylishIcon house_mang"></div>
+                    <h1 id="houseManagementTitle">HOUSE MANAGEMENT</h1>
+                </div>
+
+                <button id="create-property-button" class="create_conor_stylish uppercase">
+                    <span id="houseManagementButton">CREATE OFFER</span>
+                </button>
+            </header>
+            <section id="realestate-content">
+                <header>
+                    <i class="fas fa-search"></i>
+                    <input id="realestate-content-search" type="text" placeholder="Search">
+                </header>
+                <article id="realestate-content-list-container" class="uppercase">
+                    <header>
+                        <span class="flex" id="houseManagementName">HOUSE NAME</span>
+                        <span class="flex" id="houseManagementType">TYPE</span>
+                        <span class="flex" id="houseManagementApartment">APARTMENT</span>
+                        <span class="flex" id="houseManagementLocation">LOCATION</span>
+                        <span class="flex" id="houseManagementPrice">PRICE</span>
+
+                    </header>
+                    <ul id="realestate-content-list"></ul>
+                </article>
+            </section>
+        </article>
+        <article id="create-property">
+            <form id="create-property-form">
+                <h1 id="create-property-form-title" class="uppercase">CREATE PROPERTY!</h1>
+                <span id="createPropertyDetails">Write down details of your new property</span>
+                <div>
+                    <label for="create-property-name" id="createHouseName">House Name</label>
+                    <input id="create-property-name" type="text" name="name" required>
+                </div>
+                <div class="grid-col-2">
+                    <div>
+                        <label for="create-property-price" id="createHousePrice">Price</label>
+                        <input id="create-property-price" type="number" name="price" required>
+                    </div>
+                    <div>
+                        <label for="create-property-apartment-slot" id="createHouseApartmentSlot">Apartment Slot</label>
+                        <input id="create-property-apartment-slot" type="number" name="apartment-slot" required>
+                    </div>
+                </div>
+                <div id="create-property-blip" class="grid-col-2">
+                    <div>
+                        <label for="create-property-blip-name" id="createHouseBlipName">Blip Name</label>
+                        <input type="text" name="blip" id="create-property-blip-name" required>
+                    </div>
+                    <div>
+                        <label for="create-property-blip-sprite" id="createHouseSprite">Sprite</label>
+                        <input type="number" name="sprite" id="create-property-blip-sprite" value="40" required>
+                    </div>
+                    <div>
+                        <label for="create-property-blip-color" id="createHouseSpriteColor">Color</label>
+                        <input type="number" name="color" id="create-property-blip-color" required>
+                    </div>
+                    <div>
+                        <label for="create-property-blip-scale" id="createHouseSpriteScale">Scale</label>
+                        <input type="number" max="1" min="0.1" step="0.1" name="scale" value="0.5" id="create-property-blip-scale" required>
+                    </div>
+                </div>
+                <div id="create-property-types" class="creator-radio-container">
+                    <input type="radio" name="type" value="shell" id="shell" checked />
+                    <label for="shell" class="backImgStylishCreator shellImg">
+                        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c.2 35.5-28.5 64.3-64 64.3H128.1c-35.3 0-64-28.7-64-64V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7V64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V185l52.8 46.4c8 7 12 15 11 24zM248 192c-13.3 0-24 10.7-24 24v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V216c0-13.3-10.7-24-24-24H248z"></path>
+                        </svg> -->
+                        <span>SHELL</span>
+                    </label>
+                    <input type="radio" name="type" value="ipl" id="ipl" />
+                    <label for="ipl" class="backImgStylishCreator iplImg">
+                        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 1 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.707l1.5-1.5a.5.5 0 0 1 .708 0Z"></path>
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"></path>
+                            <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z"></path>
+                        </svg> -->
+                        <span>IPL</span>
+                    </label>
+                    <input type="radio" name="type" value="mlo" id="mlo" />
+                    <label for="mlo" class="backImgStylishCreator mloImg">
+                        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"></path>
+                        </svg> -->
+                        <span>MLO</span>
+                    </label>
+                </div>
+                <div id="create-property-sell-type" class="creator-radio-container">
+                    <input type="radio" name="sell-type" value="purchasable" id="purchasable" checked />
+                    <label for="purchasable" class="flex smallerText">
+                        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8 8a2 2 0 0 0 2.828 0l7.172-7.172a2 2 0 0 0 0-2.828l-8-8zM7 9a2 2 0 1 1 .001-4.001A2 2 0 0 1 7 9z"></path>
+                        </svg> -->
+                        <span id="createPurchasable">Purchasable</span>
+                    </label>
+                    <input type="radio" name="sell-type" value="rentable" id="rentable" />
+                    <label for="rentable" class="flex smallerText">
+                        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M104,152V104h48v48ZM32,53v95a4,4,0,0,0,4,4H88V99.31L38.83,50.14A4,4,0,0,0,32,53Zm188,51H168v52.69l49.17,49.17A4,4,0,0,0,224,203V108A4,4,0,0,0,220,104ZM152,36a4,4,0,0,0-4-4H53a4,4,0,0,0-2.83,6.83L99.31,88H152Zm60.49,45.17L174.83,43.51A4,4,0,0,0,168,46.34V88h41.66A4,4,0,0,0,212.49,81.17ZM156.69,168H104v52a4,4,0,0,0,4,4h95a4,4,0,0,0,2.83-6.83ZM43.51,174.83l37.66,37.66A4,4,0,0,0,88,209.66V168H46.34A4,4,0,0,0,43.51,174.83Z"></path>
+                        </svg> -->
+                        <span id="createRentable">Rentable</span>
+                    </label>
+                </div>
+                <p class="description" id="createDescription">
+                    If you choose rentable, You will own the house, and you can rent it to other people. If you want to sell the house to someone later on, you can do this through the house management.
+                </p>
+                <div id="create-property-checkboxes">
+                    <div class="packageForCheckbox flex">
+                        <div>
+                            <input id="create-property-show-on-map" type="checkbox" name="show-on-map" class="ios8-switch">
+                            <label for="create-property-show-on-map" class="betterTextCheckbox" id="createHouseShowVilla">Show On Map</label>
+                        </div>
+                        <div>
+                            <input id="create-property-show-on-island" type="checkbox" name="show-on-island" class="ios8-switch">
+                            <label for="create-property-show-on-island" class="betterTextCheckbox" id="createHouseShowIsland">Show On Island</label>
+                        </div>
+                    </div>
+                    <div class="packageForCheckbox flex">
+                        <div>
+                            <input id="toggle-blip" type="checkbox" name="toggle-blip" class="ios8-switch">
+                            <label for="toggle-blip" class="betterTextCheckbox" id="createHouseShowBlip">Toggle BLIP</label>
+                        </div>
+                        <div>
+                            <input id="toggle-apartment" type="checkbox" name="toggle-apartment" class="ios8-switch">
+                            <label for="toggle-apartment" class="betterTextCheckbox" id="createHouseApartment">Toggle Apartment</label>
+                        </div>
+                    </div>
+                    <footer>
+                        <button id="create-property-cancel" class="red uppercase">CANCEL</button>
+                        <button id="create-property-submit" type="submit" class="uppercase">CREATE</button>
+                    </footer>
+                </div>
+                <section id="form-edit-buttons">
+                    <h3 id="nearbyActions">Nearby Actions</h3>
+                    <div>
+                        <button data-action="editPolyzone" class="blue" id="editPlaceExerior">Place an exterior zone</button>
+                        <button data-action="editMLO" class="blue" id="editMLODoors">Edit MLO Doors</button>
+                        <button data-action="editVisit" class="blue" id="editVisitCoords">Set Visit coordinates</button>
+                    </div>
+
+                </section>
+
+            </form>
+        </article>
+    </section>
+    <section id="management-container">
+        <article id="management-list-modal-container">
+            <div id="management-list-modal">
+                <header>
+                    <h1 id="management-list-modal-title"></h1>
+                    <i class="fas fa-times"></i>
+                </header>
+                <section id="management-list-modal-content"></section>
+                <footer id="management-list-modal-footer"></footer>
+            </div>
+
+        </article>
+        <article id="management">
+            <div id="managementCameraCont">
+                <header>
+                    <h1 id="modalChangeColor">CHANGE COLOR OF IPL</h1>
+                    <i id="btnManagementCamera-close" class="fas fa-times"></i>
+                </header>
+                <div id="mainManagementCamera">
+                    <div class="mainManagementCamera">
+                        <img src="assets/img/management/themes/monochrome.png" class="imgBgCam" />
+                        <div class="mainManagementCam">
+                            <span>SECURITY CAMERAS</span>
+                            <span class="priceCameraManagement">12 000$</span>
+                        </div>
+                        <div class="mainManagementCam">
+                            <div class="btnManCam">YES</div>
+                        </div>
+                    </div>
+                    <div class="mainManagementCamera">
+                        <img src="assets/img/management/themes/modern.png" class="imgBgCam" />
+                        <div class="mainManagementCam">
+                            <span>SECURITY CAMERAS</span>
+                            <span class="priceCameraManagement">12 000$</span>
+                        </div>
+                        <div class="mainManagementCam">
+                            <div class="btnManCam">YES</div>
+                        </div>
+                    </div>
+                </div>
+                <!--  <div id="bottomManagementCamera">
+                    <div class="btnManagementCamera" id="btnManagementCamera-close">CLOSE</div>
+                </div> -->
+            </div>
+            <main>
+                <div class="newMangStylishConor flex">
+                    <header>
+                        <aside id="management-header-left" aria-label="left">
+                            <h1 id="management-house-name" style="white-space: normal;">QUASAR HOUSE</h1>
+                            <footer>
+                                <span id="management-house-address">Los Santos</span>
+                                <span class="smallerMangText" id="smallerManagement">MANAGEMENT PANEL</span>
+                            </footer>
+                        </aside>
+                    </header>
+                    <section class="management-interaction" id="management-key">
+                        <div class="header">
+
+                            <div class="flex">
+                                <span id="keyManagement">Key Management </span>
+                                <span class="stylishLine"></span>
+                            </div>
+
+
+                        </div>
+                        <div class="icon" id="management-show-nearby-players">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="empty">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <p id="noKeyOwner">No keys owner yet</p>
+                        </div>
+                        <ul id="management-holders"></ul>
+                    </section>
+                    <article id="management-rentals" class="management-interaction">
+                        <div class="header">
+
+                            <div class="flex">
+                                <span id="rentalManagement">Rentals</span>
+                                <span class="stylishLine"></span>
+
+                            </div>
+
+                        </div>
+                        <div class="empty">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <p id="noRentals">No rentals</p>
+                        </div>
+                        <ul></ul>
+                    </article>
+                </div>
+                <div class="houseImageMangBigStylish">
+                    <h1>
+                        Name of property
+                    </h1>
+                </div>
+
+
+                <div class="newMangStylishConor flex centerManage">
+                    <section id="management-edit">
+                        <header id="management-edit-header" class="management-interaction">
+                            <div id="management-tab-container">
+                                <div id="inputSecutityCamera">
+                                    <input type="radio" name="management-tab" id="management-tab-cameras" checked />
+                                    <!-- <label id="managementContBtn" for="management-tab-cameras" class="manageCamerasStylishBefore">
+                                        <i class="fas fa-wrench"></i>
+                                        <span>UPGRADES</span>
+                                    </label> -->
+                                    <!-- <input type="radio" name="management-tab" id="management-tab-cameras" checked />
+                                <label for="management-tab-cameras" class="manageCamerasStylishBefore">
+                                    <span>SECURITY CAMERA</span>
+                                </label> -->
+                                </div>
+                                <!-- <input type="radio" name="management-tab" id="management-tab-theme" />
+                                <label for="management-tab-theme">
+                                    <i class="fas fa-wrench"></i>
+                                    <span>Upgrades</span>
+                                </label> -->
+
+                                <section id="management-tab-content">
+                                    <div id="management-cameras">
+                                        <div class="empty">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                            <p id="youNeedCameras">You need to buy camera module first</p>
+                                        </div>
+                                        <ul></ul>
+                                    </div>
+                                </section>
+                        </header>
+
+                    </section>
+
+                    <footer id="management-interactions" class="management-interaction withoutgrey">
+                        <div id="managment-slow-actions" class="management-interaction flexColumn smallerCol">
+                            <button data-action="wardrobe" data-close="true" class="management-interaction-warderobe manage-same-style-size">
+                                <!-- <i class="fas fa-couch"></i> -->
+                                <span id="locateWardrobe">Locate Wardrobe</span>
+                            </button>
+                            <button data-action="storage" data-close="true" class="management-interaction-storage manage-same-style-size">
+                                <!-- <i class="fas fa-box-open"></i> -->
+                                <span id="locateStorage">Locate Storage</span>
+                            </button>
+                            <button data-action="charge" data-close="true" class="managment-fast-door-fix" data-close="true">
+                                <span id="locateCharge">Locate Charge</span>
+                            </button>
+                            <!-- <button data-action="charge" class="management-interaction-storage manage-same-style-size" data-close="true">
+                                <span>Locate Charge</span>
+                            </button> -->
+                        </div>
+
+                        <section id="management-fast-actions">
+                            <button data-action="decorate" data-close="true" class="management-big-decorate">
+                                <!-- <i class="fa-solid fa-holly-berry"></i> -->
+                                <span id="decorateHouse">Decorate House</span>
+                            </button>
+
+
+                            <span class="management-interaction-grey" id="rentYourProperty">Rent Your Property</span>
+                            <button class="management-interaction-lime" data-action="rent" onlyOfficialOwner="true" rent="true">
+                                <!-- <i class="fas fa-hand-holding-usd"></i> -->
+                                <span id="rentHouse">Rent House</span>
+                            </button>
+                            <button class="management-interaction-red" data-action="cancel-rent" onlyOfficialOwner="true" rent="true">
+                                <!-- <i class="fas fa-hand-holding-usd"></i> -->
+                                <span id="stopRentingHouse">Stop Renting House</span>
+                            </button>
+                            <span class="management-interaction-grey bank" id="sellYourProperty">Sell Your Property</span>
+                            <button class="management-interaction-red" data-action="sell-bank" onlyOfficialOwner="true" data-modal-title="Are you sure?" data-modal-content="Are you sure you want to sell this house to the bank?" data-close="true">
+                                <!-- <i class="fas fa-hand-holding-usd"></i> -->
+                                <span id="sellToBank">Sell House To Bank</span>
+                            </button>
+                            <button class="management-interaction-red player" data-action="sell-player" onlyOfficialOwner="true" data-modal-title="Are you sure?" data-modal-content="Are you sure you want to sell this house to the player?" data-close="true">
+                                <!-- <i class="fas fa-hand-holding-usd"></i> -->
+                                <span id="sellToPlayer">Sell House To Player</span>
+                            </button>
+                            <button class="management-interaction-red cancel" data-action="cancel-sell-house" purchase="true" onlyOfficialOwner="true" data-modal-title="Are you sure?" data-modal-content="You will cancel the purchase of this house. It will be removed from your property list." data-close="true">
+                                <!-- <i class="fa-solid fa-right-from-bracket"></i> -->
+                                <span id="cancelSellHouse">Cancel Sell House</span>
+                            </button>
+                            <span class="management-interaction-grey leave" id="leaveTitle">Leave</span>
+                            <button class="management-interaction-red" data-action="leave" rent="true" onlyOfficialOwner="false" data-modal-title="Are you sure?" data-modal-content="You will leave the tenancy. It will be removed from your property list." data-close="true">
+                                <!-- <i class="fa-solid fa-right-from-bracket"></i> -->
+                                <span id="leaveTheHouse">Leave The House</span>
+                            </button>
+                        </section>
+
+                        <div class="managment-fast-door-actions flexColumn smallerCol">
+                            <!-- i cant do anything here because i don't have perms to client.lua  -->
+                            <span>
+                                <span id="doorsTranslation">Doors:</span>
+                                <span class="red" id="toggle_door_status">locked</span>
+                            </span>
+                            <button id="toggle_door_btn" data-action="toggle-door" class="managment-fast-lock-unlock-door manage-same-style-size">
+                                <!-- <i class="fas fa-door-open"></i> -->
+                                <span id="doorLockUnlock">Door Lock/Unlock</span>
+                            </button>
+                            <button id="fix_door_btn" data-action="fix-door" class="managment-fast-door-fix">
+                                <!-- <i class="fas fa-door-open"></i> -->
+                                <span id="fixDoor">Fix Door</span>
+                            </button>
+                            <button id="managementContBtn" for="management-tab-cameras" class="managment-fast-door-fix">
+                                <span id="changeTheme">Change ipl color</span>
+                            </button>
+                        </div>
+
+                    </footer>
+                </div>
+                </div>
+
+                <div class="newMangStylishConor flex">
+                    <section id="management-right">
+                        <header class="management-interaction" id="management-upgrades">
+                            <div class="header">
+                                <div class="flex">
+                                    <span id="propertyUpgrade">Property Upgrade</span>
+                                    <span class="stylishLine"></span>
+                                </div>
+
+                            </div>
+                            <ul></ul>
+                        </header>
+
+                    </section>
+                    <footer id="management-edit-footer">
+                        <article id="management-light" class="management-interaction">
+                            <div class="header">
+                                <div class="flex">
+                                    <span id="lightList">Lights List</span>
+                                    <span class="stylishLine"></span>
+
+                                </div>
+
+                            </div>
+                            <div class="empty">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p id="thereIsNoLight">There is no lights</p>
+                            </div>
+                            <ul></ul>
+                        </article>
+
+                    </footer>
+
+                </div>
+            </main>
+        </article>
+
+    </section>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./assets/script/main.js"></script>
+</body>
+
+</html>

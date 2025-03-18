@@ -1,0 +1,70 @@
+-- Add items into ox_inventory/data/items.lua
+['ls_meth_table'] = {
+	label = 'Meth Table',
+	weight = 1000,
+	stack = false
+},
+
+['ls_gas_mask'] = {
+	label = 'Gas Mask',
+	weight = 150,
+	stack = false
+},
+
+['ls_pseudoephedrine'] = {
+	label = 'Pseudoephedrine Pills',
+	weight = 50
+},
+
+['ls_crushed_pseudoephedrine'] = {
+	label = 'Crushed Pseudoephedrine',
+	weight = 25
+},
+
+['ls_ammonia'] = {
+	label = 'Ammonia',
+	weight = 250,
+	stack = false
+},
+
+['ls_iodine'] = {
+	label = 'Iodine',
+	weight = 250,
+	stack = false
+},
+
+['ls_acetone'] = {
+	label = 'Acetone',
+	weight = 250,
+	stack = false
+},
+
+['ls_liquid_meth'] = {
+	label = 'Liquid Meth',
+	weight = 225
+},
+
+['ls_hydrochloric_acid'] = {
+	label = 'Hydrochloric Acid',
+	weight = 250
+},
+
+['ls_meth'] = {
+	label = 'Meth',
+	weight = 50
+},
+
+['ls_supply_crate'] = {
+	label = 'Supplies',
+	weight = 1000
+},
+
+['ls_meth_tray'] = {
+	label = 'Meth Tray',
+	weight = 50
+},
+
+['ls_meth_box'] = {
+	label = 'Meth Box',
+	weight = 50
+},

@@ -1,0 +1,154 @@
+/* Style for decorate element */
+@import url('./categories.css');
+@import url('./items.css');
+@import url('./menu.css');
+
+.decorate { 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+}
+
+.decorate.active {
+    display: block;
+}
+
+
+
+.introQuasar{
+    /* display: none; */
+    position:
+    absolute;
+    height:100%;
+    width:100%;
+}
+
+
+.intro {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s all;
+    z-index: 99999999999999;
+}
+
+#intro {
+    background-color: #000;
+}
+
+#intro-logo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-top {
+    position: absolute;
+    inset: 0;
+    height: 50%;
+    width: 100%;
+    background-color: #090809;
+    z-index: -1;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1.2s;
+    margin: 0;
+}
+
+#intro-bottom {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 50%;
+    background-color: #090809;
+    z-index: -1;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1.2s;
+    margin: 0;
+}
+
+#intro-server-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#intro-server-name {
+    font-size: 6rem;
+}
+
+#intro button {
+    background: #fff;
+    color: #000;
+    height: 3vh;
+    width: fit-content;
+    align-self: flex-end;
+    place-self: flex-end;
+    padding: 4px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.15);
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.slide-left {
+    transform: translateX(-100%);
+}
+
+.slide-center {
+    transform: translateX(0);
+}
+
+.slide-right {
+    transform: translateX(100%);
+}
+
+.scale-down {
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+#intro-logo-container img {
+    width: 32vh;
+}
+
+#intro-logo-container {
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 1.2s;
+}
+
+.animate__animated.animate__fadeOutDown {
+    animation-duration: 250ms;
+}
+
+.animate__animated.animate__fadeInUp {
+    animation-duration: 250ms;
+}
+
+
+@media (max-width: 1560px) {
+    .attachmentItem-container {
+    
+      height:93.4px;
+      width: 93.4px;
+        transform: translateX(-150px);
+     
+    }
+    
+#attachment-canvas {
+transform: translate(-50%,-50%) scale(0.7)
+    }
+}

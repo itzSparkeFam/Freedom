@@ -1,0 +1,38 @@
+{
+  "error": {
+    "failed_hack": "You failed!",
+    "missing_required_item": "You are missing something.",
+    "cooldown_active": "Somebody's done this recently.",
+    "not_enough_cops": "You can't do this right now.",
+    "failed_interaction": "Interaction failed!"
+  },
+  "success": {},
+  "prints": {
+    "cooldown_started": "Traphouse: Cooldown started",
+    "cooldown_finished": "Traphouse: Cooldown finished"
+  },
+  "target": {
+    "loot_body": "Loot Body",
+    "unlock_front_door": "Unlock Front Door"
+  },
+  "progress": {
+    "lockpicking": "Trying all the keys..",
+    "collecting": "Collecting..",
+    "cracking_vault": "Cracking the vault.."
+  },
+  "objects": {
+    "grab_money": "Grab Money",
+    "grab_package": "Grab Package",
+    "grab_weapon": "Grab Weapon",
+    "grab_coke_baggy": "Grab Coke Baggy",
+    "crack_open_vault": "Crack Open Vault",
+    "grab_document": "Grab Folder",
+    "grab_coke_brick": "Grab Coke Brick",
+    "grab_cash": "Grab Cash",
+    "grab_statue": "Grab Statue",
+    "grab_gold": "Grab Gold",
+    "grab_gold_bar": "Grab Gold Bar",
+    "grab_watch": "Grab Watch",
+    "grab_bat": "Grab Bat"
+  }
+}
