@@ -279,7 +279,7 @@ Config.License = 'bcs_license'
     [qb-core]: m-insurance
     [esx]: m-insurance
 --]]
-Config.Insurance = 'custom'
+Config.Insurance = 'm-insurance'
 
 -- Economy
 
