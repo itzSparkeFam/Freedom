@@ -6,7 +6,7 @@ Config = {}
 Config.Commands = {
     --[[ You can trigger the menu with a command. ]]
     OpenMenu = {
-        active = true,
+        active = false,
         command = 'towjob',
         key = 'F6',
     },
