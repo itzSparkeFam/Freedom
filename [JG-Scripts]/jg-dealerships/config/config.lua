@@ -92,7 +92,8 @@ Config.Categories = {
   suvs = "SUVs",
   commercial = "Commercial",
   cycles = "Cycles",
-  industrial = "Industrial"
+  industrial = "Industrial",
+  police = "Police",
 }
 
 Config.DealershipLocations = {
@@ -282,6 +283,84 @@ Config.DealershipLocations = {
     hideBlip = false,
     blip = {
       id = 477,
+      color = 2,
+      scale = 0.6
+    },
+    hideMarkers = false,
+    markers = { id = 21, size = { x = 0.3, y = 0.3, z = 0.3 }, color = { r = 255, g = 255, b = 255, a = 120 }, bobUpAndDown = 0, faceCamera = 0, rotate = 1, drawOnEnts = 0 },
+    showroomJobWhitelist = {},
+    showroomGangWhitelist = {},
+    societyPurchaseJobWhitelist = {},
+    societyPurchaseGangWhitelist = {},
+  },
+  ["pd"] = {
+    type = "self-service", -- or "owned", "self-service"
+    openShowroom = {
+      coords = vector3(-575.908, -390.183, 31.16),
+      size = 5
+    },
+    openManagement = {
+      coords = vector3(1184.45, -3179.27, 7.1),
+      size = 5
+    },
+    sellVehicle = {
+      coords = vector3(-599.967, -390.127, 31.16),
+      size = 5
+    },
+    purchaseSpawn = vector4(-576.022, -397.6, 31.16, 88.47),
+    testDriveSpawn = vector4(-576.142, -401.199, 31.16, 92.697),
+    camera = {
+      name = "PD",
+      coords = vector4(-1267.0, -3013.14, -48.5, 310.96),
+      positions = {7.5, 12.0, 15.0, 12.0}
+    },
+    categories = {"police"},
+    enableSellVehicle = true, -- Allow players to sell vehicles back to dealer
+    sellVehiclePercent = 0.6,  -- 60% of current sale price
+    enableTestDrive = true,
+    enableFinance = true,
+    hideBlip = true,
+    blip = {
+      id = 477,
+      color = 2,
+      scale = 0.6
+    },
+    hideMarkers = false,
+    markers = { id = 21, size = { x = 0.3, y = 0.3, z = 0.3 }, color = { r = 255, g = 255, b = 255, a = 120 }, bobUpAndDown = 0, faceCamera = 0, rotate = 1, drawOnEnts = 0 },
+    showroomJobWhitelist = {},
+    showroomGangWhitelist = {},
+    societyPurchaseJobWhitelist = {},
+    societyPurchaseGangWhitelist = {},
+  },
+  ["rideout"] = {
+    type = "owned", -- or "owned", "self-service"
+    openShowroom = {
+      coords = vector3(558.577, -200.588, 54.522),
+      size = 5
+    },
+    openManagement = {
+      coords = vector3(558.728, -196.879, 54.522),
+      size = 2
+    },
+    sellVehicle = {
+      coords = vector3(594.462, -211.287, 54.532),
+      size = 5
+    },
+    purchaseSpawn = vector4(578.711, -209.291, 54.532, 89.881),
+    testDriveSpawn = vector4(545.584, -199.217, 54.394, 359.999),
+    camera = {
+      name = "Rideout",
+      coords = vector4(-1267.0, -3013.14, -48.5, 310.96),
+      positions = {7.5, 12.0, 15.0, 12.0}
+    },
+    categories = {"police"},
+    enableSellVehicle = true, -- Allow players to sell vehicles back to dealer
+    sellVehiclePercent = 0.6,  -- 60% of current sale price
+    enableTestDrive = true,
+    enableFinance = true,
+    hideBlip =  false,
+    blip = {
+      id = 523,
       color = 2,
       scale = 0.6
     },
