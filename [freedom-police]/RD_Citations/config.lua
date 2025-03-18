@@ -4,7 +4,7 @@ Config.Framework = "qb" --qb or qbx(soon esx)
 
 Config.PoliceJobs = {"police", "bcso", "lspd"}
 
-Config.PoliceMenuCommand = "citation"
+Config.PoliceMenuCommand = "citations"
 
 Config.CitationsPerRoll = 20
 
