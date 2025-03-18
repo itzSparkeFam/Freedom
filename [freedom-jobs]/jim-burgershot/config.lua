@@ -10,7 +10,7 @@ Config = {
 
 	Core = "qb-core", -- set this to your core folder
 	Inv = "ox", -- set to "ox" if using OX Inventory
-	Menu = "ox", -- set to "ox" if using OX Lib Context
+	Menu = "qb", -- set to "ox" if using OX Lib Context
 	Notify = "qb",
 	ProgressBar = "qb", -- set to "ox" if using ox_lib progressbar
 
