@@ -5,7 +5,7 @@ BY RX Scripts © rxscripts.xyz
 Config.Fishes = {
     ['Carp'] = { -- Must be unique
         item = 'carp',
-        findChance = 30, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
+        findChance = 40, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
         requiredLevel = 0, -- Required level to find the fish
         xp = {
             catchGain = 5, -- XP gained from catching the fish
@@ -18,8 +18,8 @@ Config.Fishes = {
     },
     ['Pike'] = { -- Must be unique
         item = 'pike',
-        findChance = 30, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
-        requiredLevel = 0, -- Required level to find the fish
+        findChance = 35, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
+        requiredLevel = 1, -- Required level to find the fish
         xp = {
             catchGain = 15, -- XP gained from catching the fish
         },
@@ -32,7 +32,7 @@ Config.Fishes = {
     ['Piranha'] = { -- Must be unique
         item = 'piranha',
         findChance = 20, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
-        requiredLevel = 1, -- Required level to find the fish
+        requiredLevel = 2, -- Required level to find the fish
         xp = {
             catchGain = 20, -- XP gained from catching the fish
         },
@@ -44,7 +44,7 @@ Config.Fishes = {
     },
     ['Salmon'] = { -- Must be unique
         item = 'salmon',
-        findChance = 15, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
+        findChance = 45, -- Recommended to keep between 1 - 100 (individual chance, no need to sum all fishes up to 100)
         requiredLevel = 1, -- Required level to find the fish
         xp = {
             catchGain = 10, -- XP gained from catching the fish

@@ -41,7 +41,6 @@ Config.FishingZones = {
             'Carp',
             'Pike',
             'Piranha',
-            'Salmon',
         },
         route = {
             enabled = true,
@@ -129,7 +128,6 @@ Config.FishingZones = {
         fishes = {
             'Shark',
             'Salmon',
-            'Carp',
         },
         blip = {
             enabled = false,
