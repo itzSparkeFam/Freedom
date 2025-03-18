@@ -154,7 +154,7 @@ Config.Dispatch.DefaultAlertDuration = 5000
     [standalone]: custom (make yours)
     [qb-core & esx]: m-insurance
 --]]
-Config.Insurance = 'custom'
+Config.Insurance = 'm-insurance'
 
 -- Economy
 
