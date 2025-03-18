@@ -44,8 +44,8 @@ Config.carInsurance = { -- This is the settings for the car insurance and regist
         insurance = 500, -- This is the price for the insurance documentation
     },
     insuranceTypes = { -- This is the settings for the insurance types
-        [1] = { type = "registration", price = 1000, days = { 30, 60, 90 } },
-        [2] = { type = "insurance", price = 1000, days = { 30, 60, 90 } },
+        [1] = { type = "registration", price = 1000, days = { 30, 60, 90, 180, 360 } },
+        [2] = { type = "insurance", price = 1000, days = { 30, 60, 90, 180, 360 } },
     },
     vehicleClassPrices = { -- https://docs.fivem.net/natives/?_0x29439776AAA00A62
         enable = true, -- If you want to use this feature, set it to true
@@ -101,7 +101,7 @@ Config.healthInsurance = { -- This is the settings for the health insurance
         insurance = 500, -- This is the price for the insurance documentation
     },
     insuranceTypes = { -- This is the settings for the insurance types
-        [1] = { type = "health", price = 1000, days = { 30, 60, 90 }},
+        [1] = { type = "health", price = 1000, days = { 30, 60, 90, 180, 360 } },
     },
 }
 -- Health Insurance Settings --
@@ -123,7 +123,7 @@ Config.homeInsurance = {
         insurance = 500, -- This is the price for the insurance documentation
     },
     insuranceTypes = { -- This is the settings for the insurance types
-        [1] = { type = "home", price = 1000, days = { 30, 60, 90 } },
+        [1] = { type = "home", price = 1000, days = { 30, 60, 90, 180, 360 } }
     },
 }
 -- Home Insurance Settings --
