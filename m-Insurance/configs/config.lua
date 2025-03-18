@@ -4,7 +4,7 @@ Config = {}
 Config.Core = "qb-core" -- Your qb-core folder name
 Config.Target = "ox" -- "qb" or "ox"
 Config.Inventory = "ox" -- "oldqb" or "newqb" or "ox" or "qs" or "tgiann" or "codem" ( open code on s_utils.lua )
-Config.EmoteMenu = "rp" -- "rp" or "dp" or "scully" or "aty_emote" or "cylex_animmenuv2" or "r_animations" ( open code on config_functions.lua )
+Config.EmoteMenu = "dp" -- "rp" or "dp" or "scully" or "aty_emote" or "cylex_animmenuv2" or "r_animations" ( open code on config_functions.lua )
 Config.Notify = "ox" -- "standalone", "qb" or "okok" or "ox" or "codem" ( open code on config_functions.lua )
 Config.Society = "qb-management" -- "qb-management" or "qb-banking" or "okokBanking" or "renewed-banking" ( open code on s_utils.lua )
 Config.AutoDatabase = true -- If you set this to true, all the database tables to DB will be done automatically
@@ -44,7 +44,7 @@ Config.carInsurance = { -- This is the settings for the car insurance and regist
         insurance = 500, -- This is the price for the insurance documentation
     },
     insuranceTypes = { -- This is the settings for the insurance types
-        [1] = { type = "registration", price = 500, days = { 30, 60, 90 } },
+        [1] = { type = "registration", price = 1000, days = { 30, 60, 90 } },
         [2] = { type = "insurance", price = 1000, days = { 30, 60, 90 } },
     },
     vehicleClassPrices = { -- https://docs.fivem.net/natives/?_0x29439776AAA00A62
@@ -101,7 +101,7 @@ Config.healthInsurance = { -- This is the settings for the health insurance
         insurance = 500, -- This is the price for the insurance documentation
     },
     insuranceTypes = { -- This is the settings for the insurance types
-        [1] = { type = "health", price = 500, days = { 30, 60, 90 } },
+        [1] = { type = "health", price = 1000, days = { 30, 60, 90 }},
     },
 }
 -- Health Insurance Settings --
@@ -123,7 +123,7 @@ Config.homeInsurance = {
         insurance = 500, -- This is the price for the insurance documentation
     },
     insuranceTypes = { -- This is the settings for the insurance types
-        [1] = { type = "home", price = 500, days = { 30, 60, 90 } },
+        [1] = { type = "home", price = 1000, days = { 30, 60, 90 } },
     },
 }
 -- Home Insurance Settings --
