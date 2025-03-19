@@ -41,8 +41,8 @@ Config.SocietyFilters = { -- https://i.imgur.com/hYUcxQr.png
         label = 'Medical Services',
     },
     {
-        value = 'mechanic',
-        label = 'LS Customs',
+        value = 'SADOT',
+        label = 'SADOT',
     },
     {
         value = 'cardealer',
