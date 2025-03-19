@@ -1,0 +1,97 @@
+{
+	"Logo": {
+		"Enable": false,
+		"Src": "./loadingscreen/images/logo.webp",
+		"Size": {
+			"Width": "160px",
+			"Height": "auto"
+		}
+	},
+    "Video": {
+        "Enable": false,
+		"URL": "./loadingscreen/loading.mp4",
+		"Volume": 50,
+		"Muted": true
+    },
+	"YouTube": {
+		"Enable": false,
+		"URL": "https://www.youtube.com/embed/QdBZY2fkU-0?si=CO231dOBkVK6m8RO",
+		"Volume": 50,
+		"Muted": true
+	},
+	"Slides": {
+		"Enable": true,
+		"BlurValue": 0,
+		"Images": [
+			{
+				"Src": "./loadingscreen/images/background1.webp",
+				"Zone": 5,
+				"Duration": 5000
+			},
+			{
+				"Src": "./loadingscreen/images/background2.webp",
+				"Zone": 5,
+				"Duration": 5000
+			},
+			{
+				"Src": "./loadingscreen/images/background3.webp",
+				"Zone": 10,
+				"Duration": 5000
+			},
+			{
+				"Src": "./loadingscreen/images/background4.webp",
+				"Zone": 10,
+				"Duration": 5000
+			},
+			{
+				"Src": "./loadingscreen/images/background5.webp",
+				"Zone": 10,
+				"Duration": 5000
+			}
+		]
+	},
+	"Music": {
+		"Enable": true,
+		"Songs": [
+			{
+				"Title": "Truck Bed",
+				"Artist": "Hardy",
+				"ImageUrl": "./loadingscreen/songs/nill.png",
+				"SongUrl": "./loadingscreen/songs/truckbed.mp3"
+			},
+			{
+				"Title": "I had some help",
+				"Artist": "Post Malone",
+				"ImageUrl": "./loadingscreen/songs/nill.png",
+				"SongUrl": "./loadingscreen/songs/ihadsomehelp.mp3"
+			},
+			{
+				"Title": "Tennessee Love",
+				"Artist": "Yelawolf",
+				"ImageUrl": "./loadingscreen/songs/nill.png",
+				"SongUrl": "./loadingscreen/songs/tennesseelove.mp3"
+			},
+			{
+				"Title": "Not Like US",
+				"Artist": "Kendrick Lamar",
+				"ImageUrl": "./loadingscreen/songs/nill.png",
+				"SongUrl": "./loadingscreen/songs/notlikeus.mp3"
+			},
+			{
+				"Title": "90s Rap Mashup",
+				"Artist": "Austn Williams",
+				"ImageUrl": "./loadingscreen/songs/nill.png",
+				"SongUrl": "./loadingscreen/songs/90sRapMashup.mp3"
+			}
+		]
+	},
+	"Locale": {
+		"MainTitle": "Freedom",
+		"MainSubtitle": "Roleplay",
+		"CardTitle": "Information!",
+		"CardDescription": "Step into a world where realism meets creativity, and every action shapes your story. Freedom RP is a dynamic and immersive FiveM roleplaying community designed for players who crave authentic and engaging experiences. Whether you’re patrolling the streets as law enforcement, running a successful business, or navigating the underground world of crime, the possibilities are endless.",
+		"LoadingProgress": "Loading Freedom RP ... %s",
+		"PauseMusic": "Press space to pause music",
+		"PlayMusic": "Press space to play music"
+	}
+}
