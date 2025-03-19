@@ -347,7 +347,7 @@ Config.Targets = {
         },
         Evidence = {
             {
-                Coords = vector3(-584.892, -441.649, 31.16),
+                Coords = vector3(-572.098, -441.142, 31.16),
                 Heading = 0.0,
                 Size = {4.9, 0.85},
                 Distance = 2.0,
@@ -373,7 +373,7 @@ Config.Targets = {
         },
         FrontDesk = {
             {
-                Coords = vector3(-585.967, -421.498, 35.172),
+                Coords = vector3(-584.065, -422.165, 35.178),
                 Heading = 0.0,
                 Size = {0.2, 0.2},
                 Distance = 2.0,
