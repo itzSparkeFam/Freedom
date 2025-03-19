@@ -42,7 +42,7 @@ Config.QBOldJobMethod = false -- use the old method to check job in qb-core? thi
 
 Config.Item = {}
 -- If you want to set up multiple items & frame colours, see https://docs.lbscripts.com/phone/configuration/#multiple-items--colored-phones
-Config.Item.Require = false -- require a phone item to use the phone
+Config.Item.Require = true -- require a phone item to use the phone
 Config.Item.Name = "phone" -- name of the phone item
 
 Config.Item.Unique = false -- should each phone be unique? https://docs.lbscripts.com/phone/configuration/#unique-phones
@@ -59,7 +59,7 @@ Config.Item.Inventory = "auto" --[[
         * codem-inventory - https://codem.tebex.io/package/5900973
 ]]
 
-Config.ServerSideSpawn = false -- should entities be spawned on the server? (phone prop, vehicles)
+Config.ServerSideSpawn = true -- should entities be spawned on the server? (phone prop, vehicles)
 
 Config.PhoneModel = `lb_phone_prop` -- the prop of the phone, if you want to use a custom phone model, you can change this here
 Config.PhoneRotation = vector3(0.0, 0.0, 180.0) -- the rotation of the phone when attached to a player
@@ -81,7 +81,7 @@ Config.WhitelistApps = {
 }
 
 Config.BlacklistApps = {
-    -- ["DarkChat"] = {"police"}
+     ["DarkChat"] = {"police"}
 }
 
 Config.ChangePassword = {
