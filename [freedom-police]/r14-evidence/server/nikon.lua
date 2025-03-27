@@ -11,13 +11,13 @@ local inventoryMetadata = Config.Inventory.CustomMetadata.Enabled and Config.Inv
 -----------------------------------------------------------------------------------------------------------
 
 local Webhooks = { -- these webhooks keys MUST MATCH your config keys
-    [1] = '',
-    [2] = '',
-    [3] = '',
-    [4] = '',
-    [5] = '',
-    [6] = '',
-    [7] = '',
+    [1] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
+    [2] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
+    [3] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
+    [4] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
+    [5] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
+    [6] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
+    [7] = 'https://discord.com/api/webhooks/1354950935046262834/p7zvltz5LLXyuepZcmzr9TIucJXh7Wy_SBrLnE2TLUkb99AiljXTyTS2gkvy5hOa6aNb',
 }
 
 -----------------------------------------------------------------------------------------------------------
