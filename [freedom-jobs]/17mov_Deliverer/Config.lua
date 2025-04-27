@@ -1,7 +1,7 @@
 Config = {}
 
 Config.useModernUI = true               -- In March 2023 the jobs have passed huge rework, and the UI has been changed. Set it to false, to use OLD no longer supported UI.
-    Config.splitReward = false          -- This option work's only when useModernUI is false. If this option is true, the payout is: (Config.OnePercentWorth * Progress ) / PartyCount, if false then: (Config.OnePercentWorth * Progress)
+Config.splitReward = false          -- This option work's only when useModernUI is false. If this option is true, the payout is: (Config.OnePercentWorth * Progress ) / PartyCount, if false then: (Config.OnePercentWorth * Progress)
 Config.UseBuiltInNotifications = true   -- Set to false if you want to use ur framework notification style. Otherwise, the built in modern notifications will be used.=
 Config.letBossSplitReward = true                    -- If it's true, then boss can manage whole party rewards percent in menu. If you'll set it to false, then everybody will get same amount.
 Config.multiplyRewardWhileWorkingInGroup = true     -- If it's false, then reward will stay by default. For example $1000 for completing whole job. If you'll set it to true, then the payout will depend on how many players is there in the group. For example, if for full job there's $1000, then if player will work in 4 member group, the reward will be $4000. (baseReward * partyCount)
@@ -177,7 +177,7 @@ Config.Lang = {
 -- Homes Locations:
 
 Config.TargetLocations = {
-    {-- Mirror Park: 
+    {MirrorPark,
         vector3(1060.51, -378.2, 68.23),
         vector3(1010.45, -423.49, 65.35),
         vector3(1028.82, -408.31, 66.34),
@@ -210,7 +210,7 @@ Config.TargetLocations = {
         vector3(945.77, -519.09, 60.81),
     },
     
-    {-- Grove Street: 
+    {GroveStreet, 
       vector3(85.94, -1959.76, 21.12),
       vector3(114.31, -1961.23, 21.33),
       vector3(126.91, -1929.9, 21.38),
@@ -246,7 +246,7 @@ Config.TargetLocations = {
       vector3(338.8, -1829.65, 28.34),
     },
     
-    {-- Vinewood / Luxury / Beverly :
+    {Vinewood / Luxury / Beverly,
       vector3(-1038.06, 222.25, 64.38),
       vector3(-971.58, 122.31, 57.05),
       vector3(-998.27, 158.17, 62.32),
@@ -296,7 +296,7 @@ Config.TargetLocations = {
       vector3(-678.9, 512.09, 113.53),
     },
     
-    {-- Paleto Cove
+    {PaletoCove,
 		vector3(-442.7332, 6197.9048, 29.5519),
 		vector3(-447.9656, 6260.2656, 30.0478),
 		vector3(-407.2643, 6314.1787, 28.9413),
@@ -328,7 +328,7 @@ Config.TargetLocations = {
 		vector3(-15.2698, 6557.3887, 33.2404),
     },
     
-    {-- Sandy Shores
+    {SandyShores,
 		vector3(1936.5343, 3891.7048, 32.9660),
 		vector3(1907.9694, 3870.1423, 32.8873),
 		vector3(1895.3854, 3873.7349, 32.7546),
@@ -363,7 +363,7 @@ Config.TargetLocations = {
         vector3(1898.8463, 3781.7305, 32.8766),
     },
     
-    {-- Vinewood Hills
+    { VinewoodHills,
 		vector3(-1896.2778, 642.5568, 130.2090),
 		vector3(-1974.7939, 631.0368, 122.6836),
 		vector3(-1929.0251, 595.2929, 122.2898),
